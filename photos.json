@@ -480,7 +480,7 @@
  ],
  "keys": {
   "excavator": {
-   "q": "CAT 320D excavator",
+   "q": "excavator",
    "label": "Crawler excavator"
   },
   "mini-excavator": {
@@ -567,7 +567,8 @@
   },
   "tamping-rammer": {
    "q": "rammer compactor",
-   "label": "Tamping rammer"
+   "label": "Tamping rammer",
+   "alias": "plate-compactor"
   },
   "site-dumper": {
    "q": "site dumper construction",
@@ -583,7 +584,8 @@
   },
   "bitumen-sprayer": {
    "q": "asphalt distributor truck",
-   "label": "Bitumen sprayer"
+   "label": "Bitumen sprayer",
+   "alias": "chip-spreader"
   },
   "fuel-bowser": {
    "q": "fuel tanker truck",
@@ -646,7 +648,7 @@
    "label": "Truck crane"
   },
   "forklift": {
-   "q": "forklift",
+   "q": "forklift truck pallets",
    "label": "Forklift"
   },
   "telehandler": {
@@ -659,14 +661,15 @@
   },
   "construction-hoist": {
    "q": "construction elevator",
-   "label": "Construction hoist"
+   "label": "Construction hoist",
+   "alias": "tower-crane"
   },
   "scissor-lift": {
    "q": "scissor lift",
    "label": "Scissor lift"
   },
   "boom-lift": {
-   "q": "aerial work platform",
+   "q": "JLG boom lift",
    "label": "Boom lift"
   },
   "scaffolding": {
@@ -675,7 +678,8 @@
   },
   "steel-props": {
    "q": "shoring props",
-   "label": "Steel props"
+   "label": "Steel props",
+   "alias": "scaffolding"
   },
   "formwork": {
    "q": "aluminium formwork construction",
@@ -714,7 +718,7 @@
    "label": "Vibrating screed"
   },
   "concrete-mixer": {
-   "q": "concrete mixer",
+   "q": "cement mixer",
    "label": "Concrete mixer"
   },
   "poker-vibrator": {
@@ -731,7 +735,8 @@
   },
   "core-drill": {
    "q": "core drilling concrete",
-   "label": "Core drill"
+   "label": "Core drill",
+   "alias": "concrete-saw"
   },
   "rebar-machine": {
    "q": "rebar bending machine",
@@ -788,7 +793,8 @@
   },
   "wellpoint": {
    "q": "wellpoint",
-   "label": "Wellpoint system"
+   "label": "Wellpoint system",
+   "alias": "dewatering-pump"
   },
   "dredge-pump": {
    "q": "dredge pump",
@@ -854,7 +860,8 @@
   },
   "gnss-rover": {
    "q": "GPS surveying",
-   "label": "GNSS rover"
+   "label": "GNSS rover",
+   "alias": "total-station"
   },
   "auto-level": {
    "q": "automatic level surveying instrument",
@@ -890,7 +897,8 @@
   },
   "road-broom": {
    "q": "road sweeper",
-   "label": "Road broom"
+   "label": "Road broom",
+   "alias": "asphalt-paver"
   },
   "cold-milling": {
    "q": "Wirtgen cold milling machine",
@@ -922,7 +930,8 @@
   },
   "trencher": {
    "q": "trencher",
-   "label": "Trencher"
+   "label": "Trencher",
+   "alias": "pipe-bending"
   },
   "abrasive-blasting": {
    "q": "sandblasting",
@@ -934,7 +943,8 @@
   },
   "floor-grinder": {
    "q": "floor grinding",
-   "label": "Floor grinder"
+   "label": "Floor grinder",
+   "alias": "power-trowel"
   },
   "shotcrete": {
    "q": "shotcrete spraying",
