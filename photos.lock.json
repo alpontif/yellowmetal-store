@@ -65,11 +65,24 @@
   "licence": "CC BY-SA 4.0",
   "author": "MEKA GLOBAL"
  },
+ "bitumen-sprayer": {
+  "title": "File:Chipseal Operations Albert Garcia (15985229055).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chipseal_Operations_Albert_Garcia_(15985229055).jpg",
+  "licence": "CC BY 2.0",
+  "author": "Oregon Department of Transportation",
+  "alias": "chip-spreader"
+ },
  "block-machine": {
   "title": "File:Cement Industry in Ypsonas Limassol Cyprus 4.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Cement_Industry_in_Ypsonas_Limassol_Cyprus_4.jpg",
   "licence": "CC0",
   "author": "Nnnjens"
+ },
+ "boom-lift": {
+  "title": "File:JLG 600S telescopic boom lift.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JLG_600S_telescopic_boom_lift.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Oleg Yunakov"
  },
  "borehole-rig": {
   "title": "File:Well drilling truck preparing to set up for drilling livestock water well at Walking M Ranch in Baylor County, Seymour, Texas. (24821764220).jpg",
@@ -113,6 +126,12 @@
   "licence": "CC BY-SA 4.0",
   "author": "Gpkp"
  },
+ "concrete-mixer": {
+  "title": "File:Mercedes-Benz Axor based cement mixer truck.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Axor_based_cement_mixer_truck.JPG",
+  "licence": "CC BY 3.0 de",
+  "author": "High Contrast"
+ },
  "concrete-pump": {
   "title": "File:Junjin JJRZ52-5 Trailer Mounted concrete pumps 27.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Junjin_JJRZ52-5_Trailer_Mounted_concrete_pumps_27.jpg",
@@ -125,6 +144,13 @@
   "licence": "Public domain",
   "author": "Josh Parris"
  },
+ "construction-hoist": {
+  "title": "File:20230107 Construction Site Nuremberg.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:20230107_Construction_Site_Nuremberg.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Flocci Nivis",
+  "alias": "tower-crane"
+ },
  "container-office": {
   "title": "File:Container office in Ludwigshafen 04.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Container_office_in_Ludwigshafen_04.jpg",
@@ -136,6 +162,13 @@
   "page": "https://commons.wikimedia.org/wiki/File:Conveyor_belt,_Needingworth_Quarry_-_geograph.org.uk_-_3233054.jpg",
   "licence": "CC BY-SA 2.0",
   "author": "Hugh Venables"
+ },
+ "core-drill": {
+  "title": "File:Concrete saw2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Concrete_saw2.jpg",
+  "licence": "Public domain",
+  "author": "Josh Parris",
+  "alias": "concrete-saw"
  },
  "crane-barge": {
   "title": "File:Zakhariy, Istanbul (P1100180).jpg",
@@ -185,6 +218,12 @@
   "licence": "CC BY-SA 3.0",
   "author": "Joshua Doubek"
  },
+ "excavator": {
+  "title": "File:Caterpillar 330 excavator on a pile of dirt.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Caterpillar_330_excavator_on_a_pile_of_dirt.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Matthew T Rader"
+ },
  "excavator-attachment": {
   "title": "File:Hydraulic sledge hammer - AKIS jernneve.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Hydraulic_sledge_hammer_-_AKIS_jernneve.jpg",
@@ -197,6 +236,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Innovia_APM_300R_on_flatbed_trailer_with_truck_at_DIA_2025-08-20.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Xnatedawgx"
+ },
+ "floor-grinder": {
+  "title": "File:Ingco Gasoline 2026-06-18 Engine Power Trowel GPT361-5.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ingco_Gasoline_2026-06-18_Engine_Power_Trowel_GPT361-5.jpg",
+  "licence": "CC BY 4.0",
+  "author": "P1898",
+  "alias": "power-trowel"
+ },
+ "forklift": {
+  "title": "File:US Navy 100829-N-5969B-004 Lance Cpl. Alex Aikens uses a forklift to move a pallet of humanitarian assistance and disaster relief supplies bound for Pakistan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100829-N-5969B-004_Lance_Cpl._Alex_Aikens_uses_a_forklift_to_move_a_pallet_of_humanitarian_assistance_and_disaster_relief_supplies_bound_for_Pakistan.jpg",
+  "licence": "Public domain",
+  "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Foster Bamford"
  },
  "formwork": {
   "title": "File:Construction of formwork at the Volokolamskaya metro station of the Moscow metro system (Russia) - Опалубочная система для станции метро Волоколамская.jpg",
@@ -221,6 +273,13 @@
   "page": "https://commons.wikimedia.org/wiki/File:Diesel_Generators.jpg",
   "licence": "CC BY 4.0",
   "author": "Aurora Generators"
+ },
+ "gnss-rover": {
+  "title": "File:Surveying prism and total station, for land surveying, in Shibuya-ku.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Surveying_prism_and_total_station,_for_land_surveying,_in_Shibuya-ku.jpg",
+  "licence": "CC0",
+  "author": "Syced",
+  "alias": "total-station"
  },
  "grout-pump": {
   "title": "File:Workers Pour 1 Million Gallons of Grout into Massive Tanks (7597552338).jpg",
@@ -408,6 +467,13 @@
   "licence": "CC BY-SA 4.0",
   "author": "Les Meloures"
  },
+ "road-broom": {
+  "title": "File:Vögele Super 1303-3i paver and asphalt roller (1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:V%C3%B6gele_Super_1303-3i_paver_and_asphalt_roller_(1).jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Peulle",
+  "alias": "asphalt-paver"
+ },
  "road-marking": {
   "title": "File:Road surface marking in Kaarli.JPG",
   "page": "https://commons.wikimedia.org/wiki/File:Road_surface_marking_in_Kaarli.JPG",
@@ -480,6 +546,13 @@
   "licence": "CC BY-SA 3.0",
   "author": "Ilya Plekhanov"
  },
+ "steel-props": {
+  "title": "File:Manila, City of Makati - construction scaffolding and protective platic net.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Manila,_City_of_Makati_-_construction_scaffolding_and_protective_platic_net.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+  "alias": "scaffolding"
+ },
  "survey-boat": {
   "title": "File:Vsevolod Vorobyov ship 2018.JPG",
   "page": "https://commons.wikimedia.org/wiki/File:Vsevolod_Vorobyov_ship_2018.JPG",
@@ -504,6 +577,13 @@
   "page": "https://commons.wikimedia.org/wiki/File:Tamping_machine_804.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Chen Melling - חן מלינג"
+ },
+ "tamping-rammer": {
+  "title": "File:Plate compactor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Plate_compactor.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Mr.checker",
+  "alias": "plate-compactor"
  },
  "tandem-roller": {
   "title": "File:Hamm SeriesHD CompactLine Steamroller.jpg",
@@ -552,6 +632,13 @@
   "page": "https://commons.wikimedia.org/wiki/File:Kaohsiung_Taiwan_Cement-mixer-truck-01.jpg",
   "licence": "CC BY-SA 3.0",
   "author": "CEphoto, Uwe Aranas"
+ },
+ "trencher": {
+  "title": "File:STEGAL pipeline construction 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STEGAL_pipeline_construction_2.jpg",
+  "licence": "CC0",
+  "author": "Thuringius",
+  "alias": "pipe-bending"
  },
  "truck-crane": {
   "title": "File:Алматы, XCMG XCT25L5-S1 на Серкебаева.jpg",
@@ -612,6 +699,13 @@
   "page": "https://commons.wikimedia.org/wiki/File:Welding_the_substation_building_onto_the_existing_embedded_steel_plate_in_Queens._(49214573201).jpg",
   "licence": "CC BY 2.0",
   "author": "MTA Capital Construction Mega Projects"
+ },
+ "wellpoint": {
+  "title": "File:Coast Guard Cutter Northland crew members receive training at sea (8601296).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Coast_Guard_Cutter_Northland_crew_members_receive_training_at_sea_(8601296).jpg",
+  "licence": "Public domain",
+  "author": "U.S. Coast Guard photo by Petty Officer 3rd Class Anthony Randisi",
+  "alias": "dewatering-pump"
  },
  "wheel-loader": {
   "title": "File:CATERPILLAR 950 GC Wheel Loader 02.jpg",
