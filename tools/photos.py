@@ -118,10 +118,17 @@ def main():
     lock = json.loads(lock_path.read_text()) if lock_path.exists() else {}
     OUT.mkdir(parents=True, exist_ok=True)
     used = {v["title"] for v in lock.values()}
-    todo = [k for k in spec["keys"] if k not in lock or not (OUT / f"{k}.jpg").exists()]
+    todo = [k for k in spec["keys"] if (k not in lock or not (OUT / f"{k}.jpg").exists()) and not spec["keys"][k].get("alias")]
     print(f"{len(todo)} photos to fetch")
     for key in todo:
         s = spec["keys"][key]
+        if s.get("own"):  # one of Yellowmetal's own site photos
+            save(Image.open(ROOT / "docs/img/own" / s["own"]), key)
+            lock[key] = {"title": "Yellowmetal site photo", "page": "", "licence": "Own photo", "author": "Yellowmetal Plants & Equipment Ltd"}
+            print(f"{key}: own photo {s['own']}")
+            continue
+        if s.get("alias"):  # reuse another key's photo
+            continue
         try:
             for c in candidates(key, s, used)[:4]:
                 try:
@@ -138,6 +145,14 @@ def main():
             print(f"{key}: error {e}", file=sys.stderr)
         lock_path.write_text(json.dumps(dict(sorted(lock.items())), indent=1, ensure_ascii=False))
         time.sleep(0.6)
+    import shutil
+    for key, s in spec["keys"].items():  # aliases copy their source photo once it exists
+        src = s.get("alias")
+        if src and (OUT / f"{src}.jpg").exists():
+            for suf in ("", "-s"):
+                shutil.copyfile(OUT / f"{src}{suf}.jpg", OUT / f"{key}{suf}.jpg")
+            lock[key] = dict(lock.get(src, {}), alias=src)
+    lock_path.write_text(json.dumps(dict(sorted(lock.items())), indent=1, ensure_ascii=False))
     review(lock, spec["keys"].keys())
 
 
