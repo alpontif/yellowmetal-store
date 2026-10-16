@@ -1,0 +1,959 @@
+{
+ "_help": "Each machine maps to a photo key by the first rule whose pattern matches its description. Each key has a Wikimedia Commons search (q). To force a specific photo, add \"pin\": \"File:Exact name.jpg\" to the key and delete its entry from photos.lock.json; the next build fetches it.",
+ "rules": [
+  [
+   "amphibious|pontoon\\) excavator",
+   "amphibious-excavator"
+  ],
+  [
+   "swamp buggy",
+   "swamp-buggy"
+  ],
+  [
+   "long-reach",
+   "long-reach-excavator"
+  ],
+  [
+   "mini excavator|excavator 5-6t|excavator 7\\.5",
+   "mini-excavator"
+  ],
+  [
+   "wheeled excavator",
+   "wheeled-excavator"
+  ],
+  [
+   "blasting",
+   "abrasive-blasting"
+  ],
+  [
+   "compressor",
+   "air-compressor"
+  ],
+  [
+   "breaker",
+   "hydraulic-breaker"
+  ],
+  [
+   "excavator bucket|ripper tooth|vibro-ripper",
+   "excavator-attachment"
+  ],
+  [
+   "vibro hammer|vibratory hammer|power pack for vibro",
+   "vibro-hammer"
+  ],
+  [
+   "excavator",
+   "excavator"
+  ],
+  [
+   "skid-steer",
+   "skid-steer"
+  ],
+  [
+   "backhoe",
+   "backhoe"
+  ],
+  [
+   "wheel loader|payloader",
+   "wheel-loader"
+  ],
+  [
+   "bulldozer",
+   "bulldozer"
+  ],
+  [
+   "grader",
+   "motor-grader"
+  ],
+  [
+   "articulated dump",
+   "articulated-dump-truck"
+  ],
+  [
+   "rigid off-highway",
+   "rigid-dump-truck"
+  ],
+  [
+   "scraper",
+   "motor-scraper"
+  ],
+  [
+   "tandem",
+   "tandem-roller"
+  ],
+  [
+   "pneumatic",
+   "pneumatic-roller"
+  ],
+  [
+   "padfoot|sheepsfoot",
+   "padfoot-roller"
+  ],
+  [
+   "walk-behind",
+   "walk-behind-roller"
+  ],
+  [
+   "roller",
+   "vibratory-roller"
+  ],
+  [
+   "plate compactor",
+   "plate-compactor"
+  ],
+  [
+   "rammer",
+   "tamping-rammer"
+  ],
+  [
+   "site dumper",
+   "site-dumper"
+  ],
+  [
+   "tipper",
+   "tipper-truck"
+  ],
+  [
+   "water tanker",
+   "water-tanker"
+  ],
+  [
+   "bitumen",
+   "bitumen-sprayer"
+  ],
+  [
+   "bowser",
+   "fuel-bowser"
+  ],
+  [
+   "diesel tank",
+   "diesel-tank"
+  ],
+  [
+   "low-bed",
+   "lowbed-trailer"
+  ],
+  [
+   "flatbed",
+   "flatbed-trailer"
+  ],
+  [
+   "prime mover|tractor head",
+   "tractor-head"
+  ],
+  [
+   "pickup",
+   "pickup"
+  ],
+  [
+   "crew|work boat",
+   "work-boat"
+  ],
+  [
+   "bus|seater",
+   "staff-bus"
+  ],
+  [
+   "knuckle|hiab",
+   "knuckle-boom-truck"
+  ],
+  [
+   "transit mixer",
+   "transit-mixer"
+  ],
+  [
+   "crane barge",
+   "crane-barge"
+  ],
+  [
+   "all-terrain crane",
+   "all-terrain-crane"
+  ],
+  [
+   "crawler crane",
+   "crawler-crane"
+  ],
+  [
+   "tower crane",
+   "tower-crane"
+  ],
+  [
+   "gantry",
+   "gantry-crane"
+  ],
+  [
+   "truck crane|mobile crane",
+   "truck-crane"
+  ],
+  [
+   "forklift",
+   "forklift"
+  ],
+  [
+   "telehandler",
+   "telehandler"
+  ],
+  [
+   "chain block",
+   "chain-block"
+  ],
+  [
+   "hoist",
+   "construction-hoist"
+  ],
+  [
+   "scissor",
+   "scissor-lift"
+  ],
+  [
+   "boom lift",
+   "boom-lift"
+  ],
+  [
+   "scaffold|h-frame",
+   "scaffolding"
+  ],
+  [
+   "prop",
+   "steel-props"
+  ],
+  [
+   "formwork",
+   "formwork"
+  ],
+  [
+   "silo",
+   "cement-silo"
+  ],
+  [
+   "batching",
+   "batching-plant"
+  ],
+  [
+   "boom pump",
+   "concrete-boom-pump"
+  ],
+  [
+   "concrete line|trailer pump|mixer with pump|mixer-pump",
+   "concrete-pump"
+  ],
+  [
+   "self-loading",
+   "self-loading-mixer"
+  ],
+  [
+   "block|brick|paver plant|pan mixer",
+   "block-machine"
+  ],
+  [
+   "vibrating screen",
+   "vibrating-screen"
+  ],
+  [
+   "vibrating screed",
+   "vibrating-screed"
+  ],
+  [
+   "concrete mixer",
+   "concrete-mixer"
+  ],
+  [
+   "poker|vibrator",
+   "poker-vibrator"
+  ],
+  [
+   "trowel|power float",
+   "power-trowel"
+  ],
+  [
+   "saw",
+   "concrete-saw"
+  ],
+  [
+   "core drill",
+   "core-drill"
+  ],
+  [
+   "rebar|bar bending",
+   "rebar-machine"
+  ],
+  [
+   "tracked mobile jaw crusher",
+   "mobile-crusher"
+  ],
+  [
+   "crush",
+   "crushing-plant"
+  ],
+  [
+   "conveyor",
+   "conveyor"
+  ],
+  [
+   "wagon drill|rock drill|surface drill rig",
+   "drill-rig"
+  ],
+  [
+   "borehole",
+   "borehole-rig"
+  ],
+  [
+   "jack hammer|demolition hammer",
+   "jackhammer"
+  ],
+  [
+   "rail welding",
+   "rail-welding"
+  ],
+  [
+   "welding generator|welding rig",
+   "welding-generator"
+  ],
+  [
+   "welding set",
+   "welding-set"
+  ],
+  [
+   "lighting tower",
+   "lighting-tower"
+  ],
+  [
+   "petrol generator|generator 5kva",
+   "petrol-generator"
+  ],
+  [
+   "generator",
+   "generator"
+  ],
+  [
+   "wellpoint",
+   "wellpoint"
+  ],
+  [
+   "dredge pump",
+   "dredge-pump"
+  ],
+  [
+   "submersible|dewatering pump|trash|flushing pump|hydrotest",
+   "dewatering-pump"
+  ],
+  [
+   "trailing suction hopper",
+   "hopper-dredger"
+  ],
+  [
+   "jet suction|sand dredger|suction dredger 10",
+   "sand-dredger"
+  ],
+  [
+   "cutter.?suction",
+   "cutter-suction-dredger"
+  ],
+  [
+   "hopper barge",
+   "hopper-barge"
+  ],
+  [
+   "spud barge|pontoon|flat-top barge",
+   "barge"
+  ],
+  [
+   "tug",
+   "tugboat"
+  ],
+  [
+   "survey boat|echo sounder",
+   "survey-boat"
+  ],
+  [
+   "outboard",
+   "outboard-engine"
+  ],
+  [
+   "impact hammer|pile hammer",
+   "pile-hammer"
+  ],
+  [
+   "piling rig|bored-pile|cfa|micropile|wick drain|pvd|percussion",
+   "piling-rig"
+  ],
+  [
+   "total station",
+   "total-station"
+  ],
+  [
+   "gnss",
+   "gnss-rover"
+  ],
+  [
+   "level",
+   "auto-level"
+  ],
+  [
+   "drone",
+   "survey-drone"
+  ],
+  [
+   "container",
+   "container-office"
+  ],
+  [
+   "toilet",
+   "portable-toilet"
+  ],
+  [
+   "asphalt paver",
+   "asphalt-paver"
+  ],
+  [
+   "asphalt .*plant|asphalt mixing",
+   "asphalt-plant"
+  ],
+  [
+   "slipform|kerb",
+   "slipform-paver"
+  ],
+  [
+   "chip spreader",
+   "chip-spreader"
+  ],
+  [
+   "broom",
+   "road-broom"
+  ],
+  [
+   "milling",
+   "cold-milling"
+  ],
+  [
+   "marking",
+   "road-marking"
+  ],
+  [
+   "stabiliser",
+   "soil-stabiliser"
+  ],
+  [
+   "tamping machine",
+   "tamping-machine"
+  ],
+  [
+   "sideboom",
+   "sideboom"
+  ],
+  [
+   "pipe bending",
+   "pipe-bending"
+  ],
+  [
+   "directional",
+   "hdd-rig"
+  ],
+  [
+   "trencher",
+   "trencher"
+  ],
+  [
+   "holiday|radiography|x-ray",
+   "pipeline-inspection"
+  ],
+  [
+   "floor grinder",
+   "floor-grinder"
+  ],
+  [
+   "shotcrete",
+   "shotcrete"
+  ],
+  [
+   "grout",
+   "grout-pump"
+  ],
+  [
+   "pressure washer",
+   "pressure-washer"
+  ],
+  [
+   "torque",
+   "torque-wrench"
+  ]
+ ],
+ "keys": {
+  "excavator": {
+   "q": "Caterpillar 320 excavator construction site",
+   "label": "Crawler excavator"
+  },
+  "mini-excavator": {
+   "q": "mini excavator Kubota construction",
+   "label": "Mini excavator"
+  },
+  "long-reach-excavator": {
+   "q": "long reach excavator",
+   "label": "Long-reach excavator"
+  },
+  "amphibious-excavator": {
+   "q": "amphibious excavator pontoon",
+   "label": "Amphibious excavator"
+  },
+  "wheeled-excavator": {
+   "q": "wheeled excavator",
+   "label": "Wheeled excavator"
+  },
+  "hydraulic-breaker": {
+   "q": "excavator hydraulic hammer breaker demolition",
+   "label": "Hydraulic breaker"
+  },
+  "excavator-attachment": {
+   "q": "excavator bucket",
+   "label": "Excavator attachment"
+  },
+  "skid-steer": {
+   "q": "Bobcat skid steer loader",
+   "label": "Skid-steer loader"
+  },
+  "backhoe": {
+   "q": "JCB 3CX backhoe loader",
+   "label": "Backhoe loader"
+  },
+  "wheel-loader": {
+   "q": "Caterpillar 950 wheel loader",
+   "label": "Wheel loader"
+  },
+  "bulldozer": {
+   "q": "Caterpillar D6 bulldozer",
+   "label": "Bulldozer"
+  },
+  "motor-grader": {
+   "q": "Caterpillar 140 motor grader",
+   "label": "Motor grader"
+  },
+  "articulated-dump-truck": {
+   "q": "articulated dump truck Volvo A30",
+   "label": "Articulated dump truck"
+  },
+  "rigid-dump-truck": {
+   "q": "Caterpillar 773 haul truck",
+   "label": "Rigid dump truck"
+  },
+  "motor-scraper": {
+   "q": "Caterpillar motor scraper",
+   "label": "Motor scraper"
+  },
+  "vibratory-roller": {
+   "q": "single drum vibratory roller compactor",
+   "label": "Vibratory roller"
+  },
+  "tandem-roller": {
+   "q": "tandem roller asphalt compaction",
+   "label": "Tandem roller"
+  },
+  "pneumatic-roller": {
+   "q": "pneumatic tyred roller",
+   "label": "Pneumatic roller"
+  },
+  "padfoot-roller": {
+   "q": "padfoot roller compactor",
+   "label": "Padfoot roller"
+  },
+  "walk-behind-roller": {
+   "q": "walk behind roller",
+   "label": "Walk-behind roller"
+  },
+  "plate-compactor": {
+   "q": "plate compactor",
+   "label": "Plate compactor"
+  },
+  "tamping-rammer": {
+   "q": "tamping rammer jumping jack",
+   "label": "Tamping rammer"
+  },
+  "site-dumper": {
+   "q": "site dumper construction",
+   "label": "Site dumper"
+  },
+  "tipper-truck": {
+   "q": "Sinotruk HOWO dump truck",
+   "label": "Tipper truck"
+  },
+  "water-tanker": {
+   "q": "water tanker truck",
+   "label": "Water tanker"
+  },
+  "bitumen-sprayer": {
+   "q": "bitumen distributor truck road",
+   "label": "Bitumen sprayer"
+  },
+  "fuel-bowser": {
+   "q": "fuel tanker truck",
+   "label": "Fuel bowser"
+  },
+  "diesel-tank": {
+   "q": "diesel fuel storage tank construction site",
+   "label": "Diesel tank"
+  },
+  "lowbed-trailer": {
+   "q": "lowboy trailer excavator transport",
+   "label": "Low-bed trailer"
+  },
+  "flatbed-trailer": {
+   "q": "flatbed semi-trailer truck",
+   "label": "Flatbed trailer"
+  },
+  "tractor-head": {
+   "q": "Sinotruk HOWO tractor truck",
+   "label": "Tractor head"
+  },
+  "pickup": {
+   "q": "Toyota Hilux double cab",
+   "label": "Pickup"
+  },
+  "staff-bus": {
+   "q": "Toyota HiAce minibus",
+   "label": "Staff bus"
+  },
+  "knuckle-boom-truck": {
+   "q": "truck mounted knuckle boom crane",
+   "label": "Knuckle-boom truck"
+  },
+  "transit-mixer": {
+   "q": "concrete mixer truck",
+   "label": "Transit mixer"
+  },
+  "crane-barge": {
+   "q": "crane barge",
+   "label": "Crane barge"
+  },
+  "all-terrain-crane": {
+   "q": "Grove all terrain crane",
+   "label": "All-terrain crane"
+  },
+  "crawler-crane": {
+   "q": "crawler crane construction",
+   "label": "Crawler crane"
+  },
+  "tower-crane": {
+   "q": "tower crane construction site",
+   "label": "Tower crane"
+  },
+  "gantry-crane": {
+   "q": "gantry crane precast yard",
+   "label": "Gantry crane"
+  },
+  "truck-crane": {
+   "q": "XCMG truck crane",
+   "label": "Truck crane"
+  },
+  "forklift": {
+   "q": "diesel forklift truck",
+   "label": "Forklift"
+  },
+  "telehandler": {
+   "q": "JCB telehandler",
+   "label": "Telehandler"
+  },
+  "chain-block": {
+   "q": "chain hoist block",
+   "label": "Chain block"
+  },
+  "construction-hoist": {
+   "q": "construction hoist building elevator",
+   "label": "Construction hoist"
+  },
+  "scissor-lift": {
+   "q": "scissor lift",
+   "label": "Scissor lift"
+  },
+  "boom-lift": {
+   "q": "articulated boom lift",
+   "label": "Boom lift"
+  },
+  "scaffolding": {
+   "q": "scaffolding building construction",
+   "label": "Scaffolding"
+  },
+  "steel-props": {
+   "q": "steel props formwork slab",
+   "label": "Steel props"
+  },
+  "formwork": {
+   "q": "aluminium formwork construction",
+   "label": "Formwork"
+  },
+  "cement-silo": {
+   "q": "cement silo batching plant",
+   "label": "Cement silo"
+  },
+  "batching-plant": {
+   "q": "concrete batching plant",
+   "label": "Batching plant"
+  },
+  "concrete-boom-pump": {
+   "q": "concrete pump truck boom",
+   "label": "Concrete boom pump"
+  },
+  "concrete-pump": {
+   "q": "trailer concrete pump",
+   "label": "Concrete pump"
+  },
+  "self-loading-mixer": {
+   "q": "self loading concrete mixer",
+   "label": "Self-loading mixer"
+  },
+  "block-machine": {
+   "q": "concrete block making machine",
+   "label": "Block machine"
+  },
+  "vibrating-screen": {
+   "q": "vibrating screen quarry",
+   "label": "Vibrating screen"
+  },
+  "vibrating-screed": {
+   "q": "concrete screed vibrating",
+   "label": "Vibrating screed"
+  },
+  "concrete-mixer": {
+   "q": "portable concrete mixer construction site",
+   "label": "Concrete mixer"
+  },
+  "poker-vibrator": {
+   "q": "concrete vibrator poker",
+   "label": "Poker vibrator"
+  },
+  "power-trowel": {
+   "q": "power trowel concrete",
+   "label": "Power trowel"
+  },
+  "concrete-saw": {
+   "q": "concrete saw cutting road",
+   "label": "Concrete saw"
+  },
+  "core-drill": {
+   "q": "diamond core drill concrete",
+   "label": "Core drill"
+  },
+  "rebar-machine": {
+   "q": "rebar bending machine",
+   "label": "Rebar machine"
+  },
+  "mobile-crusher": {
+   "q": "mobile jaw crusher tracked",
+   "label": "Mobile crusher"
+  },
+  "crushing-plant": {
+   "q": "stone crushing plant quarry",
+   "label": "Crushing plant"
+  },
+  "conveyor": {
+   "q": "belt conveyor quarry",
+   "label": "Conveyor"
+  },
+  "drill-rig": {
+   "q": "crawler drill rig quarry",
+   "label": "Drill rig"
+  },
+  "borehole-rig": {
+   "q": "water well drilling rig truck",
+   "label": "Borehole rig"
+  },
+  "jackhammer": {
+   "q": "jackhammer pneumatic road",
+   "label": "Jackhammer"
+  },
+  "rail-welding": {
+   "q": "rail welding thermite",
+   "label": "Rail welding"
+  },
+  "welding-generator": {
+   "q": "welding generator engine driven",
+   "label": "Welding generator"
+  },
+  "welding-set": {
+   "q": "arc welding steel",
+   "label": "Welding set"
+  },
+  "lighting-tower": {
+   "q": "mobile lighting tower",
+   "label": "Lighting tower"
+  },
+  "petrol-generator": {
+   "q": "portable petrol generator",
+   "label": "Petrol generator"
+  },
+  "generator": {
+   "q": "diesel generator set soundproof",
+   "label": "Diesel generator"
+  },
+  "wellpoint": {
+   "q": "wellpoint dewatering",
+   "label": "Wellpoint system"
+  },
+  "dredge-pump": {
+   "q": "dredge pump",
+   "label": "Dredge pump"
+  },
+  "dewatering-pump": {
+   "q": "dewatering pump diesel",
+   "label": "Dewatering pump"
+  },
+  "hopper-dredger": {
+   "q": "trailing suction hopper dredger",
+   "label": "Hopper dredger"
+  },
+  "sand-dredger": {
+   "q": "sand dredging boat river",
+   "label": "Sand dredger"
+  },
+  "cutter-suction-dredger": {
+   "q": "cutter suction dredger",
+   "label": "Cutter-suction dredger"
+  },
+  "hopper-barge": {
+   "q": "sand barge river",
+   "label": "Hopper barge"
+  },
+  "barge": {
+   "q": "spud barge pontoon",
+   "label": "Barge"
+  },
+  "tugboat": {
+   "q": "tugboat",
+   "label": "Tugboat"
+  },
+  "survey-boat": {
+   "q": "hydrographic survey boat",
+   "label": "Survey boat"
+  },
+  "work-boat": {
+   "q": "fibreglass work boat outboard",
+   "label": "Work boat"
+  },
+  "outboard-engine": {
+   "q": "outboard motor",
+   "label": "Outboard engine"
+  },
+  "pile-hammer": {
+   "q": "diesel pile hammer piling",
+   "label": "Pile hammer"
+  },
+  "vibro-hammer": {
+   "q": "vibratory hammer sheet piling",
+   "label": "Vibro hammer"
+  },
+  "piling-rig": {
+   "q": "rotary drilling rig piling",
+   "label": "Piling rig"
+  },
+  "total-station": {
+   "q": "total station surveying",
+   "label": "Total station"
+  },
+  "gnss-rover": {
+   "q": "GNSS RTK rover surveying",
+   "label": "GNSS rover"
+  },
+  "auto-level": {
+   "q": "automatic level surveying instrument",
+   "label": "Automatic level"
+  },
+  "survey-drone": {
+   "q": "DJI drone mapping",
+   "label": "Survey drone"
+  },
+  "container-office": {
+   "q": "container site office",
+   "label": "Container office"
+  },
+  "portable-toilet": {
+   "q": "portable toilet",
+   "label": "Portable toilet"
+  },
+  "asphalt-paver": {
+   "q": "asphalt paver road construction",
+   "label": "Asphalt paver"
+  },
+  "asphalt-plant": {
+   "q": "asphalt mixing plant",
+   "label": "Asphalt plant"
+  },
+  "slipform-paver": {
+   "q": "slipform paver concrete",
+   "label": "Slipform paver"
+  },
+  "chip-spreader": {
+   "q": "chip spreader chipseal",
+   "label": "Chip spreader"
+  },
+  "road-broom": {
+   "q": "road sweeper broom construction",
+   "label": "Road broom"
+  },
+  "cold-milling": {
+   "q": "Wirtgen cold milling machine",
+   "label": "Cold milling machine"
+  },
+  "road-marking": {
+   "q": "road marking machine",
+   "label": "Road-marking machine"
+  },
+  "soil-stabiliser": {
+   "q": "Wirtgen soil stabilizer",
+   "label": "Soil stabiliser"
+  },
+  "tamping-machine": {
+   "q": "ballast tamping machine",
+   "label": "Tamping machine"
+  },
+  "sideboom": {
+   "q": "pipelayer sideboom pipeline",
+   "label": "Sideboom"
+  },
+  "pipe-bending": {
+   "q": "pipeline construction pipe bending",
+   "label": "Pipe bending machine"
+  },
+  "hdd-rig": {
+   "q": "horizontal directional drilling rig",
+   "label": "HDD rig"
+  },
+  "trencher": {
+   "q": "chain trencher",
+   "label": "Trencher"
+  },
+  "abrasive-blasting": {
+   "q": "abrasive blasting sandblasting steel",
+   "label": "Abrasive blasting"
+  },
+  "pipeline-inspection": {
+   "q": "pipeline welding inspection",
+   "label": "Pipeline inspection"
+  },
+  "floor-grinder": {
+   "q": "concrete floor grinder",
+   "label": "Floor grinder"
+  },
+  "shotcrete": {
+   "q": "shotcrete spraying",
+   "label": "Shotcrete"
+  },
+  "grout-pump": {
+   "q": "grout pump",
+   "label": "Grout pump"
+  },
+  "pressure-washer": {
+   "q": "pressure washer cleaning",
+   "label": "Pressure washer"
+  },
+  "torque-wrench": {
+   "q": "hydraulic torque wrench bolt",
+   "label": "Torque wrench"
+  },
+  "air-compressor": {
+   "q": "Atlas Copco portable air compressor",
+   "label": "Air compressor"
+  },
+  "swamp-buggy": {
+   "q": "swamp buggy amphibious excavator",
+   "label": "Swamp buggy"
+  }
+ }
+}

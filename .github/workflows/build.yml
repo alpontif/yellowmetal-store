@@ -1,0 +1,42 @@
+name: Sync rates, fetch photos, build site
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["docs/**", "tools/review.jpg"]
+  schedule:
+    - cron: "15 6 * * *"   # daily 07:15 Lagos: picks up the rate book's weekly price refresh
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Install Pillow
+        run: pip install pillow==10.4.0
+      - name: Pull latest prices from rates.buildocrat.store
+        run: python3 tools/sync.py
+      - name: Fetch any missing machine photos (Wikimedia Commons)
+        run: python3 tools/photos.py
+      - name: Build site into docs/
+        run: if [ -f build.mjs ]; then node build.mjs; else echo "build.mjs not yet present"; fi
+      - name: Commit changes
+        run: |
+          git config user.name "yellowmetal-bot"
+          git config user.email "kola@yellowmetal.store"
+          git add -A data docs photos.lock.json tools/review.jpg src/engine.js
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Build: rates $(python3 -c "import json;print(json.load(open('data/rate-data.json'))['meta']['updated'])") and photos"
+          git push
