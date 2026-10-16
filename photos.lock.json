@@ -1,4 +1,10 @@
 {
+ "abrasive-blasting": {
+  "title": "File:Sandblasting without proper ppe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sandblasting_without_proper_ppe.jpg",
+  "licence": "Public domain",
+  "author": "National Institute for Occupational Safety and Health"
+ },
  "air-compressor": {
   "title": "File:Atlas Copco XAHS 347-pic2.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Atlas_Copco_XAHS_347-pic2.jpg",
@@ -11,11 +17,29 @@
   "licence": "CC0",
   "author": "Alf van Beem"
  },
+ "amphibious-excavator": {
+  "title": "File:20140819 neuville28.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:20140819_neuville28.JPG",
+  "licence": "CC BY-SA 4.0",
+  "author": "Jean Housen"
+ },
+ "articulated-dump-truck": {
+  "title": "Yellowmetal site photo",
+  "page": "",
+  "licence": "Own photo",
+  "author": "Yellowmetal Plants & Equipment Ltd"
+ },
  "asphalt-paver": {
   "title": "File:Vögele Super 1303-3i paver and asphalt roller (1).jpg",
   "page": "https://commons.wikimedia.org/wiki/File:V%C3%B6gele_Super_1303-3i_paver_and_asphalt_roller_(1).jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Peulle"
+ },
+ "asphalt-plant": {
+  "title": "File:Asphalt plant Spaceport America.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Asphalt_plant_Spaceport_America.jpg",
+  "licence": "Public domain",
+  "author": "AllenS"
  },
  "auto-level": {
   "title": "File:Level (instrument).jpg",
@@ -29,11 +53,29 @@
   "licence": "CC BY-SA 3.0",
   "author": "Andrey Butko"
  },
+ "barge": {
+  "title": "File:Tandberg Polar and pontoon barge in Cambridge Bay.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Tandberg_Polar_and_pontoon_barge_in_Cambridge_Bay.JPG",
+  "licence": "CC BY-SA 4.0",
+  "author": "CambridgeBayWeather"
+ },
  "batching-plant": {
   "title": "File:MOBILE CONCRETE BATCHING PLANTS mekaglobal (4).jpg",
   "page": "https://commons.wikimedia.org/wiki/File:MOBILE_CONCRETE_BATCHING_PLANTS_mekaglobal_(4).jpg",
   "licence": "CC BY-SA 4.0",
   "author": "MEKA GLOBAL"
+ },
+ "block-machine": {
+  "title": "File:Cement Industry in Ypsonas Limassol Cyprus 4.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cement_Industry_in_Ypsonas_Limassol_Cyprus_4.jpg",
+  "licence": "CC0",
+  "author": "Nnnjens"
+ },
+ "boom-lift": {
+  "title": "File:North Laguna Aerial photo by Don Ramey Logan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Don Ramey Logan"
  },
  "borehole-rig": {
   "title": "File:Well drilling truck preparing to set up for drilling livestock water well at Walking M Ranch in Baylor County, Seymour, Texas. (24821764220).jpg",
@@ -71,6 +113,18 @@
   "licence": "CC0",
   "author": "Daderot"
  },
+ "concrete-boom-pump": {
+  "title": "File:Concrete pump truck, Bangalore (2025).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Concrete_pump_truck,_Bangalore_(2025).jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Gpkp"
+ },
+ "concrete-mixer": {
+  "title": "File:Mercedes-Benz Axor based cement mixer truck.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Axor_based_cement_mixer_truck.JPG",
+  "licence": "CC BY 3.0 de",
+  "author": "High Contrast"
+ },
  "concrete-pump": {
   "title": "File:Junjin JJRZ52-5 Trailer Mounted concrete pumps 27.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Junjin_JJRZ52-5_Trailer_Mounted_concrete_pumps_27.jpg",
@@ -82,6 +136,12 @@
   "page": "https://commons.wikimedia.org/wiki/File:Concrete_saw2.jpg",
   "licence": "Public domain",
   "author": "Josh Parris"
+ },
+ "construction-hoist": {
+  "title": "File:Porter Square elevator construction, March 2011.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Porter_Square_elevator_construction,_March_2011.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Anon E. Moose"
  },
  "container-office": {
   "title": "File:Container office in Ludwigshafen 04.jpg",
@@ -95,6 +155,12 @@
   "licence": "CC BY-SA 2.0",
   "author": "Hugh Venables"
  },
+ "core-drill": {
+  "title": "File:Diamond core hole saw \"LEC 68D\".JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Diamond_core_hole_saw_%22LEC_68D%22.JPG",
+  "licence": "CC BY-SA 3.0",
+  "author": "Dmitry G"
+ },
  "crane-barge": {
   "title": "File:Zakhariy, Istanbul (P1100180).jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Zakhariy,_Istanbul_(P1100180).jpg",
@@ -107,17 +173,66 @@
   "licence": "CC BY-SA 3.0",
   "author": "MrPanyGoff"
  },
+ "crushing-plant": {
+  "title": "File:Stone Crusher in Dumka.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stone_Crusher_in_Dumka.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Ashish itct"
+ },
+ "cutter-suction-dredger": {
+  "title": "Yellowmetal site photo",
+  "page": "",
+  "licence": "Own photo",
+  "author": "Yellowmetal Plants & Equipment Ltd"
+ },
  "dewatering-pump": {
   "title": "File:Coast Guard Cutter Northland crew members receive training at sea (8601296).jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Coast_Guard_Cutter_Northland_crew_members_receive_training_at_sea_(8601296).jpg",
   "licence": "Public domain",
   "author": "U.S. Coast Guard photo by Petty Officer 3rd Class Anthony Randisi"
  },
+ "diesel-tank": {
+  "title": "File:Diesel tank arrival (rubin-image2).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Diesel_tank_arrival_(rubin-image2).jpg",
+  "licence": "CC BY 4.0",
+  "author": "Rubin Observatory/NSF/AURA"
+ },
+ "dredge-pump": {
+  "title": "Yellowmetal site photo",
+  "page": "",
+  "licence": "Own photo",
+  "author": "Yellowmetal Plants & Equipment Ltd"
+ },
+ "drill-rig": {
+  "title": "File:Oil Rig Shaker.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Oil_Rig_Shaker.JPG",
+  "licence": "CC BY-SA 3.0",
+  "author": "Joshua Doubek"
+ },
+ "excavator-attachment": {
+  "title": "File:Hydraulic sledge hammer - AKIS jernneve.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hydraulic_sledge_hammer_-_AKIS_jernneve.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Øyvind Holmstad",
+  "alias": "hydraulic-breaker"
+ },
  "flatbed-trailer": {
   "title": "File:Innovia APM 300R on flatbed trailer with truck at DIA 2025-08-20.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Innovia_APM_300R_on_flatbed_trailer_with_truck_at_DIA_2025-08-20.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Xnatedawgx"
+ },
+ "floor-grinder": {
+  "title": "File:Home made sour dough bread.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Home_made_sour_dough_bread.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Tomascastelazo"
+ },
+ "forklift": {
+  "title": "File:Forklift in Carlisle PA.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Forklift_in_Carlisle_PA.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "J. Passepartout"
  },
  "formwork": {
   "title": "File:Construction of formwork at the Volokolamskaya metro station of the Moscow metro system (Russia) - Опалубочная система для станции метро Волоколамская.jpg",
@@ -136,6 +251,18 @@
   "page": "https://commons.wikimedia.org/wiki/File:Construction_of_Meycauayan_station_gantry_cranes_12.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "FBenjr123"
+ },
+ "generator": {
+  "title": "File:Diesel Generators.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Diesel_Generators.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Aurora Generators"
+ },
+ "gnss-rover": {
+  "title": "File:GPS surveying float P9027408.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:GPS_surveying_float_P9027408.JPG",
+  "licence": "CC BY-SA 4.0",
+  "author": "Peter Southwood"
  },
  "grout-pump": {
   "title": "File:Workers Pour 1 Million Gallons of Grout into Massive Tanks (7597552338).jpg",
@@ -160,6 +287,18 @@
   "page": "https://commons.wikimedia.org/wiki/File:Pallieter_Hopper_Dredger_R04.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Marc Ryckaert"
+ },
+ "hydraulic-breaker": {
+  "title": "File:Hydraulic sledge hammer - AKIS jernneve.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hydraulic_sledge_hammer_-_AKIS_jernneve.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Øyvind Holmstad"
+ },
+ "jackhammer": {
+  "title": "File:Jackhammer.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jackhammer.jpg",
+  "licence": "Public domain",
+  "author": "User Josh Parris on en.wikipedia"
  },
  "knuckle-boom-truck": {
   "title": "File:HK SYP 西營盤 Sai Ying Pun 皇后大道西 423 Queen's Road West 創業中心 Chong Yip Centre December 2020 SS2 03.jpg",
@@ -190,6 +329,18 @@
   "page": "https://commons.wikimedia.org/wiki/File:Kubota-excavator-KX_71-3-P6076724.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Ermell"
+ },
+ "mobile-crusher": {
+  "title": "Yellowmetal site photo",
+  "page": "",
+  "licence": "Own photo",
+  "author": "Yellowmetal Plants & Equipment Ltd"
+ },
+ "motor-grader": {
+  "title": "File:A Grader working in railway constructions, jaffna.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Grader_working_in_railway_constructions,_jaffna.JPG",
+  "licence": "CC BY-SA 3.0",
+  "author": "Aathavan jaffna"
  },
  "motor-scraper": {
   "title": "File:Cat 637D Motor Scraper (33881647034).jpg",
@@ -233,6 +384,18 @@
   "licence": "CC BY-SA 4.0",
   "author": "V.Boldychev"
  },
+ "pipe-bending": {
+  "title": "File:STEGAL pipeline construction 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STEGAL_pipeline_construction_2.jpg",
+  "licence": "CC0",
+  "author": "Thuringius"
+ },
+ "pipeline-inspection": {
+  "title": "File:Gas pipeline welding , Azna 2017.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gas_pipeline_welding_,_Azna_2017.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Hamid Soufi"
+ },
  "plate-compactor": {
   "title": "File:Plate compactor.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Plate_compactor.jpg",
@@ -244,6 +407,12 @@
   "page": "https://commons.wikimedia.org/wiki/File:BOMAG_BW_27_RH_Pneumatic_Tyred_Roller_(15084897985).jpg",
   "licence": "CC BY-SA 2.0",
   "author": "Bob Adams from George, South Africa"
+ },
+ "poker-vibrator": {
+  "title": "File:P14Eactie1.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:P14Eactie1.JPG",
+  "licence": "CC0",
+  "author": "Lievers holland"
  },
  "portable-toilet": {
   "title": "File:Wuppertal - Simonstraße 05 ies.jpg",
@@ -281,6 +450,12 @@
   "licence": "CC BY-SA 4.0",
   "author": "Les Meloures"
  },
+ "road-broom": {
+  "title": "File:Dalian Liaoning China Road-sweeper-01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Road-sweeper-01.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "CEphoto, Uwe Aranas"
+ },
  "road-marking": {
   "title": "File:Road surface marking in Kaarli.JPG",
   "page": "https://commons.wikimedia.org/wiki/File:Road_surface_marking_in_Kaarli.JPG",
@@ -317,6 +492,12 @@
   "licence": "CC BY-SA 4.0",
   "author": "Raimond Spekking"
  },
+ "sideboom": {
+  "title": "File:Сергій П. на Komatsu - P20529-134934.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%9F._%D0%BD%D0%B0_Komatsu_-_P20529-134934.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "ValeriySh"
+ },
  "site-dumper": {
   "title": "File:Tracked Dumper 1.JPG",
   "page": "https://commons.wikimedia.org/wiki/File:Tracked_Dumper_1.JPG",
@@ -347,17 +528,42 @@
   "licence": "CC BY-SA 3.0",
   "author": "Ilya Plekhanov"
  },
+ "steel-props": {
+  "title": "File:Baustelle S21 Berlin, südöstliche Ecke vom Hauptbahnhof-135921.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Baustelle_S21_Berlin,_s%C3%BCd%C3%B6stliche_Ecke_vom_Hauptbahnhof-135921.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Raimond Spekking"
+ },
  "survey-boat": {
   "title": "File:Vsevolod Vorobyov ship 2018.JPG",
   "page": "https://commons.wikimedia.org/wiki/File:Vsevolod_Vorobyov_ship_2018.JPG",
   "licence": "CC BY 3.0",
   "author": "Sasha Krotov"
  },
+ "survey-drone": {
+  "title": "File:DJI Phantom 2 Vision+ V3 (2).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DJI_Phantom_2_Vision%2B_V3_(2).jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Capricorn4049"
+ },
+ "swamp-buggy": {
+  "title": "File:20140819 neuville28.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:20140819_neuville28.JPG",
+  "licence": "CC BY-SA 4.0",
+  "author": "Jean Housen",
+  "alias": "amphibious-excavator"
+ },
  "tamping-machine": {
   "title": "File:Tamping machine 804.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Tamping_machine_804.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Chen Melling - חן מלינג"
+ },
+ "tamping-rammer": {
+  "title": "File:Seabees compactor roller.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Seabees_compactor_roller.jpg",
+  "licence": "Public domain",
+  "author": "United States Air Force, MSgt. Rickie D. Bickle"
  },
  "tandem-roller": {
   "title": "File:Hamm SeriesHD CompactLine Steamroller.jpg",
@@ -376,6 +582,12 @@
   "page": "https://commons.wikimedia.org/wiki/File:Sinotruk_Howo_Truck.jpg",
   "licence": "CC BY-SA 3.0",
   "author": "Kruglovsasha"
+ },
+ "torque-wrench": {
+  "title": "File:BATTERY TORQUE WRENCH BY NIBTORQUE.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BATTERY_TORQUE_WRENCH_BY_NIBTORQUE.jpg",
+  "licence": "CC0",
+  "author": "Ksabol1"
  },
  "total-station": {
   "title": "File:Surveying prism and total station, for land surveying, in Shibuya-ku.jpg",
@@ -400,6 +612,12 @@
   "page": "https://commons.wikimedia.org/wiki/File:Kaohsiung_Taiwan_Cement-mixer-truck-01.jpg",
   "licence": "CC BY-SA 3.0",
   "author": "CEphoto, Uwe Aranas"
+ },
+ "trencher": {
+  "title": "File:Trencher (one of a set) MET DP-13853-040.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Trencher_(one_of_a_set)_MET_DP-13853-040.jpg",
+  "licence": "CC0",
+  "author": "Unknown"
  },
  "truck-crane": {
   "title": "File:Алматы, XCMG XCT25L5-S1 на Серкебаева.jpg",
@@ -431,11 +649,23 @@
   "licence": "CC BY-SA 4.0",
   "author": "Sulthan Naufal"
  },
+ "vibro-hammer": {
+  "title": "File:Vibration machine 5.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vibration_machine_5.jpg",
+  "licence": "Public domain",
+  "author": "Sergeev Pavel"
+ },
  "walk-behind-roller": {
   "title": "File:Walk-behind double-wheel roller.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Walk-behind_double-wheel_roller.jpg",
   "licence": "CC0",
   "author": "Fumikas Sagisavas"
+ },
+ "water-tanker": {
+  "title": "File:Truck watering green spaces in Hitec City.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Truck_watering_green_spaces_in_Hitec_City.jpg",
+  "licence": "CC0",
+  "author": "Syced"
  },
  "welding-generator": {
   "title": "File:Ranger 250 GXT Front.jpg",
@@ -449,11 +679,23 @@
   "licence": "CC BY 2.0",
   "author": "MTA Capital Construction Mega Projects"
  },
+ "wellpoint": {
+  "title": "File:Anthem of the Seas (ship, 2015) at Liverpool 2021-6.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Anthem_of_the_Seas_(ship,_2015)_at_Liverpool_2021-6.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Rodhullandemu"
+ },
  "wheel-loader": {
   "title": "File:CATERPILLAR 950 GC Wheel Loader 02.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:CATERPILLAR_950_GC_Wheel_Loader_02.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Oto Zapletal"
+ },
+ "wheeled-excavator": {
+  "title": "File:Liebherr excavator removing snow Jyväskylä.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Liebherr_excavator_removing_snow_Jyv%C3%A4skyl%C3%A4.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Antti Leppänen"
  },
  "work-boat": {
   "title": "File:1972 Vangaurd 2.jpg",
