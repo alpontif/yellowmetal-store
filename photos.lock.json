@@ -12,45 +12,19 @@
   "author": "Trevor Cui",
   "source": "Wikimedia Commons"
  },
- "amphibious-excavator": {
-  "none": true
- },
  "articulated-dump-truck": {
-  "none": true
- },
- "asphalt-paver": {
   "none": true
  },
  "asphalt-plant": {
   "none": true
  },
- "auto-level": {
-  "title": "File:Dülmen, Hausdülmen, Heubach -- 2024 -- 0016.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Heubach_--_2024_--_0016.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Dietmar Rabich",
-  "source": "Wikimedia Commons"
- },
- "backhoe": {
-  "title": "File:Moscow, Gorky Park portal, big dig, June 2026 52.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Gorky_Park_portal,_big_dig,_June_2026_52.jpg",
-  "licence": "CC0",
-  "author": "Retired electrician",
-  "source": "Wikimedia Commons"
- },
  "barge": {
-  "none": true
- },
- "batching-plant": {
   "none": true
  },
  "bitumen-sprayer": {
   "none": true
  },
  "block-machine": {
-  "none": true
- },
- "boom-lift": {
   "none": true
  },
  "borehole-rig": {
@@ -66,29 +40,10 @@
  "cement-silo": {
   "none": true
  },
- "cement-tanker": {
-  "none": true
- },
  "chain-block": {
   "none": true
  },
  "chip-spreader": {
-  "none": true
- },
- "cold-milling": {
-  "title": "File:EXCON 2025, Bangalore International Exhibition Centre (778).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:EXCON_2025,_Bangalore_International_Exhibition_Centre_(778).jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Gpkp",
-  "source": "Wikimedia Commons"
- },
- "concrete-boom-pump": {
-  "none": true
- },
- "concrete-mixer": {
-  "none": true
- },
- "concrete-pump": {
   "none": true
  },
  "concrete-saw": {
@@ -107,12 +62,6 @@
   "none": true
  },
  "crane-barge": {
-  "none": true
- },
- "crawler-crane": {
-  "none": true
- },
- "crushing-plant": {
   "none": true
  },
  "cutter-suction-dredger": {
@@ -160,13 +109,6 @@
   "author": "P1898",
   "source": "Wikimedia Commons"
  },
- "drone-lidar": {
-  "title": "File:Vermont Open Geospatial Imagery-Flooding-Photos-Original-SAINT JOHNSBURY 20240730 UVM 225931.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Vermont_Open_Geospatial_Imagery-Flooding-Photos-Original-SAINT_JOHNSBURY_20240730_UVM_225931.jpg",
-  "licence": "Attribution",
-  "author": "Vermont Center for Geographic Information",
-  "source": "Wikimedia Commons"
- },
  "excavator": {
   "title": "File:Sany Excavator SY215C 20220310.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Sany_Excavator_SY215C_20220310.jpg",
@@ -188,30 +130,10 @@
  "floor-grinder": {
   "none": true
  },
- "forklift": {
-  "title": "File:Heli 2026-08-11 CPD15 forklift 05.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Heli_2026-08-11_CPD15_forklift_05.jpg",
-  "licence": "CC BY 4.0",
-  "author": "P1898",
-  "source": "Wikimedia Commons"
- },
  "formwork": {
   "none": true
  },
- "fuel-bowser": {
-  "title": "File:Shandong, IAA 2024, Hanover (P1190857).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Shandong,_IAA_2024,_Hanover_(P1190857).jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Matti Blume",
-  "source": "Wikimedia Commons"
- },
  "gantry-crane": {
-  "none": true
- },
- "generator": {
-  "none": true
- },
- "gnss-rover": {
   "none": true
  },
  "grout-pump": {
@@ -231,12 +153,6 @@
   "none": true
  },
  "hopper-dredger": {
-  "none": true
- },
- "howo-8x4-tipper": {
-  "none": true
- },
- "hydraulic-breaker": {
   "none": true
  },
  "jackhammer": {
@@ -265,18 +181,12 @@
   "author": "Video13",
   "source": "Wikimedia Commons"
  },
- "lowbed-trailer": {
-  "none": true
- },
  "mini-excavator": {
   "title": "File:Excavator Sany SY35U.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Excavator_Sany_SY35U.jpg",
   "licence": "CC0",
   "author": "Georg Pik",
   "source": "Wikimedia Commons"
- },
- "mobile-crusher": {
-  "none": true
  },
  "motor-grader": {
   "title": "File:Sany STG190C-8S Motor Grader 20210522.jpg",
@@ -291,9 +201,6 @@
  "outboard-engine": {
   "none": true
  },
- "padfoot-roller": {
-  "none": true
- },
  "petrol-generator": {
   "none": true
  },
@@ -304,25 +211,13 @@
   "author": "Retired electrician",
   "source": "Wikimedia Commons"
  },
- "pile-hammer": {
-  "none": true
- },
- "piling-rig": {
-  "none": true
- },
  "pipe-bending": {
   "none": true
  },
  "pipeline-inspection": {
   "none": true
  },
- "placing-boom": {
-  "none": true
- },
  "plate-compactor": {
-  "none": true
- },
- "pneumatic-roller": {
   "none": true
  },
  "poker-vibrator": {
@@ -331,15 +226,12 @@
  "portable-toilet": {
   "none": true
  },
- "power-tools": {
+ "power-trowel": {
   "title": "File:Ingco Gasoline 2026-06-18 Engine Power Trowel GPT361-4.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Ingco_Gasoline_2026-06-18_Engine_Power_Trowel_GPT361-4.jpg",
   "licence": "CC BY 4.0",
   "author": "P1898",
   "source": "Wikimedia Commons"
- },
- "power-trowel": {
-  "none": true
  },
  "pressure-washer": {
   "none": true
@@ -377,12 +269,6 @@
  "scaffolding": {
   "none": true
  },
- "scissor-lift": {
-  "none": true
- },
- "self-loading-mixer": {
-  "none": true
- },
  "shotcrete": {
   "none": true
  },
@@ -391,13 +277,6 @@
  },
  "site-dumper": {
   "none": true
- },
- "skid-steer": {
-  "title": "File:Moscow, Krymskaya Embankment, people and snow loaders, Jan 2026 03.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Krymskaya_Embankment,_people_and_snow_loaders,_Jan_2026_03.jpg",
-  "licence": "CC0",
-  "author": "Retired electrician",
-  "source": "Wikimedia Commons"
  },
  "slipform-paver": {
   "none": true
@@ -418,13 +297,6 @@
  "survey-boat": {
   "none": true
  },
- "survey-drone": {
-  "title": "File:2025-07-10-Waldbrandübung-3652.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:2025-07-10-Waldbrand%C3%BCbung-3652.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Superbass",
-  "source": "Wikimedia Commons"
- },
  "swamp-buggy": {
   "none": true,
   "alias": "amphibious-excavator"
@@ -434,13 +306,6 @@
  },
  "tamping-rammer": {
   "none": true
- },
- "tandem-roller": {
-  "title": "File:Construction vehicles in Minalin 20.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Construction_vehicles_in_Minalin_20.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "FBenjr123",
-  "source": "Wikimedia Commons"
  },
  "telehandler": {
   "title": "File:Zoomlion ZTH2506 Agritechnica 2025 (DSC00481).jpg",
@@ -459,25 +324,12 @@
  "torque-wrench": {
   "none": true
  },
- "total-station": {
-  "none": true
- },
- "tower-crane": {
-  "title": "File:Moscow, Tatarskaya 35 construction, Sept 2026 03.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Tatarskaya_35_construction,_Sept_2026_03.jpg",
-  "licence": "CC0",
-  "author": "Retired electrician",
-  "source": "Wikimedia Commons"
- },
  "tractor-head": {
   "title": "File:Sitrak C7h ZZ3317V326HE1 in Dnipro.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Sitrak_C7h_ZZ3317V326HE1_in_Dnipro.jpg",
   "licence": "CC BY-SA 4.0",
   "author": "Alex Blokha",
   "source": "Wikimedia Commons"
- },
- "tractor-lowbed": {
-  "none": true
  },
  "transit-mixer": {
   "title": "File:Zoomlion M3000S Concrete Mixer Truck 20210522.jpg",
@@ -489,9 +341,6 @@
  "trencher": {
   "none": true
  },
- "truck-crane": {
-  "none": true
- },
  "tugboat": {
   "none": true
  },
@@ -501,25 +350,8 @@
  "vibrating-screen": {
   "none": true
  },
- "vibratory-roller": {
-  "title": "File:Construction vehicles in the Philippines a 06.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Construction_vehicles_in_the_Philippines_a_06.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "FBenjr123",
-  "source": "Wikimedia Commons"
- },
- "vibro-hammer": {
-  "none": true
- },
  "walk-behind-roller": {
   "none": true
- },
- "water-tanker": {
-  "title": "File:2026-05-19 Reconstruction of Ostankinsky Overpass 21 roadblocks, Sitrak C7H.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:2026-05-19_Reconstruction_of_Ostankinsky_Overpass_21_roadblocks,_Sitrak_C7H.jpg",
-  "licence": "CC0",
-  "author": "Retired electrician",
-  "source": "Wikimedia Commons"
  },
  "welding-generator": {
   "none": true
@@ -536,9 +368,6 @@
   "licence": "CC BY-SA 4.0",
   "author": "FBenjr123",
   "source": "Wikimedia Commons"
- },
- "wheeled-excavator": {
-  "none": true
  },
  "work-boat": {
   "none": true

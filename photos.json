@@ -574,43 +574,48 @@
   },
   "amphibious-excavator": {
    "q": [
-    "amphibious excavator SANY",
-    "Sunward amphibious",
+    "amphibious excavator",
+    "SANY amphibious",
     "XCMG amphibious"
    ],
    "label": "Amphibious excavator"
   },
   "wheeled-excavator": {
    "q": [
-    "XCMG XE150WD",
-    "SANY SY155W",
-    "XCMG wheeled excavator"
+    "XCMG wheeled excavator",
+    "SANY wheeled excavator",
+    "LiuGong wheeled excavator",
+    "XCMG XE150W"
    ],
    "label": "Wheeled excavator",
-   "models": "XE\\d{2,3}W|SY\\d{3}W"
+   "models": "XE\\d{2,3}W|SY\\d{3}W",
+   "fallback": "excavator"
   },
   "hydraulic-breaker": {
    "q": [
-    "SANY excavator breaker",
-    "XCMG excavator hammer"
+    "SANY breaker",
+    "XCMG breaker",
+    "excavator hammer China"
    ],
-   "label": "Hydraulic breaker"
+   "label": "Hydraulic breaker",
+   "fallback": "excavator"
   },
   "skid-steer": {
    "q": [
     "SANY skid steer",
     "XCMG skid steer",
-    "LiuGong skid steer",
-    "Sunward skid steer"
+    "Sunward skid steer",
+    "LiuGong skid steer"
    ],
    "label": "Skid-steer loader"
   },
   "backhoe": {
    "q": [
-    "XCMG backhoe loader",
+    "XCMG backhoe",
     "LiuGong backhoe",
-    "SANY backhoe loader",
-    "SDLG backhoe"
+    "SANY backhoe",
+    "SDLG backhoe",
+    "Lonking backhoe"
    ],
    "label": "Backhoe loader"
   },
@@ -680,12 +685,12 @@
   },
   "vibratory-roller": {
    "q": [
-    "XCMG XS263J",
-    "XCMG XS143J",
-    "XCMG XS203J",
-    "SANY SSR220C",
-    "LiuGong 6626E",
-    "SDLG RS8220"
+    "XCMG roller",
+    "SANY roller",
+    "LiuGong roller",
+    "XCMG compactor",
+    "Shantui roller",
+    "SDLG roller"
    ],
    "label": "Vibratory roller",
    "models": "XS\\d{3}[JHE]|SSR\\d{3}|6\\d{3}E|RS8\\d{3}"
@@ -693,26 +698,30 @@
   "tandem-roller": {
    "q": [
     "XCMG tandem roller",
-    "SANY tandem roller",
-    "XCMG XD roller"
+    "XCMG XD",
+    "SANY tandem",
+    "XCMG roller"
    ],
-   "label": "Tandem roller"
+   "label": "Tandem roller",
+   "fallback": "vibratory-roller"
   },
   "pneumatic-roller": {
    "q": [
     "XCMG pneumatic roller",
-    "XCMG XP tire roller",
-    "SANY pneumatic roller"
+    "XCMG XP",
+    "SANY pneumatic"
    ],
-   "label": "Pneumatic roller"
+   "label": "Pneumatic roller",
+   "fallback": "vibratory-roller"
   },
   "padfoot-roller": {
    "q": [
-    "XCMG padfoot roller",
-    "SANY padfoot roller",
-    "Shantui padfoot"
+    "XCMG padfoot",
+    "Shantui padfoot",
+    "XCMG roller"
    ],
-   "label": "Padfoot roller"
+   "label": "Padfoot roller",
+   "fallback": "vibratory-roller"
   },
   "walk-behind-roller": {
    "q": [
@@ -753,22 +762,24 @@
   },
   "howo-8x4-tipper": {
    "q": [
-    "HOWO TX 8x4 dump truck",
-    "HOWO NX 8x4 dump truck",
-    "Shacman X3000 8x4 dump truck",
-    "HOWO TH7 8x4"
+    "HOWO 8x4",
+    "Sinotruk 8x4 dump",
+    "Shacman 8x4",
+    "HOWO dump truck"
    ],
    "label": "HOWO 8x4 tipper",
-   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX)|X(3000|5000|6000)"
+   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX)|X(3000|5000|6000)",
+   "fallback": "tipper-truck"
   },
   "water-tanker": {
    "q": [
-    "HOWO water tanker",
-    "Sinotruk water truck",
-    "Dongfeng water truck",
-    "Shacman water tanker"
+    "HOWO water truck",
+    "Sinotruk water tanker",
+    "Dongfeng sprinkler truck",
+    "Shacman water"
    ],
-   "label": "Water tanker"
+   "label": "Water tanker",
+   "fallback": "diesel-tank"
   },
   "bitumen-sprayer": {
    "q": [
@@ -779,12 +790,12 @@
   },
   "fuel-bowser": {
    "q": [
-    "HOWO fuel tanker",
-    "Sinotruk fuel truck",
-    "Dongfeng fuel tanker",
-    "Shacman tanker"
+    "HOWO fuel truck",
+    "Sinotruk oil tanker",
+    "Dongfeng oil tanker"
    ],
-   "label": "Fuel bowser"
+   "label": "Fuel bowser",
+   "fallback": "diesel-tank"
   },
   "diesel-tank": {
    "q": [
@@ -794,22 +805,24 @@
   },
   "lowbed-trailer": {
    "q": [
-    "CIMC low bed trailer",
-    "lowbed trailer HOWO",
-    "Sinotruk low bed",
-    "HOWO lowboy"
+    "CIMC trailer",
+    "Sinotruk semi trailer",
+    "HOWO lowbed",
+    "low bed trailer China"
    ],
-   "label": "Low-bed trailer"
+   "label": "Low-bed trailer",
+   "fallback": "flatbed-trailer"
   },
   "tractor-lowbed": {
    "q": [
-    "HOWO T7H low bed",
-    "Shacman X3000 low bed",
-    "HOWO TX tractor lowbed",
-    "Sitrak heavy haul"
+    "HOWO tractor trailer",
+    "Sinotruk tractor trailer",
+    "Shacman tractor trailer",
+    "Sitrak trailer"
    ],
    "label": "Tractor unit with low-bed",
-   "models": "T7H|TH7|HOWO[- ]?(TX|NX|MAX)|X(3000|5000|6000)|Sitrak"
+   "models": "T7H|TH7|HOWO[- ]?(TX|NX|MAX)|X(3000|5000|6000)|Sitrak",
+   "fallback": "flatbed-trailer"
   },
   "flatbed-trailer": {
    "q": [
@@ -889,10 +902,11 @@
   },
   "crawler-crane": {
    "q": [
-    "SANY SCC1000A",
-    "SANY SCC2600A",
-    "XCMG XGC",
-    "Zoomlion ZCC"
+    "SANY crawler crane",
+    "XCMG crawler crane",
+    "Zoomlion crawler crane",
+    "SANY SCC",
+    "XCMG XGC"
    ],
    "label": "Crawler crane",
    "models": "SCC\\d{3,5}|XGC\\d+|ZCC\\d+|ZCT\\d+"
@@ -901,7 +915,8 @@
    "q": [
     "Zoomlion tower crane",
     "XCMG tower crane",
-    "SANY tower crane"
+    "SANY tower crane",
+    "Zoomlion crane"
    ],
    "label": "Tower crane"
   },
@@ -914,23 +929,22 @@
   },
   "truck-crane": {
    "q": [
-    "XCMG XCT25",
-    "XCMG XCT55",
-    "XCMG XCT80",
-    "SANY STC250T",
-    "SANY STC800T",
-    "Zoomlion ZTC250",
-    "Zoomlion ZTC800"
+    "XCMG truck crane",
+    "SANY truck crane",
+    "Zoomlion truck crane",
+    "XCMG crane",
+    "Zoomlion crane"
    ],
    "label": "Truck crane",
-   "models": "XCT\\d{2,3}|STC\\d{3}[TCE]|ZTC\\d{3}"
+   "models": "XCT\\d{2,3}|STC\\d{3}[TCE]|ZTC\\d{3}",
+   "fallback": "all-terrain-crane"
   },
   "forklift": {
    "q": [
-    "Heli G3 forklift",
-    "Heli forklift",
-    "Hangcha XF forklift",
-    "LiuGong CLG2030",
+    "Heli forklift truck",
+    "Hangcha forklift truck",
+    "LiuGong forklift",
+    "XCMG forklift",
     "Lonking forklift"
    ],
    "label": "Forklift",
@@ -959,19 +973,23 @@
   },
   "scissor-lift": {
    "q": [
-    "Dingli JCPT",
-    "Sinoboom GTJZ",
-    "Zoomlion ZS"
+    "Dingli scissor",
+    "Sinoboom scissor",
+    "XCMG scissor lift",
+    "LGMG scissor",
+    "Zoomlion scissor"
    ],
    "label": "Scissor lift",
-   "models": "JCPT|GTJZ|ZS\\d{4}|Dingli|Sinoboom"
+   "models": "JCPT|GTJZ|ZS\\d{4}|Dingli|Sinoboom",
+   "fallback": "boom-lift"
   },
   "boom-lift": {
    "q": [
-    "Dingli BT",
-    "Sinoboom TB",
-    "XCMG XGS",
-    "Zoomlion ZT"
+    "Dingli boom",
+    "Sinoboom",
+    "XCMG aerial work platform",
+    "Zoomlion aerial",
+    "SANY aerial"
    ],
    "label": "Boom lift",
    "models": "Dingli|Sinoboom|XGS\\d+|XGA\\d+"
@@ -1003,40 +1021,39 @@
   },
   "batching-plant": {
    "q": [
-    "SANY concrete batching plant",
-    "Zoomlion batching plant",
-    "XCMG concrete batching plant",
-    "SANY mixing plant"
+    "SANY batching plant",
+    "Zoomlion concrete plant",
+    "XCMG concrete plant",
+    "concrete mixing plant China"
    ],
    "label": "Batching plant"
   },
   "concrete-boom-pump": {
    "q": [
-    "SANY C10 pump truck",
-    "SANY 62m pump truck",
-    "Zoomlion 56X",
-    "Zoomlion 63X",
-    "XCMG HB62V",
-    "SANY SYM5"
+    "SANY concrete pump",
+    "Zoomlion concrete pump",
+    "SANY pump truck",
+    "Zoomlion pump truck",
+    "XCMG concrete pump"
    ],
    "label": "Concrete boom pump",
    "models": "\\b(C8|C10|SYM5\\d{3})|[4-7]\\dX\\b|HB\\d{2}V|62m|56m|52m"
   },
   "concrete-pump": {
    "q": [
-    "SANY trailer concrete pump",
+    "SANY trailer pump",
     "Zoomlion trailer pump",
-    "SANY HBT",
-    "XCMG trailer pump"
+    "SANY concrete pump"
    ],
    "label": "Concrete pump"
   },
   "self-loading-mixer": {
    "q": [
-    "self loading concrete mixer China",
-    "XCMG self loading mixer"
+    "self loading mixer",
+    "XCMG self loading"
    ],
-   "label": "Self-loading mixer"
+   "label": "Self-loading mixer",
+   "fallback": "transit-mixer"
   },
   "block-machine": {
    "q": [
@@ -1060,7 +1077,7 @@
   },
   "concrete-mixer": {
    "q": [
-    "Chinese concrete mixer drum"
+    "Chinese concrete mixer"
    ],
    "label": "Concrete mixer"
   },
@@ -1071,10 +1088,8 @@
    "label": "Poker vibrator"
   },
   "power-trowel": {
-   "q": [
-    "power trowel China"
-   ],
-   "label": "Power trowel"
+   "label": "Power trowel",
+   "pin_lock": true
   },
   "concrete-saw": {
    "q": [
@@ -1096,19 +1111,21 @@
   },
   "mobile-crusher": {
    "q": [
-    "XCMG mobile crusher",
-    "SANY mobile crusher",
-    "Shanbao crusher"
+    "XCMG crusher",
+    "SANY crusher",
+    "Shanbao crusher",
+    "Chinese mobile crusher"
    ],
    "label": "Mobile crusher"
   },
   "crushing-plant": {
    "q": [
-    "XCMG crushing plant",
-    "SANY crushing plant",
-    "Chinese stone crusher plant"
+    "XCMG crushing",
+    "SANY crushing",
+    "Chinese stone crusher"
    ],
-   "label": "Crushing plant"
+   "label": "Crushing plant",
+   "fallback": "mobile-crusher"
   },
   "conveyor": {
    "q": [
@@ -1170,9 +1187,10 @@
   },
   "generator": {
    "q": [
-    "Weichai generator set",
-    "Yuchai generator set",
-    "Chinese diesel generator set"
+    "Weichai generator",
+    "Yuchai generator",
+    "SANY generator",
+    "Chinese diesel generator"
    ],
    "label": "Diesel generator"
   },
@@ -1264,48 +1282,50 @@
   "pile-hammer": {
    "q": [
     "SANY pile driver",
-    "Chinese diesel pile hammer"
+    "XCMG pile"
    ],
-   "label": "Pile hammer"
+   "label": "Pile hammer",
+   "fallback": "piling-rig"
   },
   "vibro-hammer": {
    "q": [
     "SANY vibratory hammer",
     "Chinese vibro hammer"
    ],
-   "label": "Vibro hammer"
+   "label": "Vibro hammer",
+   "fallback": "piling-rig"
   },
   "piling-rig": {
    "q": [
-    "SANY SR235",
-    "SANY SR285",
-    "SANY SR405",
-    "XCMG XR280E",
-    "XCMG XR360",
-    "Zoomlion ZR280"
+    "SANY rotary drilling rig",
+    "XCMG rotary drilling rig",
+    "SANY piling",
+    "XCMG piling"
    ],
    "label": "Piling rig",
-   "models": "SR\\d{3}|XR\\d{3}|ZR\\d{3}"
+   "models": "SR\\d{3}|XR\\d{3}|ZR\\d{3}",
+   "fallback": "drill-rig"
   },
   "total-station": {
    "q": [
     "South total station",
     "Hi-Target total station",
-    "CHC total station"
+    "Chinese total station"
    ],
    "label": "Total station"
   },
   "gnss-rover": {
    "q": [
     "CHC GNSS",
-    "South GNSS RTK",
-    "Hi-Target GNSS"
+    "South GNSS",
+    "Hi-Target GNSS",
+    "CHC i80"
    ],
    "label": "GNSS rover"
   },
   "auto-level": {
    "q": [
-    "South automatic level",
+    "South level",
     "Chinese automatic level"
    ],
    "label": "Automatic level"
@@ -1317,7 +1337,8 @@
     "DJI Matrice 350"
    ],
    "label": "Survey drone",
-   "models": "Phantom 4 RTK|Mavic 3|Matrice"
+   "models": "Phantom 4 RTK|Mavic 3|Matrice",
+   "alias": "dji-enterprise"
   },
   "container-office": {
    "q": [
@@ -1333,9 +1354,10 @@
   },
   "asphalt-paver": {
    "q": [
-    "XCMG RP953E",
-    "XCMG RP1253",
-    "SANY SAP"
+    "XCMG paver",
+    "SANY paver",
+    "Zoomlion paver",
+    "XCMG RP"
    ],
    "label": "Asphalt paver",
    "models": "RP\\d{3,4}|SAP\\d{2,3}"
@@ -1370,9 +1392,9 @@
   },
   "cold-milling": {
    "q": [
-    "XCMG milling machine",
-    "SANY milling machine",
-    "XCMG XM"
+    "XCMG milling",
+    "XCMG XM",
+    "SANY milling machine"
    ],
    "label": "Cold milling machine"
   },
@@ -1497,27 +1519,31 @@
   },
   "drone-lidar": {
    "q": [
-    "DJI Zenmuse L2",
-    "DJI Zenmuse L1",
-    "DJI Zenmuse P1"
+    "DJI Zenmuse",
+    "DJI Matrice L1",
+    "DJI LiDAR"
    ],
    "label": "LiDAR drone",
-   "models": "Zenmuse (L1|L2|P1)"
+   "models": "Zenmuse (L1|L2|P1)",
+   "fallback": "dji-enterprise"
   },
   "cement-tanker": {
    "q": [
-    "bulk cement tanker trailer China",
-    "CIMC cement tanker",
-    "HOWO cement tanker"
+    "cement tanker China",
+    "CIMC tanker",
+    "bulk cement"
    ],
-   "label": "Bulk cement tanker"
+   "label": "Bulk cement tanker",
+   "fallback": "transit-mixer"
   },
   "placing-boom": {
    "q": [
-    "concrete placing boom SANY",
-    "Zoomlion placing boom"
+    "SANY placing boom",
+    "Zoomlion placing boom",
+    "concrete placing boom"
    ],
-   "label": "Placing boom"
+   "label": "Placing boom",
+   "fallback": "concrete-boom-pump"
   },
   "laser-screed": {
    "q": [
@@ -1532,12 +1558,13 @@
    "label": "Laser level"
   },
   "power-tools": {
-   "q": [
-    "Ingco power tools",
-    "Total tools power"
-   ],
    "label": "Power tools",
-   "brands": "\\b(ingco|total tools|dongcheng|jiepeng)\\b"
+   "q": [
+    "Ingco drill",
+    "Ingco angle grinder",
+    "Ingco tools"
+   ],
+   "brands": "\\b(ingco|total tools|dongcheng)\\b"
   },
   "hand-tools": {
    "q": [
@@ -1547,5 +1574,19 @@
    "brands": "\\b(ingco|total tools|dongcheng|jiepeng)\\b"
   }
  },
- "minYear": 2019
+ "minYear": 2019,
+ "rejected": [
+  "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Heubach_--_2024_--_0016.jpg",
+  "https://commons.wikimedia.org/wiki/File:Moscow,_Gorky_Park_portal,_big_dig,_June_2026_52.jpg",
+  "https://commons.wikimedia.org/wiki/File:EXCON_2025,_Bangalore_International_Exhibition_Centre_(778).jpg",
+  "https://commons.wikimedia.org/wiki/File:Vermont_Open_Geospatial_Imagery-Flooding-Photos-Original-SAINT_JOHNSBURY_20240730_UVM_225931.jpg",
+  "https://commons.wikimedia.org/wiki/File:Heli_2026-08-11_CPD15_forklift_05.jpg",
+  "https://commons.wikimedia.org/wiki/File:Shandong,_IAA_2024,_Hanover_(P1190857).jpg",
+  "https://commons.wikimedia.org/wiki/File:Moscow,_Krymskaya_Embankment,_people_and_snow_loaders,_Jan_2026_03.jpg",
+  "https://commons.wikimedia.org/wiki/File:Construction_vehicles_in_Minalin_20.jpg",
+  "https://commons.wikimedia.org/wiki/File:Construction_vehicles_in_the_Philippines_a_06.jpg",
+  "https://commons.wikimedia.org/wiki/File:2026-05-19_Reconstruction_of_Ostankinsky_Overpass_21_roadblocks,_Sitrak_C7H.jpg",
+  "https://commons.wikimedia.org/wiki/File:Moscow,_Tatarskaya_35_construction,_Sept_2026_03.jpg",
+  "https://commons.wikimedia.org/wiki/File:Ingco_Gasoline_2026-06-18_Engine_Power_Trowel_GPT361-4.jpg"
+ ]
 }

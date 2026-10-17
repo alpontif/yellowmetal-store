@@ -168,7 +168,7 @@ const origin = `https://${cfg.domain}`;
 const abs = p => origin + p;
 const ver = Date.now().toString(36);
 const link = (p, mode) => mode === "hash" ? "#" + p : p;
-const LOGO = `<span class="logo-mark"><svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 5h6l6 9 6-9h6l-9 13v9h-6v-9z" fill="#0B1A2C"/></svg></span><span class="logo-word">YELLOWMETAL<small>PLANTS &amp; EQUIPMENT</small></span>`;
+const LOGO = `<span class="logo-mark"><svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="11" r="9" fill="#F5C21B"/><circle cx="11" cy="20" r="9" fill="#2563D9"/><circle cx="29" cy="20" r="9" fill="#E8574D"/><circle cx="20" cy="29" r="9" fill="#1F8FA8"/><circle cx="20" cy="20" r="6.5" fill="#1A2F5A" stroke="#fff" stroke-width="1.6"/></svg></span><span class="logo-word">YELLOWMETAL<small>PLANTS &amp; EQUIPMENT</small></span>`;
 const WA = `<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.42 1.3-1.95 1.35-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.92-4.66-4.1-.13-.18-1.11-1.48-1.11-2.82 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34h.52c.17 0 .39-.06.61.47.24.56.79 1.93.86 2.07.07.14.11.3.02.48-.09.18-.14.3-.27.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.14.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.59.75 1.86.89.27.14.45.2.52.32.07.11.07.66-.17 1.34Z"/></svg>`;
 
 function chrome(main, mode) {
@@ -222,8 +222,8 @@ function jsonld(p, v) {
   return out.map(o => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n");
 }
 
-const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">`;
-const ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#F5B800"/><path d="M8 9h4l4 6 4-6h4l-6 9v5h-4v-5z" fill="#0B1A2C"/></svg>`;
+const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">`;
+const ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#1A2F5A"/><circle cx="20" cy="12" r="7.5" fill="#F5C21B"/><circle cx="12" cy="20" r="7.5" fill="#2563D9"/><circle cx="28" cy="20" r="7.5" fill="#E8574D"/><circle cx="20" cy="28" r="7.5" fill="#1F8FA8"/><circle cx="20" cy="20" r="5" fill="#1A2F5A" stroke="#fff" stroke-width="1.4"/></svg>`;
 const GA = cfg.ga4_measurement_id ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${cfg.ga4_measurement_id}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${cfg.ga4_measurement_id}');</script>` : "";
 
 function page(p, v) {
@@ -237,7 +237,7 @@ function page(p, v) {
 <title>${esc(v.title)}</title>
 <meta name="description" content="${esc(v.desc)}">
 ${v.noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${canonical}">`}
-<meta name="theme-color" content="#0B1A2C">
+<meta name="theme-color" content="#1A2F5A">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Yellowmetal"><meta property="og:title" content="${esc(v.title)}"><meta property="og:description" content="${esc(v.desc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${og}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 ${FONTS}

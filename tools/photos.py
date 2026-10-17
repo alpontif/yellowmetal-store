@@ -165,7 +165,7 @@ def main():
         k = f.stem[:-2] if f.stem.endswith("-s") else f.stem
         if k not in spec["keys"] or lock.get(k, {}).get("none"):
             f.unlink()
-    used = {v.get("page") for v in lock.values() if v.get("page")}
+    used = {v.get("page") for v in lock.values() if v.get("page")} | set(spec.get("rejected", []))
     todo = [k for k, s in spec["keys"].items() if not s.get("alias") and not s.get("tile") and (k not in lock or (not lock[k].get("none") and not (OUT / f"{k}.jpg").exists()))]
     print(f"{len(todo)} photos to fetch")
     for key in todo:
@@ -203,6 +203,13 @@ def main():
             used.add(c["page"]); done = True
             print(f"{key}: {c['source']} · {c['title'][:70]} ({c['licence']})")
             break
+        fb = s.get("fallback")
+        if not done and fb and (OUT / f"{fb}.jpg").exists():
+            for suf in ("", "-s"):
+                shutil.copyfile(OUT / f"{fb}{suf}.jpg", OUT / f"{key}{suf}.jpg")
+            lock[key] = dict(lock.get(fb, {}), fallback=fb)
+            done = True
+            print(f"{key}: no own photo found; using {fb}")
         if not done:
             lock[key] = {"none": True}
             print(f"{key}: no Chinese-brand photo found; tile will be shown")
