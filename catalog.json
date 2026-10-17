@@ -1,0 +1,20 @@
+{
+ "_help": "Rate-book sale lines Yellowmetal does not list because they name obsolete or old models. Delete a code to show it again.",
+ "excludeBuy": {
+  "M-EQ-EX21O": "CAT 320C/320CL/322CL, older model",
+  "M-EQ-EX30U": "CAT 330D/330BL/330CL, discontinued",
+  "M-EQ-EX55U": "CAT 306D, discontinued",
+  "M-EQ-DZ6U": "CAT D6H/D6R, discontinued",
+  "M-EQ-DZ7G": "CAT D7G, discontinued",
+  "M-EQ-DZ7R": "CAT D7R, discontinued",
+  "M-EQ-DZ8U": "CAT D8H/D8K, older model",
+  "M-EQ-GR12N": "CAT 12G/12F, discontinued",
+  "M-EQ-GR14N": "CAT 140G, discontinued",
+  "M-EQ-GR14U": "CAT 140G/14E/120B, discontinued",
+  "M-EQ-BHLU": "CAT 424B/426B, discontinued",
+  "M-EQ-BHLL": "Nigerian used, unspecified old backhoes",
+  "M-EQ-WLNU": "Nigerian used, unspecified old payloaders",
+  "M-EQ-TIPMB": "Old Mack/MAN/Mercedes tippers",
+  "M-EQ-SDR12U": "Dynapac CA25/Bomag BW213, older models"
+ }
+}

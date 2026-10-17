@@ -28,7 +28,17 @@ OUT = ROOT / "docs/img/m"
 CHINESE = r"\b(sany|xcmg|sdlg|shantui|zoomlion|liugong|liu ?gong|sinotruk|howo|shacman|shaanxi|lonking|sunward|dingli|sinoboom|hangcha|heli forklift|\bheli\b|foton|dongfeng|beiben|faw\b|cimc|lovol|xgma|changlin|yutong|king ?long|higer|golden dragon|great wall|gwm|jac\b|zpmc|dji|chc nav|hi-?target|kaishan|weichai|yuchai|sinomach|sdlg|xe\d{2,3}|sy\d{2,3}|lg9\d\d|sd(16|22|32)|qy\d{2})"
 BAD = re.compile(r"drawing|diagram|\bmodel\b|toy|lego|miniature|scale model|logo|\bmap\b|poster|stamp|patent|sketch|cartoon|brochure|1:\d|svg|interior|dashboard|wreck|accident|\bfire\b|crash|abandon|rust|derelict|scrap|vintage|antique|museum|statue|monument|night", re.I)
 OK_LICENCE = re.compile(r"^(cc0|public domain|pd|cc[ -]by(-sa)?[ -]?\d|cc by(-sa)? \d|by(-sa)?$|attribution|gfdl|fal|free art|pdm)", re.I)
-OPENVERSE_BUDGET = [180]   # stay under anonymous daily limit
+OPENVERSE_BUDGET = [180]
+MIN_YEAR = 2019            # photos older than this are rejected (old models)
+OBSOLETE = re.compile(r"\b(a7|steyr|zl50|zl30|lw300f|sy210|sy215c?-?[0-8]\b|sy235|sd16l|sd22l|pc200-[1-7]|howo 336|howo 371 a|1[89]\d\d|200[0-9]|201[0-6])\b", re.I)
+
+
+def photo_year(meta):
+    for k in ("DateTimeOriginal", "DateTime"):
+        m = re.search(r"(19|20)\d\d", strip_html(meta.get(k, {}).get("value", "")))
+        if m:
+            return int(m.group(0))
+    return None   # stay under anonymous daily limit
 
 
 def get_json(url):
@@ -62,7 +72,7 @@ def score(rank, w, h, text, used_key):
     return s
 
 
-def commons(q, brand, used):
+def commons(q, brand, used, models=None):
     res = get_json(COMMONS + "?" + urllib.parse.urlencode({"action": "query", "list": "search", "srnamespace": 6, "srlimit": 30,
         "srsearch": f"{q} filetype:bitmap filew:>900", "format": "json", "formatversion": 2}))
     titles = [h["title"] for h in res.get("query", {}).get("search", [])]
@@ -70,7 +80,7 @@ def commons(q, brand, used):
         return []
     info = get_json(COMMONS + "?" + urllib.parse.urlencode({"action": "query", "titles": "|".join(titles), "prop": "imageinfo",
         "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1600, "format": "json", "formatversion": 2,
-        "iiextmetadatafilter": "LicenseShortName|Artist|ImageDescription|Categories"}))
+        "iiextmetadatafilter": "LicenseShortName|Artist|ImageDescription|Categories|DateTimeOriginal|DateTime"}))
     pages = {p["title"]: p for p in info.get("query", {}).get("pages", [])}
     out = []
     for rank, t in enumerate(titles):
@@ -84,14 +94,18 @@ def commons(q, brand, used):
             continue
         if not re.search(brand, text, re.I):
             continue
-        out.append({"title": t, "thumb": ii.get("thumburl") or ii["url"], "page": ii.get("descriptionurl"), "licence": lic,
+        yr = photo_year(meta)
+        if yr is None or yr < MIN_YEAR or OBSOLETE.search(t):
+            continue
+        bonus = 12 if models and re.search(models, text, re.I) else 0
+        out.append({"title": t, "thumb": ii.get("thumburl") or ii["url"], "page": ii.get("descriptionurl"), "licence": lic, "year": yr,
                     "author": strip_html(meta.get("Artist", {}).get("value"))[:120] or "Unknown", "source": "Wikimedia Commons",
-                    "score": score(rank, ii.get("width", 0), ii.get("height", 0), text, t in used)})
+                    "score": score(rank, ii.get("width", 0), ii.get("height", 0), text, t in used) + bonus + (yr - MIN_YEAR)})
     return out
 
 
-def openverse(q, brand, used):
-    if OPENVERSE_BUDGET[0] <= 0:
+def openverse(q, brand, used, models=None):
+    if OPENVERSE_BUDGET[0] <= 0 or not models:   # no dates in Openverse: only trust named current models
         return []
     OPENVERSE_BUDGET[0] -= 1
     res = get_json(OPENVERSE + "?" + urllib.parse.urlencode({"q": q, "license_type": "commercial", "page_size": 20, "mature": "false"}))
@@ -99,7 +113,7 @@ def openverse(q, brand, used):
     for rank, r in enumerate(res.get("results", [])):
         tags = " ".join(t.get("name", "") for t in (r.get("tags") or []))
         text = " ".join([r.get("title") or "", tags])
-        if not re.search(brand, text, re.I):
+        if not re.search(brand, text, re.I) or not re.search(models, text, re.I) or OBSOLETE.search(text):
             continue
         lic = f"CC {r.get('license', '').upper()} {r.get('license_version') or ''}".strip()
         if r.get("license") in ("cc0", "pdm"):
@@ -166,11 +180,11 @@ def main():
         if s.get("pin"):
             cands = commons(s["pin"].replace("File:", ""), r".", set())
         for q in queries:
-            cands += commons(q, brand, used)
+            cands += commons(q, brand, used, s.get("models"))
             time.sleep(0.4)
         if max([c["score"] for c in cands] or [-999]) < 25:
             for q in queries[:2]:
-                cands += openverse(q, brand, used)
+                cands += openverse(q, brand, used, s.get("models"))
                 time.sleep(1.2)
         seen, uniq = set(), []
         for c in sorted(cands, key=lambda c: -c["score"]):

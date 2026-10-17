@@ -6,7 +6,7 @@
   "ph": "howo-8x4-tipper",
   "groups": [
    {"name": "Tipper trucks, 30t and 40t", "blurb": "Sinotruk HOWO and Shacman 6x4 30-tonne and 8x4 40-tonne tippers.",
-    "hire": ["P-TP10", "P-TIP", "P-TP30", "X-TP40"], "buy": ["X-EQ-TIP40N", "M-EQ-TIP30N", "X-EQ-TP30SH", "X-EQ-TIP40U", "M-EQ-TIP30U", "M-EQ-TIP10", "M-EQ-TIPMB"]},
+    "hire": ["P-TP10", "P-TIP", "P-TP30", "X-TP40"], "buy": ["X-EQ-TIP40N", "M-EQ-TIP30N", "X-EQ-TP30SH", "X-EQ-TIP40U", "M-EQ-TIP30U", "M-EQ-TIP10"]},
    {"name": "Tractor units with low-beds", "blurb": "Matched tractor and low-bed combinations from 40 to 120 tonnes, with driver.",
     "hire": ["X-TL40", "P-PRM", "X-TL80", "X-TL100", "X-TL120"], "buy": ["X-EQ-TL40", "X-EQ-TL60", "X-EQ-TL80", "X-EQ-TL100", "X-EQ-TL120", "M-EQ-THN", "M-EQ-THU"]},
    {"name": "Low-bed trailers and mobilisation", "blurb": "Trailers on their own, and one-way trip prices to move a machine to site.",

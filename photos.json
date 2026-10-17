@@ -538,32 +538,39 @@
  "keys": {
   "excavator": {
    "q": [
-    "SANY SY215 excavator",
-    "XCMG XE215 excavator",
-    "SANY excavator",
-    "XCMG excavator",
-    "LiuGong excavator",
-    "Zoomlion excavator"
+    "SANY SY215C",
+    "SANY SY365H",
+    "SANY SY500H",
+    "XCMG XE215DA",
+    "XCMG XE370DA",
+    "LiuGong 922F",
+    "Zoomlion ZE215E",
+    "SANY excavator"
    ],
-   "label": "Crawler excavator"
+   "label": "Crawler excavator",
+   "models": "SY(215|245|265|305|365|375|415|500|750)[CH]|XE(2[0-9]{2}|3[0-9]{2}|4[0-9]{2}|5[0-9]{2})(DA|E|D|GA|DK)|9[2-5]\\d[EF]\\b|ZE\\d{3}E"
   },
   "mini-excavator": {
    "q": [
-    "SANY SY16 excavator",
-    "SANY SY35 excavator",
-    "SANY mini excavator",
-    "XCMG mini excavator",
-    "LiuGong mini excavator"
+    "SANY SY16C",
+    "SANY SY26U",
+    "SANY SY35U",
+    "SANY SY75C",
+    "XCMG XE60GA",
+    "XCMG XE35U",
+    "LiuGong 9035E"
    ],
-   "label": "Mini excavator"
+   "label": "Mini excavator",
+   "models": "SY(16|18|19|26|35|50|60|75|80|95)[CU]|XE(17|20|27|35|55|60|75|80)(U|GA|DA|E)|90[0-9]{2}[EF]"
   },
   "long-reach-excavator": {
    "q": [
-    "SANY long reach excavator",
-    "XCMG long reach",
-    "SANY SY365"
+    "SANY SY365H long reach",
+    "XCMG XE370DA long reach",
+    "SANY long reach excavator"
    ],
-   "label": "Long-reach excavator"
+   "label": "Long-reach excavator",
+   "models": "SY\\d{3}[CH]|XE\\d{3}(DA|E)"
   },
   "amphibious-excavator": {
    "q": [
@@ -575,12 +582,12 @@
   },
   "wheeled-excavator": {
    "q": [
-    "XCMG wheeled excavator",
-    "SANY wheeled excavator",
-    "XCMG XE150W",
-    "SANY SY155W"
+    "XCMG XE150WD",
+    "SANY SY155W",
+    "XCMG wheeled excavator"
    ],
-   "label": "Wheeled excavator"
+   "label": "Wheeled excavator",
+   "models": "XE\\d{2,3}W|SY\\d{3}W"
   },
   "hydraulic-breaker": {
    "q": [
@@ -609,35 +616,43 @@
   },
   "wheel-loader": {
    "q": [
-    "SDLG wheel loader",
-    "SDLG LG958",
-    "SDLG LG956",
-    "LiuGong 856 wheel loader",
-    "XCMG wheel loader",
-    "LiuGong wheel loader"
+    "SDLG LG958L",
+    "SDLG L956F",
+    "SDLG L968F",
+    "LiuGong 856H",
+    "LiuGong 870H",
+    "XCMG LW500KV",
+    "XCMG XC958",
+    "SANY SW956"
    ],
-   "label": "Wheel loader"
+   "label": "Wheel loader",
+   "models": "LG95[68]L|L9[5-6]\\dF|L968|8[3-9]\\dH|LW\\d{3}(KV|FV|K)|XC9\\d\\d|SW95\\d"
   },
   "bulldozer": {
    "q": [
-    "Shantui SD22 bulldozer",
+    "Shantui DH17",
+    "Shantui SD17E",
+    "Shantui SD22F",
+    "Shantui SD32W",
+    "Shantui DH24",
     "Shantui bulldozer",
-    "Shantui SD16",
-    "Shantui SD32",
-    "Zoomlion bulldozer"
+    "SANY SYT16"
    ],
-   "label": "Bulldozer"
+   "label": "Bulldozer",
+   "models": "DH(13|16|17|20|24)|SD(17|22|32|52|60)[EFW]|SD22-?C|SYT\\d{2}"
   },
   "motor-grader": {
    "q": [
-    "XCMG GR215 motor grader",
-    "XCMG motor grader",
-    "SANY motor grader",
-    "SDLG motor grader",
-    "LiuGong motor grader",
-    "Shantui grader"
+    "XCMG GR1805",
+    "XCMG GR2153",
+    "XCMG GR215A",
+    "SANY STG190C",
+    "SANY STG230C",
+    "LiuGong 4180D",
+    "SDLG G9220F"
    ],
-   "label": "Motor grader"
+   "label": "Motor grader",
+   "models": "GR(1[0-9]{3}|2[0-9]{3}|21[0-9]A)|STG\\d{3}C|41[0-9]{2}D|G91\\d0|G92\\d0"
   },
   "articulated-dump-truck": {
    "q": [
@@ -665,14 +680,15 @@
   },
   "vibratory-roller": {
    "q": [
-    "XCMG XS road roller",
-    "XCMG road roller",
-    "SANY road roller",
-    "LiuGong road roller",
-    "SDLG road roller",
-    "Shantui road roller"
+    "XCMG XS263J",
+    "XCMG XS143J",
+    "XCMG XS203J",
+    "SANY SSR220C",
+    "LiuGong 6626E",
+    "SDLG RS8220"
    ],
-   "label": "Vibratory roller"
+   "label": "Vibratory roller",
+   "models": "XS\\d{3}[JHE]|SSR\\d{3}|6\\d{3}E|RS8\\d{3}"
   },
   "tandem-roller": {
    "q": [
@@ -725,21 +741,25 @@
   },
   "tipper-truck": {
    "q": [
-    "Sinotruk HOWO dump truck",
-    "HOWO tipper truck",
-    "HOWO dump truck",
-    "Shacman dump truck"
+    "HOWO TX dump truck",
+    "Sinotruk HOWO TX",
+    "HOWO NX dump truck",
+    "HOWO TH7 dump truck",
+    "Shacman X3000 dump truck",
+    "Shacman X5000 dump truck"
    ],
-   "label": "Tipper truck"
+   "label": "Tipper truck",
+   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX|T5G)|X(3000|5000|6000)"
   },
   "howo-8x4-tipper": {
    "q": [
-    "HOWO 8x4 dump truck",
-    "Sinotruk HOWO 8x4",
-    "Shacman 8x4 dump truck",
-    "HOWO 12 wheeler"
+    "HOWO TX 8x4 dump truck",
+    "HOWO NX 8x4 dump truck",
+    "Shacman X3000 8x4 dump truck",
+    "HOWO TH7 8x4"
    ],
-   "label": "HOWO 8x4 tipper"
+   "label": "HOWO 8x4 tipper",
+   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX)|X(3000|5000|6000)"
   },
   "water-tanker": {
    "q": [
@@ -783,12 +803,13 @@
   },
   "tractor-lowbed": {
    "q": [
-    "HOWO tractor low bed excavator",
-    "Sinotruk tractor trailer excavator",
-    "Shacman tractor low bed",
-    "HOWO heavy haul"
+    "HOWO T7H low bed",
+    "Shacman X3000 low bed",
+    "HOWO TX tractor lowbed",
+    "Sitrak heavy haul"
    ],
-   "label": "Tractor unit with low-bed"
+   "label": "Tractor unit with low-bed",
+   "models": "T7H|TH7|HOWO[- ]?(TX|NX|MAX)|X(3000|5000|6000)|Sitrak"
   },
   "flatbed-trailer": {
    "q": [
@@ -800,13 +821,15 @@
   },
   "tractor-head": {
    "q": [
-    "Sinotruk HOWO tractor",
     "HOWO T7H tractor",
-    "Shacman X3000 tractor",
-    "Sinotruk tractor unit",
-    "HOWO tractor truck"
+    "HOWO TH7 tractor",
+    "HOWO MAX tractor",
+    "Shacman X6000 tractor",
+    "Shacman X5000 tractor",
+    "Sinotruk Sitrak C7H"
    ],
-   "label": "Tractor head"
+   "label": "Tractor head",
+   "models": "T7H|TH7|HOWO[- ]?MAX|X(3000|5000|6000)|Sitrak|C7H|G7"
   },
   "pickup": {
    "q": [
@@ -838,13 +861,14 @@
   },
   "transit-mixer": {
    "q": [
-    "SANY concrete mixer truck",
-    "Zoomlion concrete mixer truck",
-    "HOWO concrete mixer truck",
-    "XCMG concrete mixer truck",
-    "Sinotruk mixer"
+    "SANY mixer truck",
+    "Zoomlion mixer truck",
+    "HOWO TX mixer truck",
+    "XCMG G4 mixer",
+    "SANY SY412C"
    ],
-   "label": "Transit mixer"
+   "label": "Transit mixer",
+   "models": "SY\\d{3}C|HOWO[- ]?(TX|NX|TH7)|G[45]|Zoomlion"
   },
   "crane-barge": {
    "q": [
@@ -855,21 +879,23 @@
   },
   "all-terrain-crane": {
    "q": [
-    "XCMG all terrain crane",
-    "SANY all terrain crane",
-    "Zoomlion all terrain crane",
-    "XCMG XCA"
+    "XCMG XCA60",
+    "XCMG XCA220",
+    "SANY SAC2200",
+    "Zoomlion ZAT2200"
    ],
-   "label": "All-terrain crane"
+   "label": "All-terrain crane",
+   "models": "XCA\\d{2,4}|SAC\\d{3,4}|ZAT\\d{3,4}"
   },
   "crawler-crane": {
    "q": [
-    "SANY crawler crane",
-    "XCMG crawler crane",
-    "Zoomlion crawler crane",
-    "SANY SCC"
+    "SANY SCC1000A",
+    "SANY SCC2600A",
+    "XCMG XGC",
+    "Zoomlion ZCC"
    ],
-   "label": "Crawler crane"
+   "label": "Crawler crane",
+   "models": "SCC\\d{3,5}|XGC\\d+|ZCC\\d+|ZCT\\d+"
   },
   "tower-crane": {
    "q": [
@@ -888,23 +914,27 @@
   },
   "truck-crane": {
    "q": [
-    "XCMG truck crane",
-    "SANY truck crane",
-    "Zoomlion truck crane",
-    "XCMG QY25",
-    "SANY STC"
+    "XCMG XCT25",
+    "XCMG XCT55",
+    "XCMG XCT80",
+    "SANY STC250T",
+    "SANY STC800T",
+    "Zoomlion ZTC250",
+    "Zoomlion ZTC800"
    ],
-   "label": "Truck crane"
+   "label": "Truck crane",
+   "models": "XCT\\d{2,3}|STC\\d{3}[TCE]|ZTC\\d{3}"
   },
   "forklift": {
    "q": [
+    "Heli G3 forklift",
     "Heli forklift",
-    "Hangcha forklift",
-    "LiuGong forklift",
-    "Lonking forklift",
-    "XCMG forklift"
+    "Hangcha XF forklift",
+    "LiuGong CLG2030",
+    "Lonking forklift"
    ],
-   "label": "Forklift"
+   "label": "Forklift",
+   "models": "Heli|Hangcha|CLG2\\d{3}|Lonking"
   },
   "telehandler": {
    "q": [
@@ -929,23 +959,22 @@
   },
   "scissor-lift": {
    "q": [
-    "Dingli scissor lift",
-    "Sinoboom scissor lift",
-    "Zoomlion scissor lift",
-    "XCMG scissor lift",
-    "LGMG scissor"
+    "Dingli JCPT",
+    "Sinoboom GTJZ",
+    "Zoomlion ZS"
    ],
-   "label": "Scissor lift"
+   "label": "Scissor lift",
+   "models": "JCPT|GTJZ|ZS\\d{4}|Dingli|Sinoboom"
   },
   "boom-lift": {
    "q": [
-    "Dingli boom lift",
-    "Sinoboom boom lift",
-    "XCMG aerial work platform",
-    "Zoomlion aerial work platform",
-    "SANY aerial work platform"
+    "Dingli BT",
+    "Sinoboom TB",
+    "XCMG XGS",
+    "Zoomlion ZT"
    ],
-   "label": "Boom lift"
+   "label": "Boom lift",
+   "models": "Dingli|Sinoboom|XGS\\d+|XGA\\d+"
   },
   "scaffolding": {
    "q": [
@@ -983,13 +1012,15 @@
   },
   "concrete-boom-pump": {
    "q": [
-    "SANY concrete pump truck",
-    "Zoomlion concrete pump truck",
-    "XCMG concrete pump truck",
-    "SANY boom pump",
-    "Zoomlion boom pump"
+    "SANY C10 pump truck",
+    "SANY 62m pump truck",
+    "Zoomlion 56X",
+    "Zoomlion 63X",
+    "XCMG HB62V",
+    "SANY SYM5"
    ],
-   "label": "Concrete boom pump"
+   "label": "Concrete boom pump",
+   "models": "\\b(C8|C10|SYM5\\d{3})|[4-7]\\dX\\b|HB\\d{2}V|62m|56m|52m"
   },
   "concrete-pump": {
    "q": [
@@ -1246,13 +1277,15 @@
   },
   "piling-rig": {
    "q": [
-    "SANY rotary drilling rig",
-    "XCMG rotary drilling rig",
-    "Zoomlion rotary drilling rig",
-    "SANY SR rotary",
-    "XCMG XR"
+    "SANY SR235",
+    "SANY SR285",
+    "SANY SR405",
+    "XCMG XR280E",
+    "XCMG XR360",
+    "Zoomlion ZR280"
    ],
-   "label": "Piling rig"
+   "label": "Piling rig",
+   "models": "SR\\d{3}|XR\\d{3}|ZR\\d{3}"
   },
   "total-station": {
    "q": [
@@ -1281,9 +1314,10 @@
    "q": [
     "DJI Phantom 4 RTK",
     "DJI Mavic 3 Enterprise",
-    "DJI Matrice"
+    "DJI Matrice 350"
    ],
-   "label": "Survey drone"
+   "label": "Survey drone",
+   "models": "Phantom 4 RTK|Mavic 3|Matrice"
   },
   "container-office": {
    "q": [
@@ -1299,12 +1333,12 @@
   },
   "asphalt-paver": {
    "q": [
-    "XCMG asphalt paver",
-    "SANY asphalt paver",
-    "Zoomlion paver",
-    "XCMG RP"
+    "XCMG RP953E",
+    "XCMG RP1253",
+    "SANY SAP"
    ],
-   "label": "Asphalt paver"
+   "label": "Asphalt paver",
+   "models": "RP\\d{3,4}|SAP\\d{2,3}"
   },
   "asphalt-plant": {
    "q": [
@@ -1442,30 +1476,33 @@
   },
   "dji-enterprise": {
    "q": [
-    "DJI Matrice 300 RTK",
-    "DJI Matrice 350",
+    "DJI Matrice 350 RTK",
+    "DJI Matrice 4E",
     "DJI Mavic 3 Enterprise",
-    "DJI M300",
-    "DJI Matrice"
+    "DJI Matrice 30T",
+    "DJI Matrice 300 RTK"
    ],
-   "label": "DJI enterprise drone"
+   "label": "DJI enterprise drone",
+   "models": "Matrice (350|4|30|300)|M350|M4E|M4T|Mavic 3 ?(E|Enterprise|T|M)"
   },
   "dji-consumer": {
    "q": [
     "DJI Mini 4 Pro",
     "DJI Mavic 3 Pro",
-    "DJI Mavic 3",
-    "DJI Mini 3"
+    "DJI Air 3",
+    "DJI Mini 3 Pro"
    ],
-   "label": "DJI drone"
+   "label": "DJI drone",
+   "models": "Mini (3|4)|Mavic 3|Air 3"
   },
   "drone-lidar": {
    "q": [
+    "DJI Zenmuse L2",
     "DJI Zenmuse L1",
-    "DJI Zenmuse P1",
-    "DJI Matrice LiDAR"
+    "DJI Zenmuse P1"
    ],
-   "label": "LiDAR drone"
+   "label": "LiDAR drone",
+   "models": "Zenmuse (L1|L2|P1)"
   },
   "cement-tanker": {
    "q": [
@@ -1509,5 +1546,6 @@
    "label": "Hand tools",
    "brands": "\\b(ingco|total tools|dongcheng|jiepeng)\\b"
   }
- }
+ },
+ "minYear": 2019
 }

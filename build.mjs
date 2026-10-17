@@ -102,7 +102,8 @@ CATS.push({ slug: "small-tools", name: "Small tools & site kit", h1: "Price of c
   codes: D.resources.filter(r => r.c.startsWith("M-TL")).map(r => r.c),
   drivers: "Hand tools vary widely by brand and origin; cheap imports wear out fast on site, so price the durable grade for long jobs. Power tools and small machines follow the exchange rate." });
 const cond = d => /\bnew\b/i.test(d) ? "New" : /foreign used/i.test(d) ? "Tokunbo" : /nigerian used/i.test(d) ? "Nigerian used" : /\bused\b/i.test(d) ? "Used" : "";
-const buy = D.resources.filter(r => catOf[r.c]).map(r => {
+const EXCLUDE = fs.existsSync(path.join(ROOT, "catalog.json")) ? json("catalog.json").excludeBuy || {} : {};
+const buy = D.resources.filter(r => catOf[r.c] && !EXCLUDE[r.c]).map(r => {
   const ph = photoKey(r.d), c = cond(r.d);
   return {
     id: uid(slugify(r.d)), c: r.c, d: r.d, cat: catOf[r.c], u: r.u,
@@ -125,7 +126,7 @@ hireGroups.forEach(g => { const k = GROUP_PHOTO[g.slug]; if (k && hasPhoto(k)) g
 const buyCats = CATS.map(c => {
   const items = buy.filter(i => i.cat === c.slug);
   const pr = buy.find(i => i.c === c.primary);
-  return { slug: c.slug, name: c.name, h1: c.h1, q: c.q, drivers: c.drivers, primary: c.primary, n: items.length, from: Math.min(...items.map(i => i.r)), ph: pr && hasPhoto(pr.ph) ? pr.ph : firstPhoto(items) };
+  return { slug: c.slug, name: c.name, h1: c.h1, q: c.q, drivers: c.drivers, primary: pr ? c.primary : items[0].c, n: items.length, from: Math.min(...items.map(i => i.r)), ph: pr && hasPhoto(pr.ph) ? pr.ph : firstPhoto(items) };
 });
 /* specialist sections: curated hire + buy collections */
 const byC = {}; [...hire, ...buy].forEach(i => byC[(i.cat ? "b:" : "h:") + i.c] = i);
