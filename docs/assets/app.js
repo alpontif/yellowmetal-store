@@ -68,12 +68,19 @@ const photoBox = (key, alt, small, extra = "") => {
 /* shortlist: entries "h:<id>" for hire, "b:<id>" for buy, "f:<id>" for fleet */
 let shortlist = store.get("ym-shortlist", []).filter(k => resolveKey(k));
 function resolveKey(k) { const [t, id] = k.split(":"); return t === "h" ? H[id] : t === "b" ? B[id] : t === "f" ? F[id] : null; }
-const starBtn = (key, label) => { const on = shortlist.includes(key); return `<button type="button" class="star ${on ? "on" : ""}" data-star="${key}" aria-pressed="${on}" aria-label="Save ${esc(label)} to shortlist">${ICON.star(on)}</button>`; };
+const starInner = on => `${ICON.star(on)}<span>${on ? "Saved" : "Save"}</span>`;
+const starBtn = (key, label) => { const on = shortlist.includes(key); return `<button type="button" class="star ${on ? "on" : ""}" data-star="${key}" aria-pressed="${on}" aria-label="${on ? "Remove" : "Save"} ${esc(label)} ${on ? "from" : "to"} your shortlist" title="Save to your shortlist, then request one quote for everything you saved">${starInner(on)}</button>`; };
 
 /* ---------------- shared bits ---------------- */
 const locSelect = (id = "loc") => `<label class="loc"><span>Prices for</span><select id="${id}" data-loc>${LOCS.map(l => `<option ${l[0] === state.loc ? "selected" : ""}>${esc(l[0])}</option>`).join("")}</select></label>`;
 const confChip = c => `<span class="conf conf-${(c || "").toLowerCase()}" title="Rate book confidence">${confLabel(c)} confidence</span>`;
-const srcLine = () => `<p class="srcline">Market rates from the <a href="https://rates.buildocrat.store/" target="_blank" rel="noopener">Buildocrat Nigeria Construction Rate Book</a>, updated ${dateLong(Y.meta.updated)}. Base location Abuja; other locations use the rate book's factors. Your final price is confirmed in the WhatsApp chat.</p>`;
+const legendHTML = () => `<dl class="legend-dl">
+  <div><dt>All-in</dt><dd>Dry hire + diesel and lubricants + operator, per day. Mobilisation and VAT are added in the booking estimate.</dd></div>
+  <div><dt>${confChip("HIGH").replace(" confidence", "")} ${confChip("MEDIUM").replace(" confidence", "")} ${confChip("LOW").replace(" confidence", "")}</dt><dd>How firm the rate book's evidence is: several dated quotes (high) down to a desk estimate (low).</dd></div>
+  <div><dt><span class="xchip">Yellowmetal estimate</span></dt><dd>A line the rate book doesn't price yet, worked out from its nearest line or a dollar price at today's exchange rate.</dd></div>
+  <div><dt><span class="star-demo">${ICON.star(false)} Save</span></dt><dd>Adds the machine to your shortlist so you can request one quote for several machines.</dd></div>
+</dl>`;
+const srcLine = () => legendHTML() + `<p class="srcline">Market rates from the <a href="https://rates.buildocrat.store/" target="_blank" rel="noopener">Buildocrat Nigeria Construction Rate Book</a>, updated ${dateLong(Y.meta.updated)}. Base location Abuja; other locations use the rate book's factors. Your final price is confirmed in the WhatsApp chat.</p>`;
 const crumbs = list => `<nav class="crumbs" aria-label="Breadcrumb">${list.map(([t, h], i) => h && i < list.length - 1 ? `<a href="${h}">${esc(t)}</a>` : `<span>${esc(t)}</span>`).join('<span class="sep">/</span>')}</nav>`;
 
 function hireCard(i) {
@@ -164,6 +171,11 @@ V.home = () => {
     <div class="desks">${Y.sections.map((s, n) => `<a class="desk d${n}" href="${link(`/${s.slug}/`)}">${photoBox(s.ph, "", n !== 0)}<span><small>${s.n} priced lines</small><b>${esc(s.name)}</b><em>${esc(s.groups.map(g => g.name).join(" · "))}</em></span></a>`).join("")}</div>
   </div></section>` : ""}
 
+  <section class="block guide-wrap"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">How to use this site</div><h2>Four tools on every page</h2><p>Nothing is hidden: these are the controls you'll see on machine lists and machine pages.</p></div><a class="btn btn-ghost" href="${link("/how/")}">How a deal runs</a></div>
+    ${guideHTML()}
+  </div></section>
+
   <section class="block"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Hire · ${Y.hireGroups.length} plant groups</div><h2>Hire by the day, week or month</h2><p>Every rate is broken down into dry hire, fuel and operator, the same way the rate book prices it.</p></div><a class="btn btn-ghost" href="${link("/hire/")}">All hire rates</a></div>
     <div class="tiles">${Y.hireGroups.map(g => `<a class="tile" href="${link(`/hire/${g.slug}/`)}">${photoBox(g.ph, "", true)}<span><b>${esc(g.name)}</b><small>${g.n} types · from ${NS(g.from * lf().p)}/day</small></span></a>`).join("")}</div>
@@ -241,6 +253,12 @@ function pillarsSVG() {
   ${note(748, 592, ["Payment only to our", "corporate account."], "end")}
 </svg>`;
 }
+const guideHTML = () => `<div class="guide">
+  <a class="g g1" href="${link("/shortlist/")}"><i>${ICON.star(false)}</i><b>Save to your shortlist</b><span>Tap <em>Save</em> on any machine, hire or buy. Open <em>Shortlist</em> at the top of every page to send one WhatsApp request for everything you saved.</span><u>Open your shortlist</u></a>
+  <div class="g g2"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></i><b>Prices for your city</b><span>Use <em>Prices for</em> above any list to switch from Lagos to Abuja, Port Harcourt, Kano or 8 other places. Every price updates with the rate book's location factors.</span></div>
+  <div class="g g3"><i>${ICON.table}</i><b>Cards or rate table</b><span>Switch a list to <em>Rate table</em> to see each machine's dry hire, fuel, operator and all-in rate side by side, just like the rate book.</span></div>
+  <a class="g g4" href="${link("/requests/")}"><i>${ICON.wa(18)}</i><b>Your requests, saved</b><span>Every request you send gets a reference like YM-R261017-AB12. <em>My requests</em> keeps them on this phone so you can reopen any chat.</span><u>See my requests</u></a>
+</div>`;
 const flowHTML = () => `<div class="flow">
   <div><div class="eyebrow">Step 1</div><h4>Pick a machine</h4><p>Hire or buy from ${Y.hire.length + Y.buy.length} priced lines, or tell us what you need.</p></div>
   <div><div class="eyebrow">Step 2</div><h4>Fill a short form</h4><p>Dates, site and your details. The estimate updates as you type.</p></div>
@@ -578,7 +596,9 @@ V.shortlist = () => {
   const rows = shortlist.map(k => [k, resolveKey(k)]).filter(r => r[1]);
   return {
     title: "Shortlist · Yellowmetal", desc: "Machines you saved.", noindex: true,
-    html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Shortlist"]])}<h1>One request for the whole fleet.</h1><p>Save machines from any page and send them together. One chat, one combined quote.</p></div>
+    html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Shortlist"]])}<h1>Your shortlist</h1><p>Your shortlist collects machines you want priced together, for example two excavators, four tippers and a roller for one road job. You get one WhatsApp chat and one combined quote instead of a separate request per machine.</p>
+    <ol class="sl-steps"><li><b>Save</b><span>Tap <em>Save</em> on any machine card or machine page, for hire or to buy.</span></li><li><b>Review</b><span>Everything you saved appears on this page. Remove anything with ×.</span></li><li><b>Request</b><span>Add your site and details, then send. WhatsApp opens with the full list and prices.</span></li></ol>
+    <p class="sl-note">Your shortlist is kept on this phone or computer only. Nobody else can see it until you send it.</p></div>
     <div class="wrap pad-b" id="slWrap">${rows.length ? `<div class="two-col nop"><div>${rows.map(([k, it]) => { const t = k[0]; const name = t === "f" ? it.name : it.d; const href = t === "h" ? hireHref(it) : t === "b" ? buyHref(it) : link(`/fleet/${it.id}/`); const price = t === "b" ? N(buyPrice(it).r) : N(hireParts(t === "f" ? byCode[it.rateRef] : it).all) + "/day"; return `
       <div class="sl-row"><a class="ph" href="${href}">${t === "f" ? `<img src="${own(it.photos[0])}" alt="">` : photoBox(it.ph, "", true)}</a>
         <div><div class="eyebrow">${t === "b" ? "Buy" : "Hire"}</div><h4><a href="${href}">${esc(name)}</a></h4><div class="num">${price}</div></div>
@@ -590,7 +610,7 @@ V.shortlist = () => {
         <label class="f full"><span>Notes <small>optional</small></span><textarea id="q-note" name="note"></textarea></label>
         ${contactFields(store.get("ym-contact", {}))}</div>
         <button class="btn btn-wa btn-lg btn-block" type="submit">${ICON.wa(20)} Request a combined quote</button></form></div>`
-      : `<div class="empty"><h3>Nothing saved yet</h3><p>Tap the star on any machine to add it here.</p><a class="btn btn-accent" href="${link("/hire/")}">Browse hire rates</a></div>`}</div>`
+      : `<div class="empty"><h3>Your shortlist is empty</h3><p>Open any machine list and tap <b>Save</b> on the machines you need. They'll appear here, ready to send as one request.</p><div class="row-btns center"><a class="btn btn-accent" href="${link("/hire/")}">Browse hire rates</a><a class="btn btn-ghost" href="${link("/buy/")}">Browse equipment prices</a></div></div>`}</div>`
   };
 };
 
@@ -598,7 +618,7 @@ V.requests = () => {
   const reqs = store.get("ym-requests", []);
   return {
     title: "My requests · Yellowmetal", desc: "Requests sent from this device.", noindex: true,
-    html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["My requests"]])}<h1>My requests</h1><p>Requests sent from this phone or computer. Quote the reference in any follow-up.</p></div>
+    html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["My requests"]])}<h1>My requests</h1><p>Every request you send from this site gets a reference number, for example YM-R261017-AB12 (R for hire, B for buy, L for a listing, S for sourcing, Q for a shortlist quote). They're kept on this phone or computer so you can reopen any chat. Quote the reference when you follow up.</p></div>
     <div class="wrap pad-b" id="reqList">${reqs.length ? reqs.map(r => `<div class="req"><div><code>${esc(r.ref)}</code> <b>${esc(r.kind)}</b><div class="meta">${esc(r.summary)} · ${new Date(r.at).toLocaleString("en-NG", { dateStyle: "medium", timeStyle: "short" })}</div></div><a class="btn btn-wa" href="${waLink(r.message)}" target="_blank" rel="noopener">${ICON.wa(18)} Reopen chat</a></div>`).join("")
       : `<div class="empty"><h3>No requests yet</h3><p>Requests you send appear here with their reference numbers.</p><a class="btn btn-accent" href="${link("/hire/")}">Browse hire rates</a></div>`}</div>`
   };
@@ -620,6 +640,7 @@ V.how = () => {
     title: "How it works · Yellowmetal", desc: "How hiring and buying through Yellowmetal works, how rates are built, and how payment is made.", faq: faqs,
     html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["How it works"]])}<h1>Simple to start. One company to answer to.</h1><p>No accounts and no card payments on this site. Choose a machine, send your request, talk to a person.</p></div>
     <div class="wrap">${flowHTML()}</div>
+    <section class="block" style="padding-bottom:0"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">Tools on the site</div><h2>Shortlist, city prices, rate tables and requests</h2></div></div>${guideHTML()}</div></section>
     <section class="block"><div class="wrap faq"><div class="sec-head"><div><div class="eyebrow">Questions</div><h2>What people ask us</h2></div></div>
       ${faqs.map(([q, a]) => `<details class="q"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}
       <div class="row-btns"><a class="btn btn-wa btn-lg" href="${waLink(generalMessage())}" target="_blank" rel="noopener">${ICON.wa(20)} Ask us on WhatsApp</a><a class="btn btn-ghost btn-lg" href="${link("/source/")}">Source a machine</a></div>
@@ -701,9 +722,18 @@ function boot() {
     $$("#nav a").forEach(a => a.classList.toggle("on", p.startsWith(a.dataset.nav)));
     $("#nav").classList.remove("open"); $("#menuBtn").setAttribute("aria-expanded", "false");
     $("#slCount").textContent = shortlist.length;
+    const tb = $(".toolbar");
+    if (tb && !$(".toolbar-help")) tb.insertAdjacentHTML("afterend", `<p class="toolbar-help wrap-in"><b>Prices for</b> switches every price to your city. <b>Rate table</b> shows the full breakdown in rows. <b>Save</b> on any machine adds it to your <a href="${link("/shortlist/")}">shortlist</a> for one combined quote.</p>`);
+    updateBar();
     bind(p);
   }
 
+  function updateBar() {
+    const bar = $("#slBar"); if (!bar) return;
+    const onSl = curPath()[0].startsWith("/shortlist");
+    bar.hidden = !shortlist.length || onSl;
+    bar.querySelector("b").textContent = `${shortlist.length} machine${shortlist.length === 1 ? "" : "s"} in your shortlist`;
+  }
   function setLoc(v) { state.loc = v; store.set("ym-loc", v); render(); toast(`Prices now for ${v}`); }
 
   function bind(p) {
@@ -823,11 +853,13 @@ function boot() {
     const star = e.target.closest("[data-star]");
     if (star) {
       e.preventDefault(); const k = star.dataset.star, n = shortlist.indexOf(k);
-      if (n >= 0) { shortlist.splice(n, 1); toast("Removed from shortlist"); } else { shortlist.push(k); toast("Saved to shortlist"); }
+      if (n >= 0) shortlist.splice(n, 1); else shortlist.push(k);
       store.set("ym-shortlist", shortlist); $("#slCount").textContent = shortlist.length;
       if (curPath()[0].startsWith("/shortlist")) return render();
       const on = shortlist.includes(k);
-      $$(`[data-star="${k}"]`).forEach(b => { b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); b.innerHTML = ICON.star(on); });
+      $$(`[data-star="${k}"]`).forEach(b => { b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); if (b.classList.contains("star")) { b.innerHTML = starInner(on); b.setAttribute("aria-label", (on ? "Remove from" : "Save to") + " your shortlist"); } });
+      toast(on ? "Saved. Open Shortlist to request one quote for everything you saved." : "Removed from your shortlist");
+      updateBar();
       return;
     }
     if (MODE !== "path") return;
