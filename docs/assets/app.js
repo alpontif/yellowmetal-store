@@ -78,7 +78,7 @@ const crumbs = list => `<nav class="crumbs" aria-label="Breadcrumb">${list.map((
 
 function hireCard(i) {
   const p = hireParts(i);
-  return `<article class="card">
+  return `<article class="card k-hire">
     <div class="ph-wrap"><a class="ph" href="${hireHref(i)}">${photoBox(i.ph, i.d, true)}</a>${starBtn("h:" + i.id, i.d)}</div>
     <div class="card-body">
       <div class="eyebrow">${esc(HG[i.g].name)}</div>
@@ -91,7 +91,7 @@ function hireCard(i) {
 }
 function buyCard(i) {
   const p = buyPrice(i);
-  return `<article class="card">
+  return `<article class="card k-buy">
     <div class="ph-wrap"><a class="ph" href="${buyHref(i)}">${photoBox(i.ph, i.d, true)}</a>${i.cond ? `<span class="tag">${esc(i.cond)}</span>` : ""}${starBtn("b:" + i.id, i.d)}</div>
     <div class="card-body">
       <div class="eyebrow">${esc(BC[i.cat].name)}</div>
@@ -133,24 +133,25 @@ V.home = () => {
     title: "Yellowmetal · Rent, buy or list heavy equipment in Nigeria",
     desc: `Hire ${Y.hire.length} types of construction plant or buy from ${Y.buy.length} equipment lines at current Nigerian market rates. Excavators, dozers, loaders, tippers, cranes, dredgers. Every deal closes on WhatsApp.`,
     html: `
-  <section class="hero">
-    <div class="hero-img"><img src="${hero}" alt="" fetchpriority="high"></div>
-    <div class="wrap">
-      <div class="eyebrow on-dark">Heavy equipment · Lagos · Nationwide</div>
-      <h1 class="display">Machines for the work <span>ahead.</span></h1>
-      <p class="lead">Rent, buy or list SANY, XCMG, SDLG, Shantui, Zoomlion and HOWO machines at today's Nigerian market rates. Choose a machine and send your request. You close the deal with our team on WhatsApp.</p>
+  <section class="pillars-hero"><div class="wrap ph-grid">
+    <div class="ph-copy">
+      <p class="kicker">The four ways to work with</p>
+      <h1 class="title">Yellowmetal</h1>
+      <p class="lead">Hire, buy, list or source current SANY, XCMG, SDLG, Shantui, Zoomlion and HOWO machines at today's Nigerian market rates. Every deal closes with our team on WhatsApp.</p>
       <form class="hero-search" data-search role="search">
         <label class="sr" for="hq">Search machines</label>
-        ${ICON.search}<input id="hq" name="q" placeholder="Try “20 tonne excavator”, “Howo tipper” or “250kVA”" autocomplete="off">
-        <button class="btn btn-accent" type="submit">Search</button>
+        ${ICON.search}<input id="hq" name="q" placeholder="Try “40 ton tipper”, “boom pump” or “Matrice”" autocomplete="off">
+        <button class="btn btn-ink" type="submit">Search</button>
       </form>
-      <div class="intent">
-        <a class="primary" href="${link("/hire/")}"><i>${ICON.arrow}</i><span><b>Hire equipment</b><small>${Y.hire.length} machine types, rate per day</small></span></a>
-        <a href="${link("/buy/")}"><i>${ICON.arrow}</i><span><b>Buy equipment</b><small>${Y.buy.length} lines, new and tokunbo</small></span></a>
-        <a href="${link("/list/")}"><i>${ICON.arrow}</i><span><b>List your machine</b><small>We find clients and pay you</small></span></a>
+      <div class="pillar-btns">
+        <a class="pb hire" href="${link("/hire/")}"><b>Hire</b><small>${Y.hire.length} machine types</small></a>
+        <a class="pb buy" href="${link("/buy/")}"><b>Buy</b><small>${Y.buy.length} priced lines</small></a>
+        <a class="pb list" href="${link("/list/")}"><b>List</b><small>Your idle machine</small></a>
+        <a class="pb source" href="${link("/source/")}"><b>Source</b><small>Anything we don't list</small></a>
       </div>
     </div>
-  </section>
+    <div class="ph-figure">${pillarsSVG()}</div>
+  </div></section>
   <div class="ribbon"><div class="wrap">
     <span><b>Rates updated ${dateLong(Y.meta.updated)}</b></span>
     <span>Diesel <b class="num">${N(Y.meta.diesel)}/L</b></span>
@@ -206,6 +207,40 @@ V.home = () => {
   </div></section>`
   };
 };
+function pillarsSVG() {
+  const C = { t: [380, 190], l: [250, 320], r: [510, 320], b: [380, 450] }, R = 150;
+  const circ = (k, extra = "") => `<circle cx="${C[k][0]}" cy="${C[k][1]}" r="${R}" ${extra}/>`;
+  const L = (p, label, lines, x, y, anchor = "middle") => `<a href="${link(p)}" class="pv-link"><text x="${x}" y="${y}" text-anchor="${anchor}" class="pv-h">${label}</text>${lines.map((t, i) => `<text x="${x}" y="${y + 22 + i * 17}" text-anchor="${anchor}" class="pv-t">${t}</text>`).join("")}</a>`;
+  const note = (x, y, lines, anchor = "start") => lines.map((t, i) => `<text x="${x}" y="${y + i * 15}" text-anchor="${anchor}" class="pv-n">${t}</text>`).join("");
+  return `<svg viewBox="0 0 760 640" role="img" aria-label="Four ways to work with Yellowmetal: hire, buy, list your machine and source a machine, meeting at Yellowmetal">
+  <defs>${Object.keys(C).map(k => `<clipPath id="cp-${k}">${circ(k)}</clipPath>`).join("")}</defs>
+  <g class="pv-base">${Object.keys(C).map(k => circ(k, 'fill="#FFFFFF"')).join("")}</g>
+  <g clip-path="url(#cp-t)">${circ("l", 'fill="var(--blue)"')}${circ("r", 'fill="var(--yellow)"')}</g>
+  <g clip-path="url(#cp-b)">${circ("r", 'fill="var(--coral)"')}${circ("l", 'fill="var(--teal)"')}</g>
+  <g clip-path="url(#cp-t)">${circ("b", 'fill="#B9BEC5"')}</g>
+  <g clip-path="url(#cp-l)">${circ("r", 'fill="#B9BEC5"')}</g>
+  <g fill="none" stroke-width="3.5">${circ("t", 'stroke="var(--yellow)"')}${circ("l", 'stroke="var(--blue)"')}${circ("r", 'stroke="var(--coral)"')}${circ("b", 'stroke="var(--teal)"')}</g>
+  <circle cx="380" cy="320" r="72" fill="var(--navy)" stroke="#fff" stroke-width="4"/>
+  <text x="380" y="314" text-anchor="middle" class="pv-c">Yellowmetal</text><text x="380" y="336" text-anchor="middle" class="pv-cs">closed on WhatsApp</text>
+  <text x="300" y="250" text-anchor="middle" class="pv-p">Rate-book</text><text x="300" y="268" text-anchor="middle" class="pv-p">prices</text>
+  <text x="460" y="250" text-anchor="middle" class="pv-p dark">Verified</text><text x="460" y="268" text-anchor="middle" class="pv-p dark">fleet</text>
+  <text x="460" y="392" text-anchor="middle" class="pv-p">Partner</text><text x="460" y="410" text-anchor="middle" class="pv-p">network</text>
+  <text x="300" y="392" text-anchor="middle" class="pv-p">Best</text><text x="300" y="410" text-anchor="middle" class="pv-p">market deal</text>
+  ${L("/hire/", "Hire", ["By the day, week or month,", "with operator and diesel."], 380, 92)}
+  ${L("/buy/", "Buy", ["New and tokunbo,", "priced in the open."], 168, 312)}
+  ${L("/list/", "List", ["Your idle machine,", "earning on hire."], 592, 312)}
+  ${L("/source/", "Source", ["Anything we don't list,", "found and quoted."], 380, 536)}
+  <g class="pv-dash" fill="none" stroke-dasharray="4 5" stroke-width="1.4">
+    <path d="M285 235 C 220 160, 140 110, 70 104"/><path d="M475 235 C 540 160, 620 110, 690 104"/>
+    <path d="M300 410 C 230 500, 150 560, 70 566"/><path d="M460 410 C 530 500, 610 560, 690 566"/>
+  </g>
+  <g class="pv-dots"><circle cx="70" cy="104" r="3.5"/><circle cx="690" cy="104" r="3.5"/><circle cx="70" cy="566" r="3.5"/><circle cx="690" cy="566" r="3.5"/></g>
+  ${note(12, 46, ["354 hire jobs since", "2023 on our own", "SDLG loader."])}
+  ${note(748, 46, ["Rates checked weekly", "against the Buildocrat", "Rate Book."], "end")}
+  ${note(12, 592, ["One contract, one", "accountable company."])}
+  ${note(748, 592, ["Payment only to our", "corporate account."], "end")}
+</svg>`;
+}
 const flowHTML = () => `<div class="flow">
   <div><div class="eyebrow">Step 1</div><h4>Pick a machine</h4><p>Hire or buy from ${Y.hire.length + Y.buy.length} priced lines, or tell us what you need.</p></div>
   <div><div class="eyebrow">Step 2</div><h4>Fill a short form</h4><p>Dates, site and your details. The estimate updates as you type.</p></div>
