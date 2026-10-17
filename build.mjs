@@ -178,11 +178,11 @@ function chrome(main, mode) {
     <nav class="nav" id="nav" aria-label="Main">
       <a href="${L("/hire/")}" data-nav="/hire">Hire</a><a href="${L("/buy/")}" data-nav="/buy">Buy</a>
       ${sections.map(s => `<a href="${L(`/${s.slug}/`)}" data-nav="/${s.slug}">${esc(s.name)}</a>`).join("")}
-      <a href="${L("/list/")}" data-nav="/list">List your machine</a><a class="nav-more" href="${L("/source/")}" data-nav="/source">Source a machine</a><a class="nav-more" href="${L("/how/")}" data-nav="/how">How it works</a>
+      <a href="${L("/list/")}" data-nav="/list">List your machine</a><a class="nav-more" href="${L("/source/")}" data-nav="/source">Source a machine</a><a class="nav-more" href="${L("/how/")}" data-nav="/how">How it works</a><a class="nav-more" href="${L("/requests/")}" data-nav="/requests">My requests</a><a class="nav-more" href="${L("/search/")}" data-nav="/search">Search</a>
     </nav>
     <div class="top-right">
       <a class="chip-btn" href="${L("/search/")}" aria-label="Search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
-      <a class="chip-btn" href="${L("/shortlist/")}" aria-label="Shortlist"><span class="hide-sm">Shortlist</span><span class="count num" id="slCount">0</span></a>
+      <a class="chip-btn sl-chip" href="${L("/shortlist/")}" title="Machines you saved. Send them as one quote request."><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span>Shortlist</span><span class="count num" id="slCount">0</span></a>
       <a class="chip-btn hide-sm" href="${L("/requests/")}">My requests</a>
       <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg></button>
     </div></div></header>
@@ -194,6 +194,7 @@ function chrome(main, mode) {
     <div><h5>Buy</h5>${buyCats.slice(0, 6).map(c => `<a href="${L(`/buy/${c.slug}/`)}">${esc(c.name)}</a>`).join("")}<a href="${L("/buy/")}">All equipment prices</a></div>
     <div><h5>Contact</h5><a href="https://wa.me/${cfg.whatsapp}" target="_blank" rel="noopener">WhatsApp ${esc(cfg.displayPhone)}</a><div style="padding:4px 0">Email <span class="sel">${esc(cfg.email)}</span></div><div style="padding:4px 0">${esc(cfg.address)}, Nigeria</div><a href="${L("/list/")}">List your machine</a><a href="${L("/requests/")}">My requests</a><a href="${L("/credits/")}">Photo credits</a></div>
   </div><div class="legal"><span>© ${new Date().getFullYear()} ${esc(cfg.company)} · ${esc(cfg.rc)}</span><span>Rates from the <a href="https://rates.buildocrat.store/" style="display:inline" target="_blank" rel="noopener">Buildocrat Rate Book</a>, updated ${esc(D.meta.updated)}. We only take payment into our corporate account, after a proforma invoice.</span></div></div></footer>
+  <a class="slbar" id="slBar" href="${L("/shortlist/")}" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><b>0 machines in your shortlist</b><span>Request one quote →</span></a>
   <a class="fab" id="fab" href="https://wa.me/${cfg.whatsapp}" target="_blank" rel="noopener" aria-label="Chat with Yellowmetal on WhatsApp">${WA}<span>Chat with us</span></a>
   <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden><div class="modal-box">
     <div class="modal-top"><code id="mRef"></code><h3 id="mTitle">Send this on WhatsApp</h3><p>Your request is written out below. Open WhatsApp and tap send. We reply with availability, a proforma invoice and payment details.</p></div>

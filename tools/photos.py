@@ -23,7 +23,7 @@ from PIL import Image, ImageDraw, ImageOps
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 OPENVERSE = "https://api.openverse.org/v1/images/"
-UA = "YellowmetalStoreBot/2.0 (https://yellowmetal.store; kola@yellowmetal.store)"
+UA = "YellowmetalStoreBot/2.0 (https://yellowmetal.store; yellowmetalng@gmail.com)"
 OUT = ROOT / "docs/img/m"
 CHINESE = r"\b(sany|xcmg|sdlg|shantui|zoomlion|liugong|liu ?gong|sinotruk|howo|shacman|shaanxi|lonking|sunward|dingli|sinoboom|hangcha|heli forklift|\bheli\b|foton|dongfeng|beiben|faw\b|cimc|lovol|xgma|changlin|yutong|king ?long|higer|golden dragon|great wall|gwm|jac\b|zpmc|dji|chc nav|hi-?target|kaishan|weichai|yuchai|sinomach|sdlg|xe\d{2,3}|sy\d{2,3}|lg9\d\d|sd(16|22|32)|qy\d{2})"
 BAD = re.compile(r"drawing|diagram|\bmodel\b|toy|lego|miniature|scale model|logo|\bmap\b|poster|stamp|patent|sketch|cartoon|brochure|1:\d|svg|interior|dashboard|wreck|accident|\bfire\b|crash|abandon|rust|derelict|scrap|vintage|antique|museum|statue|monument|night", re.I)

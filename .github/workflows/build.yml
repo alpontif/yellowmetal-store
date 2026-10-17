@@ -35,7 +35,7 @@ jobs:
       - name: Commit changes
         run: |
           git config user.name "yellowmetal-bot"
-          git config user.email "kola@yellowmetal.store"
+          git config user.email "yellowmetalng@gmail.com"
           git add -A data docs photos.lock.json tools/review.jpg src/engine.js
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Build: rates $(python3 -c "import json;print(json.load(open('data/rate-data.json'))['meta']['updated'])") and photos"
