@@ -1,31 +1,23 @@
 <title>Yellowmetal</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<style>/* Yellowmetal — photo-led storefront. Navy ground, one loud colour (caution yellow), white catalogue.
-   Rate tables and breakdowns borrow the rate book's precision: tabular figures, hairlines, mono labels. */
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>/* Yellowmetal — "four pillars" theme: warm paper ground, heavy serif headlines over light sans kickers,
+   four pillar colours (blue, yellow, coral, teal) meeting in a navy centre; thin dashed callout lines. Single light world. */
 :root{
-  --bg:#F5F6F8; --surface:#FFFFFF; --surface-2:#EEF0F3; --ink:#0B1A2C; --muted:#5A6676; --line:#E1E5EA; --line-2:#C9D0D9;
-  --accent:#F5B800; --accent-hi:#FFCB2E; --on-accent:#141000; --navy:#0B1A2C; --on-navy:#FFFFFF; --navy-muted:#A9B6C6;
-  --ok:#11845B; --ok-bg:#E3F4EC; --warn:#B35309; --warn-bg:#FDF0E1; --bad:#C2362F; --bad-bg:#FBE7E5;
+  --bg:#F2EFEA; --surface:#FFFFFF; --surface-2:#EAE6DF; --ink:#16213A; --muted:#5E6573; --line:#DDD8CF; --line-2:#C7C1B6;
+  --accent:#F5C21B; --accent-hi:#FFD24A; --on-accent:#1B1500; --navy:#1A2F5A; --navy-2:#13244A; --on-navy:#FFFFFF; --navy-muted:#B4C0D6;
+  --blue:#2563D9; --yellow:#F5C21B; --coral:#E8574D; --teal:#1F8FA8; --grey:#A9AEB5;
+  --blue-bg:#E4ECFB; --yellow-bg:#FDF3D2; --coral-bg:#FBE5E2; --teal-bg:#DDF0F4;
+  --ok:#15805A; --ok-bg:#E1F2EA; --warn:#B6600E; --warn-bg:#FBEEDC; --bad:#C83A31; --bad-bg:#FBE5E2;
   --wa:#25D366; --on-wa:#03341A; --bubble:#DCF8C6; --on-bubble:#102A16;
-  --ph-a:#E4E8EE; --ph-b:#D3D9E2;
-  --shadow:0 1px 2px rgba(11,26,44,.05),0 12px 32px -12px rgba(11,26,44,.18);
-  --display:'Archivo','Helvetica Neue',Arial,sans-serif;
-  --body:'Archivo','Helvetica Neue',Arial,sans-serif;
+  --ph-a:#E6E1D8; --ph-b:#D8D2C7;
+  --shadow:0 1px 2px rgba(22,33,58,.06),0 14px 34px -14px rgba(22,33,58,.22);
+  --display:'Fraunces','Georgia','Times New Roman',serif;
+  --body:'Inter','Helvetica Neue',Arial,sans-serif;
   --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
-  --r:18px; --r-sm:11px;
+  --r:20px; --r-sm:12px;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#08111D; --surface:#0F1B2B; --surface-2:#16253A; --ink:#EDF1F6; --muted:#97A5B8; --line:#1F2F45; --line-2:#2D405B;
-  --navy:#050C16; --navy-muted:#8FA0B5; --ok:#3CCB8F; --ok-bg:#0F2E24; --warn:#F2A55A; --warn-bg:#33210F; --bad:#F07B73; --bad-bg:#3A1714;
-  --bubble:#16392A; --on-bubble:#DDF5E5; --ph-a:#16253A; --ph-b:#1F3049;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 16px 40px -16px rgba(0,0,0,.6); color-scheme:dark }}
-:root[data-theme="dark"]{
-  --bg:#08111D; --surface:#0F1B2B; --surface-2:#16253A; --ink:#EDF1F6; --muted:#97A5B8; --line:#1F2F45; --line-2:#2D405B;
-  --navy:#050C16; --navy-muted:#8FA0B5; --ok:#3CCB8F; --ok-bg:#0F2E24; --warn:#F2A55A; --warn-bg:#33210F; --bad:#F07B73; --bad-bg:#3A1714;
-  --bubble:#16392A; --on-bubble:#DDF5E5; --ph-a:#16253A; --ph-b:#1F3049;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 16px 40px -16px rgba(0,0,0,.6); color-scheme:dark }
 
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -442,9 +434,144 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
 .pill{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border-radius:999px}
 .pill.hire{background:var(--accent);color:var(--on-accent)}
 .pill.buy{background:var(--ink);color:var(--bg)}
+
+/* =========================================================================
+   FOUR PILLARS THEME — overrides layered on the base components
+   Hire = blue · Buy = yellow · List = coral · Source = teal · centre = navy
+   ========================================================================= */
+body{background:var(--bg)}
+h1,h2,h3,h4,.display{font-family:var(--display);font-variation-settings:"opsz" 144;letter-spacing:-.015em}
+h1,h2{font-weight:850}
+h3,h4{font-weight:750;font-variation-settings:"opsz" 36}
+.eyebrow{font-family:var(--body);font-weight:700;font-size:11.5px;letter-spacing:.14em;color:var(--muted)}
+.eyebrow::before{content:"";display:inline-block;width:22px;height:9px;margin-right:9px;vertical-align:0;
+  background:radial-gradient(circle at 4.5px 4.5px,var(--blue) 4px,transparent 4.5px),radial-gradient(circle at 11px 4.5px,var(--yellow) 4px,transparent 4.5px),radial-gradient(circle at 17.5px 4.5px,var(--coral) 4px,transparent 4.5px)}
+.eyebrow.on-dark{color:var(--accent)}
+.kicker{font-family:var(--body);font-weight:400;font-size:clamp(20px,2.4vw,30px);margin:0;color:var(--ink);letter-spacing:-.01em}
+.btn-ink{background:var(--navy);color:#fff}
+.btn-ink:hover{background:var(--navy-2)}
+.btn-accent{background:var(--yellow);color:var(--on-accent)}
+
+/* header + logo */
+.top{background:var(--navy)}
+.logo-mark{background:transparent;width:34px;height:34px;flex:0 0 34px}
+.logo-word{font-family:var(--display);font-stretch:normal;font-weight:850;letter-spacing:.01em;font-size:19px}
+.logo-word small{font-family:var(--body);font-weight:600;letter-spacing:.22em;font-size:8.5px}
+.nav a.on{background:rgba(255,255,255,.12);box-shadow:inset 0 -2px 0 var(--yellow)}
+
+/* hero */
+.pillars-hero{background:var(--bg);border-bottom:1.5px dashed var(--line-2)}
+.ph-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(20px,4vw,56px);align-items:center;padding-block:clamp(36px,5vw,64px) clamp(28px,4vw,48px)}
+.ph-copy{min-width:0}
+.title{font-size:clamp(56px,9vw,118px);line-height:.92;margin:4px 0 18px;color:var(--ink);font-weight:900}
+.ph-copy .lead{font-size:clamp(16.5px,1.5vw,18.5px);color:var(--muted);max-width:520px;margin:0 0 24px}
+.pillars-hero .hero-search{background:#fff;border:1.5px solid var(--line-2);box-shadow:var(--shadow);color:var(--ink)}
+.pillars-hero .hero-search input{color:var(--ink)}
+.pillar-btns{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:18px;max-width:600px}
+.pb{display:flex;flex-direction:column;gap:2px;text-decoration:none;border-radius:16px;padding:13px 14px 12px;color:var(--ink);background:#fff;border:1.5px solid var(--line);position:relative;overflow:hidden;transition:transform .12s ease,box-shadow .15s}
+.pb::before{content:"";position:absolute;right:-16px;top:-16px;width:48px;height:48px;border-radius:50%;opacity:.95}
+.pb b{font-family:var(--display);font-size:20px;font-weight:850}
+.pb small{font-size:12.5px;color:var(--muted)}
+.pb:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.pb.hire::before{background:var(--blue)} .pb.buy::before{background:var(--yellow)} .pb.list::before{background:var(--coral)} .pb.source::before{background:var(--teal)}
+.ph-figure{min-width:0}
+.ph-figure svg{width:100%;height:auto;display:block;max-width:100%}
+.pv-h{font-family:var(--body);font-weight:800;font-size:22px;fill:var(--ink)}
+.pv-t{font-family:var(--body);font-size:13.5px;fill:var(--muted)}
+.pv-link:hover .pv-h{fill:var(--blue);text-decoration:underline}
+.pv-p{font-family:var(--body);font-weight:800;font-size:15px;fill:#fff}
+.pv-p.dark{fill:var(--ink)}
+.pv-c{font-family:var(--display);font-weight:850;font-size:20px;fill:#fff}
+.pv-cs{font-family:var(--body);font-size:11.5px;fill:#C9D3E6}
+.pv-dash path{stroke:var(--ink);opacity:.55}
+.pv-dots circle{fill:var(--ink)}
+.pv-n{font-family:var(--body);font-size:12.5px;fill:var(--ink)}
+@media (max-width:900px){.ph-grid{grid-template-columns:1fr}.ph-figure{order:2;max-width:620px;margin:0 auto;width:100%}}
+@media (max-width:560px){.pillar-btns{grid-template-columns:1fr 1fr}.title{font-size:64px}}
+
+/* ribbon: navy band like the graphic's header bar */
+.ribbon{background:var(--navy);color:#DCE3F0}
+.ribbon b{color:#fff}
+.ribbon a{color:var(--yellow)}
+
+/* section headings: light kicker over heavy serif */
+.sec-head h2{font-size:clamp(30px,3.8vw,48px);line-height:1.02}
+.page-head h1{font-size:clamp(36px,5.2vw,64px);line-height:1}
+section.block.tint{background:#F8F6F2;border-block:1.5px dashed var(--line-2)}
+
+/* tiles & cards */
+.tile{border-radius:var(--r)}
+.tile::after{background:linear-gradient(180deg,transparent 40%,rgba(19,36,74,.92))}
+.tile b{font-family:var(--display);font-weight:850}
+.card{background:#fff;border:1.5px solid var(--line);border-radius:var(--r);padding:10px 10px 14px;transition:box-shadow .15s,transform .12s}
+.card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.card .ph{border-radius:14px}
+.card-body{padding:12px 6px 0}
+.card h3{font-family:var(--display);font-weight:750;font-size:18px;letter-spacing:-.005em}
+.price b{font-family:var(--display);font-weight:850}
+.card.k-hire .eyebrow::before{background:radial-gradient(circle at 4.5px 4.5px,var(--blue) 4px,transparent 4.5px)}
+.card.k-buy .eyebrow::before{background:radial-gradient(circle at 4.5px 4.5px,var(--yellow) 4px,transparent 4.5px)}
+.card.k-hire .eyebrow::before,.card.k-buy .eyebrow::before{width:10px}
+.tag{background:#fff;border:1px solid var(--line)}
+.star.on{background:var(--yellow)}
+.pill.hire{background:var(--blue);color:#fff}
+.pill.buy{background:var(--yellow);color:var(--on-accent)}
+.xchip{background:var(--coral-bg);color:#A6332B}
+
+/* desks: coral / teal / blue bands */
+.desk{border-radius:var(--r)}
+.desk::after{background:linear-gradient(180deg,rgba(19,36,74,.0) 30%,rgba(19,36,74,.92))}
+.desk b{font-family:var(--display);font-weight:900}
+.desk small{font-family:var(--body);font-weight:700}
+.desk > span::before{content:"";width:42px;height:6px;border-radius:3px;margin-bottom:6px}
+.desk.d0 > span::before{background:var(--coral)} .desk.d1 > span::before{background:var(--teal)} .desk.d2 > span::before{background:var(--blue)}
+.sec-hero{background:var(--navy)}
+.sec-hero h1{font-family:var(--display);font-weight:900}
+.sec-hero::before{background:linear-gradient(90deg,rgba(19,36,74,.95),rgba(19,36,74,.75) 55%,rgba(19,36,74,.3))}
+.sgroup + .sgroup{border-top:1.5px dashed var(--line-2)}
+
+/* flow: four coloured circles joined by a dashed line */
+.flow{background:transparent;border:0;border-radius:0;gap:18px;position:relative}
+.flow::before{content:"";position:absolute;left:12%;right:12%;top:30px;border-top:1.5px dashed var(--line-2)}
+.flow > div{border:0!important;background:#fff;border-radius:var(--r);padding:72px 20px 22px;position:relative;border:1.5px solid var(--line)!important}
+.flow > div::before{content:counter(step);counter-increment:step;position:absolute;left:20px;top:12px;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:20px;color:#fff}
+.flow{counter-reset:step}
+.flow > div:nth-child(1)::before{background:var(--blue)} .flow > div:nth-child(2)::before{background:var(--yellow);color:var(--on-accent)}
+.flow > div:nth-child(3)::before{background:var(--teal)} .flow > div:nth-child(4)::before{background:var(--coral)}
+.flow .eyebrow{display:none}
+.flow h4{font-family:var(--display);font-weight:800}
+.flow .wa-step{background:#fff;color:var(--ink)}
+.flow .wa-step p{color:var(--muted);opacity:1}
+@media (max-width:900px){.flow::before{display:none}}
+
+/* trust: pledges as coloured circle bullets */
+.pledges svg{color:#fff;background:var(--blue);border-radius:50%;padding:4px;width:26px;height:26px}
+.pledges div:nth-child(2) svg{background:var(--yellow);color:var(--on-accent)} .pledges div:nth-child(3) svg{background:var(--coral)} .pledges div:nth-child(4) svg{background:var(--teal)}
+
+/* breakdown & panels */
+.breakdown,.panel,.form-card,.toolbar,.note,.alt{border-width:1.5px}
+.bd-head h2,.panel-head .big,.estimate b{font-family:var(--display)}
+.bd tr.tot th,.bd tr.tot td{background:var(--yellow-bg)}
+.panel-head{background:linear-gradient(180deg,#fff,#FBF9F5)}
+.aside .box{background:var(--navy)}
+.band{background:var(--navy)}
+.band h2{font-family:var(--display);font-weight:900}
+.band-price b{font-family:var(--display);color:var(--yellow)}
+.group-head h2{font-family:var(--display)}
+.group{border-top:1.5px dashed var(--line-2)}
+.mini a{border-bottom:1px dashed var(--line-2)}
+.cta-strip{border:1.5px dashed var(--line-2);background:#fff}
+.ph-fallback{background:radial-gradient(circle at 78% 22%,rgba(245,194,27,.9) 0 34px,transparent 35px),radial-gradient(circle at 92% 38%,rgba(232,87,77,.85) 0 26px,transparent 27px),linear-gradient(160deg,#21386A,#1A2F5A)}
+.ph-fallback b{font-family:var(--display);font-weight:850}
+.ph-fallback small{font-family:var(--body);font-weight:700;color:var(--yellow)}
+footer{background:var(--navy-2)}
+footer h5{font-family:var(--body);letter-spacing:.14em}
+.fab{box-shadow:0 10px 30px rgba(19,36,74,.3)}
+.toast{background:var(--navy);color:#fff}
+.tile .ph-fallback b,.tile .ph-fallback small,.desk .ph-fallback b,.desk .ph-fallback small,.group-ph .ph-fallback b,.group-ph .ph-fallback small{display:none}
 </style>
 <header class="top"><div class="wrap">
-    <a class="logo" href="#/" aria-label="Yellowmetal home"><span class="logo-mark"><svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 5h6l6 9 6-9h6l-9 13v9h-6v-9z" fill="#0B1A2C"/></svg></span><span class="logo-word">YELLOWMETAL<small>PLANTS &amp; EQUIPMENT</small></span></a>
+    <a class="logo" href="#/" aria-label="Yellowmetal home"><span class="logo-mark"><svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="11" r="9" fill="#F5C21B"/><circle cx="11" cy="20" r="9" fill="#2563D9"/><circle cx="29" cy="20" r="9" fill="#E8574D"/><circle cx="20" cy="29" r="9" fill="#1F8FA8"/><circle cx="20" cy="20" r="6.5" fill="#1A2F5A" stroke="#fff" stroke-width="1.6"/></svg></span><span class="logo-word">YELLOWMETAL<small>PLANTS &amp; EQUIPMENT</small></span></a>
     <nav class="nav" id="nav" aria-label="Main">
       <a href="#/hire/" data-nav="/hire">Hire</a><a href="#/buy/" data-nav="/buy">Buy</a>
       <a href="#/heavy-haulage/" data-nav="/heavy-haulage">Heavy haulage</a><a href="#/concrete/" data-nav="/concrete">Concrete</a><a href="#/tools-survey/" data-nav="/tools-survey">Tools &amp; survey</a>
@@ -457,24 +584,52 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg></button>
     </div></div></header>
   <main id="app" tabindex="-1">
-  <section class="hero">
-    <div class="hero-img"><img src="/img/own/loader-1.jpg" alt="" fetchpriority="high"></div>
-    <div class="wrap">
-      <div class="eyebrow on-dark">Heavy equipment · Lagos · Nationwide</div>
-      <h1 class="display">Machines for the work <span>ahead.</span></h1>
-      <p class="lead">Rent, buy or list SANY, XCMG, SDLG, Shantui, Zoomlion and HOWO machines at today's Nigerian market rates. Choose a machine and send your request. You close the deal with our team on WhatsApp.</p>
+  <section class="pillars-hero"><div class="wrap ph-grid">
+    <div class="ph-copy">
+      <p class="kicker">The four ways to work with</p>
+      <h1 class="title">Yellowmetal</h1>
+      <p class="lead">Hire, buy, list or source current SANY, XCMG, SDLG, Shantui, Zoomlion and HOWO machines at today's Nigerian market rates. Every deal closes with our team on WhatsApp.</p>
       <form class="hero-search" data-search role="search">
         <label class="sr" for="hq">Search machines</label>
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="hq" name="q" placeholder="Try “20 tonne excavator”, “Howo tipper” or “250kVA”" autocomplete="off">
-        <button class="btn btn-accent" type="submit">Search</button>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="hq" name="q" placeholder="Try “40 ton tipper”, “boom pump” or “Matrice”" autocomplete="off">
+        <button class="btn btn-ink" type="submit">Search</button>
       </form>
-      <div class="intent">
-        <a class="primary" href="/hire/"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i><span><b>Hire equipment</b><small>144 machine types, rate per day</small></span></a>
-        <a href="/buy/"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i><span><b>Buy equipment</b><small>270 lines, new and tokunbo</small></span></a>
-        <a href="/list/"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i><span><b>List your machine</b><small>We find clients and pay you</small></span></a>
+      <div class="pillar-btns">
+        <a class="pb hire" href="/hire/"><b>Hire</b><small>144 machine types</small></a>
+        <a class="pb buy" href="/buy/"><b>Buy</b><small>270 priced lines</small></a>
+        <a class="pb list" href="/list/"><b>List</b><small>Your idle machine</small></a>
+        <a class="pb source" href="/source/"><b>Source</b><small>Anything we don't list</small></a>
       </div>
     </div>
-  </section>
+    <div class="ph-figure"><svg viewBox="0 0 760 640" role="img" aria-label="Four ways to work with Yellowmetal: hire, buy, list your machine and source a machine, meeting at Yellowmetal">
+  <defs><clipPath id="cp-t"><circle cx="380" cy="190" r="150" /></clipPath><clipPath id="cp-l"><circle cx="250" cy="320" r="150" /></clipPath><clipPath id="cp-r"><circle cx="510" cy="320" r="150" /></clipPath><clipPath id="cp-b"><circle cx="380" cy="450" r="150" /></clipPath></defs>
+  <g class="pv-base"><circle cx="380" cy="190" r="150" fill="#FFFFFF"/><circle cx="250" cy="320" r="150" fill="#FFFFFF"/><circle cx="510" cy="320" r="150" fill="#FFFFFF"/><circle cx="380" cy="450" r="150" fill="#FFFFFF"/></g>
+  <g clip-path="url(#cp-t)"><circle cx="250" cy="320" r="150" fill="var(--blue)"/><circle cx="510" cy="320" r="150" fill="var(--yellow)"/></g>
+  <g clip-path="url(#cp-b)"><circle cx="510" cy="320" r="150" fill="var(--coral)"/><circle cx="250" cy="320" r="150" fill="var(--teal)"/></g>
+  <g clip-path="url(#cp-t)"><circle cx="380" cy="450" r="150" fill="#B9BEC5"/></g>
+  <g clip-path="url(#cp-l)"><circle cx="510" cy="320" r="150" fill="#B9BEC5"/></g>
+  <g fill="none" stroke-width="3.5"><circle cx="380" cy="190" r="150" stroke="var(--yellow)"/><circle cx="250" cy="320" r="150" stroke="var(--blue)"/><circle cx="510" cy="320" r="150" stroke="var(--coral)"/><circle cx="380" cy="450" r="150" stroke="var(--teal)"/></g>
+  <circle cx="380" cy="320" r="72" fill="var(--navy)" stroke="#fff" stroke-width="4"/>
+  <text x="380" y="314" text-anchor="middle" class="pv-c">Yellowmetal</text><text x="380" y="336" text-anchor="middle" class="pv-cs">closed on WhatsApp</text>
+  <text x="300" y="250" text-anchor="middle" class="pv-p">Rate-book</text><text x="300" y="268" text-anchor="middle" class="pv-p">prices</text>
+  <text x="460" y="250" text-anchor="middle" class="pv-p dark">Verified</text><text x="460" y="268" text-anchor="middle" class="pv-p dark">fleet</text>
+  <text x="460" y="392" text-anchor="middle" class="pv-p">Partner</text><text x="460" y="410" text-anchor="middle" class="pv-p">network</text>
+  <text x="300" y="392" text-anchor="middle" class="pv-p">Best</text><text x="300" y="410" text-anchor="middle" class="pv-p">market deal</text>
+  <a href="/hire/" class="pv-link"><text x="380" y="92" text-anchor="middle" class="pv-h">Hire</text><text x="380" y="114" text-anchor="middle" class="pv-t">By the day, week or month,</text><text x="380" y="131" text-anchor="middle" class="pv-t">with operator and diesel.</text></a>
+  <a href="/buy/" class="pv-link"><text x="168" y="312" text-anchor="middle" class="pv-h">Buy</text><text x="168" y="334" text-anchor="middle" class="pv-t">New and tokunbo,</text><text x="168" y="351" text-anchor="middle" class="pv-t">priced in the open.</text></a>
+  <a href="/list/" class="pv-link"><text x="592" y="312" text-anchor="middle" class="pv-h">List</text><text x="592" y="334" text-anchor="middle" class="pv-t">Your idle machine,</text><text x="592" y="351" text-anchor="middle" class="pv-t">earning on hire.</text></a>
+  <a href="/source/" class="pv-link"><text x="380" y="536" text-anchor="middle" class="pv-h">Source</text><text x="380" y="558" text-anchor="middle" class="pv-t">Anything we don't list,</text><text x="380" y="575" text-anchor="middle" class="pv-t">found and quoted.</text></a>
+  <g class="pv-dash" fill="none" stroke-dasharray="4 5" stroke-width="1.4">
+    <path d="M285 235 C 220 160, 140 110, 70 104"/><path d="M475 235 C 540 160, 620 110, 690 104"/>
+    <path d="M300 410 C 230 500, 150 560, 70 566"/><path d="M460 410 C 530 500, 610 560, 690 566"/>
+  </g>
+  <g class="pv-dots"><circle cx="70" cy="104" r="3.5"/><circle cx="690" cy="104" r="3.5"/><circle cx="70" cy="566" r="3.5"/><circle cx="690" cy="566" r="3.5"/></g>
+  <text x="12" y="46" text-anchor="start" class="pv-n">354 hire jobs since</text><text x="12" y="61" text-anchor="start" class="pv-n">2023 on our own</text><text x="12" y="76" text-anchor="start" class="pv-n">SDLG loader.</text>
+  <text x="748" y="46" text-anchor="end" class="pv-n">Rates checked weekly</text><text x="748" y="61" text-anchor="end" class="pv-n">against the Buildocrat</text><text x="748" y="76" text-anchor="end" class="pv-n">Rate Book.</text>
+  <text x="12" y="592" text-anchor="start" class="pv-n">One contract, one</text><text x="12" y="607" text-anchor="start" class="pv-n">accountable company.</text>
+  <text x="748" y="592" text-anchor="end" class="pv-n">Payment only to our</text><text x="748" y="607" text-anchor="end" class="pv-n">corporate account.</text>
+</svg></div>
+  </div></section>
   <div class="ribbon"><div class="wrap">
     <span><b>Rates updated 15 October 2026</b></span>
     <span>Diesel <b class="num">₦1,870/L</b></span>
@@ -484,18 +639,18 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
 
   <section class="block desks-wrap"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Specialist desks</div><h2>Haulage, concrete, tools and survey</h2><p>Three desks for the jobs that need more than one machine: hire and buy side by side, priced the same way.</p></div></div>
-    <div class="desks"><a class="desk d0" href="/heavy-haulage/"><span class="ph-fallback" role="img" aria-label=""><b>Tipper truck</b><small>Photo of the actual unit on request</small></span><span><small>36 priced lines</small><b>Heavy haulage</b><em>Tipper trucks, 30t and 40t · Tractor units with low-beds · Low-bed trailers and mobilisation · Off-highway haulers</em></span></a><a class="desk d1" href="/concrete/"><span class="ph-fallback" role="img" aria-label=""><b>Batching plant</b><small>Photo of the actual unit on request</small></span><span><small>46 priced lines</small><b>Concrete</b><em>Produce · Transport · Place</em></span></a><a class="desk d2" href="/tools-survey/"><span class="ph-fallback" role="img" aria-label=""><b>DJI enterprise drone</b><small>Photo of the actual unit on request</small></span><span><small>106 priced lines</small><b>Tools &amp; survey</b><em>Drones · Survey instruments · Small machines · Power tools · Hand tools and site kit · Site facilities</em></span></a></div>
+    <div class="desks"><a class="desk d0" href="/heavy-haulage/"><img src="/img/m/howo-8x4-tipper.jpg" alt="" loading="lazy" decoding="async"><span><small>36 priced lines</small><b>Heavy haulage</b><em>Tipper trucks, 30t and 40t · Tractor units with low-beds · Low-bed trailers and mobilisation · Off-highway haulers</em></span></a><a class="desk d1" href="/concrete/"><img src="/img/m/self-loading-mixer-s.jpg" alt="" loading="lazy" decoding="async"><span><small>46 priced lines</small><b>Concrete</b><em>Produce · Transport · Place</em></span></a><a class="desk d2" href="/tools-survey/"><img src="/img/m/dji-enterprise-s.jpg" alt="" loading="lazy" decoding="async"><span><small>106 priced lines</small><b>Tools &amp; survey</b><em>Drones · Survey instruments · Small machines · Power tools · Hand tools and site kit · Site facilities</em></span></a></div>
   </div></section>
 
   <section class="block"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Hire · 16 plant groups</div><h2>Hire by the day, week or month</h2><p>Every rate is broken down into dry hire, fuel and operator, the same way the rate book prices it.</p></div><a class="btn btn-ghost" href="/hire/">All hire rates</a></div>
-    <div class="tiles"><a class="tile" href="/hire/earthmoving/"><span class="ph-fallback" role="img" aria-label=""><b>Mini excavator</b><small>Photo of the actual unit on request</small></span><span><b>Earthmoving</b><small>15 types · from ₦264k/day</small></span></a><a class="tile" href="/hire/compaction/"><span class="ph-fallback" role="img" aria-label=""><b>Vibratory roller</b><small>Photo of the actual unit on request</small></span><span><b>Compaction</b><small>7 types · from ₦22k/day</small></span></a><a class="tile" href="/hire/haulage-vehicles/"><span class="ph-fallback" role="img" aria-label=""><b>Tipper truck</b><small>Photo of the actual unit on request</small></span><span><b>Haulage &amp; Vehicles</b><small>16 types · from ₦94k/day</small></span></a><a class="tile" href="/hire/lifting-access/"><span class="ph-fallback" role="img" aria-label=""><b>Truck crane</b><small>Photo of the actual unit on request</small></span><span><b>Lifting &amp; Access</b><small>14 types · from ₦7k/day</small></span></a><a class="tile" href="/hire/concrete/"><span class="ph-fallback" role="img" aria-label=""><b>Concrete mixer</b><small>Photo of the actual unit on request</small></span><span><b>Concrete</b><small>14 types · from ₦21k/day</small></span></a><a class="tile" href="/hire/power-air-pumping/"><span class="ph-fallback" role="img" aria-label=""><b>Petrol generator</b><small>Photo of the actual unit on request</small></span><span><b>Power, Air &amp; Pumping</b><small>12 types · from ₦17k/day</small></span></a><a class="tile" href="/hire/roads/"><span class="ph-fallback" role="img" aria-label=""><b>Asphalt paver</b><small>Photo of the actual unit on request</small></span><span><b>Roads</b><small>6 types · from ₦100k/day</small></span></a><a class="tile" href="/hire/piling-marine/"><span class="ph-fallback" role="img" aria-label=""><b>Piling rig</b><small>Photo of the actual unit on request</small></span><span><b>Piling &amp; Marine</b><small>4 types · from ₦240k/day</small></span></a><a class="tile" href="/hire/survey-site-facilities/"><span class="ph-fallback" role="img" aria-label=""><b>Total station</b><small>Photo of the actual unit on request</small></span><span><b>Survey &amp; Site Facilities</b><small>8 types · from ₦3k/day</small></span></a><a class="tile" href="/hire/piling-plant/"><span class="ph-fallback" role="img" aria-label=""><b>Pile hammer</b><small>Photo of the actual unit on request</small></span><span><b>Piling Plant</b><small>5 types · from ₦729k/day</small></span></a><a class="tile" href="/hire/heavy-lifting/"><span class="ph-fallback" role="img" aria-label=""><b>Crawler crane</b><small>Photo of the actual unit on request</small></span><span><b>Heavy Lifting</b><small>3 types · from ₦1.1m/day</small></span></a><a class="tile" href="/hire/marine-dredging-fleet/"><span class="ph-fallback" role="img" aria-label=""><b>Crane barge</b><small>Photo of the actual unit on request</small></span><span><b>Marine &amp; Dredging Fleet</b><small>7 types · from ₦497k/day</small></span></a><a class="tile" href="/hire/pipeline-spread/"><span class="ph-fallback" role="img" aria-label=""><b>Sideboom</b><small>Photo of the actual unit on request</small></span><span><b>Pipeline Spread</b><small>9 types · from ₦26k/day</small></span></a><a class="tile" href="/hire/roads-quarry-plant/"><span class="ph-fallback" role="img" aria-label=""><b>Articulated dump truck</b><small>Photo of the actual unit on request</small></span><span><b>Roads &amp; Quarry Plant</b><small>9 types · from ₦666k/day</small></span></a><a class="tile" href="/hire/rail-plant/"><span class="ph-fallback" role="img" aria-label=""><b>Tamping machine</b><small>Photo of the actual unit on request</small></span><span><b>Rail Plant</b><small>2 types · from ₦593k/day</small></span></a><a class="tile" href="/hire/access-small-plant/"><span class="ph-fallback" role="img" aria-label=""><b>Wellpoint system</b><small>Photo of the actual unit on request</small></span><span><b>Access &amp; Small Plant</b><small>13 types · from ₦13k/day</small></span></a></div>
+    <div class="tiles"><a class="tile" href="/hire/earthmoving/"><img src="/img/m/excavator-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Earthmoving</b><small>15 types · from ₦264k/day</small></span></a><a class="tile" href="/hire/compaction/"><span class="ph-fallback" role="img" aria-label=""><b>Vibratory roller</b><small>Photo of the actual unit on request</small></span><span><b>Compaction</b><small>7 types · from ₦22k/day</small></span></a><a class="tile" href="/hire/haulage-vehicles/"><img src="/img/m/tipper-truck-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Haulage &amp; Vehicles</b><small>16 types · from ₦94k/day</small></span></a><a class="tile" href="/hire/lifting-access/"><img src="/img/m/truck-crane-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Lifting &amp; Access</b><small>14 types · from ₦7k/day</small></span></a><a class="tile" href="/hire/concrete/"><img src="/img/m/transit-mixer-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Concrete</b><small>14 types · from ₦21k/day</small></span></a><a class="tile" href="/hire/power-air-pumping/"><span class="ph-fallback" role="img" aria-label=""><b>Petrol generator</b><small>Photo of the actual unit on request</small></span><span><b>Power, Air &amp; Pumping</b><small>12 types · from ₦17k/day</small></span></a><a class="tile" href="/hire/roads/"><img src="/img/m/road-broom-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Roads</b><small>6 types · from ₦100k/day</small></span></a><a class="tile" href="/hire/piling-marine/"><img src="/img/m/piling-rig-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Piling &amp; Marine</b><small>4 types · from ₦240k/day</small></span></a><a class="tile" href="/hire/survey-site-facilities/"><img src="/img/m/dji-enterprise-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Survey &amp; Site Facilities</b><small>8 types · from ₦3k/day</small></span></a><a class="tile" href="/hire/piling-plant/"><img src="/img/m/pile-hammer-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Piling Plant</b><small>5 types · from ₦729k/day</small></span></a><a class="tile" href="/hire/heavy-lifting/"><img src="/img/m/tractor-lowbed-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Heavy Lifting</b><small>3 types · from ₦1.1m/day</small></span></a><a class="tile" href="/hire/marine-dredging-fleet/"><img src="/img/m/cutter-suction-dredger-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Marine &amp; Dredging Fleet</b><small>7 types · from ₦497k/day</small></span></a><a class="tile" href="/hire/pipeline-spread/"><img src="/img/m/hdd-rig-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Pipeline Spread</b><small>9 types · from ₦26k/day</small></span></a><a class="tile" href="/hire/roads-quarry-plant/"><img src="/img/m/rigid-dump-truck-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Roads &amp; Quarry Plant</b><small>9 types · from ₦666k/day</small></span></a><a class="tile" href="/hire/rail-plant/"><span class="ph-fallback" role="img" aria-label=""><b>Tamping machine</b><small>Photo of the actual unit on request</small></span><span><b>Rail Plant</b><small>2 types · from ₦593k/day</small></span></a><a class="tile" href="/hire/access-small-plant/"><span class="ph-fallback" role="img" aria-label=""><b>Wellpoint system</b><small>Photo of the actual unit on request</small></span><span><b>Access &amp; Small Plant</b><small>13 types · from ₦13k/day</small></span></a></div>
   </div></section>
 
   <section class="block tint"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Most requested</div><h2>Popular for hire this week</h2></div></div>
-    <div class="grid"><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/hire/earthmoving/hydraulic-excavator-20-22t-cat-320-215-class/"><span class="ph-fallback" role="img" aria-label="Hydraulic excavator 20-22t (CAT 320/215 class)"><b>Crawler excavator</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:hydraulic-excavator-20-22t-cat-320-215-class" aria-pressed="false" aria-label="Save Hydraulic excavator 20-22t (CAT 320/215 class) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+    <div class="grid"><article class="card k-hire">
+    <div class="ph-wrap"><a class="ph" href="/hire/earthmoving/hydraulic-excavator-20-22t-cat-320-215-class/"><img src="/img/m/excavator-s.jpg" alt="Hydraulic excavator 20-22t (CAT 320/215 class)" loading="lazy" decoding="async"></a><button type="button" class="star " data-star="h:hydraulic-excavator-20-22t-cat-320-215-class" aria-pressed="false" aria-label="Save Hydraulic excavator 20-22t (CAT 320/215 class) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Earthmoving</div>
       <h3><a href="/hire/earthmoving/hydraulic-excavator-20-22t-cat-320-215-class/">Hydraulic excavator 20-22t (CAT 320/215 class)</a></h3>
@@ -503,8 +658,8 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <div class="parts num">Dry ₦504k · Fuel ₦324k · Operator ₦41k</div>
       <div class="meta">250-350 m3/day bulk dig</div>
     </div>
-  </article><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/hire/earthmoving/wheel-loader-5t/"><span class="ph-fallback" role="img" aria-label="Wheel loader 5t"><b>Wheel loader</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:wheel-loader-5t" aria-pressed="false" aria-label="Save Wheel loader 5t to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+  </article><article class="card k-hire">
+    <div class="ph-wrap"><a class="ph" href="/hire/earthmoving/wheel-loader-5t/"><img src="/img/m/wheel-loader-s.jpg" alt="Wheel loader 5t" loading="lazy" decoding="async"></a><button type="button" class="star " data-star="h:wheel-loader-5t" aria-pressed="false" aria-label="Save Wheel loader 5t to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Earthmoving</div>
       <h3><a href="/hire/earthmoving/wheel-loader-5t/">Wheel loader 5t</a></h3>
@@ -512,8 +667,8 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <div class="parts num">Dry ₦368k · Fuel ₦302k · Operator ₦34k</div>
       <div class="meta">500-700 m3/day loading</div>
     </div>
-  </article><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/hire/earthmoving/bulldozer-d7-class/"><span class="ph-fallback" role="img" aria-label="Bulldozer D7 class"><b>Bulldozer</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:bulldozer-d7-class" aria-pressed="false" aria-label="Save Bulldozer D7 class to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+  </article><article class="card k-hire">
+    <div class="ph-wrap"><a class="ph" href="/hire/earthmoving/bulldozer-d7-class/"><img src="/img/m/bulldozer-s.jpg" alt="Bulldozer D7 class" loading="lazy" decoding="async"></a><button type="button" class="star " data-star="h:bulldozer-d7-class" aria-pressed="false" aria-label="Save Bulldozer D7 class to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Earthmoving</div>
       <h3><a href="/hire/earthmoving/bulldozer-d7-class/">Bulldozer D7 class</a></h3>
@@ -521,8 +676,8 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <div class="parts num">Dry ₦578k · Fuel ₦475k · Operator ₦44k</div>
       <div class="meta">1.2-1.8 ha/day clearing</div>
     </div>
-  </article><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/hire/haulage-vehicles/tipper-truck-30t/"><span class="ph-fallback" role="img" aria-label="Tipper truck 30t"><b>Tipper truck</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:tipper-truck-30t" aria-pressed="false" aria-label="Save Tipper truck 30t to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+  </article><article class="card k-hire">
+    <div class="ph-wrap"><a class="ph" href="/hire/haulage-vehicles/tipper-truck-30t/"><img src="/img/m/tipper-truck-s.jpg" alt="Tipper truck 30t" loading="lazy" decoding="async"></a><button type="button" class="star " data-star="h:tipper-truck-30t" aria-pressed="false" aria-label="Save Tipper truck 30t to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Haulage &amp; Vehicles</div>
       <h3><a href="/hire/haulage-vehicles/tipper-truck-30t/">Tipper truck 30t</a></h3>
@@ -530,8 +685,8 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <div class="parts num">Dry ₦231k · Fuel ₦346k · Operator ₦28k</div>
       <div class="meta">3-5 trips/day</div>
     </div>
-  </article><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/hire/lifting-access/mobile-crane-25t/"><span class="ph-fallback" role="img" aria-label="Mobile crane 25t"><b>Truck crane</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:mobile-crane-25t" aria-pressed="false" aria-label="Save Mobile crane 25t to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+  </article><article class="card k-hire">
+    <div class="ph-wrap"><a class="ph" href="/hire/lifting-access/mobile-crane-25t/"><img src="/img/m/truck-crane-s.jpg" alt="Mobile crane 25t" loading="lazy" decoding="async"></a><button type="button" class="star " data-star="h:mobile-crane-25t" aria-pressed="false" aria-label="Save Mobile crane 25t to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Lifting &amp; Access</div>
       <h3><a href="/hire/lifting-access/mobile-crane-25t/">Mobile crane 25t</a></h3>
@@ -539,7 +694,7 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <div class="parts num">Dry ₦473k · Fuel ₦259k · Operator ₦55k</div>
       
     </div>
-  </article><article class="card">
+  </article><article class="card k-hire">
     <div class="ph-wrap"><a class="ph" href="/hire/power-air-pumping/generator-100kva-diesel/"><span class="ph-fallback" role="img" aria-label="Generator 100kVA (diesel)"><b>Diesel generator</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:generator-100kva-diesel" aria-pressed="false" aria-label="Save Generator 100kVA (diesel) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Power, Air &amp; Pumping</div>
@@ -548,7 +703,7 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <div class="parts num">Dry ₦137k · Fuel ₦324k · Operator ₦12k</div>
       
     </div>
-  </article><article class="card">
+  </article><article class="card k-hire">
     <div class="ph-wrap"><a class="ph" href="/hire/earthmoving/backhoe-loader-jcb-3cx-3dx-class/"><span class="ph-fallback" role="img" aria-label="Backhoe loader (JCB 3CX/3DX class)"><b>Backhoe loader</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:backhoe-loader-jcb-3cx-3dx-class" aria-pressed="false" aria-label="Save Backhoe loader (JCB 3CX/3DX class) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Earthmoving</div>
@@ -557,7 +712,7 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
       <div class="parts num">Dry ₦326k · Fuel ₦151k · Operator ₦41k</div>
       <div class="meta">80-120 m3/day trench</div>
     </div>
-  </article><article class="card">
+  </article><article class="card k-hire">
     <div class="ph-wrap"><a class="ph" href="/hire/compaction/vibratory-roller-10-12t/"><span class="ph-fallback" role="img" aria-label="Vibratory roller 10-12t"><b>Vibratory roller</b><small>Photo of the actual unit on request</small></span></a><button type="button" class="star " data-star="h:vibratory-roller-10-12t" aria-pressed="false" aria-label="Save Vibratory roller 10-12t to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Compaction</div>
@@ -571,33 +726,33 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
 
   <section class="block"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Buy · 13 categories</div><h2>Buy new, tokunbo or Nigerian used</h2><p>Current market prices, with the range we see and how sure we are of each figure.</p></div><a class="btn btn-ghost" href="/buy/">All equipment prices</a></div>
-    <div class="tiles"><a class="tile" href="/buy/excavators/"><span class="ph-fallback" role="img" aria-label=""><b>Mini excavator</b><small>Photo of the actual unit on request</small></span><span><b>Excavators</b><small>17 lines · from ₦8.5m</small></span></a><a class="tile" href="/buy/bulldozers-loaders/"><span class="ph-fallback" role="img" aria-label=""><b>Skid-steer loader</b><small>Photo of the actual unit on request</small></span><span><b>Bulldozers &amp; payloaders</b><small>16 lines · from ₦38.2m</small></span></a><a class="tile" href="/buy/road-construction-equipment/"><span class="ph-fallback" role="img" aria-label=""><b>Motor grader</b><small>Photo of the actual unit on request</small></span><span><b>Road construction equipment</b><small>18 lines · from ₦4m</small></span></a><a class="tile" href="/buy/tipper-trucks/"><span class="ph-fallback" role="img" aria-label=""><b>Tipper truck</b><small>Photo of the actual unit on request</small></span><span><b>Tipper trucks &amp; haulage</b><small>29 lines · from ₦23.7m</small></span></a><a class="tile" href="/buy/cranes/"><span class="ph-fallback" role="img" aria-label=""><b>Truck crane</b><small>Photo of the actual unit on request</small></span><span><b>Cranes &amp; forklifts</b><small>26 lines · from ₦371k</small></span></a><a class="tile" href="/buy/generators/"><span class="ph-fallback" role="img" aria-label=""><b>Diesel generator</b><small>Photo of the actual unit on request</small></span><span><b>Generators &amp; pumps</b><small>19 lines · from ₦689k</small></span></a><a class="tile" href="/buy/concrete-equipment/"><span class="ph-fallback" role="img" aria-label=""><b>Batching plant</b><small>Photo of the actual unit on request</small></span><span><b>Concrete equipment</b><small>29 lines · from ₦371k</small></span></a><a class="tile" href="/buy/block-making-machines/"><span class="ph-fallback" role="img" aria-label=""><b>Block machine</b><small>Photo of the actual unit on request</small></span><span><b>Block making machines</b><small>8 lines · from ₦583k</small></span></a><a class="tile" href="/buy/quarry-equipment/"><span class="ph-fallback" role="img" aria-label=""><b>Crushing plant</b><small>Photo of the actual unit on request</small></span><span><b>Quarry &amp; drilling equipment</b><small>17 lines · from ₦477k</small></span></a><a class="tile" href="/buy/dredgers/"><span class="ph-fallback" role="img" aria-label=""><b>Sand dredger</b><small>Photo of the actual unit on request</small></span><span><b>Dredgers &amp; marine equipment</b><small>13 lines · from ₦25.4m</small></span></a><a class="tile" href="/buy/piling-rigs/"><span class="ph-fallback" role="img" aria-label=""><b>Piling rig</b><small>Photo of the actual unit on request</small></span><span><b>Piling rigs</b><small>6 lines · from ₦29.7m</small></span></a><a class="tile" href="/buy/survey-site-equipment/"><span class="ph-fallback" role="img" aria-label=""><b>Total station</b><small>Photo of the actual unit on request</small></span><span><b>Survey &amp; site equipment</b><small>20 lines · from ₦19k</small></span></a><a class="tile" href="/buy/small-tools/"><span class="ph-fallback" role="img" aria-label=""><b>Hand tools</b><small>Photo of the actual unit on request</small></span><span><b>Small tools &amp; site kit</b><small>52 lines · from ₦2k</small></span></a></div>
-    <div class="grid" style="margin-top:28px"><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/buy/excavators/excavator-20-22t-cat-320d-320gc-foreign-used/"><span class="ph-fallback" role="img" aria-label="Excavator 20-22t (CAT 320D/320GC), foreign used"><b>Crawler excavator</b><small>Photo of the actual unit on request</small></span></a><span class="tag">Tokunbo</span><button type="button" class="star " data-star="b:excavator-20-22t-cat-320d-320gc-foreign-used" aria-pressed="false" aria-label="Save Excavator 20-22t (CAT 320D/320GC), foreign used to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+    <div class="tiles"><a class="tile" href="/buy/excavators/"><img src="/img/m/excavator-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Excavators</b><small>17 lines · from ₦8.5m</small></span></a><a class="tile" href="/buy/bulldozers-loaders/"><img src="/img/m/wheel-loader-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Bulldozers &amp; payloaders</b><small>16 lines · from ₦38.2m</small></span></a><a class="tile" href="/buy/road-construction-equipment/"><img src="/img/m/motor-grader-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Road construction equipment</b><small>18 lines · from ₦4m</small></span></a><a class="tile" href="/buy/tipper-trucks/"><img src="/img/m/tipper-truck-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Tipper trucks &amp; haulage</b><small>29 lines · from ₦23.7m</small></span></a><a class="tile" href="/buy/cranes/"><img src="/img/m/truck-crane-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Cranes &amp; forklifts</b><small>26 lines · from ₦371k</small></span></a><a class="tile" href="/buy/generators/"><img src="/img/m/diesel-tank-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Generators &amp; pumps</b><small>19 lines · from ₦689k</small></span></a><a class="tile" href="/buy/concrete-equipment/"><img src="/img/m/self-loading-mixer-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Concrete equipment</b><small>29 lines · from ₦371k</small></span></a><a class="tile" href="/buy/block-making-machines/"><span class="ph-fallback" role="img" aria-label=""><b>Block machine</b><small>Photo of the actual unit on request</small></span><span><b>Block making machines</b><small>8 lines · from ₦583k</small></span></a><a class="tile" href="/buy/quarry-equipment/"><img src="/img/m/drill-rig-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Quarry &amp; drilling equipment</b><small>17 lines · from ₦477k</small></span></a><a class="tile" href="/buy/dredgers/"><img src="/img/m/sand-dredger-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Dredgers &amp; marine equipment</b><small>13 lines · from ₦25.4m</small></span></a><a class="tile" href="/buy/piling-rigs/"><img src="/img/m/piling-rig-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Piling rigs</b><small>6 lines · from ₦29.7m</small></span></a><a class="tile" href="/buy/survey-site-equipment/"><img src="/img/m/dji-enterprise-s.jpg" alt="" loading="lazy" decoding="async"><span><b>Survey &amp; site equipment</b><small>20 lines · from ₦19k</small></span></a><a class="tile" href="/buy/small-tools/"><span class="ph-fallback" role="img" aria-label=""><b>Hand tools</b><small>Photo of the actual unit on request</small></span><span><b>Small tools &amp; site kit</b><small>52 lines · from ₦2k</small></span></a></div>
+    <div class="grid" style="margin-top:28px"><article class="card k-buy">
+    <div class="ph-wrap"><a class="ph" href="/buy/excavators/excavator-20-22t-cat-320d-320gc-foreign-used/"><img src="/img/m/excavator-s.jpg" alt="Excavator 20-22t (CAT 320D/320GC), foreign used" loading="lazy" decoding="async"></a><span class="tag">Tokunbo</span><button type="button" class="star " data-star="b:excavator-20-22t-cat-320d-320gc-foreign-used" aria-pressed="false" aria-label="Save Excavator 20-22t (CAT 320D/320GC), foreign used to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Excavators</div>
       <h3><a href="/buy/excavators/excavator-20-22t-cat-320d-320gc-foreign-used/">Excavator 20-22t (CAT 320D/320GC), foreign used</a></h3>
       <div class="price"><b class="num">₦180,200,000</b><span>per unit</span></div>
       <div class="parts num">Market range ₦148m – ₦212m</div>
     </div>
-  </article><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/buy/tipper-trucks/tipper-truck-6x4-371hp-30t-sinotruk-howo-new/"><span class="ph-fallback" role="img" aria-label="Tipper truck 6x4 371hp 30t (Sinotruk Howo), new"><b>Tipper truck</b><small>Photo of the actual unit on request</small></span></a><span class="tag">New</span><button type="button" class="star " data-star="b:tipper-truck-6x4-371hp-30t-sinotruk-howo-new" aria-pressed="false" aria-label="Save Tipper truck 6x4 371hp 30t (Sinotruk Howo), new to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+  </article><article class="card k-buy">
+    <div class="ph-wrap"><a class="ph" href="/buy/tipper-trucks/tipper-truck-6x4-371hp-30t-sinotruk-howo-new/"><img src="/img/m/tipper-truck-s.jpg" alt="Tipper truck 6x4 371hp 30t (Sinotruk Howo), new" loading="lazy" decoding="async"></a><span class="tag">New</span><button type="button" class="star " data-star="b:tipper-truck-6x4-371hp-30t-sinotruk-howo-new" aria-pressed="false" aria-label="Save Tipper truck 6x4 371hp 30t (Sinotruk Howo), new to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Tipper trucks &amp; haulage</div>
       <h3><a href="/buy/tipper-trucks/tipper-truck-6x4-371hp-30t-sinotruk-howo-new/">Tipper truck 6x4 371hp 30t (Sinotruk Howo), new</a></h3>
       <div class="price"><b class="num">₦106,000,000</b><span>per unit</span></div>
       <div class="parts num">Market range ₦68.9m – ₦117m</div>
     </div>
-  </article><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/buy/bulldozers-loaders/wheel-loader-5t-new-chinese-liugong-855-sdlg-lonking-lg855/"><span class="ph-fallback" role="img" aria-label="Wheel loader 5t, new Chinese (LiuGong 855/SDLG/Lonking LG855)"><b>Wheel loader</b><small>Photo of the actual unit on request</small></span></a><span class="tag">New</span><button type="button" class="star " data-star="b:wheel-loader-5t-new-chinese-liugong-855-sdlg-lonking-lg855" aria-pressed="false" aria-label="Save Wheel loader 5t, new Chinese (LiuGong 855/SDLG/Lonking LG855) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+  </article><article class="card k-buy">
+    <div class="ph-wrap"><a class="ph" href="/buy/bulldozers-loaders/wheel-loader-5t-new-chinese-liugong-855-sdlg-lonking-lg855/"><img src="/img/m/wheel-loader-s.jpg" alt="Wheel loader 5t, new Chinese (LiuGong 855/SDLG/Lonking LG855)" loading="lazy" decoding="async"></a><span class="tag">New</span><button type="button" class="star " data-star="b:wheel-loader-5t-new-chinese-liugong-855-sdlg-lonking-lg855" aria-pressed="false" aria-label="Save Wheel loader 5t, new Chinese (LiuGong 855/SDLG/Lonking LG855) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Bulldozers &amp; payloaders</div>
       <h3><a href="/buy/bulldozers-loaders/wheel-loader-5t-new-chinese-liugong-855-sdlg-lonking-lg855/">Wheel loader 5t, new Chinese (LiuGong 855/SDLG/Lonking LG855)</a></h3>
       <div class="price"><b class="num">₦116,600,000</b><span>per unit</span></div>
       <div class="parts num">Market range ₦97.5m – ₦127m</div>
     </div>
-  </article><article class="card">
-    <div class="ph-wrap"><a class="ph" href="/buy/bulldozers-loaders/bulldozer-220-260hp-new-chinese-shantui-sd22-zoomlion-zd260g/"><span class="ph-fallback" role="img" aria-label="Bulldozer 220-260hp, new Chinese (Shantui SD22/Zoomlion ZD260G)"><b>Bulldozer</b><small>Photo of the actual unit on request</small></span></a><span class="tag">New</span><button type="button" class="star " data-star="b:bulldozer-220-260hp-new-chinese-shantui-sd22-zoomlion-zd260g" aria-pressed="false" aria-label="Save Bulldozer 220-260hp, new Chinese (Shantui SD22/Zoomlion ZD260G) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
+  </article><article class="card k-buy">
+    <div class="ph-wrap"><a class="ph" href="/buy/bulldozers-loaders/bulldozer-220-260hp-new-chinese-shantui-sd22-zoomlion-zd260g/"><img src="/img/m/bulldozer-s.jpg" alt="Bulldozer 220-260hp, new Chinese (Shantui SD22/Zoomlion ZD260G)" loading="lazy" decoding="async"></a><span class="tag">New</span><button type="button" class="star " data-star="b:bulldozer-220-260hp-new-chinese-shantui-sd22-zoomlion-zd260g" aria-pressed="false" aria-label="Save Bulldozer 220-260hp, new Chinese (Shantui SD22/Zoomlion ZD260G) to shortlist"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button></div>
     <div class="card-body">
       <div class="eyebrow">Bulldozers &amp; payloaders</div>
       <h3><a href="/buy/bulldozers-loaders/bulldozer-220-260hp-new-chinese-shantui-sd22-zoomlion-zd260g/">Bulldozer 220-260hp, new Chinese (Shantui SD22/Zoomlion ZD260G)</a></h3>
@@ -638,7 +793,7 @@ footer .cols{grid-template-columns:1.4fr repeat(4,1fr)}
     </div>
   </div></section></main>
   <footer><div class="wrap"><div class="cols">
-    <div><a class="logo" href="#/"><span class="logo-mark"><svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 5h6l6 9 6-9h6l-9 13v9h-6v-9z" fill="#0B1A2C"/></svg></span><span class="logo-word">YELLOWMETAL<small>PLANTS &amp; EQUIPMENT</small></span></a><p style="margin:14px 0 0;max-width:360px">Yellowmetal Plants &amp; Equipment Ltd hires, sells and manages heavy equipment from Festac Town, Lagos, for sites across Nigeria.</p></div>
+    <div><a class="logo" href="#/"><span class="logo-mark"><svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="11" r="9" fill="#F5C21B"/><circle cx="11" cy="20" r="9" fill="#2563D9"/><circle cx="29" cy="20" r="9" fill="#E8574D"/><circle cx="20" cy="29" r="9" fill="#1F8FA8"/><circle cx="20" cy="20" r="6.5" fill="#1A2F5A" stroke="#fff" stroke-width="1.6"/></svg></span><span class="logo-word">YELLOWMETAL<small>PLANTS &amp; EQUIPMENT</small></span></a><p style="margin:14px 0 0;max-width:360px">Yellowmetal Plants &amp; Equipment Ltd hires, sells and manages heavy equipment from Festac Town, Lagos, for sites across Nigeria.</p></div>
     <div><h5>Specialist desks</h5><a href="#/heavy-haulage/">Heavy haulage</a><a href="#/concrete/">Concrete</a><a href="#/tools-survey/">Tools &amp; survey</a><a href="#/source/">Source a machine</a><a href="#/how/">How it works</a></div>
     <div><h5>Hire</h5><a href="#/hire/earthmoving/">Earthmoving</a><a href="#/hire/compaction/">Compaction</a><a href="#/hire/haulage-vehicles/">Haulage &amp; Vehicles</a><a href="#/hire/lifting-access/">Lifting &amp; Access</a><a href="#/hire/concrete/">Concrete</a><a href="#/hire/power-air-pumping/">Power, Air &amp; Pumping</a><a href="#/hire/">All hire rates</a></div>
     <div><h5>Buy</h5><a href="#/buy/excavators/">Excavators</a><a href="#/buy/bulldozers-loaders/">Bulldozers &amp; payloaders</a><a href="#/buy/road-construction-equipment/">Road construction equipment</a><a href="#/buy/tipper-trucks/">Tipper trucks &amp; haulage</a><a href="#/buy/cranes/">Cranes &amp; forklifts</a><a href="#/buy/generators/">Generators &amp; pumps</a><a href="#/buy/">All equipment prices</a></div>
