@@ -1,0 +1,52 @@
+{
+ "heavy-haulage": {
+  "name": "Heavy haulage",
+  "h1": "Heavy haulage: HOWO tippers, tractor units and low-beds",
+  "intro": "HOWO 30 and 40 tonne tippers for earth, sand and granite, and HOWO tractor units with 40 to 120 tonne low-beds to move your plant. Hire by the day or trip, or buy new and used.",
+  "ph": "howo-8x4-tipper",
+  "groups": [
+   {"name": "Tipper trucks, 30t and 40t", "blurb": "Sinotruk HOWO and Shacman 6x4 30-tonne and 8x4 40-tonne tippers.",
+    "hire": ["P-TP10", "P-TIP", "P-TP30", "X-TP40"], "buy": ["X-EQ-TIP40N", "M-EQ-TIP30N", "X-EQ-TP30SH", "X-EQ-TIP40U", "M-EQ-TIP30U", "M-EQ-TIP10", "M-EQ-TIPMB"]},
+   {"name": "Tractor units with low-beds", "blurb": "Matched tractor and low-bed combinations from 40 to 120 tonnes, with driver.",
+    "hire": ["X-TL40", "P-PRM", "X-TL80", "X-TL100", "X-TL120"], "buy": ["X-EQ-TL40", "X-EQ-TL60", "X-EQ-TL80", "X-EQ-TL100", "X-EQ-TL120", "M-EQ-THN", "M-EQ-THU"]},
+   {"name": "Low-bed trailers and mobilisation", "blurb": "Trailers on their own, and one-way trip prices to move a machine to site.",
+    "hire": ["P-LOW", "X-LOW150", "X-LOW300", "P-FLB"], "buy": ["X-EQ-LB40", "X-EQ-LB60", "M-EQ-LB80", "M-EQ-LB100", "X-EQ-LB120", "X-EQ-LB150", "M-EQ-FLATT"]},
+   {"name": "Off-highway haulers", "blurb": "Articulated and rigid dump trucks for quarries, mines and haul roads.",
+    "hire": ["P-ADT"], "buy": ["M-EQ-ADT30", "M-EQ-RDT40"]}
+  ]
+ },
+ "concrete": {
+  "name": "Concrete",
+  "h1": "Concrete equipment: produce, transport and place",
+  "intro": "Everything from the batching plant to the finished slab: plants and silos to produce concrete, transit mixers and cement tankers to move it, and SANY and Zoomlion pumps, booms, vibrators and trowels to place it.",
+  "ph": "concrete-boom-pump",
+  "groups": [
+   {"name": "Produce", "blurb": "Batching plants, cement silos and site mixers.",
+    "hire": ["P-BTP", "P-MBP", "P-MX2", "P-MIX"], "buy": ["M-EQ-BP35", "M-EQ-BP50", "M-EQ-BP75", "M-EQ-BP120", "M-EQ-BPMOB", "M-EQ-SILO", "M-EQ-SLMX", "M-EQ-MX2B", "M-TL-MIXP"]},
+   {"name": "Transport", "blurb": "Transit mixers, bulk cement tankers and site dumpers.",
+    "hire": ["P-TMX", "X-TMX12", "X-BCT"], "buy": ["M-EQ-TM10N", "X-EQ-TM12", "M-EQ-TM10U", "X-EQ-BCT", "M-EQ-DUMP3"]},
+   {"name": "Place", "blurb": "Boom and line pumps, placing booms, vibrators, screeds and trowels.",
+    "hire": ["P-CPB", "X-CPB52", "P-CPL", "P-VIB", "P-VSC", "P-FLT", "P-CCT", "P-SHT", "P-GRP"], "buy": ["X-EQ-CPB37", "X-EQ-CPB52", "X-EQ-CPB62", "M-EQ-CPBM", "X-EQ-PLB", "M-EQ-CP20", "M-EQ-CP40", "M-EQ-CP60", "M-EQ-CP80", "M-EQ-CP100", "M-EQ-MXPMP", "X-EQ-SCRD", "M-EQ-VIBE", "M-TL-PVIB", "M-EQ-PTRW", "M-EQ-FSAW"]}
+  ]
+ },
+ "tools-survey": {
+  "name": "Tools & survey",
+  "h1": "Small tools, site machines and survey equipment",
+  "intro": "DJI mapping and LiDAR drones, total stations, GNSS and levels, plus the compactors, generators, pumps, power tools and hand tools every site needs.",
+  "ph": "dji-enterprise",
+  "groups": [
+   {"name": "Drones", "blurb": "DJI mapping, LiDAR and progress-photo drones, or a drone survey with pilot.",
+    "hire": ["X-DRP", "X-DRL", "P-DRN"], "buy": ["X-EQ-M350", "X-EQ-ZL2", "X-EQ-ZP1", "X-EQ-M3E", "M-EQ-DRONE", "X-EQ-M3P", "X-EQ-MINI4"]},
+   {"name": "Survey instruments", "blurb": "Total stations, GNSS RTK kits and levels.",
+    "hire": ["P-TST", "P-GNS", "P-LVL"], "buy": ["X-EQ-STSC", "M-EQ-TSTN", "M-EQ-GNSS", "M-EQ-ATLV", "M-TL-RLAS", "M-TL-DUMPY"]},
+   {"name": "Small machines", "blurb": "Compactors, small generators, pumps, welding sets and drills.",
+    "hire": ["P-PLT", "P-RAM", "P-GN5", "P-GEN", "P-PM2", "P-PMP", "P-WLE", "P-TIG", "P-CDR", "P-FGR", "P-LTW", "P-BBM", "P-BLM"], "buy": ["M-TL-PLTP", "M-EQ-PLT200", "M-EQ-RAMM", "M-TL-GEN25", "M-EQ-P55", "M-EQ-P10", "M-EQ-G10", "M-TL-PUMP2", "M-EQ-SUB3", "M-EQ-DP4", "M-TL-WELD", "M-EQ-WGEN", "M-EQ-CORE", "M-EQ-RCUT", "M-EQ-RBND", "M-EQ-PWASH"]},
+   {"name": "Power tools", "blurb": "Drills, grinders, saws, cutters and welding kit.",
+    "hire": [], "buy": ["M-TL-DRIL", "M-TL-SDS", "M-TL-AG9", "M-TL-AG45", "M-TL-CSAW", "M-TL-JSAW", "M-TL-TCW", "M-TL-TCM", "M-TL-PPRW", "M-TL-THRD", "M-TL-OXY", "M-TL-EXT50"]},
+   {"name": "Hand tools and site kit", "blurb": "Shovels to scaffold couplers, priced per piece.",
+    "hire": ["P-SCK4", "P-SCK32", "P-SCKB", "P-PRP"], "buy": ["@M-TL-rest"]},
+   {"name": "Site facilities", "blurb": "Container offices, toilets and access.",
+    "hire": ["P-CTN", "P-TLT", "P-SCF", "P-HST"], "buy": ["M-EQ-CON40", "M-EQ-TOIL", "M-EQ-HFRM", "M-EQ-PRPS"]}
+  ]
+ }
+}

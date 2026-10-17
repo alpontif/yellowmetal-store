@@ -47,6 +47,8 @@ const B = {}; Y.buy.forEach(i => B[i.id] = i);
 const HG = {}; Y.hireGroups.forEach(g => HG[g.slug] = g);
 const BC = {}; Y.buyCats.forEach(c => BC[c.slug] = c);
 const F = {}; Y.fleet.forEach(f => F[f.id] = f);
+const SEC = {}; (Y.sections || []).forEach(s => SEC[s.slug] = s);
+const estChip = i => i.x ? `<span class="xchip" title="${esc(i.src || "")}">Yellowmetal estimate</span>` : "";
 const byCode = {}; Y.hire.forEach(i => byCode[i.c] = i); Y.buy.forEach(i => byCode[i.c] = i);
 const LOCS = Y.meta.locations;
 const state = { loc: store.get("ym-loc", CFG.defaultLocation || "Lagos"), view: store.get("ym-view", "grid") };
@@ -59,8 +61,8 @@ const buyHref = i => link(`/buy/${i.cat}/${i.id}/`);
 const confLabel = c => ({ HIGH: "High", MEDIUM: "Medium", LOW: "Low" }[c] || c || "–");
 const photoBox = (key, alt, small, extra = "") => {
   const src = img(key, small);
-  const label = (Y.photoLabels[key] || "").toUpperCase();
-  return src ? `<img src="${src}" alt="${esc(alt)}" loading="lazy" decoding="async"${extra}>` : `<span class="ph-fallback" aria-hidden="true">${esc(label)}</span>`;
+  const label = Y.photoLabels[key] || "";
+  return src ? `<img src="${src}" alt="${esc(alt)}" loading="lazy" decoding="async"${extra}>` : `<span class="ph-fallback" role="img" aria-label="${esc(alt)}"><b>${esc(label)}</b><small>Photo of the actual unit on request</small></span>`;
 };
 
 /* shortlist: entries "h:<id>" for hire, "b:<id>" for buy, "f:<id>" for fleet */
@@ -81,7 +83,7 @@ function hireCard(i) {
     <div class="card-body">
       <div class="eyebrow">${esc(HG[i.g].name)}</div>
       <h3><a href="${hireHref(i)}">${esc(i.d)}</a></h3>
-      <div class="price"><b class="num">${N(p.all)}</b><span>per ${esc(i.u)} all-in</span></div>
+      <div class="price"><b class="num">${N(p.all)}</b><span>per ${esc(i.u)}${i.u === "trip" ? "" : " all-in"}</span>${estChip(i)}</div>
       <div class="parts num">Dry ${NS(p.dry)}${i.fuel ? ` · Fuel ${NS(p.fuel)}` : ""}${i.op ? ` · Operator ${NS(p.op)}` : ""}</div>
       ${i.out ? `<div class="meta">${esc(i.out)}</div>` : ""}
     </div>
@@ -94,7 +96,7 @@ function buyCard(i) {
     <div class="card-body">
       <div class="eyebrow">${esc(BC[i.cat].name)}</div>
       <h3><a href="${buyHref(i)}">${esc(i.d)}</a></h3>
-      <div class="price"><b class="num">${N(p.r)}</b><span>per ${esc(i.u === "nr" ? "unit" : i.u)}</span></div>
+      <div class="price"><b class="num">${N(p.r)}</b><span>per ${esc(i.u === "nr" ? "unit" : i.u)}</span>${estChip(i)}</div>
       <div class="parts num">Market range ${NS(p.lo)} – ${NS(p.hi)}</div>
     </div>
   </article>`;
@@ -136,7 +138,7 @@ V.home = () => {
     <div class="wrap">
       <div class="eyebrow on-dark">Heavy equipment · Lagos · Nationwide</div>
       <h1 class="display">Machines for the work <span>ahead.</span></h1>
-      <p class="lead">Rent, buy or list excavators, dozers, loaders, tippers, cranes and dredgers at today's Nigerian market rates. Choose a machine and send your request. You close the deal with our team on WhatsApp.</p>
+      <p class="lead">Rent, buy or list SANY, XCMG, SDLG, Shantui, Zoomlion and HOWO machines at today's Nigerian market rates. Choose a machine and send your request. You close the deal with our team on WhatsApp.</p>
       <form class="hero-search" data-search role="search">
         <label class="sr" for="hq">Search machines</label>
         ${ICON.search}<input id="hq" name="q" placeholder="Try “20 tonne excavator”, “Howo tipper” or “250kVA”" autocomplete="off">
@@ -155,6 +157,11 @@ V.home = () => {
     <span>US$1 = <b class="num">${N(Y.meta.fx)}</b></span>
     <span>Source: <a href="https://rates.buildocrat.store/" target="_blank" rel="noopener">Buildocrat Rate Book</a></span>
   </div></div>
+
+  ${Y.sections && Y.sections.length ? `<section class="block desks-wrap"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Specialist desks</div><h2>Haulage, concrete, tools and survey</h2><p>Three desks for the jobs that need more than one machine: hire and buy side by side, priced the same way.</p></div></div>
+    <div class="desks">${Y.sections.map((s, n) => `<a class="desk d${n}" href="${link(`/${s.slug}/`)}">${photoBox(s.ph, "", n !== 0)}<span><small>${s.n} priced lines</small><b>${esc(s.name)}</b><em>${esc(s.groups.map(g => g.name).join(" · "))}</em></span></a>`).join("")}</div>
+  </div></section>` : ""}
 
   <section class="block"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Hire · ${Y.hireGroups.length} plant groups</div><h2>Hire by the day, week or month</h2><p>Every rate is broken down into dry hire, fuel and operator, the same way the rate book prices it.</p></div><a class="btn btn-ghost" href="${link("/hire/")}">All hire rates</a></div>
@@ -205,6 +212,31 @@ const flowHTML = () => `<div class="flow">
   <div class="wa-step"><div class="eyebrow">Step 3 · WhatsApp</div><h4>Send it on WhatsApp</h4><p>Your request opens pre-written with a reference number. We confirm and send a proforma invoice.</p></div>
   <div><div class="eyebrow">Step 4</div><h4>Pay and mobilise</h4><p>Pay into our corporate account. We move the machine and operator to your site.</p></div>
 </div>`;
+
+V.section = slug => {
+  const s = SEC[slug]; if (!s) return V.notFound();
+  const groupHTML = g => {
+    const hs = g.hire.map(id => H[id]), bs = g.buy.map(id => B[id]);
+    return `<section class="sgroup" id="g-${g.slug}">
+      <div class="sgroup-head"><h2>${esc(g.name)}</h2><p>${esc(g.blurb)}</p></div>
+      ${hs.length ? `<div class="sub-h"><span class="pill hire">Hire</span><span>${hs.length} ${hs.length > 1 ? "lines" : "line"}, per day or trip</span></div>${state.view === "table" ? hireTable(hs) : `<div class="grid">${hs.map(hireCard).join("")}</div>`}` : ""}
+      ${bs.length ? `<div class="sub-h"><span class="pill buy">Buy</span><span>${bs.length} ${bs.length > 1 ? "lines" : "line"}, market price</span></div>${state.view === "table" ? buyTable(bs) : `<div class="grid">${bs.map(buyCard).join("")}</div>`}` : ""}
+    </section>`;
+  };
+  return {
+    title: `${s.h1} · Yellowmetal`,
+    desc: `${s.intro} ${s.n} priced lines, updated ${dateLong(Y.meta.updated)}.`,
+    og: img(s.ph),
+    html: `<section class="sec-hero"><div class="sec-hero-img">${photoBox(s.ph, s.name, false)}</div><div class="wrap">
+      ${crumbs([["Home", link("/")], [s.name]])}
+      <div class="eyebrow on-dark">Specialist desk · ${s.n} priced lines</div>
+      <h1>${esc(s.h1)}</h1><p>${esc(s.intro)}</p>
+      <div class="jump">${s.groups.map(g => `<button type="button" data-jump="g-${g.slug}">${esc(g.name)}</button>`).join("")}</div>
+    </div></section>
+    <div class="wrap"><div class="toolbar">${locSelect()}${viewToggle()}<a class="btn btn-ghost" href="${link("/source/")}">Need something else? We'll source it</a></div></div>
+    <div class="wrap pad-b">${s.groups.map(groupHTML).join("")}${srcLine()}</div>`
+  };
+};
 
 V.hireIndex = () => ({
   title: "Construction equipment hire rates in Nigeria · Yellowmetal",
@@ -267,6 +299,7 @@ V.hireItem = (slug, id, fleetId) => {
             <tr class="tot"><th>All-in</th><td>Per ${esc(i.u)}, before mobilisation and VAT</td><td class="r num">${N(p.all)}</td></tr>
           </table>
           <div class="bd-foot num"><span>Week (6 days) <b>${N(p.all * 6)}</b></span><span>Month (${Y.meta.dpm} days) <b>${N(p.all * Y.meta.dpm)}</b></span><span>${confChip(i.conf)}</span><span>Rate set ${esc(i.set || "–")}</span></div>
+          ${i.x ? `<p class="bd-src"><b>Yellowmetal estimate.</b> ${esc(i.src || "")}. Diesel and operator come straight from the rate book.</p>` : ""}
         </section>
         <div class="note">${ICON.video}<span><b>Want to see it working?</b> Ask in the WhatsApp chat for a current walk-around video and hour-meter photo of the machine we'll send.</span></div>
         ${buyAlt.length ? `<div class="alt"><h3>Prefer to buy?</h3>${buyAlt.map(b => `<a href="${buyHref(b)}"><span>${esc(b.d)}</span><b class="num">${NS(buyPrice(b).r)}</b></a>`).join("")}</div>` : ""}
@@ -374,6 +407,7 @@ V.buyItem = (slug, id) => {
             <tr><th>Evidence</th><td>${i.der ? "Derived from a US-dollar supplier price at today's exchange rate" : "Date of the latest market evidence"}</td><td class="r num">${i.der ? `$1 = ${N(Y.meta.fx)}` : esc(i.ev || "–")}</td></tr>
           </table>
           <div class="bd-foot"><span>${confChip(i.conf)}</span><span>Excludes VAT, duty clearing and delivery unless stated</span></div>
+          ${i.x ? `<p class="bd-src"><b>Yellowmetal estimate.</b> ${esc(i.src || "")}.</p>` : ""}
         </section>
         ${c.drivers ? `<section class="drivers sm"><h2>What drives the price</h2><p>${esc(c.drivers)}</p></section>` : ""}
         ${hireAlt.length ? `<div class="alt"><h3>Need it for a short job? Hire instead</h3>${hireAlt.map(h => `<a href="${hireHref(h)}"><span>${esc(h.d)}</span><b class="num">${NS(hireParts(h).all)}/${esc(h.u)}</b></a>`).join("")}</div>` : ""}
@@ -560,7 +594,7 @@ V.how = () => {
 
 V.credits = () => ({
   title: "Photo credits · Yellowmetal", desc: "Credits and licences for photos used on yellowmetal.store.",
-  html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Photo credits"]])}<h1>Photo credits</h1><p>Machine-type photos come from Wikimedia Commons under the licences shown. They show a typical machine of each type; we send photos of the actual unit in the WhatsApp chat. Photos of the Yellowmetal fleet are our own.</p></div>
+  html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Photo credits"]])}<h1>Photo credits</h1><p>Machine-type photos show Chinese-manufactured equipment (SANY, XCMG, SDLG, Shantui, Zoomlion, LiuGong, Sinotruk HOWO, DJI and others), sourced from Wikimedia Commons and Openverse under the licences shown. They show a typical machine of each type; we send photos of the actual unit in the WhatsApp chat. Photos of the Yellowmetal fleet are our own.</p></div>
   <div class="wrap pad-b"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Machine type</th><th>Photo</th><th>Author</th><th>Licence</th></tr></thead><tbody>
   ${Object.entries(Y.credits).sort().map(([k, c]) => `<tr><td>${esc(Y.photoLabels[k] || k)}</td><td><a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.title.replace(/^File:/, ""))}</a></td><td>${esc(c.author)}</td><td>${esc(c.licence)}</td></tr>`).join("")}
   </tbody></table></div></div>`
@@ -579,6 +613,7 @@ function route(path, query) {
     case "buy": return s.length === 1 ? V.buyIndex() : s.length === 2 ? V.buyCat(s[1]) : V.buyItem(s[1], s[2]);
     case "fleet": return F[s[1]] ? V.hireItem(null, null, s[1]) : V.notFound();
     case "list": return V.list();
+    case "heavy-haulage": case "concrete": case "tools-survey": return SEC[s[0]] ? V.section(s[0]) : V.notFound();
     case "source": return V.source(q);
     case "search": return V.search(q);
     case "shortlist": return V.shortlist();
@@ -639,6 +674,7 @@ function boot() {
   function bind(p) {
     $$("[data-loc]").forEach(s => { if (s.id === "r-loc") return; s.addEventListener("change", () => setLoc(s.value)); });
     $$("[data-view]").forEach(b => b.addEventListener("click", () => { state.view = b.dataset.view; store.set("ym-view", state.view); render(); }));
+    $$("[data-jump]").forEach(b => b.addEventListener("click", () => document.getElementById(b.dataset.jump)?.scrollIntoView({ behavior: "smooth", block: "start" })));
     $$("[data-photo]").forEach(b => b.addEventListener("click", () => { $("#gMain").src = b.dataset.photo; $$("[data-photo]").forEach(x => x.classList.toggle("on", x === b)); }));
     $$("form[data-search]").forEach(f => f.addEventListener("submit", e => { e.preventDefault(); const v = f.q.value.trim(); if (v) go(link("/search/?q=" + encodeURIComponent(v))); }));
     const list = $("#list");

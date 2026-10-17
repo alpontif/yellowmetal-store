@@ -19,7 +19,36 @@ const PH = json("photos.json");
 const LOCK = fs.existsSync(path.join(ROOT, "photos.lock.json")) ? json("photos.lock.json") : {};
 const FLEET = json("fleet.json");
 const { buildEngine } = require("./src/engine.js");
+const X = fs.existsSync(path.join(ROOT, "data/extras.json")) ? json("data/extras.json") : { hire: [], buy: [] };
+const SECTIONS = fs.existsSync(path.join(ROOT, "sections.json")) ? json("sections.json") : {};
+
+/* Yellowmetal lines the rate book does not price yet: injected in rate-book format so the same engine prices them */
+const P0 = {}; D.plant.forEach(p => P0[p.c] = p);
+const EXTRA = new Set();
+X.hire.forEach(x => {
+  const b = x.base ? P0[x.base] : null;
+  const dry = b ? Math.round(b.dry * x.f) : x.dry, lo = b ? Math.round(b.lo * x.f) : x.lo, hi = b ? Math.round(b.hi * x.f) : x.hi;
+  D.plant.push({ c: x.c, g: x.g, d: x.d, u: x.u, dry, lo, hi, fuel: x.lpd ? "M-FUE-01" : null, lpd: x.lpd || 0, op: x.op || null, out: x.out || "", src: x.src, set: D.meta.updated, conf: x.conf || "LOW" });
+  EXTRA.add(x.c);
+});
+const SUMS = [];
+X.buy.forEach(x => {
+  const g = "Equipment for Sale: Yellowmetal";
+  if (x.sum) { SUMS.push(x); EXTRA.add(x.c); return; }
+  const r = { c: x.c, g, d: x.d, u: x.u || "nr", src: x.src, conf: x.conf || "LOW", set: D.meta.updated, ev: x.ev || D.meta.updated };
+  if (x.base) r.k = { b: x.base, f: x.f, s: x.s || 0.15 };
+  else if (x.usd) r.k = { b: "M-FX-USD", f: x.usd * (x.lf || 1.4), s: x.s || 0.2 };
+  else Object.assign(r, { r: x.r, lo: x.lo ?? x.r * 0.85, hi: x.hi ?? x.r * 1.15 });
+  D.resources.push(r); EXTRA.add(x.c);
+});
 const E = buildEngine(D);
+SUMS.forEach(x => {
+  const v = w => x.sum.reduce((a, [c, q]) => a + E.rate(c, w) * q, 0);
+  const r = v("r");
+  const res = { c: x.c, g: "Equipment for Sale: Yellowmetal", d: x.d, u: x.u || "nr", r: Math.round(r), lo: Math.round(r * (1 - (x.s || 0.12))), hi: Math.round(r * (1 + (x.s || 0.12))), src: x.src, conf: x.conf || "LOW", ev: D.meta.updated, set: D.meta.updated };
+  D.resources.push(res); E.R[x.c] = Object.assign({ kind: "M" }, res);
+});
+const XCAT = {}; [...X.buy].forEach(x => XCAT[x.c] = x.cat);
 
 /* ---------- catalogue ---------- */
 const slugify = s => s.toLowerCase().replace(/[″"]/g, "-inch").replace(/m3/g, "m3").replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").replace(/-+/g, "-").slice(0, 80).replace(/-+$/, "");
@@ -62,17 +91,24 @@ const hire = D.plant.map(p => {
     dry: parts.dry, lo: p.lo, hi: p.hi, lpd: p.fuel ? p.lpd : 0, fuel: Math.round(parts.fuel), op: Math.round(parts.op),
     opn: p.op ? LAB[p.op].d : "", out: /^[-–\s]*$/.test(p.out || "") ? "" : p.out, conf: p.conf, set: p.set || "", ph,
     lb: LOWBED_GROUPS.has(g[0]) && !SELF_DRIVE.test(p.d) && p.dry >= 100000 && p.u === "day",
+    x: EXTRA.has(p.c) ? 1 : 0, src: EXTRA.has(p.c) ? p.src : undefined,
     s: [p.d, p.c, p.g, PH.keys[ph]?.label || "", p.out || ""].join(" ").toLowerCase()
   };
 });
 const catOf = {}; CATS.forEach(c => c.codes.forEach(code => catOf[code] = c.slug));
+Object.assign(catOf, XCAT);
+D.resources.filter(r => r.c.startsWith("M-TL")).forEach(r => catOf[r.c] = "small-tools");
+CATS.push({ slug: "small-tools", name: "Small tools & site kit", h1: "Price of construction tools and small equipment in Nigeria", q: "How much are construction tools in Nigeria?", primary: "M-TL-WBAR",
+  codes: D.resources.filter(r => r.c.startsWith("M-TL")).map(r => r.c),
+  drivers: "Hand tools vary widely by brand and origin; cheap imports wear out fast on site, so price the durable grade for long jobs. Power tools and small machines follow the exchange rate." });
 const cond = d => /\bnew\b/i.test(d) ? "New" : /foreign used/i.test(d) ? "Tokunbo" : /nigerian used/i.test(d) ? "Nigerian used" : /\bused\b/i.test(d) ? "Used" : "";
-const buy = D.resources.filter(r => r.c.startsWith("M-EQ") && catOf[r.c]).map(r => {
+const buy = D.resources.filter(r => catOf[r.c]).map(r => {
   const ph = photoKey(r.d), c = cond(r.d);
   return {
     id: uid(slugify(r.d)), c: r.c, d: r.d, cat: catOf[r.c], u: r.u,
     r: Math.round(E.rate(r.c)), lo: Math.round(E.rate(r.c, "lo")), hi: Math.round(E.rate(r.c, "hi")), pr: r.pr || null,
     conf: r.conf, ev: r.ev || r.set || "", der: !!r.k, cond: c === "Used" ? "Nigerian used" : c, ph,
+    x: EXTRA.has(r.c) ? 1 : 0, src: EXTRA.has(r.c) ? r.src : undefined,
     s: [r.d, r.c, r.g, PH.keys[ph]?.label || "", c === "Tokunbo" ? "tokunbo foreign used" : c].join(" ").toLowerCase()
   };
 });
@@ -91,11 +127,26 @@ const buyCats = CATS.map(c => {
   const pr = buy.find(i => i.c === c.primary);
   return { slug: c.slug, name: c.name, h1: c.h1, q: c.q, drivers: c.drivers, primary: c.primary, n: items.length, from: Math.min(...items.map(i => i.r)), ph: pr && hasPhoto(pr.ph) ? pr.ph : firstPhoto(items) };
 });
+/* specialist sections: curated hire + buy collections */
+const byC = {}; [...hire, ...buy].forEach(i => byC[(i.cat ? "b:" : "h:") + i.c] = i);
+const sections = Object.entries(SECTIONS).map(([slug, s]) => {
+  const usedB = new Set(s.groups.flatMap(g => g.buy.filter(c => !c.startsWith("@"))));
+  const groups = s.groups.map(g => {
+    const hireIds = g.hire.map(c => byC["h:" + c]).filter(Boolean).map(i => i.id);
+    let buyCodes = g.buy.flatMap(c => c === "@M-TL-rest" ? buy.filter(b => b.c.startsWith("M-TL") && !usedB.has(b.c)).map(b => b.c) : [c]);
+    const buyIds = buyCodes.map(c => byC["b:" + c]).filter(Boolean).map(i => i.id);
+    [...g.hire.map(c => "h:" + c), ...buyCodes.map(c => "b:" + c)].forEach(k => { if (!byC[k]) console.warn(`sections.json: ${slug} refers to unknown ${k}`); });
+    return { name: g.name, blurb: g.blurb, slug: slugify(g.name), hire: hireIds, buy: buyIds };
+  });
+  const all = groups.flatMap(g => [...g.hire.map(id => hire.find(h => h.id === id)), ...g.buy.map(id => buy.find(b => b.id === id))]);
+  const ph = hasPhoto(s.ph) ? s.ph : (all.find(i => hasPhoto(i.ph)) || all[0]).ph;
+  return { slug, name: s.name, h1: s.h1, intro: s.intro, ph, groups, n: all.length };
+});
 const photos = {}, photoLabels = {}, credits = {};
 Object.entries(PH.keys).forEach(([k, v]) => { photoLabels[k] = v.label; if (hasPhoto(k)) photos[k] = 1; if (LOCK[k] && LOCK[k].page) credits[k] = LOCK[k]; });
 
 const YM = {
-  cfg, hire, buy, hireGroups, buyCats, fleet: FLEET, photos, photoLabels, credits,
+  cfg, hire, buy, hireGroups, buyCats, sections, fleet: FLEET, photos, photoLabels, credits,
   meta: {
     updated: D.meta.updated, fx: D.meta.fx, diesel, lube: D.params.lube, vat: D.params.vat, dpm: D.params.dpm,
     lowbed: E.plantParts(E.R["P-LOW"]).total, locations: D.locations
@@ -125,7 +176,8 @@ function chrome(main, mode) {
     <a class="logo" href="${L("/")}" aria-label="Yellowmetal home">${LOGO}</a>
     <nav class="nav" id="nav" aria-label="Main">
       <a href="${L("/hire/")}" data-nav="/hire">Hire</a><a href="${L("/buy/")}" data-nav="/buy">Buy</a>
-      <a href="${L("/list/")}" data-nav="/list">List your machine</a><a href="${L("/source/")}" data-nav="/source">Source a machine</a><a href="${L("/how/")}" data-nav="/how">How it works</a>
+      ${sections.map(s => `<a href="${L(`/${s.slug}/`)}" data-nav="/${s.slug}">${esc(s.name)}</a>`).join("")}
+      <a href="${L("/list/")}" data-nav="/list">List your machine</a><a class="nav-more" href="${L("/source/")}" data-nav="/source">Source a machine</a><a class="nav-more" href="${L("/how/")}" data-nav="/how">How it works</a>
     </nav>
     <div class="top-right">
       <a class="chip-btn" href="${L("/search/")}" aria-label="Search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
@@ -136,9 +188,10 @@ function chrome(main, mode) {
   <main id="app" tabindex="-1">${main}</main>
   <footer><div class="wrap"><div class="cols">
     <div><a class="logo" href="${L("/")}">${LOGO}</a><p style="margin:14px 0 0;max-width:360px">${esc(cfg.company)} hires, sells and manages heavy equipment from ${esc(cfg.address)}, for sites across Nigeria.</p></div>
+    <div><h5>Specialist desks</h5>${sections.map(s => `<a href="${L(`/${s.slug}/`)}">${esc(s.name)}</a>`).join("")}<a href="${L("/source/")}">Source a machine</a><a href="${L("/how/")}">How it works</a></div>
     <div><h5>Hire</h5>${hireGroups.slice(0, 6).map(g => `<a href="${L(`/hire/${g.slug}/`)}">${esc(g.name)}</a>`).join("")}<a href="${L("/hire/")}">All hire rates</a></div>
     <div><h5>Buy</h5>${buyCats.slice(0, 6).map(c => `<a href="${L(`/buy/${c.slug}/`)}">${esc(c.name)}</a>`).join("")}<a href="${L("/buy/")}">All equipment prices</a></div>
-    <div><h5>Contact</h5><a href="https://wa.me/${cfg.whatsapp}" target="_blank" rel="noopener">WhatsApp ${esc(cfg.displayPhone)}</a><div style="padding:4px 0">Email <span class="sel">${esc(cfg.email)}</span></div><div style="padding:4px 0">${esc(cfg.address)}, Nigeria</div><a href="${L("/list/")}">List your machine</a><a href="${L("/credits/")}">Photo credits</a></div>
+    <div><h5>Contact</h5><a href="https://wa.me/${cfg.whatsapp}" target="_blank" rel="noopener">WhatsApp ${esc(cfg.displayPhone)}</a><div style="padding:4px 0">Email <span class="sel">${esc(cfg.email)}</span></div><div style="padding:4px 0">${esc(cfg.address)}, Nigeria</div><a href="${L("/list/")}">List your machine</a><a href="${L("/requests/")}">My requests</a><a href="${L("/credits/")}">Photo credits</a></div>
   </div><div class="legal"><span>© ${new Date().getFullYear()} ${esc(cfg.company)} · ${esc(cfg.rc)}</span><span>Rates from the <a href="https://rates.buildocrat.store/" style="display:inline" target="_blank" rel="noopener">Buildocrat Rate Book</a>, updated ${esc(D.meta.updated)}. We only take payment into our corporate account, after a proforma invoice.</span></div></div></footer>
   <a class="fab" id="fab" href="https://wa.me/${cfg.whatsapp}" target="_blank" rel="noopener" aria-label="Chat with Yellowmetal on WhatsApp">${WA}<span>Chat with us</span></a>
   <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden><div class="modal-box">
@@ -201,7 +254,7 @@ ${chrome(v.html, "path")}
 }
 
 /* ---------- write ---------- */
-const routes = ["/", "/hire/", "/buy/", "/list/", "/source/", "/how/", "/shortlist/", "/requests/", "/search/", "/credits/"];
+const routes = ["/", "/hire/", "/buy/", "/list/", "/source/", "/how/", "/shortlist/", "/requests/", "/search/", "/credits/", ...sections.map(s => `/${s.slug}/`)];
 hireGroups.forEach(g => routes.push(`/hire/${g.slug}/`));
 hire.forEach(i => routes.push(`/hire/${i.g}/${i.id}/`));
 buyCats.forEach(c => routes.push(`/buy/${c.slug}/`));
@@ -209,7 +262,7 @@ buy.forEach(i => routes.push(`/buy/${i.cat}/${i.id}/`));
 FLEET.forEach(f => routes.push(`/fleet/${f.id}/`));
 
 // clear previous generated pages but keep images, CNAME and verification files
-for (const d of ["hire", "buy", "fleet", "list", "source", "how", "shortlist", "requests", "search", "credits", "assets"]) fs.rmSync(path.join(DOCS, d), { recursive: true, force: true });
+for (const d of [...sections.map(s => s.slug), "hire", "buy", "fleet", "list", "source", "how", "shortlist", "requests", "search", "credits", "assets"]) fs.rmSync(path.join(DOCS, d), { recursive: true, force: true });
 fs.mkdirSync(path.join(DOCS, "assets"), { recursive: true });
 fs.writeFileSync(path.join(DOCS, "assets/style.css"), css);
 fs.writeFileSync(path.join(DOCS, "assets/app.js"), appSrc);
@@ -245,4 +298,4 @@ ${chrome(homeV.html, "hash")}
 <script src="assets/data.js"></script>
 <script src="assets/app.js"></script>
 `);
-console.log(`Built ${routes.length} pages: ${hire.length} hire, ${buy.length} buy, ${hireGroups.length} hire groups, ${buyCats.length} buy categories, ${Object.keys(photos).length}/${Object.keys(PH.keys).length} photos. Rates ${D.meta.updated}.`);
+console.log(`Built ${routes.length} pages: ${hire.length} hire, ${buy.length} buy, ${sections.length} sections, ${EXTRA.size} Yellowmetal lines, ${hireGroups.length} hire groups, ${buyCats.length} buy categories, ${Object.keys(photos).length}/${Object.keys(PH.keys).length} photos. Rates ${D.meta.updated}.`);
