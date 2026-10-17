@@ -100,7 +100,7 @@ def commons(q, brand, used, models=None):
         bonus = 12 if models and re.search(models, text, re.I) else 0
         out.append({"title": t, "thumb": ii.get("thumburl") or ii["url"], "page": ii.get("descriptionurl"), "licence": lic, "year": yr,
                     "author": strip_html(meta.get("Artist", {}).get("value"))[:120] or "Unknown", "source": "Wikimedia Commons",
-                    "score": score(rank, ii.get("width", 0), ii.get("height", 0), text, t in used) + bonus + (yr - MIN_YEAR)})
+                    "score": score(rank, ii.get("width", 0), ii.get("height", 0), text, t in used or ii.get("descriptionurl") in used) + bonus + (yr - MIN_YEAR)})
     return out
 
 
@@ -166,6 +166,11 @@ def main():
         if k not in spec["keys"] or lock.get(k, {}).get("none"):
             f.unlink()
     used = {v.get("page") for v in lock.values() if v.get("page")} | set(spec.get("rejected", []))
+    for k, s in spec["keys"].items():
+        if s.get("tile"):
+            lock[k] = {"none": True, "tile": True}
+            for suf in ("", "-s"):
+                (OUT / f"{k}{suf}.jpg").unlink(missing_ok=True)
     todo = [k for k, s in spec["keys"].items() if not s.get("alias") and not s.get("tile") and (k not in lock or (not lock[k].get("none") and not (OUT / f"{k}.jpg").exists()))]
     print(f"{len(todo)} photos to fetch")
     for key in todo:

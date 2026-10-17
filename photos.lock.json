@@ -29,18 +29,12 @@
   "none": true
  },
  "auto-level": {
-  "title": "File:Dülmen, Hausdülmen, Heubach -- 2024 -- 0016.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Heubach_--_2024_--_0016.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Dietmar Rabich",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "backhoe": {
-  "title": "File:Moscow, Gorky Park portal, big dig, June 2026 52.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Gorky_Park_portal,_big_dig,_June_2026_52.jpg",
-  "licence": "CC0",
-  "author": "Retired electrician",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "barge": {
   "none": true
@@ -55,11 +49,12 @@
   "none": true
  },
  "boom-lift": {
-  "title": "File:Sinoboom factory 2022030804.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Sinoboom_factory_2022030804.jpg",
+  "title": "File:Machinery of Sinoboom 2021052010.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Machinery_of_Sinoboom_2021052010.jpg",
   "licence": "CC BY 3.0",
   "author": "Huangdan2060",
-  "source": "Wikimedia Commons"
+  "source": "Wikimedia Commons",
+  "alias": "scissor-lift"
  },
  "borehole-rig": {
   "none": true
@@ -75,12 +70,8 @@
   "none": true
  },
  "cement-tanker": {
-  "title": "File:Zoomlion M3000S Concrete Mixer Truck 20210522.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Zoomlion_M3000S_Concrete_Mixer_Truck_20210522.jpg",
-  "licence": "CC BY 3.0",
-  "author": "Huangdan2060",
-  "source": "Wikimedia Commons",
-  "fallback": "transit-mixer"
+  "none": true,
+  "tile": true
  },
  "chain-block": {
   "none": true
@@ -89,11 +80,8 @@
   "none": true
  },
  "cold-milling": {
-  "title": "File:EXCON 2025, Bangalore International Exhibition Centre (778).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:EXCON_2025,_Bangalore_International_Exhibition_Centre_(778).jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Gpkp",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "concrete-boom-pump": {
   "title": "File:Zoomlion 52X-6RZ Pump Truck 20210522.jpg",
@@ -103,11 +91,8 @@
   "source": "Wikimedia Commons"
  },
  "concrete-mixer": {
-  "title": "File:Zoomlion M3000S Concrete Mixer Truck 20210522.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Zoomlion_M3000S_Concrete_Mixer_Truck_20210522.jpg",
-  "licence": "CC BY 3.0",
-  "author": "Huangdan2060",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "concrete-pump": {
   "title": "File:Moscow, SANY SYG5261THB concrete pump, Feb 2026 04.jpg",
@@ -195,11 +180,12 @@
   "source": "Wikimedia Commons"
  },
  "drone-lidar": {
-  "title": "File:DJI 20260402172330 0007 Z.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:DJI_20260402172330_0007_Z.jpg",
+  "title": "File:2025-07-10-Waldbrandübung-3652.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2025-07-10-Waldbrand%C3%BCbung-3652.jpg",
   "licence": "CC BY-SA 4.0",
-  "author": "Largeman2000",
-  "source": "Wikimedia Commons"
+  "author": "Superbass",
+  "source": "Wikimedia Commons",
+  "alias": "dji-enterprise"
  },
  "excavator": {
   "title": "File:Sany Excavator SY215C 20220310.jpg",
@@ -228,11 +214,8 @@
   "none": true
  },
  "forklift": {
-  "title": "File:Heli 2026-08-11 CPD15 forklift 05.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Heli_2026-08-11_CPD15_forklift_05.jpg",
-  "licence": "CC BY 4.0",
-  "author": "P1898",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "formwork": {
   "none": true
@@ -252,7 +235,8 @@
   "none": true
  },
  "gnss-rover": {
-  "none": true
+  "none": true,
+  "tile": true
  },
  "grout-pump": {
   "none": true
@@ -366,18 +350,20 @@
   "source": "Wikimedia Commons"
  },
  "pile-hammer": {
-  "title": "File:Elevated structures in Taal Bocaue station construction sites 48.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Elevated_structures_in_Taal_Bocaue_station_construction_sites_48.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "FBenjr123",
-  "source": "Wikimedia Commons"
+  "title": "File:Skyway Stage 3 Caloocan 2026-07-19 construction Grace Park 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyway_Stage_3_Caloocan_2026-07-19_construction_Grace_Park_01.jpg",
+  "licence": "CC BY 4.0",
+  "author": "P1898",
+  "source": "Wikimedia Commons",
+  "alias": "drill-rig"
  },
  "piling-rig": {
-  "title": "File:Construction of Guiguinto Railway Station elevated structures Tabang 28.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Construction_of_Guiguinto_Railway_Station_elevated_structures_Tabang_28.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "FBenjr123",
-  "source": "Wikimedia Commons"
+  "title": "File:Skyway Stage 3 Caloocan 2026-07-19 construction Grace Park 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyway_Stage_3_Caloocan_2026-07-19_construction_Grace_Park_01.jpg",
+  "licence": "CC BY 4.0",
+  "author": "P1898",
+  "source": "Wikimedia Commons",
+  "alias": "drill-rig"
  },
  "pipe-bending": {
   "none": true
@@ -386,11 +372,12 @@
   "none": true
  },
  "placing-boom": {
-  "title": "File:Topspot Heavy Equipment Inc. 02.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Topspot_Heavy_Equipment_Inc._02.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "FBenjr123",
-  "source": "Wikimedia Commons"
+  "title": "File:Zoomlion 52X-6RZ Pump Truck 20210522.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Zoomlion_52X-6RZ_Pump_Truck_20210522.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Huangdan2060",
+  "source": "Wikimedia Commons",
+  "alias": "concrete-boom-pump"
  },
  "plate-compactor": {
   "none": true
@@ -410,11 +397,8 @@
   "none": true
  },
  "power-tools": {
-  "title": "File:Meat Sumo and Ingco Tools in Mandaue City (2024-06-01).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Meat_Sumo_and_Ingco_Tools_in_Mandaue_City_(2024-06-01).jpg",
-  "licence": "CC BY 4.0",
-  "author": "Wide Awake!",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "power-trowel": {
   "none": true
@@ -463,11 +447,8 @@
   "source": "Wikimedia Commons"
  },
  "self-loading-mixer": {
-  "title": "File:XCMG Loading Machinery Dispatch Center (20260107122534).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:XCMG_Loading_Machinery_Dispatch_Center_(20260107122534).jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "N509FZ",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "shotcrete": {
   "none": true
@@ -479,11 +460,8 @@
   "none": true
  },
  "skid-steer": {
-  "title": "File:Moscow, Krymskaya Embankment, people and snow loaders, Jan 2026 03.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Krymskaya_Embankment,_people_and_snow_loaders,_Jan_2026_03.jpg",
-  "licence": "CC0",
-  "author": "Retired electrician",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "slipform-paver": {
   "none": true
@@ -523,11 +501,12 @@
   "none": true
  },
  "tandem-roller": {
-  "title": "File:EXCON 2025, Bangalore International Exhibition Centre (1086).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:EXCON_2025,_Bangalore_International_Exhibition_Centre_(1086).jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Gpkp",
-  "source": "Wikimedia Commons"
+  "title": "File:LiuGong 6622E Road Roller 20210522.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:LiuGong_6622E_Road_Roller_20210522.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Huangdan2060",
+  "source": "Wikimedia Commons",
+  "alias": "vibratory-roller"
  },
  "telehandler": {
   "title": "File:Zoomlion ZTH2506 Agritechnica 2025 (DSC00481).jpg",
@@ -547,18 +526,12 @@
   "none": true
  },
  "total-station": {
-  "title": "File:Building a Great Solar Wall in China (153759 - 2 20241208 lrg).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Building_a_Great_Solar_Wall_in_China_(153759_-_2_20241208_lrg).jpg",
-  "licence": "Public domain",
-  "author": "NASA Earth Observatory images by Michala Garrison, using Landsat data from the U.S. Geological Survey. Story by Adam Voi",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "tower-crane": {
-  "title": "File:Zoomlion crane in Dnipro.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Zoomlion_crane_in_Dnipro.jpg",
-  "licence": "CC BY-SA 4.0",
-  "author": "Alex Blokha",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "tractor-head": {
   "title": "File:Sitrak C7h ZZ3317V326HE1 in Dnipro.jpg",
@@ -608,7 +581,12 @@
   "source": "Wikimedia Commons"
  },
  "vibro-hammer": {
-  "none": true
+  "title": "File:Skyway Stage 3 Caloocan 2026-07-19 construction Grace Park 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyway_Stage_3_Caloocan_2026-07-19_construction_Grace_Park_01.jpg",
+  "licence": "CC BY 4.0",
+  "author": "P1898",
+  "source": "Wikimedia Commons",
+  "alias": "drill-rig"
  },
  "walk-behind-roller": {
   "none": true
@@ -637,11 +615,8 @@
   "source": "Wikimedia Commons"
  },
  "wheeled-excavator": {
-  "title": "File:Recovery Efforts Continue at Site of Submerged Vehicle in Search for Missing Soldiers (8940684) (cropped).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Recovery_Efforts_Continue_at_Site_of_Submerged_Vehicle_in_Search_for_Missing_Soldiers_(8940684)_(cropped).jpg",
-  "licence": "Public domain",
-  "author": "U.S. Army 70MPAD by Staff Sgt.  Christopher Saunders",
-  "source": "Wikimedia Commons"
+  "none": true,
+  "tile": true
  },
  "work-boat": {
   "none": true

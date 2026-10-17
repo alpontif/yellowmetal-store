@@ -581,15 +581,8 @@
    "label": "Amphibious excavator"
   },
   "wheeled-excavator": {
-   "q": [
-    "XCMG wheeled excavator",
-    "SANY wheeled excavator",
-    "LiuGong wheeled excavator",
-    "XCMG XE150W"
-   ],
    "label": "Wheeled excavator",
-   "models": "XE\\d{2,3}W|SY\\d{3}W",
-   "fallback": "excavator"
+   "tile": true
   },
   "hydraulic-breaker": {
    "q": [
@@ -601,23 +594,12 @@
    "fallback": "excavator"
   },
   "skid-steer": {
-   "q": [
-    "SANY skid steer",
-    "XCMG skid steer",
-    "Sunward skid steer",
-    "LiuGong skid steer"
-   ],
-   "label": "Skid-steer loader"
+   "label": "Skid-steer loader",
+   "tile": true
   },
   "backhoe": {
-   "q": [
-    "XCMG backhoe",
-    "LiuGong backhoe",
-    "SANY backhoe",
-    "SDLG backhoe",
-    "Lonking backhoe"
-   ],
-   "label": "Backhoe loader"
+   "label": "Backhoe loader",
+   "tile": true
   },
   "wheel-loader": {
    "q": [
@@ -696,14 +678,8 @@
    "models": "XS\\d{3}[JHE]|SSR\\d{3}|6\\d{3}E|RS8\\d{3}"
   },
   "tandem-roller": {
-   "q": [
-    "XCMG tandem roller",
-    "XCMG XD",
-    "SANY tandem",
-    "XCMG roller"
-   ],
    "label": "Tandem roller",
-   "fallback": "vibratory-roller"
+   "alias": "vibratory-roller"
   },
   "pneumatic-roller": {
    "q": [
@@ -912,13 +888,8 @@
    "models": "SCC\\d{3,5}|XGC\\d+|ZCC\\d+|ZCT\\d+"
   },
   "tower-crane": {
-   "q": [
-    "Zoomlion tower crane",
-    "XCMG tower crane",
-    "SANY tower crane",
-    "Zoomlion crane"
-   ],
-   "label": "Tower crane"
+   "label": "Tower crane",
+   "tile": true
   },
   "gantry-crane": {
    "q": [
@@ -940,15 +911,8 @@
    "fallback": "all-terrain-crane"
   },
   "forklift": {
-   "q": [
-    "Heli forklift truck",
-    "Hangcha forklift truck",
-    "LiuGong forklift",
-    "XCMG forklift",
-    "Lonking forklift"
-   ],
    "label": "Forklift",
-   "models": "Heli|Hangcha|CLG2\\d{3}|Lonking"
+   "tile": true
   },
   "telehandler": {
    "q": [
@@ -984,15 +948,8 @@
    "fallback": "boom-lift"
   },
   "boom-lift": {
-   "q": [
-    "Dingli boom",
-    "Sinoboom",
-    "XCMG aerial work platform",
-    "Zoomlion aerial",
-    "SANY aerial"
-   ],
    "label": "Boom lift",
-   "models": "Dingli|Sinoboom|XGS\\d+|XGA\\d+"
+   "alias": "scissor-lift"
   },
   "scaffolding": {
    "q": [
@@ -1048,12 +1005,8 @@
    "label": "Concrete pump"
   },
   "self-loading-mixer": {
-   "q": [
-    "self loading mixer",
-    "XCMG self loading"
-   ],
    "label": "Self-loading mixer",
-   "fallback": "transit-mixer"
+   "tile": true
   },
   "block-machine": {
    "q": [
@@ -1076,10 +1029,8 @@
    "label": "Vibrating screed"
   },
   "concrete-mixer": {
-   "q": [
-    "Chinese concrete mixer"
-   ],
-   "label": "Concrete mixer"
+   "label": "Concrete mixer",
+   "tile": true
   },
   "poker-vibrator": {
    "q": [
@@ -1280,55 +1231,28 @@
    "label": "Outboard engine"
   },
   "pile-hammer": {
-   "q": [
-    "SANY pile driver",
-    "XCMG pile"
-   ],
    "label": "Pile hammer",
-   "fallback": "piling-rig"
+   "alias": "drill-rig"
   },
   "vibro-hammer": {
-   "q": [
-    "SANY vibratory hammer",
-    "Chinese vibro hammer"
-   ],
    "label": "Vibro hammer",
-   "fallback": "piling-rig"
+   "alias": "drill-rig"
   },
   "piling-rig": {
-   "q": [
-    "SANY rotary drilling rig",
-    "XCMG rotary drilling rig",
-    "SANY piling",
-    "XCMG piling"
-   ],
    "label": "Piling rig",
-   "models": "SR\\d{3}|XR\\d{3}|ZR\\d{3}",
-   "fallback": "drill-rig"
+   "alias": "drill-rig"
   },
   "total-station": {
-   "q": [
-    "South total station",
-    "Hi-Target total station",
-    "Chinese total station"
-   ],
-   "label": "Total station"
+   "label": "Total station",
+   "tile": true
   },
   "gnss-rover": {
-   "q": [
-    "CHC GNSS",
-    "South GNSS",
-    "Hi-Target GNSS",
-    "CHC i80"
-   ],
-   "label": "GNSS rover"
+   "label": "GNSS rover",
+   "tile": true
   },
   "auto-level": {
-   "q": [
-    "South level",
-    "Chinese automatic level"
-   ],
-   "label": "Automatic level"
+   "label": "Automatic level",
+   "tile": true
   },
   "survey-drone": {
    "q": [
@@ -1391,12 +1315,8 @@
    "label": "Road broom"
   },
   "cold-milling": {
-   "q": [
-    "XCMG milling",
-    "XCMG XM",
-    "SANY milling machine"
-   ],
-   "label": "Cold milling machine"
+   "label": "Cold milling machine",
+   "tile": true
   },
   "road-marking": {
    "q": [
@@ -1518,32 +1438,16 @@
    "models": "Mini (3|4)|Mavic 3|Air 3"
   },
   "drone-lidar": {
-   "q": [
-    "DJI Zenmuse",
-    "DJI Matrice L1",
-    "DJI LiDAR"
-   ],
    "label": "LiDAR drone",
-   "models": "Zenmuse (L1|L2|P1)",
-   "fallback": "dji-enterprise"
+   "alias": "dji-enterprise"
   },
   "cement-tanker": {
-   "q": [
-    "cement tanker China",
-    "CIMC tanker",
-    "bulk cement"
-   ],
    "label": "Bulk cement tanker",
-   "fallback": "transit-mixer"
+   "tile": true
   },
   "placing-boom": {
-   "q": [
-    "SANY placing boom",
-    "Zoomlion placing boom",
-    "concrete placing boom"
-   ],
    "label": "Placing boom",
-   "fallback": "concrete-boom-pump"
+   "alias": "concrete-boom-pump"
   },
   "laser-screed": {
    "q": [
@@ -1559,12 +1463,7 @@
   },
   "power-tools": {
    "label": "Power tools",
-   "q": [
-    "Ingco drill",
-    "Ingco angle grinder",
-    "Ingco tools"
-   ],
-   "brands": "\\b(ingco|total tools|dongcheng)\\b"
+   "tile": true
   },
   "hand-tools": {
    "q": [
@@ -1576,17 +1475,29 @@
  },
  "minYear": 2019,
  "rejected": [
-  "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Heubach_--_2024_--_0016.jpg",
-  "https://commons.wikimedia.org/wiki/File:Moscow,_Gorky_Park_portal,_big_dig,_June_2026_52.jpg",
-  "https://commons.wikimedia.org/wiki/File:EXCON_2025,_Bangalore_International_Exhibition_Centre_(778).jpg",
-  "https://commons.wikimedia.org/wiki/File:Vermont_Open_Geospatial_Imagery-Flooding-Photos-Original-SAINT_JOHNSBURY_20240730_UVM_225931.jpg",
-  "https://commons.wikimedia.org/wiki/File:Heli_2026-08-11_CPD15_forklift_05.jpg",
-  "https://commons.wikimedia.org/wiki/File:Shandong,_IAA_2024,_Hanover_(P1190857).jpg",
-  "https://commons.wikimedia.org/wiki/File:Moscow,_Krymskaya_Embankment,_people_and_snow_loaders,_Jan_2026_03.jpg",
+  "https://commons.wikimedia.org/wiki/File:2026-05-19_Reconstruction_of_Ostankinsky_Overpass_21_roadblocks,_Sitrak_C7H.jpg",
+  "https://commons.wikimedia.org/wiki/File:Building_a_Great_Solar_Wall_in_China_(153759_-_2_20241208_lrg).jpg",
+  "https://commons.wikimedia.org/wiki/File:Construction_of_Guiguinto_Railway_Station_elevated_structures_Tabang_28.jpg",
   "https://commons.wikimedia.org/wiki/File:Construction_vehicles_in_Minalin_20.jpg",
   "https://commons.wikimedia.org/wiki/File:Construction_vehicles_in_the_Philippines_a_06.jpg",
-  "https://commons.wikimedia.org/wiki/File:2026-05-19_Reconstruction_of_Ostankinsky_Overpass_21_roadblocks,_Sitrak_C7H.jpg",
+  "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Heubach_--_2024_--_0016.jpg",
+  "https://commons.wikimedia.org/wiki/File:DJI_20260402172330_0007_Z.jpg",
+  "https://commons.wikimedia.org/wiki/File:EXCON_2025,_Bangalore_International_Exhibition_Centre_(1086).jpg",
+  "https://commons.wikimedia.org/wiki/File:EXCON_2025,_Bangalore_International_Exhibition_Centre_(778).jpg",
+  "https://commons.wikimedia.org/wiki/File:Elevated_structures_in_Taal_Bocaue_station_construction_sites_48.jpg",
+  "https://commons.wikimedia.org/wiki/File:Heli_2026-08-11_CPD15_forklift_05.jpg",
+  "https://commons.wikimedia.org/wiki/File:Ingco_Gasoline_2026-06-18_Engine_Power_Trowel_GPT361-4.jpg",
+  "https://commons.wikimedia.org/wiki/File:Meat_Sumo_and_Ingco_Tools_in_Mandaue_City_(2024-06-01).jpg",
+  "https://commons.wikimedia.org/wiki/File:Moscow,_Gorky_Park_portal,_big_dig,_June_2026_52.jpg",
+  "https://commons.wikimedia.org/wiki/File:Moscow,_Krymskaya_Embankment,_people_and_snow_loaders,_Jan_2026_03.jpg",
   "https://commons.wikimedia.org/wiki/File:Moscow,_Tatarskaya_35_construction,_Sept_2026_03.jpg",
-  "https://commons.wikimedia.org/wiki/File:Ingco_Gasoline_2026-06-18_Engine_Power_Trowel_GPT361-4.jpg"
+  "https://commons.wikimedia.org/wiki/File:Recovery_Efforts_Continue_at_Site_of_Submerged_Vehicle_in_Search_for_Missing_Soldiers_(8940684)_(cropped).jpg",
+  "https://commons.wikimedia.org/wiki/File:Shandong,_IAA_2024,_Hanover_(P1190857).jpg",
+  "https://commons.wikimedia.org/wiki/File:Sinoboom_factory_2022030804.jpg",
+  "https://commons.wikimedia.org/wiki/File:Topspot_Heavy_Equipment_Inc._02.jpg",
+  "https://commons.wikimedia.org/wiki/File:Vermont_Open_Geospatial_Imagery-Flooding-Photos-Original-SAINT_JOHNSBURY_20240730_UVM_225931.jpg",
+  "https://commons.wikimedia.org/wiki/File:XCMG_Loading_Machinery_Dispatch_Center_(20260107122534).jpg",
+  "https://commons.wikimedia.org/wiki/File:Zoomlion_M3000S_Concrete_Mixer_Truck_20210522.jpg",
+  "https://commons.wikimedia.org/wiki/File:Zoomlion_crane_in_Dnipro.jpg"
  ]
 }
