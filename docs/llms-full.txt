@@ -1,0 +1,481 @@
+# Yellowmetal (yellowmetal.store): full rates
+
+> Yellowmetal Plants & Equipment Ltd (RC 9409523) hires, sells and lists heavy construction equipment across Nigeria from Festac Town, Lagos. 144 hire lines and 270 equipment prices, in naira, from the Buildocrat Nigeria Construction Rate Book (rates.buildocrat.store), as at 15 October 2026. Requests close on WhatsApp 0701 802 4292 (+2347018024292); email yellowmetalng@gmail.com.
+
+Prices in naira. Base location Abuja; Lagos is about 5% higher for hire and 6% for purchase. Location factors: Abuja (FCT) x1, Lagos x1.05, Port Harcourt x1.08, Ibadan x0.95, Osogbo (Osun) x0.97, Kano x0.95, Kaduna x0.95, Enugu x0.98, Benin City x1, Uyo x1.03, Jos x0.97, Riverine / creek site x1.4. All-in hire = dry hire + diesel (litres/day x ₦1,870 per litre + 10% lubricants) + operator day rate. Exchange rate used for imports: ₦1333 per US$.
+
+## Hire rates by group (Abuja, per unit)
+
+### Earthmoving
+- Mini excavator 3-5t (P-EXM): dry ₦150,000, fuel ₦61,710, operator ₦39,300, all-in ₦251,010 per day; output 60-100 m3/day; confidence LOW - https://yellowmetal.store/hire/earthmoving/mini-excavator-3-5t/
+- Hydraulic excavator 14t (P-EX14): dry ₦300,000, fuel ₦205,700, operator ₦39,300, all-in ₦545,000 per day; output 180-250 m3/day; confidence LOW - https://yellowmetal.store/hire/earthmoving/hydraulic-excavator-14t/
+- Hydraulic excavator 20-22t (CAT 320/215 class) (P-EXC20): dry ₦480,000, fuel ₦308,550, operator ₦39,300, all-in ₦827,850 per day; output 250-350 m3/day bulk dig; confidence MEDIUM - https://yellowmetal.store/hire/earthmoving/hydraulic-excavator-20-22t-cat-320-215-class/
+- Hydraulic excavator 30t (P-EX30): dry ₦650,000, fuel ₦452,540, operator ₦39,300, all-in ₦1,141,840 per day; output 350-500 m3/day; confidence LOW - https://yellowmetal.store/hire/earthmoving/hydraulic-excavator-30t/
+- Long-reach excavator (P-EXLR): dry ₦750,000, fuel ₦370,260, operator ₦39,300, all-in ₦1,159,560 per day; output drain/canal work; confidence LOW - https://yellowmetal.store/hire/earthmoving/long-reach-excavator/
+- Amphibious / swamp excavator (P-EXAM): dry ₦1,400,000, fuel ₦411,400, operator ₦39,300, all-in ₦1,850,700 per day; output swamp/creek work; confidence LOW - https://yellowmetal.store/hire/earthmoving/amphibious-swamp-excavator/
+- Excavator 20t with hydraulic breaker (P-EXBR): dry ₦600,000, fuel ₦349,690, operator ₦39,300, all-in ₦988,990 per day; output 20-40 m3/day rock; confidence LOW - https://yellowmetal.store/hire/earthmoving/excavator-20t-with-hydraulic-breaker/
+- Backhoe loader (JCB 3CX/3DX class) (P-BHL): dry ₦310,000, fuel ₦143,990, operator ₦39,300, all-in ₦493,290 per day; output 80-120 m3/day trench; confidence MEDIUM - https://yellowmetal.store/hire/earthmoving/backhoe-loader-jcb-3cx-3dx-class/
+- Skid-steer loader (Bobcat class) (P-SSL): dry ₦180,000, fuel ₦82,280, operator ₦32,750, all-in ₦295,030 per day; output site clearing/loading; confidence LOW - https://yellowmetal.store/hire/earthmoving/skid-steer-loader-bobcat-class/
+- Wheel loader 3t (SDLG class) (P-WL3): dry ₦220,000, fuel ₦205,700, operator ₦32,750, all-in ₦458,450 per day; output 300-400 m3/day loading; confidence LOW - https://yellowmetal.store/hire/earthmoving/wheel-loader-3t-sdlg-class/
+- Wheel loader 5t (P-WL5): dry ₦350,000, fuel ₦287,980, operator ₦32,750, all-in ₦670,730 per day; output 500-700 m3/day loading; confidence LOW - https://yellowmetal.store/hire/earthmoving/wheel-loader-5t/
+- Bulldozer D6 class (P-DOZ): dry ₦450,000, fuel ₦370,260, operator ₦41,920, all-in ₦862,180 per day; output 0.8-1.2 ha/day clearing; confidence LOW - https://yellowmetal.store/hire/earthmoving/bulldozer-d6-class/
+- Bulldozer D7 class (P-DZ7): dry ₦550,000, fuel ₦452,540, operator ₦41,920, all-in ₦1,044,460 per day; output 1.2-1.8 ha/day clearing; confidence MEDIUM - https://yellowmetal.store/hire/earthmoving/bulldozer-d7-class/
+- Bulldozer D8 class (P-DZ8): dry ₦750,000, fuel ₦575,960, operator ₦41,920, all-in ₦1,367,880 per day; output heavy dozing; confidence LOW - https://yellowmetal.store/hire/earthmoving/bulldozer-d8-class/
+- Motor grader (CAT 140 class) (P-GRD): dry ₦400,000, fuel ₦287,980, operator ₦41,920, all-in ₦729,900 per day; output 2,500-4,000 m2/day; confidence LOW - https://yellowmetal.store/hire/earthmoving/motor-grader-cat-140-class/
+
+### Compaction
+- Vibratory roller 10-12t (P-ROL): dry ₦280,000, fuel ₦164,560, operator ₦32,750, all-in ₦477,310 per day; output 600-1,000 m3/day; confidence LOW - https://yellowmetal.store/hire/compaction/vibratory-roller-10-12t/
+- Vibratory roller 16-20t (P-RL18): dry ₦380,000, fuel ₦226,270, operator ₦32,750, all-in ₦639,020 per day; output 1,000-1,500 m3/day; confidence LOW - https://yellowmetal.store/hire/compaction/vibratory-roller-16-20t/
+- Tandem asphalt roller 3-8t (P-RLT): dry ₦180,000, fuel ₦71,995, operator ₦32,750, all-in ₦284,745 per day; output asphalt / small areas; confidence LOW - https://yellowmetal.store/hire/compaction/tandem-asphalt-roller-3-8t/
+- Pneumatic-tyred roller (P-RLP): dry ₦300,000, fuel ₦164,560, operator ₦32,750, all-in ₦497,310 per day; output asphalt finishing; confidence LOW - https://yellowmetal.store/hire/compaction/pneumatic-tyred-roller/
+- Padfoot / sheepsfoot roller 12t (P-RLS): dry ₦300,000, fuel ₦185,130, operator ₦32,750, all-in ₦517,880 per day; output clay fill; confidence LOW - https://yellowmetal.store/hire/compaction/padfoot-sheepsfoot-roller-12t/
+- Plate compactor (petrol) (P-PLT): dry ₦15,000, fuel ₦9,273, operator ₦0, all-in ₦24,273 per day; output 80-120 m2/day/150mm layer; confidence LOW - https://yellowmetal.store/hire/compaction/plate-compactor-petrol/
+- Jumping-jack rammer (petrol) (P-RAM): dry ₦15,000, fuel ₦6,182, operator ₦0, all-in ₦21,182 per day; output trench backfill; confidence LOW - https://yellowmetal.store/hire/compaction/jumping-jack-rammer-petrol/
+
+### Haulage & Vehicles
+- Tipper truck 10t (P-TP10): dry ₦120,000, fuel ₦185,130, operator ₦26,200, all-in ₦331,330 per day; output 5-7 trips/day local; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-10t/
+- Tipper truck 20t (P-TIP): dry ₦150,000, fuel ₦246,840, operator ₦26,200, all-in ₦423,040 per day; output 4-6 trips/day local; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-20t/
+- Tipper truck 30t (P-TP30): dry ₦220,000, fuel ₦329,120, operator ₦26,200, all-in ₦575,320 per day; output 3-5 trips/day; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-30t/
+- Water tanker 10,000L (P-WTK): dry ₦150,000, fuel ₦185,130, operator ₦26,200, all-in ₦361,330 per day; output 6-8 loads/day; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/water-tanker-10-000l/
+- Fuel bowser 10,000L (P-FUB): dry ₦180,000, fuel ₦164,560, operator ₦26,200, all-in ₦370,760 per day; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/fuel-bowser-10-000l/
+- Flatbed trailer (P-FLB): dry ₦250,000, fuel ₦308,550, operator ₦26,200, all-in ₦584,750 per day; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/flatbed-trailer/
+- Low-bed mobilisation, per trip <=50km (P-LOW): dry ₦480,000, fuel ₦0, operator ₦0, all-in ₦480,000 per trip; output per trip; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/low-bed-mobilisation-per-trip-50km/
+- Pickup / site van (P-PKP): dry ₦35,000, fuel ₦38,638, operator ₦15,720, all-in ₦89,358 per day; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/pickup-site-van/
+- 18-seater staff bus (P-BUS): dry ₦60,000, fuel ₦82,280, operator ₦15,720, all-in ₦158,000 per day; confidence LOW - https://yellowmetal.store/hire/haulage-vehicles/18-seater-staff-bus/
+- Tipper truck 40t (HOWO 8x4, 12-wheeler) (X-TP40): dry ₦275,000, fuel ₦390,830, operator ₦26,200, all-in ₦692,030 per day; output 4-6 trips/day, 40t payload; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-40t-howo-8x4-12-wheeler/
+- Tractor unit with 40t low-bed (2-axle) (X-TL40): dry ₦400,000, fuel ₦411,400, operator ₦26,200, all-in ₦837,600 per day; output Backhoes, rollers, small dozers; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-40t-low-bed-2-axle/
+- Tractor unit with 80t low-bed (3-axle) (X-TL80): dry ₦625,000, fuel ₦534,820, operator ₦26,200, all-in ₦1,186,020 per day; output 30-40t excavators, D8 dozers, crushers; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-80t-low-bed-3-axle/
+- Tractor unit with 100t low-bed (4-axle) (X-TL100): dry ₦750,000, fuel ₦617,100, operator ₦26,200, all-in ₦1,393,300 per day; output Crawler cranes, piling rigs, large plant; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-100t-low-bed-4-axle/
+- Tractor unit with 120t low-bed (gooseneck, 4-5 axle) (X-TL120): dry ₦950,000, fuel ₦699,380, operator ₦26,200, all-in ₦1,675,580 per day; output Abnormal loads, transformers, heavy cranes; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-120t-low-bed-gooseneck-4-5-axle/
+- Low-bed mobilisation, per trip 50-150km (X-LOW150): dry ₦912,000, fuel ₦0, operator ₦0, all-in ₦912,000 per trip; output One machine, one way; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/haulage-vehicles/low-bed-mobilisation-per-trip-50-150km/
+- Low-bed mobilisation, per trip 150-300km (X-LOW300): dry ₦1,536,000, fuel ₦0, operator ₦0, all-in ₦1,536,000 per trip; output One machine, one way; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/haulage-vehicles/low-bed-mobilisation-per-trip-150-300km/
+
+### Lifting & Access
+- Mobile crane 25t (P-CRN): dry ₦450,000, fuel ₦246,840, operator ₦52,400, all-in ₦749,240 per day; confidence MEDIUM - https://yellowmetal.store/hire/lifting-access/mobile-crane-25t/
+- Mobile crane 50t (P-CR50): dry ₦900,000, fuel ₦370,260, operator ₦52,400, all-in ₦1,322,660 per day; confidence LOW - https://yellowmetal.store/hire/lifting-access/mobile-crane-50t/
+- Mobile crane 80t (P-CR80): dry ₦1,600,000, fuel ₦452,540, operator ₦52,400, all-in ₦2,104,940 per day; confidence LOW - https://yellowmetal.store/hire/lifting-access/mobile-crane-80t/
+- Tower crane (hire, per day equivalent) (P-TWC): dry ₦400,000, fuel ₦0, operator ₦52,400, all-in ₦452,400 per day; output excl. erection/dismantle & power; confidence LOW - https://yellowmetal.store/hire/lifting-access/tower-crane-hire-per-day-equivalent/
+- Hiab / truck-mounted crane 10t (P-HIAB): dry ₦250,000, fuel ₦185,130, operator ₦26,200, all-in ₦461,330 per day; confidence LOW - https://yellowmetal.store/hire/lifting-access/hiab-truck-mounted-crane-10t/
+- Forklift 3t (P-FKL): dry ₦100,000, fuel ₦71,995, operator ₦32,750, all-in ₦204,745 per day; confidence LOW - https://yellowmetal.store/hire/lifting-access/forklift-3t/
+- Telehandler 14-17m (P-TLH): dry ₦280,000, fuel ₦123,420, operator ₦32,750, all-in ₦436,170 per day; confidence LOW - https://yellowmetal.store/hire/lifting-access/telehandler-14-17m/
+- Material hoist (electric) (P-HST): dry ₦35,000, fuel ₦0, operator ₦0, all-in ₦35,000 per day; output needs generator; confidence LOW - https://yellowmetal.store/hire/lifting-access/material-hoist-electric/
+- Tubular steel scaffold, per 100 m2 elevation (P-SCF): dry ₦17,000, fuel ₦0, operator ₦0, all-in ₦17,000 per day; output equiv. N1,200/m2/week; confidence LOW - https://yellowmetal.store/hire/lifting-access/tubular-steel-scaffold-per-100-m2-elevation/
+- Adjustable steel props, per 100 nr (P-PRP): dry ₦15,000, fuel ₦0, operator ₦0, all-in ₦15,000 per day; output N150/prop/day; confidence LOW - https://yellowmetal.store/hire/lifting-access/adjustable-steel-props-per-100-nr/
+- Mobile crane 100t (P-CR100): dry ₦2,500,000, fuel ₦514,250, operator ₦52,400, all-in ₦3,066,650 per day; confidence LOW - https://yellowmetal.store/hire/lifting-access/mobile-crane-100t/
+- Scaffold tubes, kit of 50 nr x 4m (hire) (P-SCK4): dry ₦6,300, fuel ₦0, operator ₦0, all-in ₦6,300 per day; output kit; confidence LOW - https://yellowmetal.store/hire/lifting-access/scaffold-tubes-kit-of-50-nr-x-4m-hire/
+- Scaffold tubes, kit of 50 nr x 3m + 50 nr x 2m with 100 couplers (hire) (P-SCK32): dry ₦9,200, fuel ₦0, operator ₦0, all-in ₦9,200 per day; output kit; confidence LOW - https://yellowmetal.store/hire/lifting-access/scaffold-tubes-kit-of-50-nr-x-3m-50-nr-x-2m-with-100-couplers-hire/
+- Scaffold boards & fittings kit: 100 boards 3.75m x 305 x 30mm, 300 couplers (right-angle, swivel, sleeve), 40 joint pins, 40 base plates, 2 pinch bars (hire) (P-SCKB): dry ₦12,400, fuel ₦0, operator ₦0, all-in ₦12,400 per day; output kit; confidence LOW - https://yellowmetal.store/hire/lifting-access/scaffold-boards-and-fittings-kit-100-boards-3-75m-x-305-x-30mm-300-couplers-righ/
+
+### Concrete
+- Concrete mixer, 1-bag (petrol) (P-MIX): dry ₦25,000, fuel ₦18,546, operator ₦0, all-in ₦43,546 per day; output 10-15 m3/day; confidence LOW - https://yellowmetal.store/hire/concrete/concrete-mixer-1-bag-petrol/
+- Concrete mixer, 2-bag (diesel) (P-MX2): dry ₦40,000, fuel ₦41,140, operator ₦0, all-in ₦81,140 per day; output 20-25 m3/day; confidence LOW - https://yellowmetal.store/hire/concrete/concrete-mixer-2-bag-diesel/
+- Batching plant 60 m3/hr (P-BTP): dry ₦1,200,000, fuel ₦617,100, operator ₦32,750, all-in ₦1,849,850 per day; output 300-400 m3/day; confidence LOW - https://yellowmetal.store/hire/concrete/batching-plant-60-m3-hr/
+- Transit mixer 9 m3 (P-TMX): dry ₦220,000, fuel ₦246,840, operator ₦26,200, all-in ₦493,040 per day; output 5-7 loads/day; confidence LOW - https://yellowmetal.store/hire/concrete/transit-mixer-9-m3/
+- Concrete boom pump 37m (P-CPB): dry ₦1,100,000, fuel ₦308,550, operator ₦32,750, all-in ₦1,441,300 per day; output 300-500 m3/day; confidence LOW - https://yellowmetal.store/hire/concrete/concrete-boom-pump-37m/
+- Concrete line (static) pump (P-CPL): dry ₦450,000, fuel ₦185,130, operator ₦32,750, all-in ₦667,880 per day; output 150-250 m3/day; confidence LOW - https://yellowmetal.store/hire/concrete/concrete-line-static-pump/
+- Poker vibrator (petrol) (P-VIB): dry ₦12,000, fuel ₦7,728, operator ₦0, all-in ₦19,728 per day; confidence LOW - https://yellowmetal.store/hire/concrete/poker-vibrator-petrol/
+- Power float / trowel (petrol) (P-FLT): dry ₦20,000, fuel ₦12,364, operator ₦0, all-in ₦32,364 per day; output 200-300 m2/day; confidence LOW - https://yellowmetal.store/hire/concrete/power-float-trowel-petrol/
+- Concrete floor saw (petrol) (P-CCT): dry ₦25,000, fuel ₦12,364, operator ₦0, all-in ₦37,364 per day; confidence LOW - https://yellowmetal.store/hire/concrete/concrete-floor-saw-petrol/
+- Bar bending machine (electric) (P-BBM): dry ₦20,000, fuel ₦0, operator ₦0, all-in ₦20,000 per day; output needs generator; confidence LOW - https://yellowmetal.store/hire/concrete/bar-bending-machine-electric/
+- Vibrating block machine (petrol) (P-BLM): dry ₦15,000, fuel ₦9,273, operator ₦0, all-in ₦24,273 per day; output 500-700 blocks/day; confidence LOW - https://yellowmetal.store/hire/concrete/vibrating-block-machine-petrol/
+- Transit mixer 12 m3 (HOWO/SANY) (X-TMX12): dry ₦253,000, fuel ₦267,410, operator ₦26,200, all-in ₦546,610 per day; output 12 m3 per trip; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/concrete/transit-mixer-12-m3-howo-sany/
+- Bulk cement tanker 40 m3 with tractor unit (X-BCT): dry ₦300,000, fuel ₦411,400, operator ₦26,200, all-in ₦737,600 per day; output 35-40t cement per trip; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/concrete/bulk-cement-tanker-40-m3-with-tractor-unit/
+- Concrete boom pump 47-52m (SANY/Zoomlion) (X-CPB52): dry ₦1,595,000, fuel ₦390,830, operator ₦32,750, all-in ₦2,018,580 per day; output High-rise slabs and long reach pours; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/concrete/concrete-boom-pump-47-52m-sany-zoomlion/
+
+### Power, Air & Pumping
+- Generator 5kVA (petrol) (P-GN5): dry ₦12,000, fuel ₦18,546, operator ₦0, all-in ₦30,546 per day; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/generator-5kva-petrol/
+- Generator 20kVA (diesel) (P-GEN): dry ₦55,000, fuel ₦82,280, operator ₦0, all-in ₦137,280 per day; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/generator-20kva-diesel/
+- Generator 60kVA (diesel) (P-GN60): dry ₦95,000, fuel ₦185,130, operator ₦11,790, all-in ₦291,920 per day; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/generator-60kva-diesel/
+- Generator 100kVA (diesel) (P-GN100): dry ₦130,000, fuel ₦308,550, operator ₦11,790, all-in ₦450,340 per day; confidence MEDIUM - https://yellowmetal.store/hire/power-air-pumping/generator-100kva-diesel/
+- Generator 250kVA (diesel) (P-GN250): dry ₦240,000, fuel ₦658,240, operator ₦11,790, all-in ₦910,030 per day; confidence MEDIUM - https://yellowmetal.store/hire/power-air-pumping/generator-250kva-diesel/
+- Welding generator 400A (diesel) (P-WLG): dry ₦80,000, fuel ₦82,280, operator ₦0, all-in ₦162,280 per day; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/welding-generator-400a-diesel/
+- Air compressor 375cfm with 2 breakers (P-CMP): dry ₦260,000, fuel ₦185,130, operator ₦0, all-in ₦445,130 per day; output demolition/breaking; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/air-compressor-375cfm-with-2-breakers/
+- Dewatering pump 2" (petrol) (P-PM2): dry ₦8,000, fuel ₦7,728, operator ₦0, all-in ₦15,728 per day; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/dewatering-pump-2-inch-petrol/
+- Dewatering pump 3" (petrol) (P-PMP): dry ₦12,000, fuel ₦12,364, operator ₦0, all-in ₦24,364 per day; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/dewatering-pump-3-inch-petrol/
+- Dewatering pump 6" (diesel) (P-PM6): dry ₦45,000, fuel ₦123,420, operator ₦0, all-in ₦168,420 per day; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/dewatering-pump-6-inch-diesel/
+- Air compressor 900cfm (diesel) with hoses and accessories (P-CMP900): dry ₦600,000, fuel ₦493,680, operator ₦0, all-in ₦1,093,680 per day; output blasting/pneumatic tools; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/air-compressor-900cfm-diesel-with-hoses-and-accessories/
+- Heavy-duty diesel flushing pump, 6" high-head (P-FLP): dry ₦80,000, fuel ₦143,990, operator ₦0, all-in ₦223,990 per day; output pipeline flushing/filling; confidence LOW - https://yellowmetal.store/hire/power-air-pumping/heavy-duty-diesel-flushing-pump-6-inch-high-head/
+
+### Roads
+- Asphalt paver (tracked) (P-PAV): dry ₦1,200,000, fuel ₦308,550, operator ₦39,300, all-in ₦1,547,850 per day; output 300-500 t/day; confidence LOW - https://yellowmetal.store/hire/roads/asphalt-paver-tracked/
+- Bitumen distributor / sprayer (P-BDS): dry ₦350,000, fuel ₦164,560, operator ₦26,200, all-in ₦540,760 per day; output 6,000-10,000 m2/day; confidence LOW - https://yellowmetal.store/hire/roads/bitumen-distributor-sprayer/
+- Chip spreader (P-CHS): dry ₦300,000, fuel ₦143,990, operator ₦32,750, all-in ₦476,740 per day; confidence LOW - https://yellowmetal.store/hire/roads/chip-spreader/
+- Mechanical road broom (P-BRM): dry ₦80,000, fuel ₦61,710, operator ₦32,750, all-in ₦174,460 per day; output 6,000-10,000 m2/day; confidence LOW - https://yellowmetal.store/hire/roads/mechanical-road-broom/
+- Cold milling machine (P-MIL): dry ₦2,500,000, fuel ₦617,100, operator ₦32,750, all-in ₦3,149,850 per day; output 2,000-4,000 m2/day; confidence LOW - https://yellowmetal.store/hire/roads/cold-milling-machine/
+- Road line-marking machine (P-LMK): dry ₦80,000, fuel ₦15,455, operator ₦0, all-in ₦95,455 per day; output 2,000-3,000 m/day; confidence LOW - https://yellowmetal.store/hire/roads/road-line-marking-machine/
+
+### Piling & Marine
+- Bored piling rig (600-900mm) (P-PIL): dry ₦2,800,000, fuel ₦617,100, operator ₦32,750, all-in ₦3,449,850 per day; confidence LOW - https://yellowmetal.store/hire/piling-marine/bored-piling-rig-600-900mm/
+- Cutter-suction dredger 12" (P-CSD): dry ₦3,500,000, fuel ₦1,645,600, operator ₦58,950, all-in ₦5,204,550 per day; output 1,200-2,000 m3/day; confidence LOW - https://yellowmetal.store/hire/piling-marine/cutter-suction-dredger-12-inch/
+- Swamp buggy (P-SWB): dry ₦1,800,000, fuel ₦514,250, operator ₦39,300, all-in ₦2,353,550 per day; confidence LOW - https://yellowmetal.store/hire/piling-marine/swamp-buggy/
+- Work boat with outboard (P-BOT): dry ₦120,000, fuel ₦92,730, operator ₦15,720, all-in ₦228,450 per day; confidence LOW - https://yellowmetal.store/hire/piling-marine/work-boat-with-outboard/
+
+### Survey & Site Facilities
+- Total station (P-TST): dry ₦25,000, fuel ₦0, operator ₦0, all-in ₦25,000 per day; confidence LOW - https://yellowmetal.store/hire/survey-site-facilities/total-station/
+- Automatic level with staff (P-LVL): dry ₦8,000, fuel ₦0, operator ₦0, all-in ₦8,000 per day; confidence LOW - https://yellowmetal.store/hire/survey-site-facilities/automatic-level-with-staff/
+- GNSS RTK kit (P-GNS): dry ₦45,000, fuel ₦0, operator ₦0, all-in ₦45,000 per day; confidence LOW - https://yellowmetal.store/hire/survey-site-facilities/gnss-rtk-kit/
+- Drone survey (per day incl. pilot) (P-DRN): dry ₦150,000, fuel ₦0, operator ₦0, all-in ₦150,000 per day; confidence LOW - https://yellowmetal.store/hire/survey-site-facilities/drone-survey-per-day-incl-pilot/
+- 20ft container office (hire) (P-CTN): dry ₦6,000, fuel ₦0, operator ₦0, all-in ₦6,000 per day; confidence LOW - https://yellowmetal.store/hire/survey-site-facilities/20ft-container-office-hire/
+- Portable toilet (hire & service) (P-TLT): dry ₦3,000, fuel ₦0, operator ₦0, all-in ₦3,000 per day; confidence LOW - https://yellowmetal.store/hire/survey-site-facilities/portable-toilet-hire-and-service/
+- Drone survey with RTK (DJI Mavic 3 Enterprise, incl. pilot) (X-DRP): dry ₦180,000, fuel ₦0, operator ₦0, all-in ₦180,000 per day; output 100-300 ha/day orthophoto and contours; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/survey-site-facilities/drone-survey-with-rtk-dji-mavic-3-enterprise-incl-pilot/
+- Drone LiDAR survey (DJI Matrice 350 + Zenmuse L2, incl. pilot) (X-DRL): dry ₦450,000, fuel ₦0, operator ₦0, all-in ₦450,000 per day; output Ground model under vegetation, 50-150 ha/day; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/hire/survey-site-facilities/drone-lidar-survey-dji-matrice-350-zenmuse-l2-incl-pilot/
+
+### Piling Plant
+- Piling rig with diesel/hydraulic impact hammer (crawler) (P-PDH): dry ₦1,200,000, fuel ₦329,120, operator ₦58,950, all-in ₦1,588,070 per day; output 60-90 m driven/day; confidence LOW - https://yellowmetal.store/hire/piling-plant/piling-rig-with-diesel-hydraulic-impact-hammer-crawler/
+- Vibratory hammer with crawler crane (sheet piles) (P-VBH): dry ₦1,500,000, fuel ₦411,400, operator ₦58,950, all-in ₦1,970,350 per day; output 150-250 m2/day; confidence LOW - https://yellowmetal.store/hire/piling-plant/vibratory-hammer-with-crawler-crane-sheet-piles/
+- CFA piling rig (P-CFA): dry ₦2,500,000, fuel ₦575,960, operator ₦58,950, all-in ₦3,134,910 per day; output 150-250 m/day; confidence LOW - https://yellowmetal.store/hire/piling-plant/cfa-piling-rig/
+- Micropile / anchor drilling rig (P-MPR): dry ₦450,000, fuel ₦185,130, operator ₦58,950, all-in ₦694,080 per day; output 20-40 m/day; confidence LOW - https://yellowmetal.store/hire/piling-plant/micropile-anchor-drilling-rig/
+- PVD (wick drain) stitcher rig (P-PRB): dry ₦600,000, fuel ₦246,840, operator ₦58,950, all-in ₦905,790 per day; output 3,000-5,000 m/day; confidence LOW - https://yellowmetal.store/hire/piling-plant/pvd-wick-drain-stitcher-rig/
+
+### Heavy Lifting
+- Crawler crane 100t (P-CC100): dry ₦2,200,000, fuel ₦514,250, operator ₦52,400, all-in ₦2,766,650 per day; confidence LOW - https://yellowmetal.store/hire/heavy-lifting/crawler-crane-100t/
+- Crawler crane 200t (P-CC200): dry ₦4,000,000, fuel ₦719,950, operator ₦52,400, all-in ₦4,772,350 per day; confidence LOW - https://yellowmetal.store/hire/heavy-lifting/crawler-crane-200t/
+- Prime mover with 60t trailer (P-PRM): dry ₦500,000, fuel ₦514,250, operator ₦26,200, all-in ₦1,040,450 per day; confidence LOW - https://yellowmetal.store/hire/heavy-lifting/prime-mover-with-60t-trailer/
+
+### Marine & Dredging Fleet
+- Crane barge 300t (P-CRB): dry ₦12,000,000, fuel ₦2,468,400, operator ₦78,600, all-in ₦14,547,000 per day; confidence LOW - https://yellowmetal.store/hire/marine-dredging-fleet/crane-barge-300t/
+- Tug 1,200hp (P-TUG): dry ₦2,500,000, fuel ₦3,085,500, operator ₦117,900, all-in ₦5,703,400 per day; confidence LOW - https://yellowmetal.store/hire/marine-dredging-fleet/tug-1-200hp/
+- Spud barge (hire) (P-SPB): dry ₦900,000, fuel ₦0, operator ₦0, all-in ₦900,000 per day; confidence LOW - https://yellowmetal.store/hire/marine-dredging-fleet/spud-barge-hire/
+- Flat-top barge 1,000t (hire) (P-FTB): dry ₦700,000, fuel ₦0, operator ₦0, all-in ₦700,000 per day; confidence LOW - https://yellowmetal.store/hire/marine-dredging-fleet/flat-top-barge-1-000t-hire/
+- Trailing suction hopper dredger 5,000m3 (P-TSHD): dry ₦45,000,000, fuel ₦30,855,000, operator ₦58,950, all-in ₦75,913,950 per day; output 25,000-40,000 m3/day placed; confidence LOW - https://yellowmetal.store/hire/marine-dredging-fleet/trailing-suction-hopper-dredger-5-000m3/
+- Cutter suction dredger 20" with discharge line (P-CSD20): dry ₦9,000,000, fuel ₦5,142,500, operator ₦58,950, all-in ₦14,201,450 per day; output 4,000-6,000 m3/day placed; confidence LOW - https://yellowmetal.store/hire/marine-dredging-fleet/cutter-suction-dredger-20-inch-with-discharge-line/
+- Hydrographic survey boat with echo sounder & GNSS (P-ECS): dry ₦350,000, fuel ₦123,640, operator ₦0, all-in ₦473,640 per day; output 10-15 km of line/day; confidence LOW - https://yellowmetal.store/hire/marine-dredging-fleet/hydrographic-survey-boat-with-echo-sounder-and-gnss/
+
+### Pipeline Spread
+- Sideboom pipelayer (CAT 583 class) (P-SB583): dry ₦900,000, fuel ₦370,260, operator ₦58,950, all-in ₦1,329,210 per day; output 400-800 m laid/day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/sideboom-pipelayer-cat-583-class/
+- Pipe bending machine 6-36" (P-PBM): dry ₦800,000, fuel ₦123,420, operator ₦32,750, all-in ₦956,170 per day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/pipe-bending-machine-6-36-inch/
+- Diesel welding rig on truck (2 welders) (P-WRG): dry ₦150,000, fuel ₦102,850, operator ₦0, all-in ₦252,850 per day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/diesel-welding-rig-on-truck-2-welders/
+- Horizontal directional drilling rig 100t with mud system (P-HDD): dry ₦6,000,000, fuel ₦1,234,200, operator ₦78,600, all-in ₦7,312,800 per day; output 30-60 m pullback/day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/horizontal-directional-drilling-rig-100t-with-mud-system/
+- Chain trencher (P-TRN): dry ₦1,200,000, fuel ₦514,250, operator ₦32,750, all-in ₦1,747,000 per day; output 500-1,000 m/day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/chain-trencher/
+- Hydrotest pump unit with recorders (P-HTP): dry ₦150,000, fuel ₦82,280, operator ₦0, all-in ₦232,280 per day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/hydrotest-pump-unit-with-recorders/
+- Abrasive blasting unit with 750cfm compressor (P-SBL): dry ₦250,000, fuel ₦246,840, operator ₦0, all-in ₦496,840 per day; output 60-80 m2/day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/abrasive-blasting-unit-with-750cfm-compressor/
+- Holiday (coating) detector (P-HOL): dry ₦25,000, fuel ₦0, operator ₦0, all-in ₦25,000 per day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/holiday-coating-detector/
+- Radiography crawler / X-ray unit (excl. technician) (P-XRY): dry ₦300,000, fuel ₦0, operator ₦0, all-in ₦300,000 per day; output 30-50 joints/day; confidence LOW - https://yellowmetal.store/hire/pipeline-spread/radiography-crawler-x-ray-unit-excl-technician/
+
+### Roads & Quarry Plant
+- Articulated dump truck 30t (P-ADT): dry ₦600,000, fuel ₦514,250, operator ₦26,200, all-in ₦1,140,450 per day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/articulated-dump-truck-30t/
+- Motor scraper 15m3 (P-SCR): dry ₦1,200,000, fuel ₦719,950, operator ₦41,920, all-in ₦1,961,870 per day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/motor-scraper-15m3/
+- Asphalt mixing plant 120tph (excl. bitumen & aggregate) (P-ASPL): dry ₦3,000,000, fuel ₦3,085,500, operator ₦39,300, all-in ₦6,124,800 per day; output 800-1,000 t/day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/asphalt-mixing-plant-120tph-excl-bitumen-and-aggregate/
+- Stone crushing plant 200tph (P-CRU): dry ₦2,500,000, fuel ₦2,468,400, operator ₦39,300, all-in ₦5,007,700 per day; output 1,500-2,000 t/day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/stone-crushing-plant-200tph/
+- Slipform concrete paver (P-SFP): dry ₦3,000,000, fuel ₦617,100, operator ₦32,750, all-in ₦3,649,850 per day; output 1,000-2,000 m2/day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/slipform-concrete-paver/
+- Soil stabiliser / recycler (P-SST): dry ₦2,500,000, fuel ₦719,950, operator ₦32,750, all-in ₦3,252,700 per day; output 3,000-5,000 m2/day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/soil-stabiliser-recycler/
+- Crawler rock drill (P-DRL): dry ₦600,000, fuel ₦411,400, operator ₦32,750, all-in ₦1,044,150 per day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/crawler-rock-drill/
+- Bitumen tanker with heater (P-BTH): dry ₦300,000, fuel ₦308,550, operator ₦26,200, all-in ₦634,750 per day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/bitumen-tanker-with-heater/
+- Mobile batching plant 30m3/h (P-MBP): dry ₦600,000, fuel ₦308,550, operator ₦39,300, all-in ₦947,850 per day; output 150-200 m3/day; confidence LOW - https://yellowmetal.store/hire/roads-quarry-plant/mobile-batching-plant-30m3-h/
+
+### Rail Plant
+- Ballast tamping machine (P-TMP): dry ₦3,500,000, fuel ₦822,800, operator ₦32,750, all-in ₦4,355,550 per day; output 400-800 m/day; confidence LOW - https://yellowmetal.store/hire/rail-plant/ballast-tamping-machine/
+- Rail welding & grinding unit (P-RWL): dry ₦400,000, fuel ₦164,560, operator ₦0, all-in ₦564,560 per day; output 8-15 welds/day; confidence LOW - https://yellowmetal.store/hire/rail-plant/rail-welding-and-grinding-unit/
+
+### Access & Small Plant
+- Wellpoint dewatering system (50 points) (P-WPT): dry ₦250,000, fuel ₦123,420, operator ₦0, all-in ₦373,420 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/wellpoint-dewatering-system-50-points/
+- Lighting tower (P-LTW): dry ₦45,000, fuel ₦51,425, operator ₦0, all-in ₦96,425 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/lighting-tower/
+- Generator 500kVA (P-GN500): dry ₦600,000, fuel ₦1,337,050, operator ₦11,790, all-in ₦1,948,840 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/generator-500kva/
+- Air compressor 750cfm (P-CMP750): dry ₦500,000, fuel ₦411,400, operator ₦0, all-in ₦911,400 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/air-compressor-750cfm/
+- Articulating boom lift 20m (P-BML): dry ₦250,000, fuel ₦61,710, operator ₦0, all-in ₦311,710 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/articulating-boom-lift-20m/
+- Scissor lift 12m (electric) (P-SCL): dry ₦120,000, fuel ₦0, operator ₦0, all-in ₦120,000 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/scissor-lift-12m-electric/
+- Diamond core drill rig (P-CDR): dry ₦30,000, fuel ₦6,182, operator ₦0, all-in ₦36,182 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/diamond-core-drill-rig/
+- Floor grinder / polisher (P-FGR): dry ₦40,000, fuel ₦0, operator ₦0, all-in ₦40,000 per day; output 40-80 m2/day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/floor-grinder-polisher/
+- Vibrating screed (petrol) (P-VSC): dry ₦25,000, fuel ₦7,728, operator ₦0, all-in ₦32,728 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/vibrating-screed-petrol/
+- Shotcrete machine (P-SHT): dry ₦300,000, fuel ₦164,560, operator ₦0, all-in ₦464,560 per day; output 20-40 m3/day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/shotcrete-machine/
+- Grout mixer & pump (P-GRP): dry ₦120,000, fuel ₦61,710, operator ₦0, all-in ₦181,710 per day; confidence LOW - https://yellowmetal.store/hire/access-small-plant/grout-mixer-and-pump/
+- TIG welding set with torch, argon regulator and leads (without generator) (P-TIG): dry ₦18,000, fuel ₦0, operator ₦0, all-in ₦18,000 per day; output excl. argon (M-TL-ARR); confidence LOW - https://yellowmetal.store/hire/access-small-plant/tig-welding-set-with-torch-argon-regulator-and-leads-without-generator/
+- Electric arc welding set with leads, holder and earth clamp (without generator) (P-WLE): dry ₦12,000, fuel ₦0, operator ₦0, all-in ₦12,000 per day; output excl. electrodes; confidence LOW - https://yellowmetal.store/hire/access-small-plant/electric-arc-welding-set-with-leads-holder-and-earth-clamp-without-generator/
+
+## Equipment prices by category (Abuja)
+
+### Excavators
+- Mini excavator 1.5-2t (Kubota/Yanmar), foreign used (M-EQ-EX17U): ₦30,000,000 (range ₦25,000,000 to ₦40,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/excavators/mini-excavator-1-5-2t-kubota-yanmar-foreign-used/
+- Mini excavator 3-4t (Yanmar B37/Kubota), foreign used (M-EQ-EX35U): ₦50,000,000 (range ₦45,000,000 to ₦65,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/excavators/mini-excavator-3-4t-yanmar-b37-kubota-foreign-used/
+- Mini excavator 3-4t (Yanmar/Kubota), new (M-EQ-EX35N): ₦60,000,000 (range ₦55,000,000 to ₦75,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/excavators/mini-excavator-3-4t-yanmar-kubota-new/
+- Excavator 5-6t (Komatsu PC56), new (M-EQ-EX55N): ₦65,000,000 (range ₦60,000,000 to ₦75,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/excavators/excavator-5-6t-komatsu-pc56-new/
+- Excavator 7.5-8t (Kobelco SK75/Sumitomo SH75), foreign used (M-EQ-EX75U): ₦50,000,000 (range ₦45,000,000 to ₦65,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/excavators/excavator-7-5-8t-kobelco-sk75-sumitomo-sh75-foreign-used/
+- Excavator 7.5-9t, new Chinese (SANY SY75/XCMG XE80) (M-EQ-EX75N): ₦83,979,000 (range ₦67,183,200 to ₦100,774,800); New; confidence LOW - https://yellowmetal.store/buy/excavators/excavator-7-5-9t-new-chinese-sany-sy75-xcmg-xe80/
+- Excavator 20-22t, new Chinese (SANY SY215/XCMG XE215/LiuGong 922) (M-EQ-EX21C): ₦177,289,000 (range ₦141,831,200 to ₦212,746,800); New; confidence LOW - https://yellowmetal.store/buy/excavators/excavator-20-22t-new-chinese-sany-sy215-xcmg-xe215-liugong-922/
+- Excavator 20-22t, new CAT 320GC/Komatsu PC210 (M-EQ-EX21P): ₦320,000,000 (range ₦280,000,000 to ₦380,000,000); New; confidence LOW - https://yellowmetal.store/buy/excavators/excavator-20-22t-new-cat-320gc-komatsu-pc210/
+- Excavator 20-22t (CAT 320D/320GC), foreign used (M-EQ-EX21U): ₦170,000,000 (range ₦140,000,000 to ₦200,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/excavators/excavator-20-22t-cat-320d-320gc-foreign-used/
+- Excavator 30t, new CAT 330GC (M-EQ-EX30P): ₦395,000,000 (range ₦360,000,000 to ₦430,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/excavators/excavator-30t-new-cat-330gc/
+- Excavator 36-40t, new Chinese (SANY SY365/XCMG XE370) (M-EQ-EX36C): ₦354,578,000 (range ₦283,662,400 to ₦425,493,600); New; confidence LOW - https://yellowmetal.store/buy/excavators/excavator-36-40t-new-chinese-sany-sy365-xcmg-xe370/
+- Long-reach excavator 20-22t (16-18m boom), foreign used (M-EQ-EXLR): ₦210,000,000 (range ₦168,000,000 to ₦252,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/excavators/long-reach-excavator-20-22t-16-18m-boom-foreign-used/
+- Amphibious (pontoon) excavator 20t, new Chinese (M-EQ-EXAMP): ₦307,923,000 (range ₦246,338,400 to ₦369,507,600); New; confidence LOW - https://yellowmetal.store/buy/excavators/amphibious-pontoon-excavator-20t-new-chinese/
+- Wheeled excavator 14-16t, foreign used (M-EQ-EXWH): ₦110,000,000 (range ₦88,000,000 to ₦132,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/excavators/wheeled-excavator-14-16t-foreign-used/
+- Hydraulic breaker for 20t excavator (1.5t class), new (M-EQ-HBRK): ₦16,795,800 (range ₦13,436,640 to ₦20,154,960); New; confidence LOW - https://yellowmetal.store/buy/excavators/hydraulic-breaker-for-20t-excavator-1-5t-class-new/
+- Excavator bucket 1.0-1.2m3 for 20-22t machine, used (M-EQ-BKT1): ₦8,000,000 (range ₦6,400,000 to ₦9,600,000); Nigerian used; confidence LOW - https://yellowmetal.store/buy/excavators/excavator-bucket-1-0-1-2m3-for-20-22t-machine-used/
+- Ripper tooth / vibro-ripper for 20-30t excavator, new (M-EQ-VRIP): ₦11,197,200 (range ₦8,957,760 to ₦13,436,640); New; confidence LOW - https://yellowmetal.store/buy/excavators/ripper-tooth-vibro-ripper-for-20-30t-excavator-new/
+
+### Bulldozers & payloaders
+- Skid-steer loader (Bobcat S-series), foreign used (M-EQ-SSLU): ₦60,000,000 (range ₦45,000,000 to ₦75,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/skid-steer-loader-bobcat-s-series-foreign-used/
+- Skid-steer loader (Bobcat S650 class), new (M-EQ-SSLN): ₦135,000,000 (range ₦110,000,000 to ₦150,000,000); New; confidence LOW - https://yellowmetal.store/buy/bulldozers-loaders/skid-steer-loader-bobcat-s650-class-new/
+- Backhoe loader, new Chinese (XCMG/6-in-1 types) (M-EQ-BHLC): ₦95,000,000 (range ₦85,000,000 to ₦140,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/backhoe-loader-new-chinese-xcmg-6-in-1-types/
+- Backhoe loader, new premium (JCB 3CX/CAT 426/Bobcat B730) (M-EQ-BHLP): ₦150,000,000 (range ₦130,000,000 to ₦175,000,000); New; confidence LOW - https://yellowmetal.store/buy/bulldozers-loaders/backhoe-loader-new-premium-jcb-3cx-cat-426-bobcat-b730/
+- Wheel loader 1.6t (LiuGong 816H), new (M-EQ-WL16): ₦36,000,000 (range ₦30,000,000 to ₦42,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/wheel-loader-1-6t-liugong-816h-new/
+- Wheel loader 3t (LiuGong 835H), new (M-EQ-WL30): ₦56,000,000 (range ₦50,000,000 to ₦65,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/wheel-loader-3t-liugong-835h-new/
+- Wheel loader 5t, new Chinese (LiuGong 855/SDLG/Lonking LG855) (M-EQ-WL50): ₦110,000,000 (range ₦92,000,000 to ₦120,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/wheel-loader-5t-new-chinese-liugong-855-sdlg-lonking-lg855/
+- Wheel loader 5t Chinese (LiuGong/SDLG), foreign used (M-EQ-WL50U): ₦45,000,000 (range ₦38,000,000 to ₦55,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/wheel-loader-5t-chinese-liugong-sdlg-foreign-used/
+- Payloader CAT 950 series, foreign used (M-EQ-WL950): ₦55,000,000 (range ₦45,000,000 to ₦65,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/payloader-cat-950-series-foreign-used/
+- Payloader CAT 966 series, foreign used (M-EQ-WL966): ₦130,000,000 (range ₦110,000,000 to ₦155,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/payloader-cat-966-series-foreign-used/
+- Bulldozer 220-260hp, new Chinese (Shantui SD22/Zoomlion ZD260G) (M-EQ-DZ26N): ₦230,000,000 (range ₦200,000,000 to ₦260,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/bulldozer-220-260hp-new-chinese-shantui-sd22-zoomlion-zd260g/
+- Bulldozer 320-340hp, new Chinese (Shantui SD32/Zoomlion ZD340G) (M-EQ-DZ34N): ₦350,000,000 (range ₦300,000,000 to ₦380,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/bulldozers-loaders/bulldozer-320-340hp-new-chinese-shantui-sd32-zoomlion-zd340g/
+- Bulldozer 160hp, new Chinese (Shantui SD16) (M-EQ-DZ16N): ₦145,563,600 (range ₦116,450,880 to ₦174,676,320); New; confidence LOW - https://yellowmetal.store/buy/bulldozers-loaders/bulldozer-160hp-new-chinese-shantui-sd16/
+- Swamp (LGP) bulldozer D6 class, foreign used (M-EQ-DZLGP): ₦220,000,000 (range ₦176,000,000 to ₦264,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/bulldozers-loaders/swamp-lgp-bulldozer-d6-class-foreign-used/
+- Articulated dump truck 25-30t (CAT 730/Volvo A30), foreign used (M-EQ-ADT30): ₦220,000,000 (range ₦176,000,000 to ₦264,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/bulldozers-loaders/articulated-dump-truck-25-30t-cat-730-volvo-a30-foreign-used/
+- Rigid off-highway dump truck 40t (CAT 773/Komatsu HD405), foreign used (M-EQ-RDT40): ₦350,000,000 (range ₦280,000,000 to ₦420,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/bulldozers-loaders/rigid-off-highway-dump-truck-40t-cat-773-komatsu-hd405-foreign-used/
+
+### Road construction equipment
+- Motor grader 180-215hp, new Chinese (LiuGong/SDLG/Shantui) (M-EQ-GRCN): ₦150,000,000 (range ₦108,000,000 to ₦176,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/road-construction-equipment/motor-grader-180-215hp-new-chinese-liugong-sdlg-shantui/
+- Motor grader CAT 140 GC, new (M-EQ-GRCAT): ₦429,226,000 (range ₦343,380,800 to ₦515,071,200); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/motor-grader-cat-140-gc-new/
+- Single-drum vibratory roller 12-14t, new Chinese (XCMG XS123/LiuGong 6114) (M-EQ-SDR12): ₦89,577,600 (range ₦71,662,080 to ₦107,493,120); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/single-drum-vibratory-roller-12-14t-new-chinese-xcmg-xs123-liugong-6114/
+- Tandem vibratory roller 3t, new (M-EQ-TDR3): ₦25,000,000 (range ₦22,000,000 to ₦33,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/road-construction-equipment/tandem-vibratory-roller-3t-new/
+- Ride-on vibratory roller 5t, new (M-EQ-RR5): ₦55,000,000 (range ₦49,500,000 to ₦59,500,000); New; confidence MEDIUM - https://yellowmetal.store/buy/road-construction-equipment/ride-on-vibratory-roller-5t-new/
+- Walk-behind double-drum roller 550-800kg, new (M-EQ-WBR): ₦6,500,000 (range ₦5,000,000 to ₦7,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/road-construction-equipment/walk-behind-double-drum-roller-550-800kg-new/
+- Walk-behind single-drum roller 330kg, new (M-EQ-WBR1): ₦3,800,000 (range ₦3,700,000 to ₦4,200,000); New; confidence MEDIUM - https://yellowmetal.store/buy/road-construction-equipment/walk-behind-single-drum-roller-330kg-new/
+- Pneumatic-tyred roller 16-26t, new Chinese (M-EQ-PTR): ₦102,641,000 (range ₦82,112,800 to ₦123,169,200); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/pneumatic-tyred-roller-16-26t-new-chinese/
+- Asphalt paver (CAT AP-1000/Vogele), foreign used (M-EQ-PAVU): ₦250,000,000 (range ₦145,000,000 to ₦280,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/road-construction-equipment/asphalt-paver-cat-ap-1000-vogele-foreign-used/
+- Asphalt paver 9m, new Chinese (XCMG RP903/SANY) (M-EQ-PAVN): ₦317,254,000 (range ₦253,803,200 to ₦380,704,800); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/asphalt-paver-9m-new-chinese-xcmg-rp903-sany/
+- Asphalt batch mixing plant 80 t/h, new Chinese, ex-works (M-EQ-AMP80): ₦522,536,000 (range ₦418,028,800 to ₦627,043,200); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/asphalt-batch-mixing-plant-80-t-h-new-chinese-ex-works/
+- Asphalt batch mixing plant 160 t/h, new Chinese, ex-works (M-EQ-AMP160): ₦895,776,000 (range ₦716,620,800 to ₦1,074,931,200); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/asphalt-batch-mixing-plant-160-t-h-new-chinese-ex-works/
+- Bitumen distributor truck 8,000L, new (M-EQ-BDIS): ₦102,641,000 (range ₦82,112,800 to ₦123,169,200); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/bitumen-distributor-truck-8-000l-new/
+- Chip spreader (self-propelled or truck-mounted), new (M-EQ-CHSP): ₦74,648,000 (range ₦59,718,400 to ₦89,577,600); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/chip-spreader-self-propelled-or-truck-mounted-new/
+- Cold milling machine 1.0-1.3m drum, foreign used (M-EQ-MILL): ₦200,000,000 (range ₦160,000,000 to ₦240,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/cold-milling-machine-1-0-1-3m-drum-foreign-used/
+- Thermoplastic road-marking machine (hand-push) with pre-heater, new (M-EQ-LMRK): ₦11,197,200 (range ₦8,957,760 to ₦13,436,640); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/thermoplastic-road-marking-machine-hand-push-with-pre-heater-new/
+- Kerb/drain slipform machine (small), new (M-EQ-KERB): ₦65,317,000 (range ₦52,253,600 to ₦78,380,400); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/kerb-drain-slipform-machine-small-new/
+- Soil stabiliser / recycler (WR-class), new Chinese (M-EQ-STAB): ₦559,860,000 (range ₦447,888,000 to ₦671,832,000); New; confidence LOW - https://yellowmetal.store/buy/road-construction-equipment/soil-stabiliser-recycler-wr-class-new-chinese/
+
+### Tipper trucks & haulage
+- Tipper truck 6x4 371hp 30t (Sinotruk Howo), new (M-EQ-TIP30N): ₦100,000,000 (range ₦65,000,000 to ₦110,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/tipper-truck-6x4-371hp-30t-sinotruk-howo-new/
+- Tipper truck 6x4 30-35t (Howo), used (M-EQ-TIP30U): ₦55,000,000 (range ₦48,000,000 to ₦58,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/tipper-truck-6x4-30-35t-howo-used/
+- Tipper truck 10-15t 4x2, used (M-EQ-TIP10): ₦30,000,000 (range ₦24,000,000 to ₦36,000,000); Nigerian used; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/tipper-truck-10-15t-4x2-used/
+- Tractor head 6x4 (Howo/Shacman), new (M-EQ-THN): ₦75,000,000 (range ₦60,000,000 to ₦90,000,000); New; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/tractor-head-6x4-howo-shacman-new/
+- Tractor head 6x4 (Howo), used (M-EQ-THU): ₦46,500,000 (range ₦40,000,000 to ₦55,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/tractor-head-6x4-howo-used/
+- Low-bed trailer 80t (back-loading), new (M-EQ-LB80): ₦55,000,000 (range ₦50,000,000 to ₦62,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/low-bed-trailer-80t-back-loading-new/
+- Low-bed trailer 100t front-loading, new (M-EQ-LB100): ₦89,000,000 (range ₦86,000,000 to ₦92,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/low-bed-trailer-100t-front-loading-new/
+- Flatbed trailer 40ft tri-axle, new (M-EQ-FLATT): ₦25,000,000 (range ₦20,000,000 to ₦30,000,000); New; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/flatbed-trailer-40ft-tri-axle-new/
+- Transit mixer truck 9-10m3 (Howo/SANY), new (M-EQ-TM10N): ₦102,641,000 (range ₦82,112,800 to ₦123,169,200); New; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/transit-mixer-truck-9-10m3-howo-sany-new/
+- Transit mixer truck (Howo), used (M-EQ-TM10U): ₦44,000,000 (range ₦38,000,000 to ₦55,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/transit-mixer-truck-howo-used/
+- Water tanker truck 20,000-30,000L, used (M-EQ-WTK): ₦55,000,000 (range ₦45,000,000 to ₦60,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/water-tanker-truck-20-000-30-000l-used/
+- Diesel bowser truck 15,000-20,000L, new (M-EQ-FBWN): ₦93,310,000 (range ₦74,648,000 to ₦111,972,000); New; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/diesel-bowser-truck-15-000-20-000l-new/
+- Truck with 10t knuckle-boom crane (Howo/XCMG), used (M-EQ-KNCK): ₦110,000,000 (range ₦90,000,000 to ₦130,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/tipper-trucks/truck-with-10t-knuckle-boom-crane-howo-xcmg-used/
+- Pickup 4x4 double cabin (Toyota Hilux/Ford Ranger), new (M-EQ-PU4X4): ₦75,000,000 (range ₦60,000,000 to ₦90,000,000); New; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/pickup-4x4-double-cabin-toyota-hilux-ford-ranger-new/
+- Pickup 4x4 double cabin, foreign used (M-EQ-PU4U): ₦35,000,000 (range ₦28,000,000 to ₦42,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/pickup-4x4-double-cabin-foreign-used/
+- Staff bus 14-18 seater (Toyota Hiace), foreign used (M-EQ-BUS18): ₦45,000,000 (range ₦36,000,000 to ₦54,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/staff-bus-14-18-seater-toyota-hiace-foreign-used/
+- Site dumper 3t (front-tip), new (M-EQ-DUMP3): ₦22,394,400 (range ₦17,915,520 to ₦26,873,280); New; confidence LOW - https://yellowmetal.store/buy/tipper-trucks/site-dumper-3t-front-tip-new/
+- Tipper truck 8x4 40t, 12-wheeler (Sinotruk HOWO), new (X-EQ-TIP40N): ₦125,000,000 (range ₦106,250,000 to ₦143,750,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/tipper-truck-8x4-40t-12-wheeler-sinotruk-howo-new/
+- Tipper truck 8x4 40t (HOWO), used (X-EQ-TIP40U): ₦66,000,000 (range ₦52,800,000 to ₦79,200,000); Nigerian used; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/tipper-truck-8x4-40t-howo-used/
+- Tipper truck 6x4 30t (Shacman X3000), new (X-EQ-TP30SH): ₦105,000,000 (range ₦92,400,000 to ₦117,600,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/tipper-truck-6x4-30t-shacman-x3000-new/
+- Low-bed trailer 40t (2-axle), new (X-EQ-LB40): ₦33,000,000 (range ₦28,050,000 to ₦37,950,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/low-bed-trailer-40t-2-axle-new/
+- Low-bed trailer 60t (3-axle gooseneck), new (X-EQ-LB60): ₦45,100,000 (range ₦38,335,000 to ₦51,865,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/low-bed-trailer-60t-3-axle-gooseneck-new/
+- Low-bed trailer 120t (4-axle, front-loading), new (X-EQ-LB120): ₦120,150,000 (range ₦102,127,500 to ₦138,172,500); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/low-bed-trailer-120t-4-axle-front-loading-new/
+- Low-bed trailer 150t (5-axle, hydraulic gooseneck), new (X-EQ-LB150): ₦160,200,000 (range ₦128,160,000 to ₦192,240,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/low-bed-trailer-150t-5-axle-hydraulic-gooseneck-new/
+- HOWO 6x4 tractor unit with 40t low-bed, new (X-EQ-TL40): ₦108,000,000 (range ₦95,040,000 to ₦120,960,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/howo-6x4-tractor-unit-with-40t-low-bed-new/
+- HOWO 6x4 tractor unit with 60t low-bed, new (X-EQ-TL60): ₦120,100,000 (range ₦105,688,000 to ₦134,512,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/howo-6x4-tractor-unit-with-60t-low-bed-new/
+- HOWO 6x4 tractor unit with 80t low-bed, new (X-EQ-TL80): ₦130,000,000 (range ₦114,400,000 to ₦145,600,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/howo-6x4-tractor-unit-with-80t-low-bed-new/
+- HOWO 8x4 heavy-haul tractor with 100t low-bed, new (X-EQ-TL100): ₦186,500,000 (range ₦158,525,000 to ₦214,475,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/howo-8x4-heavy-haul-tractor-with-100t-low-bed-new/
+- HOWO 8x4 heavy-haul tractor with 120t low-bed, new (X-EQ-TL120): ₦217,650,000 (range ₦185,002,500 to ₦250,297,500); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/tipper-trucks/howo-8x4-heavy-haul-tractor-with-120t-low-bed-new/
+
+### Cranes & forklifts
+- Truck crane 25t, new Chinese (XCMG QY25K/SANY STC250) (M-EQ-TC25N): ₦242,606,000 (range ₦194,084,800 to ₦291,127,200); New; confidence LOW - https://yellowmetal.store/buy/cranes/truck-crane-25t-new-chinese-xcmg-qy25k-sany-stc250/
+- Truck crane 50-55t (SANY/XCMG), foreign used (M-EQ-TC55U): ₦140,000,000 (range ₦120,000,000 to ₦160,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/truck-crane-50-55t-sany-xcmg-foreign-used/
+- Truck crane 55t, new Chinese (Zoomlion/XCMG) (M-EQ-TC55N): ₦300,000,000 (range ₦270,000,000 to ₦330,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/cranes/truck-crane-55t-new-chinese-zoomlion-xcmg/
+- Truck crane 70t, new Chinese (XCMG) (M-EQ-TC70N): ₦450,000,000 (range ₦400,000,000 to ₦490,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/cranes/truck-crane-70t-new-chinese-xcmg/
+- Truck crane 80t (SANY), foreign used (M-EQ-TC80U): ₦168,000,000 (range ₦150,000,000 to ₦190,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/truck-crane-80t-sany-foreign-used/
+- All-terrain crane 80t (Grove), foreign used (M-EQ-AT80U): ₦290,000,000 (range ₦280,000,000 to ₦320,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/all-terrain-crane-80t-grove-foreign-used/
+- All-terrain crane 90t 4x4 (Grove), foreign used (M-EQ-AT90U): ₦540,000,000 (range ₦480,000,000 to ₦605,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/all-terrain-crane-90t-4x4-grove-foreign-used/
+- All-terrain crane 110-120t (Grove), foreign used (M-EQ-AT120U): ₦560,000,000 (range ₦300,000,000 to ₦650,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/all-terrain-crane-110-120t-grove-foreign-used/
+- Truck crane 350-450t (SANY/Zoomlion), foreign used (M-EQ-TC400U): ₦1,100,000,000 (range ₦900,000,000 to ₦1,300,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/truck-crane-350-450t-sany-zoomlion-foreign-used/
+- Crawler crane 55-60t (SANY/XCMG), foreign used (M-EQ-CC55U): ₦90,000,000 (range ₦80,000,000 to ₦100,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/crawler-crane-55-60t-sany-xcmg-foreign-used/
+- Crawler crane 150t (SANY), foreign used (M-EQ-CC150U): ₦260,000,000 (range ₦240,000,000 to ₦280,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/cranes/crawler-crane-150t-sany-foreign-used/
+- Tower crane 6-12t, 50-60m jib, used (Potain/XCMG) (M-EQ-TWU): ₦220,000,000 (range ₦185,000,000 to ₦350,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/cranes/tower-crane-6-12t-50-60m-jib-used-potain-xcmg/
+- Tower crane 6t, 60m jib, new Potain (M-EQ-TWPN): ₦450,000,000 (range ₦400,000,000 to ₦500,000,000); New; confidence LOW - https://yellowmetal.store/buy/cranes/tower-crane-6t-60m-jib-new-potain/
+- Tower crane QTZ63/QTZ80 (6-8t, 50-55m jib), new Chinese incl. 40m mast (M-EQ-TWCN): ₦111,972,000 (range ₦89,577,600 to ₦134,366,400); New; confidence LOW - https://yellowmetal.store/buy/cranes/tower-crane-qtz63-qtz80-6-8t-50-55m-jib-new-chinese-incl-40m-mast/
+- Forklift 3t diesel, new (M-EQ-FL3D): ₦35,000,000 (range ₦23,000,000 to ₦38,500,000); New; confidence MEDIUM - https://yellowmetal.store/buy/cranes/forklift-3t-diesel-new/
+- Forklift 3t electric, new (M-EQ-FL3E): ₦32,000,000 (range ₦30,000,000 to ₦36,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/cranes/forklift-3t-electric-new/
+- Forklift 7t diesel, new (M-EQ-FL7): ₦80,000,000 (range ₦75,000,000 to ₦85,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/cranes/forklift-7t-diesel-new/
+- Forklift 10t diesel, new (M-EQ-FL10): ₦155,000,000 (range ₦140,000,000 to ₦170,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/cranes/forklift-10t-diesel-new/
+- Forklift 16t diesel, new (M-EQ-FL16): ₦285,000,000 (range ₦270,000,000 to ₦300,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/cranes/forklift-16t-diesel-new/
+- Forklift 3-5t, foreign used (M-EQ-FL3U): ₦25,000,000 (range ₦20,000,000 to ₦30,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/cranes/forklift-3-5t-foreign-used/
+- Telehandler 4t 14-17m (JCB/Manitou), foreign used (M-EQ-TELU): ₦110,000,000 (range ₦88,000,000 to ₦132,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/cranes/telehandler-4t-14-17m-jcb-manitou-foreign-used/
+- Builder's passenger/material hoist 2t twin cage, new Chinese, incl. 50m mast (M-EQ-HOIST): ₦52,253,600 (range ₦41,802,880 to ₦62,704,320); New; confidence LOW - https://yellowmetal.store/buy/cranes/builder-s-passenger-material-hoist-2t-twin-cage-new-chinese-incl-50m-mast/
+- Scissor lift 10-12m electric, new (M-EQ-SCIS): ₦22,394,400 (range ₦17,915,520 to ₦26,873,280); New; confidence LOW - https://yellowmetal.store/buy/cranes/scissor-lift-10-12m-electric-new/
+- Articulated boom lift 18-20m diesel, foreign used (M-EQ-BOOM): ₦90,000,000 (range ₦72,000,000 to ₦108,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/cranes/articulated-boom-lift-18-20m-diesel-foreign-used/
+- Chain block 5t x 6m lift (M-EQ-CHB5): ₦350,000 (range ₦280,000 to ₦420,000); confidence LOW - https://yellowmetal.store/buy/cranes/chain-block-5t-x-6m-lift/
+- Gantry crane 10t x 20m span, new Chinese (precast yard) (M-EQ-GNTY): ₦55,986,000 (range ₦44,788,800 to ₦67,183,200); New; confidence LOW - https://yellowmetal.store/buy/cranes/gantry-crane-10t-x-20m-span-new-chinese-precast-yard/
+
+### Generators & pumps
+- Diesel generator 10kVA (Perkins/Kipor), new (M-EQ-G10): ₦2,400,000 (range ₦1,600,000 to ₦2,950,000); New; confidence MEDIUM - https://yellowmetal.store/buy/generators/diesel-generator-10kva-perkins-kipor-new/
+- Diesel generator 30kVA soundproof (Mikano/FG Wilson), new (M-EQ-G30): ₦7,000,000 (range ₦3,700,000 to ₦8,100,000); New; confidence MEDIUM - https://yellowmetal.store/buy/generators/diesel-generator-30kva-soundproof-mikano-fg-wilson-new/
+- Diesel generator 50kVA soundproof (Mikano), new (M-EQ-G50): ₦8,500,000 (range ₦7,200,000 to ₦10,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/generators/diesel-generator-50kva-soundproof-mikano-new/
+- Diesel generator 100kVA soundproof (Mikano), new (M-EQ-G100): ₦18,000,000 (range ₦15,900,000 to ₦20,400,000); New; confidence MEDIUM - https://yellowmetal.store/buy/generators/diesel-generator-100kva-soundproof-mikano-new/
+- Diesel generator 150kVA soundproof (Perkins-engined), new (M-EQ-G150): ₦25,000,000 (range ₦20,000,000 to ₦30,000,000); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-generator-150kva-soundproof-perkins-engined-new/
+- Diesel generator 200kVA soundproof (Perkins-engined), new (M-EQ-G200): ₦28,000,000 (range ₦22,400,000 to ₦33,600,000); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-generator-200kva-soundproof-perkins-engined-new/
+- Diesel generator 250kVA soundproof (Lister/Perkins-engined), new (M-EQ-G250): ₦30,000,000 (range ₦24,500,000 to ₦36,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/generators/diesel-generator-250kva-soundproof-lister-perkins-engined-new/
+- Diesel generator 300kVA soundproof, new (M-EQ-G300): ₦42,000,000 (range ₦33,600,000 to ₦50,400,000); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-generator-300kva-soundproof-new/
+- Diesel generator 500kVA soundproof, new (M-EQ-G500): ₦60,000,000 (range ₦48,000,000 to ₦72,000,000); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-generator-500kva-soundproof-new/
+- Diesel generator 1,000kVA soundproof, new (M-EQ-G1000): ₦125,000,000 (range ₦100,000,000 to ₦150,000,000); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-generator-1-000kva-soundproof-new/
+- Petrol generator 5.5kVA (Honda/Firman), new (M-EQ-P55): ₦650,000 (range ₦405,000 to ₦900,000); New; confidence MEDIUM - https://yellowmetal.store/buy/generators/petrol-generator-5-5kva-honda-firman-new/
+- Petrol generator 10kVA (Firman), new (M-EQ-P10): ₦825,000 (range ₦800,000 to ₦850,000); New; confidence MEDIUM - https://yellowmetal.store/buy/generators/petrol-generator-10kva-firman-new/
+- Lighting tower 4x1000W diesel, new (M-EQ-LTWR): ₦12,130,300 (range ₦9,704,240 to ₦14,556,360); New; confidence LOW - https://yellowmetal.store/buy/generators/lighting-tower-4x1000w-diesel-new/
+- Diesel welding generator 400A, new (M-EQ-WGEN): ₦11,197,200 (range ₦8,957,760 to ₦13,436,640); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-welding-generator-400a-new/
+- Diesel trash/dewatering pump 4", self-priming, new Chinese (M-EQ-DP4): ₦4,665,500 (range ₦3,732,400 to ₦5,598,600); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-trash-dewatering-pump-4-inch-self-priming-new-chinese/
+- Diesel dewatering pump 6" skid-mounted, self-priming, new (M-EQ-DP6): ₦16,795,800 (range ₦13,436,640 to ₦20,154,960); New; confidence LOW - https://yellowmetal.store/buy/generators/diesel-dewatering-pump-6-inch-skid-mounted-self-priming-new/
+- Submersible drainage pump 3" electric (M-EQ-SUB3): ₦650,000 (range ₦520,000 to ₦780,000); confidence LOW - https://yellowmetal.store/buy/generators/submersible-drainage-pump-3-inch-electric/
+- Wellpoint dewatering system (pump + 50 wellpoints + header), new (M-EQ-WPT): ₦46,655,000 (range ₦37,324,000 to ₦55,986,000); New; confidence LOW - https://yellowmetal.store/buy/generators/wellpoint-dewatering-system-pump-50-wellpoints-header-new/
+- Bunded diesel tank 5,000L skid with dispenser (M-EQ-DTNK): ₦3,500,000 (range ₦2,800,000 to ₦4,200,000); confidence LOW - https://yellowmetal.store/buy/generators/bunded-diesel-tank-5-000l-skid-with-dispenser/
+
+### Concrete equipment
+- Concrete batching plant 35 m3/h, new (M-EQ-BP35): ₦118,000,000 (range ₦115,000,000 to ₦120,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-batching-plant-35-m3-h-new/
+- Concrete batching plant 50 m3/h, new (M-EQ-BP50): ₦170,000,000 (range ₦165,000,000 to ₦180,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-batching-plant-50-m3-h-new/
+- Concrete batching plant 75 m3/h, new (M-EQ-BP75): ₦196,000,000 (range ₦192,000,000 to ₦200,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-batching-plant-75-m3-h-new/
+- Concrete batching plant 120 m3/h, new Chinese, ex-works (M-EQ-BP120): ₦307,923,000 (range ₦246,338,400 to ₦369,507,600); New; confidence LOW - https://yellowmetal.store/buy/concrete-equipment/concrete-batching-plant-120-m3-h-new-chinese-ex-works/
+- Mobile concrete batching plant 25 m3/h, new (M-EQ-BPMOB): ₦65,317,000 (range ₦52,253,600 to ₦78,380,400); New; confidence LOW - https://yellowmetal.store/buy/concrete-equipment/mobile-concrete-batching-plant-25-m3-h-new/
+- Cement silo 100t bolted, new (M-EQ-SILO): ₦16,795,800 (range ₦13,436,640 to ₦20,154,960); New; confidence LOW - https://yellowmetal.store/buy/concrete-equipment/cement-silo-100t-bolted-new/
+- Concrete trailer pump 15-20 m3/h, new (M-EQ-CP20): ₦29,000,000 (range ₦28,000,000 to ₦30,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-trailer-pump-15-20-m3-h-new/
+- Concrete trailer pump 40 m3/h with 100m pipe, new (M-EQ-CP40): ₦48,000,000 (range ₦33,000,000 to ₦50,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-trailer-pump-40-m3-h-with-100m-pipe-new/
+- Concrete trailer pump 60 m3/h, new (M-EQ-CP60): ₦70,000,000 (range ₦65,000,000 to ₦75,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-trailer-pump-60-m3-h-new/
+- Concrete trailer pump 80 m3/h, new (M-EQ-CP80): ₦80,000,000 (range ₦75,000,000 to ₦90,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-trailer-pump-80-m3-h-new/
+- Concrete trailer pump 100 m3/h, new (M-EQ-CP100): ₦110,000,000 (range ₦100,000,000 to ₦120,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/concrete-trailer-pump-100-m3-h-new/
+- Truck-mounted boom pump 34-52m (SANY/Zoomlion), foreign used (M-EQ-CPBM): ₦160,000,000 (range ₦140,000,000 to ₦175,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/truck-mounted-boom-pump-34-52m-sany-zoomlion-foreign-used/
+- Diesel concrete mixer with pump (mixer-pump), new (M-EQ-MXPMP): ₦55,000,000 (range ₦50,000,000 to ₦60,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/concrete-equipment/diesel-concrete-mixer-with-pump-mixer-pump-new/
+- Self-loading concrete mixer 3.5-4 m3, new Chinese (M-EQ-SLMX): ₦55,986,000 (range ₦44,788,800 to ₦67,183,200); New; confidence LOW - https://yellowmetal.store/buy/concrete-equipment/self-loading-concrete-mixer-3-5-4-m3-new-chinese/
+- Concrete mixer 2-bag diesel (reversing drum), new (M-EQ-MX2B): ₦4,500,000 (range ₦3,600,000 to ₦5,400,000); New; confidence LOW - https://yellowmetal.store/buy/concrete-equipment/concrete-mixer-2-bag-diesel-reversing-drum-new/
+- High-frequency electric poker vibrator 2.2kW with 6m shaft (M-EQ-VIBE): ₦350,000 (range ₦280,000 to ₦420,000); confidence LOW - https://yellowmetal.store/buy/concrete-equipment/high-frequency-electric-poker-vibrator-2-2kw-with-6m-shaft/
+- Power trowel (helicopter) 36" petrol (M-EQ-PTRW): ₦1,200,000 (range ₦960,000 to ₦1,440,000); confidence LOW - https://yellowmetal.store/buy/concrete-equipment/power-trowel-helicopter-36-inch-petrol/
+- Concrete floor/road saw 18" petrol (M-EQ-FSAW): ₦1,400,000 (range ₦1,120,000 to ₦1,680,000); confidence LOW - https://yellowmetal.store/buy/concrete-equipment/concrete-floor-road-saw-18-inch-petrol/
+- Diamond core drilling machine up to 200mm, with stand (M-EQ-CORE): ₦1,600,000 (range ₦1,280,000 to ₦1,920,000); confidence LOW - https://yellowmetal.store/buy/concrete-equipment/diamond-core-drilling-machine-up-to-200mm-with-stand/
+- Electric rebar cutter up to 40mm (GQ40) (M-EQ-RCUT): ₦1,100,000 (range ₦880,000 to ₦1,320,000); confidence LOW - https://yellowmetal.store/buy/concrete-equipment/electric-rebar-cutter-up-to-40mm-gq40/
+- Electric rebar bender up to 40mm (GW40) (M-EQ-RBND): ₦1,300,000 (range ₦1,040,000 to ₦1,560,000); confidence LOW - https://yellowmetal.store/buy/concrete-equipment/electric-rebar-bender-up-to-40mm-gw40/
+- Rebar thread-rolling machine (for couplers) (M-EQ-RTHR): ₦3,500,000 (range ₦2,800,000 to ₦4,200,000); confidence LOW - https://yellowmetal.store/buy/concrete-equipment/rebar-thread-rolling-machine-for-couplers/
+- Transit mixer truck 12 m3 (HOWO/SANY), new (X-EQ-TM12): ₦118,037,150 (range ₦100,331,577 to ₦135,742,722); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/concrete-equipment/transit-mixer-truck-12-m3-howo-sany-new/
+- Bulk cement tanker semi-trailer 40 m3, new Chinese (X-EQ-BCT): ₦44,788,800 (range ₦35,831,040 to ₦53,746,560); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/concrete-equipment/bulk-cement-tanker-semi-trailer-40-m3-new-chinese/
+- Truck-mounted boom pump 37m (SANY/Zoomlion), new (X-EQ-CPB37): ₦326,585,000 (range ₦261,268,000 to ₦391,902,000); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/concrete-equipment/truck-mounted-boom-pump-37m-sany-zoomlion-new/
+- Truck-mounted boom pump 52m (SANY/Zoomlion), new (X-EQ-CPB52): ₦615,846,000 (range ₦492,676,800 to ₦739,015,200); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/concrete-equipment/truck-mounted-boom-pump-52m-sany-zoomlion-new/
+- Truck-mounted boom pump 56-62m (SANY/Zoomlion), new (X-EQ-CPB62): ₦783,804,000 (range ₦627,043,200 to ₦940,564,800); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/concrete-equipment/truck-mounted-boom-pump-56-62m-sany-zoomlion-new/
+- Concrete placing boom 18-28m, stationary, new Chinese (X-EQ-PLB): ₦83,979,000 (range ₦67,183,200 to ₦100,774,800); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/concrete-equipment/concrete-placing-boom-18-28m-stationary-new-chinese/
+- Laser screed machine (ride-on), new Chinese (X-EQ-SCRD): ₦70,915,600 (range ₦56,732,480 to ₦85,098,720); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/concrete-equipment/laser-screed-machine-ride-on-new-chinese/
+
+### Block making machines
+- Block moulding machine, locally fabricated (2 blocks per drop) (M-EQ-BM2): ₦550,000 (range ₦450,000 to ₦650,000); confidence MEDIUM - https://yellowmetal.store/buy/block-making-machines/block-moulding-machine-locally-fabricated-2-blocks-per-drop/
+- Electric vibrating block machine 6"/9", locally fabricated (M-EQ-BMEL): ₦650,000 (range ₦550,000 to ₦750,000); confidence MEDIUM - https://yellowmetal.store/buy/block-making-machines/electric-vibrating-block-machine-6-inch-9-inch-locally-fabricated/
+- Egg-laying (mobile) block machine, Nigerian fabricated (~1,000 blocks/day) (M-EQ-BMEGG): ₦900,000 (range ₦800,000 to ₦1,200,000); confidence MEDIUM - https://yellowmetal.store/buy/block-making-machines/egg-laying-mobile-block-machine-nigerian-fabricated-1-000-blocks-day/
+- Block moulding line FT4-5 / mobile type (~3,000 blocks/day) (M-EQ-BMFT): ₦5,200,000 (range ₦3,900,000 to ₦6,500,000); confidence MEDIUM - https://yellowmetal.store/buy/block-making-machines/block-moulding-line-ft4-5-mobile-type-3-000-blocks-day/
+- Hydraulic electric block machine (M-EQ-BMHY): ₦8,000,000 (range ₦7,000,000 to ₦9,000,000); confidence MEDIUM - https://yellowmetal.store/buy/block-making-machines/hydraulic-electric-block-machine/
+- Fully automatic block and brick machine (small line) (M-EQ-BMAUT): ₦17,000,000 (range ₦16,000,000 to ₦18,000,000); confidence MEDIUM - https://yellowmetal.store/buy/block-making-machines/fully-automatic-block-and-brick-machine-small-line/
+- Automatic block and paver plant QT10-15 with pan mixer and stacker, new Chinese (M-EQ-QT10): ₦111,972,000 (range ₦89,577,600 to ₦134,366,400); New; confidence LOW - https://yellowmetal.store/buy/block-making-machines/automatic-block-and-paver-plant-qt10-15-with-pan-mixer-and-stacker-new-chinese/
+- Pan mixer JS500 / JQ350 for block plant, new (M-EQ-PANMX): ₦7,464,800 (range ₦5,971,840 to ₦8,957,760); New; confidence LOW - https://yellowmetal.store/buy/block-making-machines/pan-mixer-js500-jq350-for-block-plant-new/
+
+### Quarry & drilling equipment
+- Jaw crusher PE-250x400 (small), new Chinese (M-EQ-JAWS): ₦8,397,900 (range ₦6,718,320 to ₦10,077,480); New; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/jaw-crusher-pe-250x400-small-new-chinese/
+- Jaw crusher PE-900x1200, new (M-EQ-JAWL): ₦200,000,000 (range ₦170,000,000 to ₦230,000,000); New; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/jaw-crusher-pe-900x1200-new/
+- Crushing plant 200 t/h (jaw + cone + screens), Nigerian used (M-EQ-CRU200): ₦175,000,000 (range ₦150,000,000 to ₦200,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/quarry-equipment/crushing-plant-200-t-h-jaw-cone-screens-nigerian-used/
+- Crushing plant 400-500 t/h, Nigerian used (M-EQ-CRU450): ₦400,000,000 (range ₦350,000,000 to ₦450,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/quarry-equipment/crushing-plant-400-500-t-h-nigerian-used/
+- Tracked mobile jaw crusher (Metso/Sandvik/Powerscreen class), foreign used (M-EQ-MOBCR): ₦350,000,000 (range ₦280,000,000 to ₦420,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/tracked-mobile-jaw-crusher-metso-sandvik-powerscreen-class-foreign-used/
+- Vibrating screen 3-deck 1.8x6m, new Chinese (M-EQ-SCRN): ₦27,993,000 (range ₦22,394,400 to ₦33,591,600); New; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/vibrating-screen-3-deck-1-8x6m-new-chinese/
+- Belt conveyor 20m x 800mm with motor, new (M-EQ-CONV): ₦16,795,800 (range ₦13,436,640 to ₦20,154,960); New; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/belt-conveyor-20m-x-800mm-with-motor-new/
+- Wagon drill (pneumatic crawler drill), foreign used (M-EQ-WAGON): ₦65,000,000 (range ₦40,000,000 to ₦90,000,000); Tokunbo; confidence MEDIUM - https://yellowmetal.store/buy/quarry-equipment/wagon-drill-pneumatic-crawler-drill-foreign-used/
+- Hydraulic surface drill rig (top-hammer/DTH), foreign used (M-EQ-DTH): ₦250,000,000 (range ₦200,000,000 to ₦300,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/hydraulic-surface-drill-rig-top-hammer-dth-foreign-used/
+- Water-borehole drilling rig truck-mounted (200-300m), new Chinese (M-EQ-BHRG): ₦139,965,000 (range ₦111,972,000 to ₦167,958,000); New; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/water-borehole-drilling-rig-truck-mounted-200-300m-new-chinese/
+- Water-borehole drilling rig (truck-mounted), Nigerian used (M-EQ-BHRGU): ₦60,000,000 (range ₦48,000,000 to ₦72,000,000); Nigerian used; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/water-borehole-drilling-rig-truck-mounted-nigerian-used/
+- Diesel air compressor 750 cfm, new (Atlas Copco XAS class) (M-EQ-AC750): ₦83,979,000 (range ₦67,183,200 to ₦100,774,800); New; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/diesel-air-compressor-750-cfm-new-atlas-copco-xas-class/
+- Diesel air compressor 375 cfm, new (M-EQ-AC375): ₦41,056,400 (range ₦32,845,120 to ₦49,267,680); New; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/diesel-air-compressor-375-cfm-new/
+- Diesel air compressor 750 cfm, foreign used (M-EQ-AC750U): ₦35,000,000 (range ₦28,000,000 to ₦42,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/quarry-equipment/diesel-air-compressor-750-cfm-foreign-used/
+- Electric air compressor 100L (M-EQ-AC100): ₦450,000 (range ₦360,000 to ₦540,000); confidence LOW - https://yellowmetal.store/buy/quarry-equipment/electric-air-compressor-100l/
+- Pneumatic jack hammer 25kg with hoses (M-EQ-JKHM): ₦650,000 (range ₦520,000 to ₦780,000); confidence LOW - https://yellowmetal.store/buy/quarry-equipment/pneumatic-jack-hammer-25kg-with-hoses/
+- Electric demolition hammer 30kg (M-EQ-EBRK): ₦450,000 (range ₦360,000 to ₦540,000); confidence LOW - https://yellowmetal.store/buy/quarry-equipment/electric-demolition-hammer-30kg/
+
+### Dredgers & marine equipment
+- Jet suction sand dredger (Jagaban type), new local (M-EQ-DJET): ₦24,000,000 (range ₦22,000,000 to ₦26,000,000); New; confidence MEDIUM - https://yellowmetal.store/buy/dredgers/jet-suction-sand-dredger-jagaban-type-new-local/
+- Sand dredger 8", Nigerian used (M-EQ-D8U): ₦24,000,000 (range ₦20,000,000 to ₦28,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/dredgers/sand-dredger-8-inch-nigerian-used/
+- Suction dredger 10-12", Nigerian used (M-EQ-D12U): ₦45,000,000 (range ₦40,000,000 to ₦50,000,000); Nigerian used; confidence MEDIUM - https://yellowmetal.store/buy/dredgers/suction-dredger-10-12-inch-nigerian-used/
+- Small cutter suction dredger, new local build (M-EQ-DCSDS): ₦50,000,000 (range ₦40,000,000 to ₦65,000,000); New; confidence LOW - https://yellowmetal.store/buy/dredgers/small-cutter-suction-dredger-new-local-build/
+- Cutter suction dredger 14" (Chinese, dismountable), new (M-EQ-DCSD14): ₦839,790,000 (range ₦671,832,000 to ₦1,007,748,000); New; confidence LOW - https://yellowmetal.store/buy/dredgers/cutter-suction-dredger-14-inch-chinese-dismountable-new/
+- Cutter suction dredger 20/22" (Ellicott), new (M-EQ-DCSD20): ₦950,000,000 (range ₦850,000,000 to ₦1,100,000,000); New; confidence LOW - https://yellowmetal.store/buy/dredgers/cutter-suction-dredger-20-22-inch-ellicott-new/
+- Dredge pump set 12x10" with diesel engine, new (M-EQ-DPMP): ₦74,648,000 (range ₦59,718,400 to ₦89,577,600); New; confidence LOW - https://yellowmetal.store/buy/dredgers/dredge-pump-set-12x10-inch-with-diesel-engine-new/
+- Spud barge / work pontoon 30x10m, new local fabrication (M-EQ-SPUD): ₦350,000,000 (range ₦280,000,000 to ₦420,000,000); New; confidence LOW - https://yellowmetal.store/buy/dredgers/spud-barge-work-pontoon-30x10m-new-local-fabrication/
+- Tugboat 1,000-1,200hp, foreign used (M-EQ-TUG): ₦900,000,000 (range ₦720,000,000 to ₦1,080,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/dredgers/tugboat-1-000-1-200hp-foreign-used/
+- Sand hopper barge 500t, local build (M-EQ-HOPB): ₦250,000,000 (range ₦200,000,000 to ₦300,000,000); confidence LOW - https://yellowmetal.store/buy/dredgers/sand-hopper-barge-500t-local-build/
+- Crew/work boat 30-40 seater (fibreglass, twin outboard) (M-EQ-CREW): ₦180,000,000 (range ₦144,000,000 to ₦216,000,000); confidence LOW - https://yellowmetal.store/buy/dredgers/crew-work-boat-30-40-seater-fibreglass-twin-outboard/
+- Outboard engine 200hp, new (M-EQ-OB200): ₦33,591,600 (range ₦26,873,280 to ₦40,309,920); New; confidence LOW - https://yellowmetal.store/buy/dredgers/outboard-engine-200hp-new/
+- Swamp buggy (amphibious excavator/carrier), foreign used (M-EQ-SBGY): ₦450,000,000 (range ₦360,000,000 to ₦540,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/dredgers/swamp-buggy-amphibious-excavator-carrier-foreign-used/
+
+### Piling rigs
+- Rotary bored-pile rig 150-200kNm (SANY SR150/Bauer BG), foreign used (M-EQ-RIGU): ₦450,000,000 (range ₦360,000,000 to ₦540,000,000); Tokunbo; confidence LOW - https://yellowmetal.store/buy/piling-rigs/rotary-bored-pile-rig-150-200knm-sany-sr150-bauer-bg-foreign-used/
+- Rotary bored-pile rig 235kNm, new Chinese (SANY SR235) (M-EQ-RIGN): ₦783,804,000 (range ₦627,043,200 to ₦940,564,800); New; confidence LOW - https://yellowmetal.store/buy/piling-rigs/rotary-bored-pile-rig-235knm-new-chinese-sany-sr235/
+- Excavator-mounted vibro hammer (sheet piles), new (M-EQ-VIBH): ₦83,979,000 (range ₦67,183,200 to ₦100,774,800); New; confidence LOW - https://yellowmetal.store/buy/piling-rigs/excavator-mounted-vibro-hammer-sheet-piles-new/
+- Diesel pile hammer D62 class with leader, new (M-EQ-D62): ₦242,606,000 (range ₦194,084,800 to ₦291,127,200); New; confidence LOW - https://yellowmetal.store/buy/piling-rigs/diesel-pile-hammer-d62-class-with-leader-new/
+- Hydraulic power pack for vibro hammer, new (M-EQ-HPU): ₦111,972,000 (range ₦89,577,600 to ₦134,366,400); New; confidence LOW - https://yellowmetal.store/buy/piling-rigs/hydraulic-power-pack-for-vibro-hammer-new/
+- Small percussion (tripod) bored-pile rig with winch, new (M-EQ-SPDR): ₦27,993,000 (range ₦22,394,400 to ₦33,591,600); New; confidence LOW - https://yellowmetal.store/buy/piling-rigs/small-percussion-tripod-bored-pile-rig-with-winch-new/
+
+### Survey & site equipment
+- Total station 2" (Leica/Sokkia/Topcon), new (M-EQ-TSTN): ₦16,795,800 (range ₦13,436,640 to ₦20,154,960); New; confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/total-station-2-inch-leica-sokkia-topcon-new/
+- GNSS RTK set base + rover (CHC/Hi-Target/South), new (M-EQ-GNSS): ₦13,996,500 (range ₦11,197,200 to ₦16,795,800); New; confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/gnss-rtk-set-base-rover-chc-hi-target-south-new/
+- Mapping drone with RTK (DJI Mavic 3 Enterprise class), new (M-EQ-DRONE): ₦10,264,100 (range ₦8,211,280 to ₦12,316,920); New; confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/mapping-drone-with-rtk-dji-mavic-3-enterprise-class-new/
+- Automatic level with tripod and staff, new (M-EQ-ATLV): ₦839,790 (range ₦671,832 to ₦1,007,748); New; confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/automatic-level-with-tripod-and-staff-new/
+- Tamping rammer (jumping jack) petrol 4-stroke (M-EQ-RAMM): ₦1,800,000 (range ₦1,440,000 to ₦2,160,000); confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/tamping-rammer-jumping-jack-petrol-4-stroke/
+- Reversible plate compactor 200-300kg diesel (M-EQ-PLT200): ₦4,500,000 (range ₦3,600,000 to ₦5,400,000); confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/reversible-plate-compactor-200-300kg-diesel/
+- Portable toilet cabin (plastic), new (M-EQ-TOIL): ₦1,200,000 (range ₦960,000 to ₦1,440,000); New; confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/portable-toilet-cabin-plastic-new/
+- 40ft container converted site office (insulated, AC, wired) (M-EQ-CON40): ₦12,000,000 (range ₦9,600,000 to ₦14,400,000); confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/40ft-container-converted-site-office-insulated-ac-wired/
+- H-frame scaffold set 1.7m (2 frames, 2 braces, 4 jacks) (M-EQ-HFRM): ₦85,000 (range ₦68,000 to ₦102,000); confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/h-frame-scaffold-set-1-7m-2-frames-2-braces-4-jacks/
+- Adjustable steel prop 1.8-3.5m, new (M-EQ-PRPS): ₦18,000 (range ₦14,000 to ₦22,000); New; confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/adjustable-steel-prop-1-8-3-5m-new/
+- Aluminium wall/slab formwork system, per m2 of panel (M-EQ-ALFW): ₦242,606 (range ₦194,085 to ₦291,127); confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/aluminium-wall-slab-formwork-system-per-m2-of-panel/
+- Pressure washer 250 bar petrol (M-EQ-PWASH): ₦650,000 (range ₦520,000 to ₦780,000); confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/pressure-washer-250-bar-petrol/
+- Hydraulic torque wrench / bolt tensioning set (M-EQ-HYDT): ₦6,000,000 (range ₦4,800,000 to ₦7,200,000); confidence LOW - https://yellowmetal.store/buy/survey-site-equipment/hydraulic-torque-wrench-bolt-tensioning-set/
+- DJI Mavic 3 Enterprise mapping drone with RTK module, new (X-EQ-M3E): ₦9,530,950 (range ₦8,101,308 to ₦10,960,593); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/survey-site-equipment/dji-mavic-3-enterprise-mapping-drone-with-rtk-module-new/
+- DJI Matrice 350 RTK drone with batteries and charging station, new (X-EQ-M350): ₦21,661,250 (range ₦18,412,063 to ₦24,910,437); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/survey-site-equipment/dji-matrice-350-rtk-drone-with-batteries-and-charging-station-new/
+- DJI Zenmuse L2 LiDAR payload for Matrice 350, new (X-EQ-ZL2): ₦23,394,150 (range ₦19,885,028 to ₦26,903,272); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/survey-site-equipment/dji-zenmuse-l2-lidar-payload-for-matrice-350-new/
+- DJI Zenmuse P1 photogrammetry camera, new (X-EQ-ZP1): ₦11,263,850 (range ₦9,574,273 to ₦12,953,427); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/survey-site-equipment/dji-zenmuse-p1-photogrammetry-camera-new/
+- DJI Mavic 3 Pro drone (site progress photos), new (X-EQ-M3P): ₦7,500,000 (range ₦6,800,000 to ₦8,500,000); New; confidence MEDIUM; Yellowmetal estimate - https://yellowmetal.store/buy/survey-site-equipment/dji-mavic-3-pro-drone-site-progress-photos-new/
+- DJI Mini 4 Pro drone, new (X-EQ-MINI4): ₦1,566,000 (range ₦1,400,000 to ₦1,800,000); New; confidence MEDIUM; Yellowmetal estimate - https://yellowmetal.store/buy/survey-site-equipment/dji-mini-4-pro-drone-new/
+- Total station 2" (South/Hi-Target), new (X-EQ-STSC): ₦5,971,840 (range ₦4,777,472 to ₦7,166,208); New; confidence LOW; Yellowmetal estimate - https://yellowmetal.store/buy/survey-site-equipment/total-station-2-inch-south-hi-target-new/
+
+### Small tools & site kit
+- Shovel (round mouth) (M-TL-SHOV): ₦6,500 (range ₦5,200 to ₦7,800); confidence LOW - https://yellowmetal.store/buy/small-tools/shovel-round-mouth/
+- Head pan (M-TL-HPAN): ₦3,500 (range ₦2,800 to ₦4,200); confidence LOW - https://yellowmetal.store/buy/small-tools/head-pan/
+- Wheelbarrow heavy duty (M-TL-WBAR): ₦65,000 (range ₦52,000 to ₦78,000); confidence LOW - https://yellowmetal.store/buy/small-tools/wheelbarrow-heavy-duty/
+- Pickaxe with handle (M-TL-PICK): ₦9,500 (range ₦7,600 to ₦11,400); confidence LOW - https://yellowmetal.store/buy/small-tools/pickaxe-with-handle/
+- Cutlass/machete (M-TL-CUTL): ₦4,500 (range ₦3,600 to ₦5,400); confidence LOW - https://yellowmetal.store/buy/small-tools/cutlass-machete/
+- Post-hole digger (M-TL-PHD): ₦15,000 (range ₦12,000 to ₦18,000); confidence LOW - https://yellowmetal.store/buy/small-tools/post-hole-digger/
+- Rake (M-TL-RAKE): ₦7,500 (range ₦6,000 to ₦9,000); confidence LOW - https://yellowmetal.store/buy/small-tools/rake/
+- Brick trowel (M-TL-TROW): ₦3,500 (range ₦2,800 to ₦4,200); confidence LOW - https://yellowmetal.store/buy/small-tools/brick-trowel/
+- Wooden float (M-TL-FLOAT): ₦4,000 (range ₦3,200 to ₦4,800); confidence LOW - https://yellowmetal.store/buy/small-tools/wooden-float/
+- Spirit level 1.2m (M-TL-SLVL): ₦18,000 (range ₦14,400 to ₦21,600); confidence LOW - https://yellowmetal.store/buy/small-tools/spirit-level-1-2m/
+- Measuring tape 50m (M-TL-TP50): ₦15,000 (range ₦12,000 to ₦18,000); confidence LOW - https://yellowmetal.store/buy/small-tools/measuring-tape-50m/
+- Measuring tape 5m (M-TL-TP5): ₦3,500 (range ₦2,800 to ₦4,200); confidence LOW - https://yellowmetal.store/buy/small-tools/measuring-tape-5m/
+- Plumb bob (M-TL-PLMB): ₦4,500 (range ₦3,600 to ₦5,400); confidence LOW - https://yellowmetal.store/buy/small-tools/plumb-bob/
+- Mason line 100m (M-TL-MLINE): ₦2,000 (range ₦1,600 to ₦2,400); confidence LOW - https://yellowmetal.store/buy/small-tools/mason-line-100m/
+- Claw hammer (M-TL-CLAW): ₦6,500 (range ₦5,200 to ₦7,800); confidence LOW - https://yellowmetal.store/buy/small-tools/claw-hammer/
+- Sledge hammer 5kg (M-TL-SLDG): ₦18,000 (range ₦14,400 to ₦21,600); confidence LOW - https://yellowmetal.store/buy/small-tools/sledge-hammer-5kg/
+- Crowbar 1.5m (M-TL-CROW): ₦15,000 (range ₦12,000 to ₦18,000); confidence LOW - https://yellowmetal.store/buy/small-tools/crowbar-1-5m/
+- Hacksaw (M-TL-HSAW): ₦6,500 (range ₦5,200 to ₦7,800); confidence LOW - https://yellowmetal.store/buy/small-tools/hacksaw/
+- Wood saw (M-TL-WSAW): ₦7,500 (range ₦6,000 to ₦9,000); confidence LOW - https://yellowmetal.store/buy/small-tools/wood-saw/
+- Manual rebar bender (M-TL-RBND): ₦25,000 (range ₦20,000 to ₦30,000); confidence LOW - https://yellowmetal.store/buy/small-tools/manual-rebar-bender/
+- Bolt cutter 36" (M-TL-BOLT): ₦28,000 (range ₦22,400 to ₦33,600); confidence LOW - https://yellowmetal.store/buy/small-tools/bolt-cutter-36-inch/
+- Chisel set (M-TL-CHIS): ₦12,000 (range ₦9,600 to ₦14,400); confidence LOW - https://yellowmetal.store/buy/small-tools/chisel-set/
+- Spanner set (M-TL-SPAN): ₦35,000 (range ₦28,000 to ₦42,000); confidence LOW - https://yellowmetal.store/buy/small-tools/spanner-set/
+- Pipe wrench 18" (M-TL-PWR): ₦18,000 (range ₦14,400 to ₦21,600); confidence LOW - https://yellowmetal.store/buy/small-tools/pipe-wrench-18-inch/
+- Manual pipe threader set (M-TL-THRD): ₦85,000 (range ₦68,000 to ₦102,000); confidence LOW - https://yellowmetal.store/buy/small-tools/manual-pipe-threader-set/
+- PPR pipe welding machine (M-TL-PPRW): ₦45,000 (range ₦36,000 to ₦54,000); confidence LOW - https://yellowmetal.store/buy/small-tools/ppr-pipe-welding-machine/
+- Electric drill (M-TL-DRIL): ₦55,000 (range ₦44,000 to ₦66,000); confidence LOW - https://yellowmetal.store/buy/small-tools/electric-drill/
+- Rotary hammer drill SDS (M-TL-SDS): ₦120,000 (range ₦96,000 to ₦144,000); confidence LOW - https://yellowmetal.store/buy/small-tools/rotary-hammer-drill-sds/
+- Angle grinder 9" (M-TL-AG9): ₦85,000 (range ₦68,000 to ₦102,000); confidence LOW - https://yellowmetal.store/buy/small-tools/angle-grinder-9-inch/
+- Angle grinder 4.5" (M-TL-AG45): ₦38,000 (range ₦30,400 to ₦45,600); confidence LOW - https://yellowmetal.store/buy/small-tools/angle-grinder-4-5-inch/
+- Circular saw (M-TL-CSAW): ₦95,000 (range ₦76,000 to ₦114,000); confidence LOW - https://yellowmetal.store/buy/small-tools/circular-saw/
+- Jigsaw (M-TL-JSAW): ₦65,000 (range ₦52,000 to ₦78,000); confidence LOW - https://yellowmetal.store/buy/small-tools/jigsaw/
+- Manual tile cutter (M-TL-TCM): ₦60,000 (range ₦48,000 to ₦72,000); confidence LOW - https://yellowmetal.store/buy/small-tools/manual-tile-cutter/
+- Wet tile saw (M-TL-TCW): ₦180,000 (range ₦144,000 to ₦216,000); confidence LOW - https://yellowmetal.store/buy/small-tools/wet-tile-saw/
+- Poker vibrator (petrol), purchase (M-TL-PVIB): ₦380,000 (range ₦304,000 to ₦456,000); confidence LOW - https://yellowmetal.store/buy/small-tools/poker-vibrator-petrol-purchase/
+- Inverter welding machine 200A (M-TL-WELD): ₦180,000 (range ₦144,000 to ₦216,000); confidence LOW - https://yellowmetal.store/buy/small-tools/inverter-welding-machine-200a/
+- Oxy-acetylene cutting set with regulators (M-TL-OXY): ₦120,000 (range ₦96,000 to ₦144,000); confidence LOW - https://yellowmetal.store/buy/small-tools/oxy-acetylene-cutting-set-with-regulators/
+- Oxygen cylinder refill (M-TL-O2R): ₦18,000 (range ₦14,400 to ₦21,600); confidence LOW - https://yellowmetal.store/buy/small-tools/oxygen-cylinder-refill/
+- Acetylene cylinder refill (M-TL-C2R): ₦45,000 (range ₦36,000 to ₦54,000); confidence LOW - https://yellowmetal.store/buy/small-tools/acetylene-cylinder-refill/
+- Argon cylinder refill (M-TL-ARR): ₦45,000 (range ₦36,000 to ₦54,000); confidence LOW - https://yellowmetal.store/buy/small-tools/argon-cylinder-refill/
+- Petrol generator 2.5kVA, purchase (M-TL-GEN25): ₦280,000 (range ₦224,000 to ₦336,000); confidence LOW - https://yellowmetal.store/buy/small-tools/petrol-generator-2-5kva-purchase/
+- Extension reel 50m (M-TL-EXT50): ₦35,000 (range ₦28,000 to ₦42,000); confidence LOW - https://yellowmetal.store/buy/small-tools/extension-reel-50m/
+- Rotary laser level with tripod (M-TL-RLAS): ₦650,000 (range ₦520,000 to ₦780,000); confidence LOW - https://yellowmetal.store/buy/small-tools/rotary-laser-level-with-tripod/
+- Dumpy level with tripod & staff (M-TL-DUMPY): ₦450,000 (range ₦360,000 to ₦540,000); confidence LOW - https://yellowmetal.store/buy/small-tools/dumpy-level-with-tripod-and-staff/
+- 2" water pump (petrol), purchase (M-TL-PUMP2): ₦180,000 (range ₦144,000 to ₦216,000); confidence LOW - https://yellowmetal.store/buy/small-tools/2-inch-water-pump-petrol-purchase/
+- Aluminium ladder 6m (M-TL-LADR): ₦150,000 (range ₦120,000 to ₦180,000); confidence LOW - https://yellowmetal.store/buy/small-tools/aluminium-ladder-6m/
+- Scaffold tube 6m, purchase (M-TL-SCT): ₦38,000 (range ₦30,400 to ₦45,600); confidence LOW - https://yellowmetal.store/buy/small-tools/scaffold-tube-6m-purchase/
+- Scaffold coupler (M-TL-SCC): ₦2,500 (range ₦2,000 to ₦3,000); confidence LOW - https://yellowmetal.store/buy/small-tools/scaffold-coupler/
+- Scaffold board 3.9m (M-TL-SCB): ₦15,000 (range ₦12,000 to ₦18,000); confidence LOW - https://yellowmetal.store/buy/small-tools/scaffold-board-3-9m/
+- Concrete mixer 1-bag, purchase (M-TL-MIXP): ₦1,800,000 (range ₦1,440,000 to ₦2,160,000); confidence LOW - https://yellowmetal.store/buy/small-tools/concrete-mixer-1-bag-purchase/
+- Plate compactor, purchase (M-TL-PLTP): ₦950,000 (range ₦760,000 to ₦1,140,000); confidence LOW - https://yellowmetal.store/buy/small-tools/plate-compactor-purchase/
+- Scaffolder/rigger tool kit: 3 spanners (17-21, 21-26, 22-24), 4 rolls binding wire, 2 wood saws (M-TL-RIGK): ₦202,000 (range ₦161,600 to ₦242,400); confidence LOW - https://yellowmetal.store/buy/small-tools/scaffolder-rigger-tool-kit-3-spanners-17-21-21-26-22-24-4-rolls-binding-wire-2-w/

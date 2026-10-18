@@ -1,0 +1,145 @@
+code,machine,group,unit,dry_ngn,dry_low_ngn,dry_high_ngn,fuel_litres_per_day,fuel_and_lube_ngn,operator_ngn,all_in_ngn,typical_output,confidence,yellowmetal_estimate,url
+P-EXM,Mini excavator 3-5t,Earthmoving,day,150000,120000,190000,30,61710,39300,251010,60-100 m3/day,LOW,no,https://yellowmetal.store/hire/earthmoving/mini-excavator-3-5t/
+P-EX14,Hydraulic excavator 14t,Earthmoving,day,300000,240000,380000,100,205700,39300,545000,180-250 m3/day,LOW,no,https://yellowmetal.store/hire/earthmoving/hydraulic-excavator-14t/
+P-EXC20,Hydraulic excavator 20-22t (CAT 320/215 class),Earthmoving,day,480000,400000,550000,150,308550,39300,827850,250-350 m3/day bulk dig,MEDIUM,no,https://yellowmetal.store/hire/earthmoving/hydraulic-excavator-20-22t-cat-320-215-class/
+P-EX30,Hydraulic excavator 30t,Earthmoving,day,650000,550000,800000,220,452540,39300,1141840,350-500 m3/day,LOW,no,https://yellowmetal.store/hire/earthmoving/hydraulic-excavator-30t/
+P-EXLR,Long-reach excavator,Earthmoving,day,750000,600000,900000,180,370260,39300,1159560,drain/canal work,LOW,no,https://yellowmetal.store/hire/earthmoving/long-reach-excavator/
+P-EXAM,Amphibious / swamp excavator,Earthmoving,day,1400000,1100000,1800000,200,411400,39300,1850700,swamp/creek work,LOW,no,https://yellowmetal.store/hire/earthmoving/amphibious-swamp-excavator/
+P-EXBR,Excavator 20t with hydraulic breaker,Earthmoving,day,600000,500000,750000,170,349690,39300,988990,20-40 m3/day rock,LOW,no,https://yellowmetal.store/hire/earthmoving/excavator-20t-with-hydraulic-breaker/
+P-BHL,Backhoe loader (JCB 3CX/3DX class),Earthmoving,day,310000,250000,350000,70,143990,39300,493290,80-120 m3/day trench,MEDIUM,no,https://yellowmetal.store/hire/earthmoving/backhoe-loader-jcb-3cx-3dx-class/
+P-SSL,Skid-steer loader (Bobcat class),Earthmoving,day,180000,140000,220000,40,82280,32750,295030,site clearing/loading,LOW,no,https://yellowmetal.store/hire/earthmoving/skid-steer-loader-bobcat-class/
+P-WL3,Wheel loader 3t (SDLG class),Earthmoving,day,220000,170000,280000,100,205700,32750,458450,300-400 m3/day loading,LOW,no,https://yellowmetal.store/hire/earthmoving/wheel-loader-3t-sdlg-class/
+P-WL5,Wheel loader 5t,Earthmoving,day,350000,280000,420000,140,287980,32750,670730,500-700 m3/day loading,LOW,no,https://yellowmetal.store/hire/earthmoving/wheel-loader-5t/
+P-DOZ,Bulldozer D6 class,Earthmoving,day,450000,380000,550000,180,370260,41920,862180,0.8-1.2 ha/day clearing,LOW,no,https://yellowmetal.store/hire/earthmoving/bulldozer-d6-class/
+P-DZ7,Bulldozer D7 class,Earthmoving,day,550000,450000,650000,220,452540,41920,1044460,1.2-1.8 ha/day clearing,MEDIUM,no,https://yellowmetal.store/hire/earthmoving/bulldozer-d7-class/
+P-DZ8,Bulldozer D8 class,Earthmoving,day,750000,620000,900000,280,575960,41920,1367880,heavy dozing,LOW,no,https://yellowmetal.store/hire/earthmoving/bulldozer-d8-class/
+P-GRD,Motor grader (CAT 140 class),Earthmoving,day,400000,320000,480000,140,287980,41920,729900,"2,500-4,000 m2/day",LOW,no,https://yellowmetal.store/hire/earthmoving/motor-grader-cat-140-class/
+P-ROL,Vibratory roller 10-12t,Compaction,day,280000,220000,340000,80,164560,32750,477310,"600-1,000 m3/day",LOW,no,https://yellowmetal.store/hire/compaction/vibratory-roller-10-12t/
+P-RL18,Vibratory roller 16-20t,Compaction,day,380000,300000,450000,110,226270,32750,639020,"1,000-1,500 m3/day",LOW,no,https://yellowmetal.store/hire/compaction/vibratory-roller-16-20t/
+P-RLT,Tandem asphalt roller 3-8t,Compaction,day,180000,140000,230000,35,71995,32750,284745,asphalt / small areas,LOW,no,https://yellowmetal.store/hire/compaction/tandem-asphalt-roller-3-8t/
+P-RLP,Pneumatic-tyred roller,Compaction,day,300000,240000,360000,80,164560,32750,497310,asphalt finishing,LOW,no,https://yellowmetal.store/hire/compaction/pneumatic-tyred-roller/
+P-RLS,Padfoot / sheepsfoot roller 12t,Compaction,day,300000,240000,360000,90,185130,32750,517880,clay fill,LOW,no,https://yellowmetal.store/hire/compaction/padfoot-sheepsfoot-roller-12t/
+P-PLT,Plate compactor (petrol),Compaction,day,15000,10000,20000,6,9273,0,24273,80-120 m2/day/150mm layer,LOW,no,https://yellowmetal.store/hire/compaction/plate-compactor-petrol/
+P-RAM,Jumping-jack rammer (petrol),Compaction,day,15000,10000,20000,4,6182,0,21182,trench backfill,LOW,no,https://yellowmetal.store/hire/compaction/jumping-jack-rammer-petrol/
+P-TP10,Tipper truck 10t,Haulage & Vehicles,day,120000,90000,150000,90,185130,26200,331330,5-7 trips/day local,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-10t/
+P-TIP,Tipper truck 20t,Haulage & Vehicles,day,150000,120000,200000,120,246840,26200,423040,4-6 trips/day local,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-20t/
+P-TP30,Tipper truck 30t,Haulage & Vehicles,day,220000,180000,270000,160,329120,26200,575320,3-5 trips/day,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-30t/
+P-WTK,"Water tanker 10,000L",Haulage & Vehicles,day,150000,120000,190000,90,185130,26200,361330,6-8 loads/day,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/water-tanker-10-000l/
+P-FUB,"Fuel bowser 10,000L",Haulage & Vehicles,day,180000,140000,220000,80,164560,26200,370760,,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/fuel-bowser-10-000l/
+P-FLB,Flatbed trailer,Haulage & Vehicles,day,250000,200000,300000,150,308550,26200,584750,,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/flatbed-trailer/
+P-LOW,"Low-bed mobilisation, per trip <=50km",Haulage & Vehicles,trip,480000,350000,650000,0,0,0,480000,per trip,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/low-bed-mobilisation-per-trip-50km/
+P-PKP,Pickup / site van,Haulage & Vehicles,day,35000,25000,45000,25,38638,15720,89358,,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/pickup-site-van/
+P-BUS,18-seater staff bus,Haulage & Vehicles,day,60000,45000,75000,40,82280,15720,158000,,LOW,no,https://yellowmetal.store/hire/haulage-vehicles/18-seater-staff-bus/
+P-CRN,Mobile crane 25t,Lifting & Access,day,450000,380000,550000,120,246840,52400,749240,,MEDIUM,no,https://yellowmetal.store/hire/lifting-access/mobile-crane-25t/
+P-CR50,Mobile crane 50t,Lifting & Access,day,900000,750000,1100000,180,370260,52400,1322660,,LOW,no,https://yellowmetal.store/hire/lifting-access/mobile-crane-50t/
+P-CR80,Mobile crane 80t,Lifting & Access,day,1600000,1300000,2000000,220,452540,52400,2104940,,LOW,no,https://yellowmetal.store/hire/lifting-access/mobile-crane-80t/
+P-TWC,"Tower crane (hire, per day equivalent)",Lifting & Access,day,400000,300000,500000,0,0,52400,452400,excl. erection/dismantle & power,LOW,no,https://yellowmetal.store/hire/lifting-access/tower-crane-hire-per-day-equivalent/
+P-HIAB,Hiab / truck-mounted crane 10t,Lifting & Access,day,250000,200000,300000,90,185130,26200,461330,,LOW,no,https://yellowmetal.store/hire/lifting-access/hiab-truck-mounted-crane-10t/
+P-FKL,Forklift 3t,Lifting & Access,day,100000,80000,130000,35,71995,32750,204745,,LOW,no,https://yellowmetal.store/hire/lifting-access/forklift-3t/
+P-TLH,Telehandler 14-17m,Lifting & Access,day,280000,220000,340000,60,123420,32750,436170,,LOW,no,https://yellowmetal.store/hire/lifting-access/telehandler-14-17m/
+P-HST,Material hoist (electric),Lifting & Access,day,35000,25000,45000,0,0,0,35000,needs generator,LOW,no,https://yellowmetal.store/hire/lifting-access/material-hoist-electric/
+P-SCF,"Tubular steel scaffold, per 100 m2 elevation",Lifting & Access,day,17000,12000,22000,0,0,0,17000,"equiv. N1,200/m2/week",LOW,no,https://yellowmetal.store/hire/lifting-access/tubular-steel-scaffold-per-100-m2-elevation/
+P-PRP,"Adjustable steel props, per 100 nr",Lifting & Access,day,15000,10000,20000,0,0,0,15000,N150/prop/day,LOW,no,https://yellowmetal.store/hire/lifting-access/adjustable-steel-props-per-100-nr/
+P-MIX,"Concrete mixer, 1-bag (petrol)",Concrete,day,25000,18000,32000,12,18546,0,43546,10-15 m3/day,LOW,no,https://yellowmetal.store/hire/concrete/concrete-mixer-1-bag-petrol/
+P-MX2,"Concrete mixer, 2-bag (diesel)",Concrete,day,40000,30000,50000,20,41140,0,81140,20-25 m3/day,LOW,no,https://yellowmetal.store/hire/concrete/concrete-mixer-2-bag-diesel/
+P-BTP,Batching plant 60 m3/hr,Concrete,day,1200000,900000,1500000,300,617100,32750,1849850,300-400 m3/day,LOW,no,https://yellowmetal.store/hire/concrete/batching-plant-60-m3-hr/
+P-TMX,Transit mixer 9 m3,Concrete,day,220000,180000,270000,120,246840,26200,493040,5-7 loads/day,LOW,no,https://yellowmetal.store/hire/concrete/transit-mixer-9-m3/
+P-CPB,Concrete boom pump 37m,Concrete,day,1100000,900000,1300000,150,308550,32750,1441300,300-500 m3/day,LOW,no,https://yellowmetal.store/hire/concrete/concrete-boom-pump-37m/
+P-CPL,Concrete line (static) pump,Concrete,day,450000,350000,550000,90,185130,32750,667880,150-250 m3/day,LOW,no,https://yellowmetal.store/hire/concrete/concrete-line-static-pump/
+P-VIB,Poker vibrator (petrol),Concrete,day,12000,8000,15000,5,7728,0,19728,,LOW,no,https://yellowmetal.store/hire/concrete/poker-vibrator-petrol/
+P-FLT,Power float / trowel (petrol),Concrete,day,20000,15000,25000,8,12364,0,32364,200-300 m2/day,LOW,no,https://yellowmetal.store/hire/concrete/power-float-trowel-petrol/
+P-CCT,Concrete floor saw (petrol),Concrete,day,25000,18000,32000,8,12364,0,37364,,LOW,no,https://yellowmetal.store/hire/concrete/concrete-floor-saw-petrol/
+P-BBM,Bar bending machine (electric),Concrete,day,20000,15000,25000,0,0,0,20000,needs generator,LOW,no,https://yellowmetal.store/hire/concrete/bar-bending-machine-electric/
+P-BLM,Vibrating block machine (petrol),Concrete,day,15000,10000,20000,6,9273,0,24273,500-700 blocks/day,LOW,no,https://yellowmetal.store/hire/concrete/vibrating-block-machine-petrol/
+P-GN5,Generator 5kVA (petrol),"Power, Air & Pumping",day,12000,8000,15000,12,18546,0,30546,,LOW,no,https://yellowmetal.store/hire/power-air-pumping/generator-5kva-petrol/
+P-GEN,Generator 20kVA (diesel),"Power, Air & Pumping",day,55000,40000,80000,40,82280,0,137280,,LOW,no,https://yellowmetal.store/hire/power-air-pumping/generator-20kva-diesel/
+P-GN60,Generator 60kVA (diesel),"Power, Air & Pumping",day,95000,75000,150000,90,185130,11790,291920,,LOW,no,https://yellowmetal.store/hire/power-air-pumping/generator-60kva-diesel/
+P-GN100,Generator 100kVA (diesel),"Power, Air & Pumping",day,130000,95000,250000,150,308550,11790,450340,,MEDIUM,no,https://yellowmetal.store/hire/power-air-pumping/generator-100kva-diesel/
+P-GN250,Generator 250kVA (diesel),"Power, Air & Pumping",day,240000,190000,450000,320,658240,11790,910030,,MEDIUM,no,https://yellowmetal.store/hire/power-air-pumping/generator-250kva-diesel/
+P-WLG,Welding generator 400A (diesel),"Power, Air & Pumping",day,80000,45000,150000,40,82280,0,162280,,LOW,no,https://yellowmetal.store/hire/power-air-pumping/welding-generator-400a-diesel/
+P-CMP,Air compressor 375cfm with 2 breakers,"Power, Air & Pumping",day,260000,200000,375000,90,185130,0,445130,demolition/breaking,LOW,no,https://yellowmetal.store/hire/power-air-pumping/air-compressor-375cfm-with-2-breakers/
+P-PM2,"Dewatering pump 2"" (petrol)","Power, Air & Pumping",day,8000,6000,11000,5,7728,0,15728,,LOW,no,https://yellowmetal.store/hire/power-air-pumping/dewatering-pump-2-inch-petrol/
+P-PMP,"Dewatering pump 3"" (petrol)","Power, Air & Pumping",day,12000,8000,16000,8,12364,0,24364,,LOW,no,https://yellowmetal.store/hire/power-air-pumping/dewatering-pump-3-inch-petrol/
+P-PM6,"Dewatering pump 6"" (diesel)","Power, Air & Pumping",day,45000,35000,55000,60,123420,0,168420,,LOW,no,https://yellowmetal.store/hire/power-air-pumping/dewatering-pump-6-inch-diesel/
+P-PAV,Asphalt paver (tracked),Roads,day,1200000,950000,1500000,150,308550,39300,1547850,300-500 t/day,LOW,no,https://yellowmetal.store/hire/roads/asphalt-paver-tracked/
+P-BDS,Bitumen distributor / sprayer,Roads,day,350000,280000,420000,80,164560,26200,540760,"6,000-10,000 m2/day",LOW,no,https://yellowmetal.store/hire/roads/bitumen-distributor-sprayer/
+P-CHS,Chip spreader,Roads,day,300000,240000,360000,70,143990,32750,476740,,LOW,no,https://yellowmetal.store/hire/roads/chip-spreader/
+P-BRM,Mechanical road broom,Roads,day,80000,60000,100000,30,61710,32750,174460,"6,000-10,000 m2/day",LOW,no,https://yellowmetal.store/hire/roads/mechanical-road-broom/
+P-MIL,Cold milling machine,Roads,day,2500000,2000000,3000000,300,617100,32750,3149850,"2,000-4,000 m2/day",LOW,no,https://yellowmetal.store/hire/roads/cold-milling-machine/
+P-LMK,Road line-marking machine,Roads,day,80000,60000,100000,10,15455,0,95455,"2,000-3,000 m/day",LOW,no,https://yellowmetal.store/hire/roads/road-line-marking-machine/
+P-PIL,Bored piling rig (600-900mm),Piling & Marine,day,2800000,2200000,3500000,300,617100,32750,3449850,,LOW,no,https://yellowmetal.store/hire/piling-marine/bored-piling-rig-600-900mm/
+P-CSD,"Cutter-suction dredger 12""",Piling & Marine,day,3500000,2800000,4500000,800,1645600,58950,5204550,"1,200-2,000 m3/day",LOW,no,https://yellowmetal.store/hire/piling-marine/cutter-suction-dredger-12-inch/
+P-SWB,Swamp buggy,Piling & Marine,day,1800000,1400000,2200000,250,514250,39300,2353550,,LOW,no,https://yellowmetal.store/hire/piling-marine/swamp-buggy/
+P-BOT,Work boat with outboard,Piling & Marine,day,120000,90000,150000,60,92730,15720,228450,,LOW,no,https://yellowmetal.store/hire/piling-marine/work-boat-with-outboard/
+P-TST,Total station,Survey & Site Facilities,day,25000,18000,32000,0,0,0,25000,,LOW,no,https://yellowmetal.store/hire/survey-site-facilities/total-station/
+P-LVL,Automatic level with staff,Survey & Site Facilities,day,8000,5000,10000,0,0,0,8000,,LOW,no,https://yellowmetal.store/hire/survey-site-facilities/automatic-level-with-staff/
+P-GNS,GNSS RTK kit,Survey & Site Facilities,day,45000,35000,60000,0,0,0,45000,,LOW,no,https://yellowmetal.store/hire/survey-site-facilities/gnss-rtk-kit/
+P-DRN,Drone survey (per day incl. pilot),Survey & Site Facilities,day,150000,100000,200000,0,0,0,150000,,LOW,no,https://yellowmetal.store/hire/survey-site-facilities/drone-survey-per-day-incl-pilot/
+P-CTN,20ft container office (hire),Survey & Site Facilities,day,6000,4000,8000,0,0,0,6000,,LOW,no,https://yellowmetal.store/hire/survey-site-facilities/20ft-container-office-hire/
+P-TLT,Portable toilet (hire & service),Survey & Site Facilities,day,3000,2000,4000,0,0,0,3000,,LOW,no,https://yellowmetal.store/hire/survey-site-facilities/portable-toilet-hire-and-service/
+P-PDH,Piling rig with diesel/hydraulic impact hammer (crawler),Piling Plant,day,1200000,960000,1500000,160,329120,58950,1588070,60-90 m driven/day,LOW,no,https://yellowmetal.store/hire/piling-plant/piling-rig-with-diesel-hydraulic-impact-hammer-crawler/
+P-VBH,Vibratory hammer with crawler crane (sheet piles),Piling Plant,day,1500000,1200000,1875000,200,411400,58950,1970350,150-250 m2/day,LOW,no,https://yellowmetal.store/hire/piling-plant/vibratory-hammer-with-crawler-crane-sheet-piles/
+P-CFA,CFA piling rig,Piling Plant,day,2500000,2000000,3125000,280,575960,58950,3134910,150-250 m/day,LOW,no,https://yellowmetal.store/hire/piling-plant/cfa-piling-rig/
+P-MPR,Micropile / anchor drilling rig,Piling Plant,day,450000,360000,562500,90,185130,58950,694080,20-40 m/day,LOW,no,https://yellowmetal.store/hire/piling-plant/micropile-anchor-drilling-rig/
+P-PRB,PVD (wick drain) stitcher rig,Piling Plant,day,600000,480000,750000,120,246840,58950,905790,"3,000-5,000 m/day",LOW,no,https://yellowmetal.store/hire/piling-plant/pvd-wick-drain-stitcher-rig/
+P-CC100,Crawler crane 100t,Heavy Lifting,day,2200000,1760000,2750000,250,514250,52400,2766650,,LOW,no,https://yellowmetal.store/hire/heavy-lifting/crawler-crane-100t/
+P-CC200,Crawler crane 200t,Heavy Lifting,day,4000000,3200000,5000000,350,719950,52400,4772350,,LOW,no,https://yellowmetal.store/hire/heavy-lifting/crawler-crane-200t/
+P-PRM,Prime mover with 60t trailer,Heavy Lifting,day,500000,400000,625000,250,514250,26200,1040450,,LOW,no,https://yellowmetal.store/hire/heavy-lifting/prime-mover-with-60t-trailer/
+P-CRB,Crane barge 300t,Marine & Dredging Fleet,day,12000000,9600000,15000000,1200,2468400,78600,14547000,,LOW,no,https://yellowmetal.store/hire/marine-dredging-fleet/crane-barge-300t/
+P-TUG,"Tug 1,200hp",Marine & Dredging Fleet,day,2500000,2000000,3125000,1500,3085500,117900,5703400,,LOW,no,https://yellowmetal.store/hire/marine-dredging-fleet/tug-1-200hp/
+P-SPB,Spud barge (hire),Marine & Dredging Fleet,day,900000,720000,1125000,0,0,0,900000,,LOW,no,https://yellowmetal.store/hire/marine-dredging-fleet/spud-barge-hire/
+P-FTB,"Flat-top barge 1,000t (hire)",Marine & Dredging Fleet,day,700000,560000,875000,0,0,0,700000,,LOW,no,https://yellowmetal.store/hire/marine-dredging-fleet/flat-top-barge-1-000t-hire/
+P-TSHD,"Trailing suction hopper dredger 5,000m3",Marine & Dredging Fleet,day,45000000,36000000,56250000,15000,30855000,58950,75913950,"25,000-40,000 m3/day placed",LOW,no,https://yellowmetal.store/hire/marine-dredging-fleet/trailing-suction-hopper-dredger-5-000m3/
+P-CSD20,"Cutter suction dredger 20"" with discharge line",Marine & Dredging Fleet,day,9000000,7200000,11250000,2500,5142500,58950,14201450,"4,000-6,000 m3/day placed",LOW,no,https://yellowmetal.store/hire/marine-dredging-fleet/cutter-suction-dredger-20-inch-with-discharge-line/
+P-ECS,Hydrographic survey boat with echo sounder & GNSS,Marine & Dredging Fleet,day,350000,280000,437500,80,123640,0,473640,10-15 km of line/day,LOW,no,https://yellowmetal.store/hire/marine-dredging-fleet/hydrographic-survey-boat-with-echo-sounder-and-gnss/
+P-SB583,Sideboom pipelayer (CAT 583 class),Pipeline Spread,day,900000,720000,1125000,180,370260,58950,1329210,400-800 m laid/day,LOW,no,https://yellowmetal.store/hire/pipeline-spread/sideboom-pipelayer-cat-583-class/
+P-PBM,"Pipe bending machine 6-36""",Pipeline Spread,day,800000,640000,1000000,60,123420,32750,956170,,LOW,no,https://yellowmetal.store/hire/pipeline-spread/pipe-bending-machine-6-36-inch/
+P-WRG,Diesel welding rig on truck (2 welders),Pipeline Spread,day,150000,120000,187500,50,102850,0,252850,,LOW,no,https://yellowmetal.store/hire/pipeline-spread/diesel-welding-rig-on-truck-2-welders/
+P-HDD,Horizontal directional drilling rig 100t with mud system,Pipeline Spread,day,6000000,4800000,7500000,600,1234200,78600,7312800,30-60 m pullback/day,LOW,no,https://yellowmetal.store/hire/pipeline-spread/horizontal-directional-drilling-rig-100t-with-mud-system/
+P-TRN,Chain trencher,Pipeline Spread,day,1200000,960000,1500000,250,514250,32750,1747000,"500-1,000 m/day",LOW,no,https://yellowmetal.store/hire/pipeline-spread/chain-trencher/
+P-HTP,Hydrotest pump unit with recorders,Pipeline Spread,day,150000,120000,187500,40,82280,0,232280,,LOW,no,https://yellowmetal.store/hire/pipeline-spread/hydrotest-pump-unit-with-recorders/
+P-SBL,Abrasive blasting unit with 750cfm compressor,Pipeline Spread,day,250000,200000,312500,120,246840,0,496840,60-80 m2/day,LOW,no,https://yellowmetal.store/hire/pipeline-spread/abrasive-blasting-unit-with-750cfm-compressor/
+P-HOL,Holiday (coating) detector,Pipeline Spread,day,25000,20000,31200,0,0,0,25000,,LOW,no,https://yellowmetal.store/hire/pipeline-spread/holiday-coating-detector/
+P-XRY,Radiography crawler / X-ray unit (excl. technician),Pipeline Spread,day,300000,240000,375000,0,0,0,300000,30-50 joints/day,LOW,no,https://yellowmetal.store/hire/pipeline-spread/radiography-crawler-x-ray-unit-excl-technician/
+P-ADT,Articulated dump truck 30t,Roads & Quarry Plant,day,600000,480000,750000,250,514250,26200,1140450,,LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/articulated-dump-truck-30t/
+P-SCR,Motor scraper 15m3,Roads & Quarry Plant,day,1200000,960000,1500000,350,719950,41920,1961870,,LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/motor-scraper-15m3/
+P-ASPL,Asphalt mixing plant 120tph (excl. bitumen & aggregate),Roads & Quarry Plant,day,3000000,2400000,3750000,1500,3085500,39300,6124800,"800-1,000 t/day",LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/asphalt-mixing-plant-120tph-excl-bitumen-and-aggregate/
+P-CRU,Stone crushing plant 200tph,Roads & Quarry Plant,day,2500000,2000000,3125000,1200,2468400,39300,5007700,"1,500-2,000 t/day",LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/stone-crushing-plant-200tph/
+P-SFP,Slipform concrete paver,Roads & Quarry Plant,day,3000000,2400000,3750000,300,617100,32750,3649850,"1,000-2,000 m2/day",LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/slipform-concrete-paver/
+P-SST,Soil stabiliser / recycler,Roads & Quarry Plant,day,2500000,2000000,3125000,350,719950,32750,3252700,"3,000-5,000 m2/day",LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/soil-stabiliser-recycler/
+P-DRL,Crawler rock drill,Roads & Quarry Plant,day,600000,480000,750000,200,411400,32750,1044150,,LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/crawler-rock-drill/
+P-BTH,Bitumen tanker with heater,Roads & Quarry Plant,day,300000,240000,375000,150,308550,26200,634750,,LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/bitumen-tanker-with-heater/
+P-MBP,Mobile batching plant 30m3/h,Roads & Quarry Plant,day,600000,480000,750000,150,308550,39300,947850,150-200 m3/day,LOW,no,https://yellowmetal.store/hire/roads-quarry-plant/mobile-batching-plant-30m3-h/
+P-TMP,Ballast tamping machine,Rail Plant,day,3500000,2800000,4375000,400,822800,32750,4355550,400-800 m/day,LOW,no,https://yellowmetal.store/hire/rail-plant/ballast-tamping-machine/
+P-RWL,Rail welding & grinding unit,Rail Plant,day,400000,320000,500000,80,164560,0,564560,8-15 welds/day,LOW,no,https://yellowmetal.store/hire/rail-plant/rail-welding-and-grinding-unit/
+P-WPT,Wellpoint dewatering system (50 points),Access & Small Plant,day,250000,200000,312500,60,123420,0,373420,,LOW,no,https://yellowmetal.store/hire/access-small-plant/wellpoint-dewatering-system-50-points/
+P-LTW,Lighting tower,Access & Small Plant,day,45000,36000,56200,25,51425,0,96425,,LOW,no,https://yellowmetal.store/hire/access-small-plant/lighting-tower/
+P-GN500,Generator 500kVA,Access & Small Plant,day,600000,450000,900000,650,1337050,11790,1948840,,LOW,no,https://yellowmetal.store/hire/access-small-plant/generator-500kva/
+P-CMP750,Air compressor 750cfm,Access & Small Plant,day,500000,350000,840000,200,411400,0,911400,,LOW,no,https://yellowmetal.store/hire/access-small-plant/air-compressor-750cfm/
+P-BML,Articulating boom lift 20m,Access & Small Plant,day,250000,200000,312500,30,61710,0,311710,,LOW,no,https://yellowmetal.store/hire/access-small-plant/articulating-boom-lift-20m/
+P-SCL,Scissor lift 12m (electric),Access & Small Plant,day,120000,96000,150000,0,0,0,120000,,LOW,no,https://yellowmetal.store/hire/access-small-plant/scissor-lift-12m-electric/
+P-CDR,Diamond core drill rig,Access & Small Plant,day,30000,24000,37500,4,6182,0,36182,,LOW,no,https://yellowmetal.store/hire/access-small-plant/diamond-core-drill-rig/
+P-FGR,Floor grinder / polisher,Access & Small Plant,day,40000,32000,50000,0,0,0,40000,40-80 m2/day,LOW,no,https://yellowmetal.store/hire/access-small-plant/floor-grinder-polisher/
+P-VSC,Vibrating screed (petrol),Access & Small Plant,day,25000,20000,31200,5,7728,0,32728,,LOW,no,https://yellowmetal.store/hire/access-small-plant/vibrating-screed-petrol/
+P-SHT,Shotcrete machine,Access & Small Plant,day,300000,240000,375000,80,164560,0,464560,20-40 m3/day,LOW,no,https://yellowmetal.store/hire/access-small-plant/shotcrete-machine/
+P-GRP,Grout mixer & pump,Access & Small Plant,day,120000,96000,150000,30,61710,0,181710,,LOW,no,https://yellowmetal.store/hire/access-small-plant/grout-mixer-and-pump/
+P-CMP900,Air compressor 900cfm (diesel) with hoses and accessories,"Power, Air & Pumping",day,600000,420000,950000,240,493680,0,1093680,blasting/pneumatic tools,LOW,no,https://yellowmetal.store/hire/power-air-pumping/air-compressor-900cfm-diesel-with-hoses-and-accessories/
+P-CR100,Mobile crane 100t,Lifting & Access,day,2500000,1800000,4000000,250,514250,52400,3066650,,LOW,no,https://yellowmetal.store/hire/lifting-access/mobile-crane-100t/
+P-TIG,"TIG welding set with torch, argon regulator and leads (without generator)",Access & Small Plant,day,18000,12000,27000,0,0,0,18000,excl. argon (M-TL-ARR),LOW,no,https://yellowmetal.store/hire/access-small-plant/tig-welding-set-with-torch-argon-regulator-and-leads-without-generator/
+P-WLE,"Electric arc welding set with leads, holder and earth clamp (without generator)",Access & Small Plant,day,12000,8000,18000,0,0,0,12000,excl. electrodes,LOW,no,https://yellowmetal.store/hire/access-small-plant/electric-arc-welding-set-with-leads-holder-and-earth-clamp-without-generator/
+P-FLP,"Heavy-duty diesel flushing pump, 6"" high-head","Power, Air & Pumping",day,80000,60000,160000,70,143990,0,223990,pipeline flushing/filling,LOW,no,https://yellowmetal.store/hire/power-air-pumping/heavy-duty-diesel-flushing-pump-6-inch-high-head/
+P-SCK4,"Scaffold tubes, kit of 50 nr x 4m (hire)",Lifting & Access,day,6300,4400,9500,0,0,0,6300,kit,LOW,no,https://yellowmetal.store/hire/lifting-access/scaffold-tubes-kit-of-50-nr-x-4m-hire/
+P-SCK32,"Scaffold tubes, kit of 50 nr x 3m + 50 nr x 2m with 100 couplers (hire)",Lifting & Access,day,9200,6400,13800,0,0,0,9200,kit,LOW,no,https://yellowmetal.store/hire/lifting-access/scaffold-tubes-kit-of-50-nr-x-3m-50-nr-x-2m-with-100-couplers-hire/
+P-SCKB,"Scaffold boards & fittings kit: 100 boards 3.75m x 305 x 30mm, 300 couplers (right-angle, swivel, sleeve), 40 joint pins, 40 base plates, 2 pinch bars (hire)",Lifting & Access,day,12400,8700,18600,0,0,0,12400,kit,LOW,no,https://yellowmetal.store/hire/lifting-access/scaffold-boards-and-fittings-kit-100-boards-3-75m-x-305-x-30mm-300-couplers-righ/
+X-TP40,"Tipper truck 40t (HOWO 8x4, 12-wheeler)",Haulage & Vehicles,day,275000,225000,337500,190,390830,26200,692030,"4-6 trips/day, 40t payload",LOW,yes,https://yellowmetal.store/hire/haulage-vehicles/tipper-truck-40t-howo-8x4-12-wheeler/
+X-TL40,Tractor unit with 40t low-bed (2-axle),Haulage & Vehicles,day,400000,320000,500000,200,411400,26200,837600,"Backhoes, rollers, small dozers",LOW,yes,https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-40t-low-bed-2-axle/
+X-TL80,Tractor unit with 80t low-bed (3-axle),Haulage & Vehicles,day,625000,500000,781250,260,534820,26200,1186020,"30-40t excavators, D8 dozers, crushers",LOW,yes,https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-80t-low-bed-3-axle/
+X-TL100,Tractor unit with 100t low-bed (4-axle),Haulage & Vehicles,day,750000,600000,937500,300,617100,26200,1393300,"Crawler cranes, piling rigs, large plant",LOW,yes,https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-100t-low-bed-4-axle/
+X-TL120,"Tractor unit with 120t low-bed (gooseneck, 4-5 axle)",Haulage & Vehicles,day,950000,760000,1187500,340,699380,26200,1675580,"Abnormal loads, transformers, heavy cranes",LOW,yes,https://yellowmetal.store/hire/haulage-vehicles/tractor-unit-with-120t-low-bed-gooseneck-4-5-axle/
+X-LOW150,"Low-bed mobilisation, per trip 50-150km",Haulage & Vehicles,trip,912000,665000,1235000,0,0,0,912000,"One machine, one way",LOW,yes,https://yellowmetal.store/hire/haulage-vehicles/low-bed-mobilisation-per-trip-50-150km/
+X-LOW300,"Low-bed mobilisation, per trip 150-300km",Haulage & Vehicles,trip,1536000,1120000,2080000,0,0,0,1536000,"One machine, one way",LOW,yes,https://yellowmetal.store/hire/haulage-vehicles/low-bed-mobilisation-per-trip-150-300km/
+X-TMX12,Transit mixer 12 m3 (HOWO/SANY),Concrete,day,253000,207000,310500,130,267410,26200,546610,12 m3 per trip,LOW,yes,https://yellowmetal.store/hire/concrete/transit-mixer-12-m3-howo-sany/
+X-BCT,Bulk cement tanker 40 m3 with tractor unit,Concrete,day,300000,250000,380000,200,411400,26200,737600,35-40t cement per trip,LOW,yes,https://yellowmetal.store/hire/concrete/bulk-cement-tanker-40-m3-with-tractor-unit/
+X-CPB52,Concrete boom pump 47-52m (SANY/Zoomlion),Concrete,day,1595000,1305000,1885000,190,390830,32750,2018580,High-rise slabs and long reach pours,LOW,yes,https://yellowmetal.store/hire/concrete/concrete-boom-pump-47-52m-sany-zoomlion/
+X-DRP,"Drone survey with RTK (DJI Mavic 3 Enterprise, incl. pilot)",Survey & Site Facilities,day,180000,120000,240000,0,0,0,180000,100-300 ha/day orthophoto and contours,LOW,yes,https://yellowmetal.store/hire/survey-site-facilities/drone-survey-with-rtk-dji-mavic-3-enterprise-incl-pilot/
+X-DRL,"Drone LiDAR survey (DJI Matrice 350 + Zenmuse L2, incl. pilot)",Survey & Site Facilities,day,450000,300000,600000,0,0,0,450000,"Ground model under vegetation, 50-150 ha/day",LOW,yes,https://yellowmetal.store/hire/survey-site-facilities/drone-lidar-survey-dji-matrice-350-zenmuse-l2-incl-pilot/
