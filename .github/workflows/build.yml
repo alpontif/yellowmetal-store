@@ -33,6 +33,7 @@ jobs:
       - name: Build site into docs/
         run: if [ -f build.mjs ]; then node build.mjs; else echo "build.mjs not yet present"; fi
       - name: Commit changes
+        id: commit
         run: |
           git config user.name "yellowmetal-bot"
           git config user.email "yellowmetalng@gmail.com"
@@ -40,3 +41,7 @@ jobs:
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Build: rates $(python3 -c "import json;print(json.load(open('data/rate-data.json'))['meta']['updated'])") and photos"
           git push
+          echo "changed=yes" >> "$GITHUB_OUTPUT"
+      - name: Tell search engines (IndexNow) after GitHub Pages publishes
+        if: steps.commit.outputs.changed == 'yes' || github.event_name == 'workflow_dispatch'
+        run: sleep 120 && python3 tools/indexnow.py

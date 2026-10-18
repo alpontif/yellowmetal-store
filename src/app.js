@@ -24,6 +24,7 @@ const NS = n => {
   if (n >= 1e3) return "₦" + Math.round(n / 1e3) + "k";
   return "₦" + Math.round(n);
 };
+const short = (d, n = 40) => { d = d.replace(/\s*\([^)]*\)/g, "").replace(/,\s*(new|foreign used|nigerian used|used).*$/i, m => " " + m.replace(/^,\s*/, "")).trim(); if (d.length <= n) return d; const c = d.slice(0, n); return c.slice(0, c.lastIndexOf(" ")).replace(/[,\-–\s]+$/, "").replace(/\s+(with|for|and|of|to|the|a|in)$/i, ""); };
 const dateLong = iso => { const d = new Date(iso + "T12:00:00Z"); return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }); };
 const link = p => MODE === "hash" ? "#" + p : BASE + p.replace(/^\//, "");
 const ASSET = MODE === "hash" ? "" : BASE;
@@ -62,7 +63,7 @@ const confLabel = c => ({ HIGH: "High", MEDIUM: "Medium", LOW: "Low" }[c] || c |
 const photoBox = (key, alt, small, extra = "") => {
   const src = img(key, small);
   const label = Y.photoLabels[key] || "";
-  return src ? `<img src="${src}" alt="${esc(alt)}" loading="lazy" decoding="async"${extra}>` : `<span class="ph-fallback" role="img" aria-label="${esc(alt)}"><b>${esc(label)}</b><small>Photo of the actual unit on request</small></span>`;
+  return src ? `<img src="${src}" alt="${esc(alt)}" width="${small ? 640 : 1200}" height="${small ? 480 : 900}" loading="lazy" decoding="async"${extra}>` : `<span class="ph-fallback" role="img" aria-label="${esc(alt)}"><b>${esc(label)}</b><small>Photo of the actual unit on request</small></span>`;
 };
 
 /* shortlist: entries "h:<id>" for hire, "b:<id>" for buy, "f:<id>" for fleet */
@@ -137,7 +138,7 @@ V.home = () => {
   const fleet = Y.fleet[0];
   const fp = fleet && byCode[fleet.rateRef] ? hireParts(byCode[fleet.rateRef]) : null;
   return {
-    title: "Yellowmetal · Rent, buy or list heavy equipment in Nigeria",
+    title: "Yellowmetal | Heavy equipment hire and sales in Nigeria",
     desc: `Hire ${Y.hire.length} types of construction plant or buy from ${Y.buy.length} equipment lines at current Nigerian market rates. Excavators, dozers, loaders, tippers, cranes, dredgers. Every deal closes on WhatsApp.`,
     html: `
   <section class="pillars-hero"><div class="wrap ph-grid">
@@ -277,7 +278,8 @@ V.section = slug => {
     </section>`;
   };
   return {
-    title: `${s.h1} · Yellowmetal`,
+    title: `${s.name} equipment: hire and buy | Yellowmetal`,
+    list: s.groups.flatMap(g => [...g.hire.map(id => ({ name: H[id].d + " (hire)", url: `/hire/${H[id].g}/${id}/` })), ...g.buy.map(id => ({ name: B[id].d, url: `/buy/${B[id].cat}/${id}/` }))]),
     desc: `${s.intro} ${s.n} priced lines, updated ${dateLong(Y.meta.updated)}.`,
     og: img(s.ph),
     html: `<section class="sec-hero"><div class="sec-hero-img">${photoBox(s.ph, s.name, false)}</div><div class="wrap">
@@ -292,7 +294,7 @@ V.section = slug => {
 };
 
 V.hireIndex = () => ({
-  title: "Construction equipment hire rates in Nigeria · Yellowmetal",
+  title: "Construction equipment hire rates in Nigeria | Yellowmetal",
   desc: `Daily hire rates for ${Y.hire.length} construction machines in Nigeria, broken down into dry hire, fuel and operator. Excavators, dozers, rollers, tippers, cranes, generators, dredgers.`,
   html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Hire"]])}
     <h1>Equipment hire rates</h1>
@@ -308,11 +310,14 @@ V.hireGroup = slug => {
   const g = HG[slug]; if (!g) return V.notFound();
   const items = Y.hire.filter(i => i.g === slug);
   return {
-    title: `${g.name} hire rates in Nigeria (${new Date(Y.meta.updated).toLocaleDateString("en-GB", { month: "short", year: "numeric" })}) · Yellowmetal`,
+    title: `${g.name} hire rates in Nigeria | Yellowmetal`,
+    list: items.map(i => ({ name: i.d, url: `/hire/${i.g}/${i.id}/` })),
+    faq: [[`How much does it cost to hire ${g.name.toLowerCase()} equipment in Nigeria?`, `As at ${dateLong(Y.meta.updated)} in ${state.loc}: ${items.slice(0, 5).map(i => `${i.d} about ${N(hireParts(i).all)} per ${i.u} all-in (dry ${N(hireParts(i).dry)})`).join("; ")}. All-in includes diesel and operator; mobilisation and VAT are extra.`]],
     desc: `${g.name} hire in Nigeria: ${items.slice(0, 4).map(i => `${i.d} ${N(hireParts(i).all)}/${i.u} all-in`).join("; ")}. Dry, fuel and operator broken down.`,
     og: img(g.ph),
     html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Hire", link("/hire/")], [g.name]])}
       <h1>${esc(g.name)} hire</h1><p>${esc(g.blurb)}</p>
+      <p class="answer">As at ${dateLong(Y.meta.updated)}, ${items[0] ? `<a href="${hireHref(items.find(i => /20-22t|5t|D7|30t/.test(i.d)) || items[0])}">${esc((items.find(i => /20-22t|5t|D7|30t/.test(i.d)) || items[0]).d)}</a> costs about <b class="num">${N(hireParts(items.find(i => /20-22t|5t|D7|30t/.test(i.d)) || items[0]).all)}</b> per day all-in in ${esc(state.loc)}, including diesel and operator.` : ""} Rates for all ${items.length} machines are below.</p>
       <div class="toolbar">${locSelect()}${viewToggle()}<div class="filter"><label class="sr" for="fq">Filter</label>${ICON.search}<input id="fq" data-filter placeholder="Filter ${items.length} machines"></div></div></div>
     <div class="wrap pad-b"><div id="list" data-kind="hire" data-items="${items.map(i => i.id).join(",")}">${state.view === "table" ? hireTable(items) : `<div class="grid">${items.map(hireCard).join("")}</div>`}</div>
     <div class="cta-strip"><span>Need something else in ${esc(g.name.toLowerCase())}?</span><a class="btn btn-ghost" href="${link("/source/?want=hire")}">We'll source it</a></div>
@@ -330,7 +335,7 @@ V.hireItem = (slug, id, fleetId) => {
   const buyAlt = Y.buy.filter(b => b.ph === i.ph).slice(0, 3);
   const gallery = fleet ? fleet.photos.map(own) : [img(i.ph)].filter(Boolean);
   return {
-    title: fleet ? `${fleet.name} for hire · Yellowmetal fleet ${fleet.ref}` : `${i.d} hire rate in Nigeria · ${N(p.all)} per ${i.u} all-in · Yellowmetal`,
+    title: fleet ? `${fleet.name} for hire in Lagos | Yellowmetal` : `${short(i.d)} hire: ${NS(p.all)}/${i.u} | Yellowmetal`,
     desc: `${name} hire: ${N(p.dry)} per ${i.u} dry, ${N(p.all)} all-in with diesel${i.op ? " and operator" : ""} (${state.loc}). Book on WhatsApp with Yellowmetal.`,
     og: gallery[0], kind: "hire", item: i, fleet,
     html: `<div class="wrap">${crumbs(fleet ? [["Home", link("/")], ["Yellowmetal fleet"], [fleet.ref]] : [["Home", link("/")], ["Hire", link("/hire/")], [g.name, link(`/hire/${g.slug}/`)], [i.d]])}
@@ -403,7 +408,7 @@ const estimateHTML = e => `<table class="est">
   <p class="est-note">${e.withFuel ? "Includes diesel at today's pump price." : "Excludes diesel; you supply it."} ${e.withOp ? "Includes operator." : "Dry hire, no operator."}</p>`;
 
 V.buyIndex = () => ({
-  title: "Price of construction equipment in Nigeria (new and tokunbo) · Yellowmetal",
+  title: "Construction equipment prices in Nigeria | Yellowmetal",
   desc: `Current Nigerian prices for ${Y.buy.length} lines of construction equipment: excavators, bulldozers, payloaders, tipper trucks, cranes, generators, batching plants, crushers and dredgers.`,
   html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Buy"]])}
     <h1>Equipment prices</h1><p>${Y.buy.length} lines in ${Y.buyCats.length} categories: new, tokunbo (foreign used) and Nigerian used, with the market range for each.</p>
@@ -419,7 +424,8 @@ V.buyCat = slug => {
   const items = Y.buy.filter(i => i.cat === slug);
   const pr = byCode[c.primary];
   return {
-    title: `${c.h1} (${new Date(Y.meta.updated).toLocaleDateString("en-GB", { month: "short", year: "numeric" })}) · Yellowmetal`,
+    title: `${c.name} prices in Nigeria | Yellowmetal`,
+    list: items.map(i => ({ name: i.d, url: `/buy/${i.cat}/${i.id}/` })),
     desc: `${c.q} ${pr ? `${pr.d} costs about ${N(buyPrice(pr).r)} (${state.loc}).` : ""} ${items.length} lines with market ranges, updated weekly.`,
     og: img(c.ph),
     faq: pr ? [[c.q, `As at ${dateLong(Y.meta.updated)}, ${pr.d} costs about ${N(buyPrice(pr).r)} (market range ${N(buyPrice(pr).lo)} to ${N(buyPrice(pr).hi)}).`]] : null,
@@ -441,7 +447,8 @@ V.buyItem = (slug, id) => {
   const hireAlt = Y.hire.filter(h => h.ph === i.ph).slice(0, 3);
   const related = Y.buy.filter(x => x.cat === i.cat && x.id !== i.id && x.ph === i.ph).concat(Y.buy.filter(x => x.cat === i.cat && x.id !== i.id && x.ph !== i.ph)).slice(0, 4);
   return {
-    title: `${i.d} price in Nigeria · ${N(p.r)} · Yellowmetal`,
+    title: `${short(i.d)} price: ${NS(p.r)} | Yellowmetal`,
+    faq: [[`How much is a ${i.d.replace(/,.*$/, "").toLowerCase()} in Nigeria?`, `As at ${dateLong(Y.meta.updated)}, ${i.d} costs about ${N(p.r)} in ${state.loc}, with a market range of ${N(p.lo)} to ${N(p.hi)}. Yellowmetal confirms the exact unit and price on WhatsApp (${CFG.displayPhone}).`]],
     desc: `${i.d}: about ${N(p.r)} (${state.loc}), market range ${N(p.lo)} to ${N(p.hi)}. Get a proforma invoice, inspection or financing through Yellowmetal on WhatsApp.`,
     og: img(i.ph), kind: "buy", item: i,
     html: `<div class="wrap">${crumbs([["Home", link("/")], ["Buy", link("/buy/")], [c.name, link(`/buy/${c.slug}/`)], [i.d]])}
@@ -656,8 +663,40 @@ V.credits = () => ({
   </tbody></table></div></div>`
 });
 
+V.about = () => ({
+  title: "About Yellowmetal Plants & Equipment Ltd | Yellowmetal",
+  desc: `Yellowmetal Plants & Equipment Ltd (${CFG.rc}) hires, sells and lists heavy construction equipment across Nigeria from Festac Town, Lagos. Engineer-led, priced from the Buildocrat Rate Book.`,
+  html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["About"]])}<h1>About Yellowmetal</h1>
+    <p class="answer">${esc(CFG.company)} (${esc(CFG.rc)}) hires, sells and lists heavy construction equipment for sites across Nigeria. We're based in ${esc(CFG.address)} and close every deal with customers on WhatsApp.</p></div>
+  <div class="wrap pad-b about">
+    <section><h2>What we do</h2><ul>
+      <li><b>Hire:</b> ${Y.hire.length} machine types from excavators, dozers and HOWO tippers to low-beds, cranes, concrete pumps, dredgers and drone surveys, by the day, week or month, with operator and diesel.</li>
+      <li><b>Buy:</b> ${Y.buy.length} lines of new, tokunbo and Nigerian-used equipment, with inspection, instalments and lease-to-own for qualifying buyers.</li>
+      <li><b>List:</b> owners rent out or sell idle machines through us. We contract the job, manage the operator and pay the owner on agreed terms.</li>
+      <li><b>Source:</b> anything we don't list, found through our partner network and quoted on WhatsApp.</li></ul></section>
+    <section><h2>How we price</h2><p>Our rates follow the <a href="https://rates.buildocrat.store/" target="_blank" rel="noopener">Buildocrat Nigeria Construction Rate Book</a>, which checks plant hire rates, equipment prices, diesel and the exchange rate every week. This site picks up each update automatically. Every hire rate is split into dry hire, diesel with lubricants, and operator, with factors for 12 locations. Lines the rate book doesn't yet cover are marked as Yellowmetal estimates.</p></section>
+    <section><h2>Who runs it</h2><p>Yellowmetal is led by Engr. Akolade Maruf Ibrahim, MNSE, a COREN-registered civil and structural engineer and PMP. Our own SDLG LG953F loader has completed 354 hire jobs since 2023.</p></section>
+    <section><h2>How we work with you</h2><ul><li>One contract, one accountable company, whether the machine is ours or a verified partner's.</li><li>Inspection before mobilisation, with current video of the exact machine on request.</li><li>Payment only into our corporate account, after a proforma invoice. Never to a personal account.</li></ul></section>
+    <section><h2>Contact</h2><p>WhatsApp <b>${esc(CFG.displayPhone)}</b> · Email <b>${esc(CFG.email)}</b> · ${esc(CFG.address)}, Nigeria. Company registration ${esc(CFG.rc)} (Corporate Affairs Commission).</p>
+      <div class="row-btns"><a class="btn btn-wa btn-lg" href="${waLink(generalMessage())}" target="_blank" rel="noopener">${ICON.wa(20)} Chat on WhatsApp</a><a class="btn btn-ghost btn-lg" href="${link("/hire/")}">See hire rates</a></div></section>
+  </div>`
+});
+
+V.data = () => ({
+  title: "Equipment rates data downloads | Yellowmetal",
+  desc: `Download every Yellowmetal hire rate (${Y.hire.length} machines) and equipment price (${Y.buy.length} lines) in Nigeria as CSV or JSON. Updated ${dateLong(Y.meta.updated)}.`,
+  html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Data"]])}<h1>Price data downloads</h1>
+    <p class="answer">Every hire rate and equipment price on this site, updated ${dateLong(Y.meta.updated)}, in naira with Abuja as the base location. Free to use with credit to Yellowmetal and the Buildocrat Rate Book (CC BY 4.0).</p></div>
+  <div class="wrap pad-b"><div class="guide data-dl">
+    <a class="g g2" href="${ASSET}data/hire-rates.csv"><i>${ICON.table}</i><b>Hire rates (CSV)</b><span>${Y.hire.length} machines: dry hire, fuel and lube, operator, all-in, typical output, confidence.</span><u>Download hire-rates.csv</u></a>
+    <a class="g g1" href="${ASSET}data/equipment-prices.csv"><i>${ICON.table}</i><b>Equipment prices (CSV)</b><span>${Y.buy.length} lines: price, market range, condition, confidence, evidence date.</span><u>Download equipment-prices.csv</u></a>
+    <a class="g g3" href="${ASSET}data/catalog.json"><i>${ICON.grid}</i><b>Full catalogue (JSON)</b><span>Everything above plus location factors, in one machine-readable file.</span><u>Download catalog.json</u></a>
+    <a class="g g4" href="${ASSET}llms.txt"><i>${ICON.search}</i><b>Summary for AI assistants</b><span>A plain-text overview of Yellowmetal and its key prices (llms.txt), with a full version at llms-full.txt.</span><u>Open llms.txt</u></a>
+  </div></div>`
+});
+
 V.notFound = () => ({ title: "Page not found · Yellowmetal", desc: "", noindex: true, status: 404,
-  html: `<div class="wrap" style="padding-block:80px"><div class="empty"><h3>That page isn't here</h3><p>The machine may have been renamed. Search, or tell us what you need.</p><div class="row-btns center"><a class="btn btn-accent" href="${link("/hire/")}">Hire rates</a><a class="btn btn-ghost" href="${link("/buy/")}">Equipment prices</a></div></div></div>` });
+  html: `<div class="wrap" style="padding-block:80px"><div class="empty"><h1 class="nf-h">That page isn't here</h1><p>The machine may have been renamed. Search, or tell us what you need.</p><div class="row-btns center"><a class="btn btn-accent" href="${link("/hire/")}">Hire rates</a><a class="btn btn-ghost" href="${link("/buy/")}">Equipment prices</a></div></div></div>` });
 
 /* ---------------- router ---------------- */
 function route(path, query) {
@@ -676,6 +715,8 @@ function route(path, query) {
     case "requests": return V.requests();
     case "how": return V.how();
     case "credits": return V.credits();
+    case "about": return V.about();
+    case "data": return V.data();
   }
   return V.notFound();
 }
@@ -883,6 +924,25 @@ function boot() {
   });
   $("#fab").href = waLink(generalMessage());
   render();
+  /* installable app: own website only, never inside embedded previews */
+  (function () {
+    const btn = $("#installBtn"), hint = $("#iosHint");
+    const embedded = window.self !== window.top;
+    const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+    if (MODE !== "path" || embedded || !("serviceWorker" in navigator)) return;
+    navigator.serviceWorker.register(BASE + "sw.js").catch(() => {});
+    if (standalone || !btn) return;
+    let deferred = null;
+    window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; btn.hidden = false; });
+    window.addEventListener("appinstalled", () => { btn.hidden = true; deferred = null; gtag("event", "app_installed"); toast("Yellowmetal is installed. Open it from your home screen."); });
+    const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    if (ios) btn.hidden = false;
+    btn.addEventListener("click", async () => {
+      if (deferred) { deferred.prompt(); try { await deferred.userChoice; } catch (e) {} deferred = null; btn.hidden = true; }
+      else if (ios) hint.hidden = false;
+    });
+    $("#iosClose").addEventListener("click", () => { hint.hidden = true; });
+  })();
 }
 
 root.YMApp = { route, setLoc: v => { state.loc = v; } };

@@ -36,3 +36,23 @@ cd docs && python3 -m http.server 8000
 3. At your DNS provider for `yellowmetal.store`, add four **A** records on `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`. Add a **CNAME** record `www` → `alpontif.github.io`.
 4. Once DNS resolves, tick **Enforce HTTPS**.
 5. **Settings → Actions → General → Workflow permissions:** choose *Read and write*, so the daily build can commit.
+
+## Search engines, AI assistants and the installable app
+
+Built automatically by `build.mjs` on every build:
+
+| File | Purpose |
+|---|---|
+| `docs/sitemap.xml` | Every page with last-updated date and photo, for Google and Bing |
+| `docs/robots.txt` | Lets search engines and AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot and others) read everything |
+| `docs/llms.txt`, `docs/llms-full.txt` | Plain-text summaries AI assistants use to describe and cite Yellowmetal, with key prices and links |
+| `docs/data/*.csv`, `docs/data/catalog.json` | Every rate as downloadable data (linked from /data/) |
+| `docs/feed.xml` | Atom feed of rate updates |
+| Structured data in each page | Organization and LocalBusiness, WebSite search, Breadcrumbs, Product (buy), Service with daily price (hire), ItemList (categories), FAQ, Dataset |
+| `docs/manifest.webmanifest`, `docs/sw.js`, `docs/icons/` | Installable app with offline pages; "Install app" button appears on supported phones and computers |
+| IndexNow | After each build the workflow tells Bing and other IndexNow engines that pages changed (`tools/indexnow.py`) |
+
+### One-time: register with Google and Bing (after the site is live)
+1. **Google Search Console** (search.google.com/search-console): add property `https://yellowmetal.store`, choose the **HTML tag** method, copy only the `content="..."` value into `google_site_verification` in `site-config.json`, push, then click Verify. Submit `https://yellowmetal.store/sitemap.xml` under Sitemaps.
+2. **Bing Webmaster Tools** (bing.com/webmasters): sign in, choose **Import from Google Search Console** (fastest) or use the meta-tag method with `bing_site_verification`. Submit the sitemap. Bing also feeds ChatGPT search and Microsoft Copilot.
+3. Optional: add the GA4 Measurement ID to `ga4_measurement_id` to track visits and WhatsApp clicks.
