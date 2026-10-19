@@ -242,7 +242,16 @@ function jsonld(p, v) {
 
 const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">`;
 const ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#1A2F5A"/><circle cx="20" cy="12" r="7.5" fill="#F5C21B"/><circle cx="12" cy="20" r="7.5" fill="#2563D9"/><circle cx="28" cy="20" r="7.5" fill="#E8574D"/><circle cx="20" cy="28" r="7.5" fill="#1F8FA8"/><circle cx="20" cy="20" r="5" fill="#1A2F5A" stroke="#fff" stroke-width="1.4"/></svg>`;
-const GA = cfg.ga4_measurement_id ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${cfg.ga4_measurement_id}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${cfg.ga4_measurement_id}');</script>` : "";
+const GA_ID = cfg.ga4_measurement_id;
+const GA = GA_ID ? `<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '${GA_ID}');
+</script>` : "";
 
 const clip = (t, n) => { t = String(t || "").replace(/\s+/g, " ").trim(); if (t.length <= n) return t; const c = t.slice(0, n - 1); return c.slice(0, c.lastIndexOf(" ")) + "…"; };
 const VERIFY = (cfg.google_site_verification ? `<meta name="google-site-verification" content="${esc(cfg.google_site_verification)}">` : "") + (cfg.bing_site_verification ? `<meta name="msvalidate.01" content="${esc(cfg.bing_site_verification)}">` : "");

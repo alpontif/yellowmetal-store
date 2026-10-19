@@ -754,6 +754,16 @@ function boot() {
   }
   function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove("show"), 2400); }
   function gtag() { if (root.gtag) root.gtag.apply(null, arguments); }
+  document.addEventListener("click", e => {
+    const el = e.target;
+    const a = el && el.closest ? el.closest("a[href]") : null;
+    if (!a) return;
+    let url;
+    try { url = new URL(a.href, location.href); } catch (err) { return; }
+    const host = url.hostname.toLowerCase();
+    if (host === "wa.me" || host === "api.whatsapp.com") gtag("event", "whatsapp_click", { link_url: a.href });
+    else if (url.protocol === "mailto:") gtag("event", "email_click", { link_url: a.href });
+  });
 
   function render() {
     const [p, q] = curPath();
