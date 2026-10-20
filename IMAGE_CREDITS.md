@@ -91,73 +91,57 @@ Photos added for Yellowmetal listings that had no picture or only a placeholder 
 | Hand saw | 1 | [Stanley Tradecut 15 in. Panel Saw.jpg](https://commons.wikimedia.org/wiki/File:Stanley_Tradecut_15_in._Panel_Saw.jpg) | CC BY-SA 4.0 |  TaurusEmerald  |
 | Work boat | 2 | [2023-05-07 01 Aquaculture workboat, NOVA - MMSI 25711260.jpg](https://commons.wikimedia.org/wiki/File:2023-05-07_01_Aquaculture_workboat,_NOVA_-_MMSI_25711260.jpg) | CC BY-SA 4.0 |  Gordon Leggett  |
 
-## Listings that still have no suitable photo (66)
 
-No freely licensed photo of a new, current-model machine in good condition was found for these. They keep the placeholder tile.
+## Manufacturer and dealer photos
 
-- Batching plant 60 m3/hr
-- Poker vibrator (petrol)
-- Bar bending machine (electric)
-- Vibrating block machine (petrol)
-- Welding generator 400A (diesel)
-- Dewatering pump 2" (petrol)
-- Dewatering pump 3" (petrol)
-- Dewatering pump 6" (diesel)
-- Road line-marking machine
-- Swamp buggy
-- Sideboom pipelayer (CAT 583 class)
-- Diesel welding rig on truck (2 welders)
-- Hydrotest pump unit with recorders
-- Holiday (coating) detector
-- Radiography crawler / X-ray unit (excl. technician)
-- Motor scraper 15m3
-- Mobile batching plant 30m3/h
-- Wellpoint dewatering system (50 points)
-- Floor grinder / polisher
-- Grout mixer & pump
-- Heavy-duty diesel flushing pump, 6" high-head
-- Shovel (round mouth)
-- Head pan
-- Cutlass/machete
-- Post-hole digger
-- Rake
-- Wooden float
-- Mason line 100m
-- Manual rebar bender
-- Manual pipe threader set
-- PPR pipe welding machine
-- Wet tile saw
-- Poker vibrator (petrol), purchase
-- Rotary laser level with tripod
-- 2" water pump (petrol), purchase
-- Aluminium ladder 6m
-- Scaffold tube 6m, purchase
-- Scaffold coupler
-- Scaffold board 3.9m
-- Thermoplastic road-marking machine (hand-push) with pre-heater, new
-- Concrete batching plant 35 m3/h, new
-- Concrete batching plant 50 m3/h, new
-- Concrete batching plant 75 m3/h, new
-- Concrete batching plant 120 m3/h, new Chinese, ex-works
-- Mobile concrete batching plant 25 m3/h, new
-- Self-loading concrete mixer 3.5-4 m3, new Chinese
-- High-frequency electric poker vibrator 2.2kW with 6m shaft
-- Electric rebar cutter up to 40mm (GQ40)
-- Electric rebar bender up to 40mm (GW40)
-- Rebar thread-rolling machine (for couplers)
-- Block moulding machine, locally fabricated (2 blocks per drop)
-- Electric vibrating block machine 6"/9", locally fabricated
-- Egg-laying (mobile) block machine, Nigerian fabricated (~1,000 blocks/day)
-- Block moulding line FT4-5 / mobile type (~3,000 blocks/day)
-- Hydraulic electric block machine
-- Fully automatic block and brick machine (small line)
-- Automatic block and paver plant QT10-15 with pan mixer and stacker, new Chinese
-- Pan mixer JS500 / JQ350 for block plant, new
-- Vibrating screen 3-deck 1.8x6m, new Chinese
-- Electric demolition hammer 30kg
-- Diesel welding generator 400A, new
-- Diesel trash/dewatering pump 4", self-priming, new Chinese
-- Diesel dewatering pump 6" skid-mounted, self-priming, new
-- Wellpoint dewatering system (pump + 50 wellpoints + header), new
-- Aluminium wall/slab formwork system, per m2 of panel
-- Laser screed machine (ride-on), new Chinese
+These replaced the 66 listings that were still on the placeholder tile. Each file is a 4:3 JPEG (1200×900 and 640×480), under 150 KB. Overlaid captions and corner date stamps were cropped where they sat outside the machine. The source page is the manufacturer's or dealer's product page.
+
+| Item | Listings | Source page | Maker |
+|---|---:|---|---|
+| Aluminium ladder | 1 | [Werner 7223518 aluminium double extension ladder, closed 3.54 m, open 6.04 m](https://www.sitebox.ltd.uk/werner-7223518-d-rung-extension-ladder-353m-double-code-7223518-o7223518) | Werner |
+| Batching plant | 7 | [Liebherr Betomix concrete batching plant](https://www.liebherr.com/en-int/concrete-technology/mixing-plants/mixing-plants/mobilmix-and-betomix/mobilmix-and-betomix-5379152) | Liebherr |
+| Block machine | 8 | [QGM QT10-15 automatic block making machine](https://www.qgmblockmachine.com/block-making-machine/qt-series-automatic-block-making-machine/qft-10-15-automatic-block-making-machine-with.html) | QGM Quangong Machinery |
+| Dewatering pump | 3 | [Honda WB30XT 3-inch water pump](https://hondanews.com/en-US/power-equipment/channels/honda-wb30?selectedTabId=honda-wb30-photos) | Honda |
+| Diesel dewatering pump | 4 | [Pioneer open diesel self-priming pump skid](https://www.pioneerpump.com/products/large-surface-pumps-and-packages/diesel-and-electric-pump-packages-and-systems/open-diesel-pump-packages/) | Pioneer Pump |
+| Electric poker vibrator | 1 | [Wacker Neuson IRFU high-frequency internal vibrator](https://www.wackerneuson.com/us/products/concrete-technology/internal-vibrators/irfu) | Wacker Neuson |
+| Floor grinder | 1 | [Husqvarna PG 820 floor grinder](https://www.husqvarnaconstruction.com/fr/ponceuses-de-sol/pg820/) | Husqvarna |
+| Formwork | 1 | [GETO aluminium wall and slab formwork panels](https://www.getoformwork.com/product/aluminium-formwork-system.html) | GETO |
+| Grout pump | 1 | [ChemGrout CG-550/030 grout mixer and piston pump](https://www.chemgrout.com/products/paddle-mixing-equipment/piston-grout-pumps/cg-550-rugged-series/) | ChemGrout |
+| Head pan | 1 | [Galvanized steel construction head pan](https://www.mamtus.ng/head-pan.html) | Mamtus Nigeria |
+| Holiday detector | 1 | [Elcometer 266 holiday detector](https://www.elcometer.com/en/elcometer-266-holiday-detector.html) | Elcometer |
+| Hydrotest pump | 1 | [Rice Hydro TRH-10 triplex hydrostatic test pump](https://ricehydro.com/hydrostatic-test-pumps/) | Rice Hydro |
+| Jackhammer | 1 | [Bosch GSH 27 VC demolition hammer](https://www.bosch-professional.com/gb/en/products/gsh-27-vc-061130A060) | Bosch Professional |
+| Laser level | 1 | [Bosch GRL 300 HVG rotary laser](https://www.bosch-professional.com/gb/en/products/grl-300-hvg-0601061701) | Bosch Professional |
+| Laser screed | 1 | [Somero S-22EZ laser screed](https://www.somero.com/products/s-22ez-advanced-laser-screed/) | Somero |
+| Machete | 1 | [Tramontina 18" Machete, carbon steel blade, black polypropylene handle (26601018)](https://global.tramontina.com/en/p/tramontina-18-machete-with-carbon-steel-blade-and-black-polypropylene-handle/26601018) | Tramontina |
+| Manual rebar bender | 1 | [BN Products MBC-16B1 manual rebar bender and cutter](https://www.bnproducts.com/tools/mbc-16b-manual-bendercutter/) | BN Products |
+| Mason line | 1 | [Marshalltown mason's line winder with braided mason's line](https://marshalltown.com/pro-4092-masons-line-winders?variantItemId=16584) | Marshalltown |
+| Motor scraper | 1 | [Cat 627 wheel tractor-scraper](https://www.cat.com/en_US/products/new/equipment/wheel-tractor-scrapers/open-bowl-scrapers/125864.html) | Caterpillar |
+| Pan mixer | 1 | [Sicoma MP planetary pan mixer](https://sicomamixers.com/products/mp-planetary-mixer/) | Sicoma |
+| Pipe threader | 1 | [RIDGID 12-R exposed ratchet threader set, 1/2–2 in NPT, catalog 36475](https://www.ridgid.com/us/en/exposed-ratchet-threader-sets) | RIDGID |
+| Pipeline X-ray crawler | 1 | [JME 6:CR2 pipeline X-ray crawler](https://www.jme.co.uk/products-our-solutions/pipeline-crawler-range/6cr2-pipeline-crawler/) | JME |
+| Poker vibrator | 2 | [Wacker Neuson HMS A5000/160 petrol internal vibrator](https://www.wackerneuson.com/us/products/concrete-technology/internal-vibrators/hms) | Wacker Neuson |
+| Post-hole digger | 1 | [Seymour S500 Industrial Perfection clamshell post-hole digger, 4 ft blue fiberglass handles](https://seymourmidwest.com/21245/) | Seymour Midwest |
+| PPR pipe welder | 1 | [Rothenberger socket welding machine 800 W set with heating dies, article 36052](https://www.rothenberger-industrial.com/en/products/socket-welding-machine-800-roi-36052/) | Rothenberger Industrial |
+| Rake | 1 | [Structron 16 Tine Bow Rake, 16-1/4" forged head, 60" yellow fiberglass handle](https://www.seymourmidwest.com/42366/) | Seymour Midwest (Structron) |
+| Rebar bender | 2 | [OFMER P-series electric rebar bending machine (P44 is the GW40 class, to 38 mm)](https://www.ofmer.com/en/catalogo/bending-machines/) | OFMER |
+| Rebar cutter | 1 | [OFMER C-series electric rebar cutter (C44 is the GQ40 class)](https://www.ofmer.com/en/catalogo/cutting-machines/) | OFMER |
+| Rebar threader | 1 | [Dextra rebar thread-rolling machine (Rolltec / equipment-range cover photograph)](https://www.dextragroup.com/wp-content/uploads/2024/05/Dextra-Equipment-Brochure-EN_2412.pdf) | Dextra |
+| Road-marking machine | 1 | [Graco LineLazer V 3900 line striper](https://www.graco.com/us/en/contractor/product/17h450-linelazer-v-3900.html) | Graco |
+| Round-mouth shovel | 1 | [#2 Round Point Shovel, 46" Blue Fiberglass Handle](https://www.seymourmidwest.com/49450/) | Seymour Midwest |
+| Scaffold board | 1 | [Layher Steel Deck LW scaffold board](https://www.layher.com/en/products/speedyscaf/overlay_stahlbodenlw) | Layher |
+| Scaffold coupler | 1 | [Altrad drop-forged double coupler, BS EN 74-1](https://www.altradgeneration.com/en-gb/products/drop-forged-double-coupler) | Altrad Generation |
+| Scaffold tube | 1 | [Altrad 4.0 mm hot-dip galvanised scaffold tube, 48.3 mm, EN39](https://www.altradgeneration.com/en-gb/products/hot-dipped-galvanised-tube) | Altrad Generation |
+| Self-loading mixer | 1 | [Carmix 3500TC self-loading mixer](https://www.carmix.com/prodotti/) | Carmix |
+| Sideboom | 1 | [Cat PL83 pipelayer](https://www.cat.com/en_US/products/new/equipment/pipelayers/pipelayers/1000004496.html) | Caterpillar |
+| Swamp buggy | 1 | [Marsh Master amphibious buggy](https://www.marshmaster.com/product/mm-2lx/) | Marsh Master |
+| Thermoplastic road marker | 1 | [Graco ThermoLazer 300TC thermoplastic striper](https://www.graco.com/us/en/contractor/product/24h622-thermolazer-300tc.html) | Graco |
+| Vibrating screen | 1 | [Sandvik SA inclined vibrating screen](https://www.rockprocessing.sandvik/en/products/vibrating-screens/s-range/sa-inclined-screens/) | Sandvik |
+| Welding generator | 3 | [Lincoln Vantage 400 diesel welder](https://www.lincolnelectric.com/en/Products/k2410-5) | Lincoln Electric |
+| Wellpoint system | 2 | [Griffin 6WPRD wellpoint pumps with header and wellpoints](https://griffinfluidmanagement.com/rental-products/wellpoint-pumps-systems/wellpoint-pumps/) | Griffin Fluid Management |
+| Wet tile saw | 1 | [RUBI DC-250 PYTHON 1200 wet tile saw](https://www.rubi.com/en/product/dc-250-python-1200) | RUBI |
+| Wooden float | 1 | [Marshalltown wood hand float, part 44, 12 x 5 in, wood handle](https://marshalltown.com/pro-2027-wood-hand-floats?variantItemId=14502) | Marshalltown |
+
+## Listings that still have no suitable photo
+
+None. All 66 listings that were still showing the placeholder now have a manufacturer or dealer photo of that item.

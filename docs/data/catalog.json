@@ -1095,7 +1095,7 @@
    "out": "needs generator",
    "conf": "LOW",
    "set": "2026-09-29",
-   "ph": "rebar-machine",
+   "ph": "rebar-bender",
    "lb": false,
    "x": 0
   },
@@ -1315,7 +1315,7 @@
    "out": "",
    "conf": "LOW",
    "set": "2026-09-29",
-   "ph": "dewatering-pump",
+   "ph": "diesel-pump",
    "lb": false,
    "x": 0
   },
@@ -2655,7 +2655,7 @@
    "out": "pipeline flushing/filling",
    "conf": "LOW",
    "set": "2026-10-06",
-   "ph": "dewatering-pump",
+   "ph": "diesel-pump",
    "lb": false,
    "x": 0
   },
@@ -3310,7 +3310,7 @@
    "ev": "2026-10-01",
    "der": false,
    "cond": "",
-   "ph": "rebar-machine",
+   "ph": "rebar-manual",
    "x": 0
   },
   {
@@ -4670,7 +4670,7 @@
    "ev": "2026-10-01",
    "der": true,
    "cond": "New",
-   "ph": "road-marking",
+   "ph": "thermoplastic-marker",
    "x": 0
   },
   {
@@ -5707,7 +5707,7 @@
    "ev": "2026-10-01",
    "der": false,
    "cond": "",
-   "ph": "poker-vibrator",
+   "ph": "poker-electric",
    "x": 0
   },
   {
@@ -5775,7 +5775,7 @@
    "ev": "2026-10-01",
    "der": false,
    "cond": "",
-   "ph": "rebar-machine",
+   "ph": "rebar-cutter",
    "x": 0
   },
   {
@@ -5792,7 +5792,7 @@
    "ev": "2026-10-01",
    "der": false,
    "cond": "",
-   "ph": "rebar-machine",
+   "ph": "rebar-bender",
    "x": 0
   },
   {
@@ -5809,7 +5809,7 @@
    "ev": "2026-10-01",
    "der": false,
    "cond": "",
-   "ph": "rebar-machine",
+   "ph": "rebar-threader",
    "x": 0
   },
   {
@@ -6489,7 +6489,7 @@
    "ev": "2026-10-01",
    "der": true,
    "cond": "New",
-   "ph": "dewatering-pump",
+   "ph": "diesel-pump",
    "x": 0
   },
   {
@@ -6506,7 +6506,7 @@
    "ev": "2026-10-01",
    "der": true,
    "cond": "New",
-   "ph": "dewatering-pump",
+   "ph": "diesel-pump",
    "x": 0
   },
   {
