@@ -86,7 +86,11 @@
   "year": 2024
  },
  "batching-plant": {
-  "none": true
+  "title": "Liebherr Betomix concrete batching plant",
+  "page": "https://www.liebherr.com/en-int/concrete-technology/mixing-plants/mixing-plants/mobilmix-and-betomix/mobilmix-and-betomix-5379152",
+  "licence": "Manufacturer product photo",
+  "author": "Liebherr",
+  "source": "Liebherr"
  },
  "bitumen-sprayer": {
   "title": "File:Asphalt distributor laying down a fresh coat (48266841452).jpg",
@@ -105,7 +109,11 @@
   "year": 2024
  },
  "block-machine": {
-  "none": true
+  "title": "QGM QT10-15 automatic block making machine",
+  "page": "https://www.qgmblockmachine.com/block-making-machine/qt-series-automatic-block-making-machine/qft-10-15-automatic-block-making-machine-with.html",
+  "licence": "Manufacturer product photo",
+  "author": "QGM Quangong Machinery",
+  "source": "QGM"
  },
  "bolt-cutter": {
   "title": "File:Bolt Cutter Bolzenschneider.jpg",
@@ -311,7 +319,18 @@
   "source": "Yellowmetal"
  },
  "dewatering-pump": {
-  "none": true
+  "title": "Honda WB30XT 3-inch water pump",
+  "page": "https://hondanews.com/en-US/power-equipment/channels/honda-wb30?selectedTabId=honda-wb30-photos",
+  "licence": "Manufacturer product photo",
+  "author": "Honda",
+  "source": "Honda"
+ },
+ "diesel-pump": {
+  "title": "Pioneer open diesel self-priming pump skid",
+  "page": "https://www.pioneerpump.com/products/large-surface-pumps-and-packages/diesel-and-electric-pump-packages-and-systems/open-diesel-pump-packages/",
+  "licence": "Manufacturer product photo",
+  "author": "Pioneer Pump",
+  "source": "Pioneer Pump"
  },
  "diesel-tank": {
   "title": "File:20210716 An oil tank truck in Zhengzhou.jpg",
@@ -396,7 +415,11 @@
   "source": "Wikimedia Commons"
  },
  "floor-grinder": {
-  "none": true
+  "title": "Husqvarna PG 820 floor grinder",
+  "page": "https://www.husqvarnaconstruction.com/fr/ponceuses-de-sol/pg820/",
+  "licence": "Manufacturer product photo",
+  "author": "Husqvarna",
+  "source": "Husqvarna"
  },
  "forklift": {
   "title": "File:Linde H80 forklift.JPG",
@@ -407,7 +430,11 @@
   "year": 2013
  },
  "formwork": {
-  "none": true
+  "title": "GETO aluminium wall and slab formwork panels",
+  "page": "https://www.getoformwork.com/product/aluminium-formwork-system.html",
+  "licence": "Manufacturer product photo",
+  "author": "GETO",
+  "source": "GETO"
  },
  "fuel-bowser": {
   "title": "File:20210716 An oil tank truck in Zhengzhou.jpg",
@@ -450,7 +477,11 @@
   "year": 2024
  },
  "grout-pump": {
-  "none": true
+  "title": "ChemGrout CG-550/030 grout mixer and piston pump",
+  "page": "https://www.chemgrout.com/products/paddle-mixing-equipment/piston-grout-pumps/cg-550-rugged-series/",
+  "licence": "Manufacturer product photo",
+  "author": "ChemGrout",
+  "source": "ChemGrout"
  },
  "hacksaw": {
   "title": "File:Hacksaw Saw Tool Equipment Edited 2020 (49901907228).jpg",
@@ -471,10 +502,18 @@
   "source": "Wikimedia Commons"
  },
  "head-pan": {
-  "none": true
+  "title": "Galvanized steel construction head pan",
+  "page": "https://www.mamtus.ng/head-pan.html",
+  "licence": "Dealer product photo",
+  "author": "Mamtus Nigeria",
+  "source": "Mamtus Nigeria"
  },
  "holiday-detector": {
-  "none": true
+  "title": "Elcometer 266 holiday detector",
+  "page": "https://www.elcometer.com/en/elcometer-266-holiday-detector.html",
+  "licence": "Manufacturer product photo",
+  "author": "Elcometer",
+  "source": "Elcometer"
  },
  "hopper-barge": {
   "title": "File:Tiger Split Hopper Barge R01.jpg",
@@ -508,10 +547,18 @@
   "fallback": "excavator"
  },
  "hydrotest-pump": {
-  "none": true
+  "title": "Rice Hydro TRH-10 triplex hydrostatic test pump",
+  "page": "https://ricehydro.com/hydrostatic-test-pumps/",
+  "licence": "Manufacturer product photo",
+  "author": "Rice Hydro",
+  "source": "Rice Hydro"
  },
  "jackhammer": {
-  "none": true
+  "title": "Bosch GSH 27 VC demolition hammer",
+  "page": "https://www.bosch-professional.com/gb/en/products/gsh-27-vc-061130A060",
+  "licence": "Manufacturer product photo",
+  "author": "Bosch Professional",
+  "source": "Bosch"
  },
  "jigsaw": {
   "title": "File:Makita DJV181.jpg",
@@ -529,13 +576,25 @@
   "source": "Wikimedia Commons"
  },
  "ladder": {
-  "none": true
+  "title": "Werner 7223518 aluminium double extension ladder, closed 3.54 m, open 6.04 m",
+  "page": "https://www.sitebox.ltd.uk/werner-7223518-d-rung-extension-ladder-353m-double-code-7223518-o7223518",
+  "licence": "Manufacturer product photo",
+  "author": "Werner",
+  "source": "Werner"
  },
  "laser-level": {
-  "none": true
+  "title": "Bosch GRL 300 HVG rotary laser",
+  "page": "https://www.bosch-professional.com/gb/en/products/grl-300-hvg-0601061701",
+  "licence": "Manufacturer product photo",
+  "author": "Bosch Professional",
+  "source": "Bosch"
  },
  "laser-screed": {
-  "none": true
+  "title": "Somero S-22EZ laser screed",
+  "page": "https://www.somero.com/products/s-22ez-advanced-laser-screed/",
+  "licence": "Manufacturer product photo",
+  "author": "Somero",
+  "source": "Somero"
  },
  "lighting-tower": {
   "title": "File:Magnum mobile light tower in the Supreme Court parking lot.jpg",
@@ -560,10 +619,18 @@
   "source": "Wikimedia Commons"
  },
  "machete": {
-  "none": true
+  "title": "Tramontina 18\" Machete, carbon steel blade, black polypropylene handle (26601018)",
+  "page": "https://global.tramontina.com/en/p/tramontina-18-machete-with-carbon-steel-blade-and-black-polypropylene-handle/26601018",
+  "licence": "Manufacturer product photo",
+  "author": "Tramontina",
+  "source": "Tramontina"
  },
  "mason-line": {
-  "none": true
+  "title": "Marshalltown mason's line winder with braided mason's line",
+  "page": "https://marshalltown.com/pro-4092-masons-line-winders?variantItemId=16584",
+  "licence": "Manufacturer product photo",
+  "author": "Marshalltown",
+  "source": "Marshalltown"
  },
  "mini-excavator": {
   "title": "File:Excavator Sany SY35U.jpg",
@@ -587,7 +654,11 @@
   "source": "Wikimedia Commons"
  },
  "motor-scraper": {
-  "none": true
+  "title": "Cat 627 wheel tractor-scraper",
+  "page": "https://www.cat.com/en_US/products/new/equipment/wheel-tractor-scrapers/open-bowl-scrapers/125864.html",
+  "licence": "Manufacturer product photo",
+  "author": "Caterpillar",
+  "source": "Caterpillar"
  },
  "outboard-engine": {
   "title": "File:2023-08 boats-w-Suzuki-outboard-motors.jpg",
@@ -613,7 +684,11 @@
   "source": "Wikimedia Commons"
  },
  "pan-mixer": {
-  "none": true
+  "title": "Sicoma MP planetary pan mixer",
+  "page": "https://sicomamixers.com/products/mp-planetary-mixer/",
+  "licence": "Manufacturer product photo",
+  "author": "Sicoma",
+  "source": "Sicoma"
  },
  "petrol-generator": {
   "title": "File:Honda Yancey Cat NASCAR Productions Generator Sonoma 2025.jpg",
@@ -663,7 +738,11 @@
   "year": 2013
  },
  "pipe-threader": {
-  "none": true
+  "title": "RIDGID 12-R exposed ratchet threader set, 1/2–2 in NPT, catalog 36475",
+  "page": "https://www.ridgid.com/us/en/exposed-ratchet-threader-sets",
+  "licence": "Manufacturer product photo",
+  "author": "RIDGID",
+  "source": "RIDGID"
  },
  "pipe-wrench": {
   "title": "File:Stillson Wrench (PSF).png",
@@ -708,8 +787,19 @@
   "source": "Wikimedia Commons",
   "fallback": "vibratory-roller"
  },
+ "poker-electric": {
+  "title": "Wacker Neuson IRFU high-frequency internal vibrator",
+  "page": "https://www.wackerneuson.com/us/products/concrete-technology/internal-vibrators/irfu",
+  "licence": "Manufacturer product photo",
+  "author": "Wacker Neuson",
+  "source": "Wacker Neuson"
+ },
  "poker-vibrator": {
-  "none": true
+  "title": "Wacker Neuson HMS A5000/160 petrol internal vibrator",
+  "page": "https://www.wackerneuson.com/us/products/concrete-technology/internal-vibrators/hms",
+  "licence": "Manufacturer product photo",
+  "author": "Wacker Neuson",
+  "source": "Wacker Neuson"
  },
  "portable-toilet": {
   "title": "File:Enclosed portable toilets at Pope John Paul II Park Boston November 2025.jpg",
@@ -720,7 +810,11 @@
   "year": 2025
  },
  "post-hole-digger": {
-  "none": true
+  "title": "Seymour S500 Industrial Perfection clamshell post-hole digger, 4 ft blue fiberglass handles",
+  "page": "https://seymourmidwest.com/21245/",
+  "licence": "Manufacturer product photo",
+  "author": "Seymour Midwest",
+  "source": "Seymour Midwest"
  },
  "power-tools": {
   "none": true,
@@ -735,7 +829,11 @@
   "year": 2026
  },
  "ppr-welder": {
-  "none": true
+  "title": "Rothenberger socket welding machine 800 W set with heating dies, article 36052",
+  "page": "https://www.rothenberger-industrial.com/en/products/socket-welding-machine-800-roi-36052/",
+  "licence": "Manufacturer product photo",
+  "author": "Rothenberger Industrial",
+  "source": "Rothenberger Industrial"
  },
  "pressure-washer": {
   "title": "File:Moscow, spring pressure washers, Apr 2026 02.jpg",
@@ -746,7 +844,11 @@
   "year": 2026
  },
  "radiography-crawler": {
-  "none": true
+  "title": "JME 6:CR2 pipeline X-ray crawler",
+  "page": "https://www.jme.co.uk/products-our-solutions/pipeline-crawler-range/6cr2-pipeline-crawler/",
+  "licence": "Manufacturer product photo",
+  "author": "JME",
+  "source": "JME"
  },
  "rail-welding": {
   "title": "File:Grinding thermite welded track to create smooth continuous rail. 04-12-19 (46729514965).jpg",
@@ -757,10 +859,42 @@
   "year": 2019
  },
  "rake": {
-  "none": true
+  "title": "Structron 16 Tine Bow Rake, 16-1/4\" forged head, 60\" yellow fiberglass handle",
+  "page": "https://www.seymourmidwest.com/42366/",
+  "licence": "Manufacturer product photo",
+  "author": "Seymour Midwest (Structron)",
+  "source": "Seymour Midwest (Structron)"
+ },
+ "rebar-bender": {
+  "title": "OFMER P-series electric rebar bending machine (P44 is the GW40 class, to 38 mm)",
+  "page": "https://www.ofmer.com/en/catalogo/bending-machines/",
+  "licence": "Manufacturer product photo",
+  "author": "OFMER",
+  "source": "OFMER"
+ },
+ "rebar-cutter": {
+  "title": "OFMER C-series electric rebar cutter (C44 is the GQ40 class)",
+  "page": "https://www.ofmer.com/en/catalogo/cutting-machines/",
+  "licence": "Manufacturer product photo",
+  "author": "OFMER",
+  "source": "OFMER"
  },
  "rebar-machine": {
   "none": true
+ },
+ "rebar-manual": {
+  "title": "BN Products MBC-16B1 manual rebar bender and cutter",
+  "page": "https://www.bnproducts.com/tools/mbc-16b-manual-bendercutter/",
+  "licence": "Manufacturer product photo",
+  "author": "BN Products",
+  "source": "BN Products"
+ },
+ "rebar-threader": {
+  "title": "Dextra rebar thread-rolling machine (Rolltec / equipment-range cover photograph)",
+  "page": "https://www.dextragroup.com/wp-content/uploads/2024/05/Dextra-Equipment-Brochure-EN_2412.pdf",
+  "licence": "Manufacturer product photo",
+  "author": "Dextra",
+  "source": "Dextra"
  },
  "rigid-dump-truck": {
   "title": "File:XCMG XT490DT EV (Mining Indonesia 2026).jpg",
@@ -777,7 +911,11 @@
   "source": "Wikimedia Commons"
  },
  "road-marking": {
-  "none": true
+  "title": "Graco LineLazer V 3900 line striper",
+  "page": "https://www.graco.com/us/en/contractor/product/17h450-linelazer-v-3900.html",
+  "licence": "Manufacturer product photo",
+  "author": "Graco",
+  "source": "Graco"
  },
  "rotary-hammer": {
   "title": "File:Hammer Drill AccuMaster.jpg",
@@ -795,13 +933,25 @@
   "source": "Yellowmetal"
  },
  "scaffold-board": {
-  "none": true
+  "title": "Layher Steel Deck LW scaffold board",
+  "page": "https://www.layher.com/en/products/speedyscaf/overlay_stahlbodenlw",
+  "licence": "Manufacturer product photo",
+  "author": "Layher",
+  "source": "Layher"
  },
  "scaffold-coupler": {
-  "none": true
+  "title": "Altrad drop-forged double coupler, BS EN 74-1",
+  "page": "https://www.altradgeneration.com/en-gb/products/drop-forged-double-coupler",
+  "licence": "Manufacturer product photo",
+  "author": "Altrad Generation",
+  "source": "Altrad Generation"
  },
  "scaffold-tube": {
-  "none": true
+  "title": "Altrad 4.0 mm hot-dip galvanised scaffold tube, 48.3 mm, EN39",
+  "page": "https://www.altradgeneration.com/en-gb/products/hot-dipped-galvanised-tube",
+  "licence": "Manufacturer product photo",
+  "author": "Altrad Generation",
+  "source": "Altrad Generation"
  },
  "scaffolding": {
   "title": "File:Catari us scaffolding piperack.jpg",
@@ -819,8 +969,11 @@
   "source": "Wikimedia Commons"
  },
  "self-loading-mixer": {
-  "none": true,
-  "tile": true
+  "title": "Carmix 3500TC self-loading mixer",
+  "page": "https://www.carmix.com/prodotti/",
+  "licence": "Manufacturer product photo",
+  "author": "Carmix",
+  "source": "Carmix"
  },
  "shotcrete": {
   "title": "File:Putzmeister Wetkret 5.jpg",
@@ -831,10 +984,18 @@
   "year": 2018
  },
  "shovel": {
-  "none": true
+  "title": "#2 Round Point Shovel, 46\" Blue Fiberglass Handle",
+  "page": "https://www.seymourmidwest.com/49450/",
+  "licence": "Manufacturer product photo",
+  "author": "Seymour Midwest",
+  "source": "Seymour Midwest"
  },
  "sideboom": {
-  "none": true
+  "title": "Cat PL83 pipelayer",
+  "page": "https://www.cat.com/en_US/products/new/equipment/pipelayers/pipelayers/1000004496.html",
+  "licence": "Manufacturer product photo",
+  "author": "Caterpillar",
+  "source": "Caterpillar"
  },
  "site-dumper": {
   "title": "File:Thwaites 6 tonne dumpers - geograph.org.uk - 7721798.jpg",
@@ -932,7 +1093,11 @@
   "alias": "dji-enterprise"
  },
  "swamp-buggy": {
-  "none": true
+  "title": "Marsh Master amphibious buggy",
+  "page": "https://www.marshmaster.com/product/mm-2lx/",
+  "licence": "Manufacturer product photo",
+  "author": "Marsh Master",
+  "source": "Marsh Master"
  },
  "tamping-machine": {
   "title": "File:Tamper at Hull Paragon 01.jpg",
@@ -973,6 +1138,13 @@
   "author": "MarcelX42",
   "source": "Wikimedia Commons"
  },
+ "thermoplastic-marker": {
+  "title": "Graco ThermoLazer 300TC thermoplastic striper",
+  "page": "https://www.graco.com/us/en/contractor/product/24h622-thermolazer-300tc.html",
+  "licence": "Manufacturer product photo",
+  "author": "Graco",
+  "source": "Graco"
+ },
  "tile-cutter": {
   "title": "File:RUBI TX Tille Cutter.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:RUBI_TX_Tille_Cutter.jpg",
@@ -982,7 +1154,11 @@
   "year": 2014
  },
  "tile-saw": {
-  "none": true
+  "title": "RUBI DC-250 PYTHON 1200 wet tile saw",
+  "page": "https://www.rubi.com/en/product/dc-250-python-1200",
+  "licence": "Manufacturer product photo",
+  "author": "RUBI",
+  "source": "RUBI"
  },
  "tipper-truck": {
   "title": "File:Shacman X5000E Electric Dump Truck (Mining Indonesia 2026).jpg",
@@ -1076,7 +1252,11 @@
   "year": 2011
  },
  "vibrating-screen": {
-  "none": true
+  "title": "Sandvik SA inclined vibrating screen",
+  "page": "https://www.rockprocessing.sandvik/en/products/vibrating-screens/s-range/sa-inclined-screens/",
+  "licence": "Manufacturer product photo",
+  "author": "Sandvik",
+  "source": "Sandvik"
  },
  "vibratory-roller": {
   "title": "File:LiuGong 6622E Road Roller 20210522.jpg",
@@ -1109,7 +1289,11 @@
   "source": "Wikimedia Commons"
  },
  "welding-generator": {
-  "none": true
+  "title": "Lincoln Vantage 400 diesel welder",
+  "page": "https://www.lincolnelectric.com/en/Products/k2410-5",
+  "licence": "Manufacturer product photo",
+  "author": "Lincoln Electric",
+  "source": "Lincoln Electric"
  },
  "welding-set": {
   "title": "File:Soldadora inverter Lüsqtoff Iron-140 (1).jpg",
@@ -1120,7 +1304,11 @@
   "year": 2024
  },
  "wellpoint": {
-  "none": true
+  "title": "Griffin 6WPRD wellpoint pumps with header and wellpoints",
+  "page": "https://griffinfluidmanagement.com/rental-products/wellpoint-pumps-systems/wellpoint-pumps/",
+  "licence": "Manufacturer product photo",
+  "author": "Griffin Fluid Management",
+  "source": "Griffin Fluid Management"
  },
  "wheel-loader": {
   "title": "File:SDLG Volvo Construction Equipments 4575.jpg",
@@ -1154,7 +1342,11 @@
   "year": 2026
  },
  "wooden-float": {
-  "none": true
+  "title": "Marshalltown wood hand float, part 44, 12 x 5 in, wood handle",
+  "page": "https://marshalltown.com/pro-2027-wood-hand-floats?variantItemId=14502",
+  "licence": "Manufacturer product photo",
+  "author": "Marshalltown",
+  "source": "Marshalltown"
  },
  "work-boat": {
   "title": "File:2023-05-07 01 Aquaculture workboat, NOVA - MMSI 25711260.jpg",

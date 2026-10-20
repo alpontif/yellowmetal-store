@@ -331,6 +331,10 @@
    "concrete-mixer"
   ],
   [
+   "high-frequency electric poker|electric poker",
+   "poker-electric"
+  ],
+  [
    "poker|vibrator",
    "poker-vibrator"
   ],
@@ -345,6 +349,22 @@
   [
    "core drill",
    "core-drill"
+  ],
+  [
+   "thread-rolling|thread rolling",
+   "rebar-threader"
+  ],
+  [
+   "rebar cutter|gq40",
+   "rebar-cutter"
+  ],
+  [
+   "manual rebar",
+   "rebar-manual"
+  ],
+  [
+   "bar bending|rebar bender|gw40",
+   "rebar-bender"
   ],
   [
    "rebar|bar bending",
@@ -413,6 +433,10 @@
   [
    "submersible",
    "submersible-pump"
+  ],
+  [
+   "diesel trash|diesel dewatering|dewatering pump 6|dewatering pump 4|flushing pump",
+   "diesel-pump"
   ],
   [
    "dewatering pump|trash|flushing pump|water pump",
@@ -505,6 +529,10 @@
   [
    "milling",
    "cold-milling"
+  ],
+  [
+   "thermoplastic",
+   "thermoplastic-marker"
   ],
   [
    "marking",
@@ -1010,6 +1038,12 @@
    ],
    "label": "Dewatering pump"
   },
+  "diesel-pump": {
+   "label": "Diesel dewatering pump",
+   "q": [
+    "Pioneer diesel pump"
+   ]
+  },
   "diesel-tank": {
    "q": [
     "Sinotruk fuel tank truck"
@@ -1452,6 +1486,12 @@
    "label": "Pneumatic roller",
    "fallback": "vibratory-roller"
   },
+  "poker-electric": {
+   "label": "Electric poker vibrator",
+   "q": [
+    "Wacker electric poker"
+   ]
+  },
   "poker-vibrator": {
    "q": [
     "concrete vibrator China"
@@ -1511,11 +1551,35 @@
     "Rake"
    ]
   },
+  "rebar-bender": {
+   "label": "Rebar bender",
+   "q": [
+    "OFMER rebar bender"
+   ]
+  },
+  "rebar-cutter": {
+   "label": "Rebar cutter",
+   "q": [
+    "OFMER rebar cutter"
+   ]
+  },
   "rebar-machine": {
    "q": [
     "rebar bending machine China"
    ],
    "label": "Rebar machine"
+  },
+  "rebar-manual": {
+   "label": "Manual rebar bender",
+   "q": [
+    "manual rebar bender"
+   ]
+  },
+  "rebar-threader": {
+   "label": "Rebar threader",
+   "q": [
+    "Dextra rebar threader"
+   ]
   },
   "rigid-dump-truck": {
    "q": [
@@ -1589,8 +1653,7 @@
    "fallback": "boom-lift"
   },
   "self-loading-mixer": {
-   "label": "Self-loading mixer",
-   "tile": true
+   "label": "Self-loading mixer"
   },
   "shotcrete": {
    "q": [
@@ -1728,6 +1791,12 @@
     "Zoomlion telehandler"
    ],
    "label": "Telehandler"
+  },
+  "thermoplastic-marker": {
+   "label": "Thermoplastic road marker",
+   "q": [
+    "Graco ThermoLazer"
+   ]
   },
   "tile-cutter": {
    "label": "Manual tile cutter",
