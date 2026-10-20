@@ -63,7 +63,8 @@ const confLabel = c => ({ HIGH: "High", MEDIUM: "Medium", LOW: "Low" }[c] || c |
 const photoBox = (key, alt, small, extra = "") => {
   const src = img(key, small);
   const label = Y.photoLabels[key] || "";
-  return src ? `<img src="${src}" alt="${esc(alt)}" width="${small ? 640 : 1200}" height="${small ? 480 : 900}" loading="lazy" decoding="async"${extra}>` : `<span class="ph-fallback" role="img" aria-label="${esc(alt)}"><b>${esc(label)}</b><small>Photo of the actual unit on request</small></span>`;
+  const text = alt || label;
+  return src ? `<img src="${src}" alt="${esc(text)}" width="${small ? 640 : 1200}" height="${small ? 480 : 900}" loading="lazy" decoding="async"${extra}>` : `<span class="ph-fallback" role="img" aria-label="${esc(text)}"><b>${esc(label)}</b><small>Photo of the actual unit on request</small></span>`;
 };
 
 /* shortlist: entries "h:<id>" for hire, "b:<id>" for buy, "f:<id>" for fleet */
@@ -657,7 +658,7 @@ V.how = () => {
 
 V.credits = () => ({
   title: "Photo credits · Yellowmetal", desc: "Credits and licences for photos used on yellowmetal.store.",
-  html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Photo credits"]])}<h1>Photo credits</h1><p>Machine-type photos show Chinese-manufactured equipment (SANY, XCMG, SDLG, Shantui, Zoomlion, LiuGong, Sinotruk HOWO, DJI and others), sourced from Wikimedia Commons and Openverse under the licences shown. They show a typical machine of each type; we send photos of the actual unit in the WhatsApp chat. Photos of the Yellowmetal fleet are our own.</p></div>
+  html: `<div class="wrap page-head">${crumbs([["Home", link("/")], ["Photo credits"]])}<h1>Photo credits</h1><p>Machine-type photos show a current model of that machine in good condition, from Wikimedia Commons and other sources whose licences allow commercial use. The licence for each photo is listed below. They show a typical machine of that type; we send photos of the actual unit in the WhatsApp chat. Photos of the Yellowmetal fleet are our own.</p></div>
   <div class="wrap pad-b"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Machine type</th><th>Photo</th><th>Author</th><th>Licence</th></tr></thead><tbody>
   ${Object.entries(Y.credits).sort().map(([k, c]) => `<tr><td>${esc(Y.photoLabels[k] || k)}</td><td><a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.title.replace(/^File:/, ""))}</a></td><td>${esc(c.author)}</td><td>${esc(c.licence)}</td></tr>`).join("")}
   </tbody></table></div></div>`
