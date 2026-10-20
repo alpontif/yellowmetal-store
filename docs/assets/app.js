@@ -447,7 +447,7 @@ V.buyItem = (slug, id) => {
   const hireAlt = Y.hire.filter(h => h.ph === i.ph).slice(0, 3);
   const related = Y.buy.filter(x => x.cat === i.cat && x.id !== i.id && x.ph === i.ph).concat(Y.buy.filter(x => x.cat === i.cat && x.id !== i.id && x.ph !== i.ph)).slice(0, 4);
   return {
-    title: `${short(i.d)} price: ${NS(p.r)} | Yellowmetal`,
+    title: `${short(i.d)} price: ${N(p.r)} | Yellowmetal`,
     faq: [[`How much is a ${i.d.replace(/,.*$/, "").toLowerCase()} in Nigeria?`, `As at ${dateLong(Y.meta.updated)}, ${i.d} costs about ${N(p.r)} in ${state.loc}, with a market range of ${N(p.lo)} to ${N(p.hi)}. Yellowmetal confirms the exact unit and price on WhatsApp (${CFG.displayPhone}).`]],
     desc: `${i.d}: about ${N(p.r)} (${state.loc}), market range ${N(p.lo)} to ${N(p.hi)}. Get a proforma invoice, inspection or financing through Yellowmetal on WhatsApp.`,
     og: img(i.ph), kind: "buy", item: i,
