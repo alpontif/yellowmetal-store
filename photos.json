@@ -163,7 +163,11 @@
    "water-tanker"
   ],
   [
-   "bitumen",
+   "bitumen tanker",
+   "bitumen-tanker"
+  ],
+  [
+   "bitumen distributor|bitumen sprayer|asphalt distributor",
    "bitumen-sprayer"
   ],
   [
@@ -255,11 +259,27 @@
    "boom-lift"
   ],
   [
+   "scaffold coupler",
+   "scaffold-coupler"
+  ],
+  [
+   "scaffold board 3",
+   "scaffold-board"
+  ],
+  [
+   "scaffold tube 6m",
+   "scaffold-tube"
+  ],
+  [
+   "rigger tool kit|tool kit",
+   "tool-kit"
+  ],
+  [
    "scaffold|h-frame",
    "scaffolding"
   ],
   [
-   "prop",
+   "steel prop|\\bprops\\b",
    "steel-props"
   ],
   [
@@ -287,7 +307,15 @@
    "self-loading-mixer"
   ],
   [
-   "block|brick|paver plant|pan mixer",
+   "brick trowel",
+   "brick-trowel"
+  ],
+  [
+   "^pan mixer",
+   "pan-mixer"
+  ],
+  [
+   "block machine|block mould|egg-laying|paver plant|vibrating block|brick machine",
    "block-machine"
   ],
   [
@@ -311,7 +339,7 @@
    "power-trowel"
   ],
   [
-   "saw",
+   "concrete saw|floor saw|road saw",
    "concrete-saw"
   ],
   [
@@ -379,7 +407,15 @@
    "dredge-pump"
   ],
   [
-   "submersible|dewatering pump|trash|flushing pump|hydrotest",
+   "hydrotest",
+   "hydrotest-pump"
+  ],
+  [
+   "submersible",
+   "submersible-pump"
+  ],
+  [
+   "dewatering pump|trash|flushing pump|water pump",
    "dewatering-pump"
   ],
   [
@@ -425,6 +461,10 @@
   [
    "gnss",
    "gnss-rover"
+  ],
+  [
+   "spirit level",
+   "spirit-level"
   ],
   [
    "level",
@@ -495,8 +535,12 @@
    "trencher"
   ],
   [
-   "holiday|radiography|x-ray",
-   "pipeline-inspection"
+   "radiography|x-ray crawler|x-ray unit",
+   "radiography-crawler"
+  ],
+  [
+   "holiday",
+   "holiday-detector"
   ],
   [
    "floor grinder",
@@ -523,12 +567,144 @@
    "dewatering-pump"
   ],
   [
-   "welding machine|oxy-acetylene|cylinder refill",
+   "cylinder refill",
+   "gas-cylinder"
+  ],
+  [
+   "oxy-acetylene|oxyacetylene",
+   "oxy-acetylene"
+  ],
+  [
+   "ppr",
+   "ppr-welder"
+  ],
+  [
+   "welding machine|welding set|inverter welding|arc welding|tig welding",
    "welding-set"
+  ],
+  [
+   "rotary hammer|hammer drill|sds",
+   "rotary-hammer"
+  ],
+  [
+   "angle grinder",
+   "angle-grinder"
+  ],
+  [
+   "circular saw",
+   "circular-saw"
+  ],
+  [
+   "jigsaw",
+   "jigsaw"
+  ],
+  [
+   "tile saw",
+   "tile-saw"
+  ],
+  [
+   "tile cutter",
+   "tile-cutter"
+  ],
+  [
+   "pipe threader",
+   "pipe-threader"
+  ],
+  [
+   "electric drill",
+   "electric-drill"
+  ],
+  [
+   "hacksaw",
+   "hacksaw"
+  ],
+  [
+   "wood saw",
+   "wood-saw"
   ],
   [
    "electric drill|hammer drill|angle grinder|circular saw|jigsaw|tile saw|tile cutter|pipe welding|pipe threader",
    "power-tools"
+  ],
+  [
+   "round mouth|\\bshovel\\b",
+   "shovel"
+  ],
+  [
+   "head pan|headpan",
+   "head-pan"
+  ],
+  [
+   "wheelbarrow",
+   "wheelbarrow"
+  ],
+  [
+   "pickaxe|pick axe",
+   "pickaxe"
+  ],
+  [
+   "cutlass|machete",
+   "machete"
+  ],
+  [
+   "post-hole digger|post hole digger",
+   "post-hole-digger"
+  ],
+  [
+   "\\brake\\b",
+   "rake"
+  ],
+  [
+   "wooden float",
+   "wooden-float"
+  ],
+  [
+   "measuring tape",
+   "tape-measure"
+  ],
+  [
+   "plumb bob",
+   "plumb-bob"
+  ],
+  [
+   "mason line",
+   "mason-line"
+  ],
+  [
+   "claw hammer",
+   "claw-hammer"
+  ],
+  [
+   "sledge hammer|sledgehammer",
+   "sledge-hammer"
+  ],
+  [
+   "crowbar",
+   "crowbar"
+  ],
+  [
+   "bolt cutter",
+   "bolt-cutter"
+  ],
+  [
+   "chisel",
+   "chisel"
+  ],
+  [
+   "pipe wrench",
+   "pipe-wrench"
+  ],
+  [
+   "spanner set",
+   "spanner-set"
+  ],
+  [
+   "extension reel",
+   "extension-reel"
+  ],
+  [
+   "\\bladder\\b",
+   "ladder"
   ],
   [
    ".",
@@ -536,335 +712,18 @@
   ]
  ],
  "keys": {
-  "excavator": {
+  "abrasive-blasting": {
    "q": [
-    "SANY SY215C",
-    "SANY SY365H",
-    "SANY SY500H",
-    "XCMG XE215DA",
-    "XCMG XE370DA",
-    "LiuGong 922F",
-    "Zoomlion ZE215E",
-    "SANY excavator"
+    "Chinese sand blasting"
    ],
-   "label": "Crawler excavator",
-   "models": "SY(215|245|265|305|365|375|415|500|750)[CH]|XE(2[0-9]{2}|3[0-9]{2}|4[0-9]{2}|5[0-9]{2})(DA|E|D|GA|DK)|9[2-5]\\d[EF]\\b|ZE\\d{3}E"
+   "label": "Abrasive blasting"
   },
-  "mini-excavator": {
+  "air-compressor": {
    "q": [
-    "SANY SY16C",
-    "SANY SY26U",
-    "SANY SY35U",
-    "SANY SY75C",
-    "XCMG XE60GA",
-    "XCMG XE35U",
-    "LiuGong 9035E"
+    "Kaishan air compressor",
+    "Kaishan portable compressor"
    ],
-   "label": "Mini excavator",
-   "models": "SY(16|18|19|26|35|50|60|75|80|95)[CU]|XE(17|20|27|35|55|60|75|80)(U|GA|DA|E)|90[0-9]{2}[EF]"
-  },
-  "long-reach-excavator": {
-   "q": [
-    "SANY SY365H long reach",
-    "XCMG XE370DA long reach",
-    "SANY long reach excavator"
-   ],
-   "label": "Long-reach excavator",
-   "models": "SY\\d{3}[CH]|XE\\d{3}(DA|E)"
-  },
-  "amphibious-excavator": {
-   "q": [
-    "amphibious excavator",
-    "SANY amphibious",
-    "XCMG amphibious"
-   ],
-   "label": "Amphibious excavator"
-  },
-  "wheeled-excavator": {
-   "label": "Wheeled excavator",
-   "tile": true
-  },
-  "hydraulic-breaker": {
-   "q": [
-    "SANY breaker",
-    "XCMG breaker",
-    "excavator hammer China"
-   ],
-   "label": "Hydraulic breaker",
-   "fallback": "excavator"
-  },
-  "skid-steer": {
-   "label": "Skid-steer loader",
-   "tile": true
-  },
-  "backhoe": {
-   "label": "Backhoe loader",
-   "tile": true
-  },
-  "wheel-loader": {
-   "q": [
-    "SDLG LG958L",
-    "SDLG L956F",
-    "SDLG L968F",
-    "LiuGong 856H",
-    "LiuGong 870H",
-    "XCMG LW500KV",
-    "XCMG XC958",
-    "SANY SW956"
-   ],
-   "label": "Wheel loader",
-   "models": "LG95[68]L|L9[5-6]\\dF|L968|8[3-9]\\dH|LW\\d{3}(KV|FV|K)|XC9\\d\\d|SW95\\d"
-  },
-  "bulldozer": {
-   "q": [
-    "Shantui DH17",
-    "Shantui SD17E",
-    "Shantui SD22F",
-    "Shantui SD32W",
-    "Shantui DH24",
-    "Shantui bulldozer",
-    "SANY SYT16"
-   ],
-   "label": "Bulldozer",
-   "models": "DH(13|16|17|20|24)|SD(17|22|32|52|60)[EFW]|SD22-?C|SYT\\d{2}"
-  },
-  "motor-grader": {
-   "q": [
-    "XCMG GR1805",
-    "XCMG GR2153",
-    "XCMG GR215A",
-    "SANY STG190C",
-    "SANY STG230C",
-    "LiuGong 4180D",
-    "SDLG G9220F"
-   ],
-   "label": "Motor grader",
-   "models": "GR(1[0-9]{3}|2[0-9]{3}|21[0-9]A)|STG\\d{3}C|41[0-9]{2}D|G91\\d0|G92\\d0"
-  },
-  "articulated-dump-truck": {
-   "q": [
-    "XCMG articulated dump truck",
-    "SANY articulated dump truck",
-    "LiuGong articulated truck"
-   ],
-   "label": "Articulated dump truck"
-  },
-  "rigid-dump-truck": {
-   "q": [
-    "XCMG mining dump truck",
-    "SANY mining dump truck",
-    "Sinotruk mining truck",
-    "LiuGong mining truck"
-   ],
-   "label": "Rigid dump truck"
-  },
-  "motor-scraper": {
-   "q": [
-    "XCMG scraper",
-    "SANY scraper"
-   ],
-   "label": "Motor scraper"
-  },
-  "vibratory-roller": {
-   "q": [
-    "XCMG roller",
-    "SANY roller",
-    "LiuGong roller",
-    "XCMG compactor",
-    "Shantui roller",
-    "SDLG roller"
-   ],
-   "label": "Vibratory roller",
-   "models": "XS\\d{3}[JHE]|SSR\\d{3}|6\\d{3}E|RS8\\d{3}"
-  },
-  "tandem-roller": {
-   "label": "Tandem roller",
-   "alias": "vibratory-roller"
-  },
-  "pneumatic-roller": {
-   "q": [
-    "XCMG pneumatic roller",
-    "XCMG XP",
-    "SANY pneumatic"
-   ],
-   "label": "Pneumatic roller",
-   "fallback": "vibratory-roller"
-  },
-  "padfoot-roller": {
-   "q": [
-    "XCMG padfoot",
-    "Shantui padfoot",
-    "XCMG roller"
-   ],
-   "label": "Padfoot roller",
-   "fallback": "vibratory-roller"
-  },
-  "walk-behind-roller": {
-   "q": [
-    "XCMG walk behind roller"
-   ],
-   "label": "Walk-behind roller"
-  },
-  "plate-compactor": {
-   "q": [
-    "XCMG plate compactor"
-   ],
-   "label": "Plate compactor"
-  },
-  "tamping-rammer": {
-   "q": [
-    "XCMG rammer"
-   ],
-   "label": "Tamping rammer"
-  },
-  "site-dumper": {
-   "q": [
-    "XCMG site dumper",
-    "LiuGong dumper"
-   ],
-   "label": "Site dumper"
-  },
-  "tipper-truck": {
-   "q": [
-    "HOWO TX dump truck",
-    "Sinotruk HOWO TX",
-    "HOWO NX dump truck",
-    "HOWO TH7 dump truck",
-    "Shacman X3000 dump truck",
-    "Shacman X5000 dump truck"
-   ],
-   "label": "Tipper truck",
-   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX|T5G)|X(3000|5000|6000)"
-  },
-  "howo-8x4-tipper": {
-   "q": [
-    "HOWO 8x4",
-    "Sinotruk 8x4 dump",
-    "Shacman 8x4",
-    "HOWO dump truck"
-   ],
-   "label": "HOWO 8x4 tipper",
-   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX)|X(3000|5000|6000)",
-   "fallback": "tipper-truck"
-  },
-  "water-tanker": {
-   "q": [
-    "HOWO water truck",
-    "Sinotruk water tanker",
-    "Dongfeng sprinkler truck",
-    "Shacman water"
-   ],
-   "label": "Water tanker",
-   "fallback": "diesel-tank"
-  },
-  "bitumen-sprayer": {
-   "q": [
-    "XCMG asphalt distributor",
-    "Sinotruk asphalt distributor"
-   ],
-   "label": "Bitumen sprayer"
-  },
-  "fuel-bowser": {
-   "q": [
-    "HOWO fuel truck",
-    "Sinotruk oil tanker",
-    "Dongfeng oil tanker"
-   ],
-   "label": "Fuel bowser",
-   "fallback": "diesel-tank"
-  },
-  "diesel-tank": {
-   "q": [
-    "Sinotruk fuel tank truck"
-   ],
-   "label": "Diesel tank"
-  },
-  "lowbed-trailer": {
-   "q": [
-    "CIMC trailer",
-    "Sinotruk semi trailer",
-    "HOWO lowbed",
-    "low bed trailer China"
-   ],
-   "label": "Low-bed trailer",
-   "fallback": "flatbed-trailer"
-  },
-  "tractor-lowbed": {
-   "q": [
-    "HOWO tractor trailer",
-    "Sinotruk tractor trailer",
-    "Shacman tractor trailer",
-    "Sitrak trailer"
-   ],
-   "label": "Tractor unit with low-bed",
-   "models": "T7H|TH7|HOWO[- ]?(TX|NX|MAX)|X(3000|5000|6000)|Sitrak",
-   "fallback": "flatbed-trailer"
-  },
-  "flatbed-trailer": {
-   "q": [
-    "CIMC flatbed trailer",
-    "HOWO flatbed trailer",
-    "Sinotruk semi trailer"
-   ],
-   "label": "Flatbed trailer"
-  },
-  "tractor-head": {
-   "q": [
-    "HOWO T7H tractor",
-    "HOWO TH7 tractor",
-    "HOWO MAX tractor",
-    "Shacman X6000 tractor",
-    "Shacman X5000 tractor",
-    "Sinotruk Sitrak C7H"
-   ],
-   "label": "Tractor head",
-   "models": "T7H|TH7|HOWO[- ]?MAX|X(3000|5000|6000)|Sitrak|C7H|G7"
-  },
-  "pickup": {
-   "q": [
-    "JAC T8 pickup",
-    "Great Wall Poer pickup",
-    "GWM pickup",
-    "Foton Tunland",
-    "JAC pickup"
-   ],
-   "label": "Pickup"
-  },
-  "staff-bus": {
-   "q": [
-    "Yutong bus",
-    "King Long bus",
-    "Higer bus",
-    "Golden Dragon bus"
-   ],
-   "label": "Staff bus"
-  },
-  "knuckle-boom-truck": {
-   "q": [
-    "XCMG truck mounted crane",
-    "XCMG SQ crane",
-    "Sinotruk crane truck",
-    "HOWO crane truck"
-   ],
-   "label": "Knuckle-boom truck"
-  },
-  "transit-mixer": {
-   "q": [
-    "SANY mixer truck",
-    "Zoomlion mixer truck",
-    "HOWO TX mixer truck",
-    "XCMG G4 mixer",
-    "SANY SY412C"
-   ],
-   "label": "Transit mixer",
-   "models": "SY\\d{3}C|HOWO[- ]?(TX|NX|TH7)|G[45]|Zoomlion"
-  },
-  "crane-barge": {
-   "q": [
-    "XCMG crane barge",
-    "ZPMC floating crane"
-   ],
-   "label": "Crane barge"
+   "label": "Air compressor"
   },
   "all-terrain-crane": {
    "q": [
@@ -876,405 +735,27 @@
    "label": "All-terrain crane",
    "models": "XCA\\d{2,4}|SAC\\d{3,4}|ZAT\\d{3,4}"
   },
-  "crawler-crane": {
+  "amphibious-excavator": {
    "q": [
-    "SANY crawler crane",
-    "XCMG crawler crane",
-    "Zoomlion crawler crane",
-    "SANY SCC",
-    "XCMG XGC"
+    "amphibious excavator",
+    "SANY amphibious",
+    "XCMG amphibious"
    ],
-   "label": "Crawler crane",
-   "models": "SCC\\d{3,5}|XGC\\d+|ZCC\\d+|ZCT\\d+"
+   "label": "Amphibious excavator"
   },
-  "tower-crane": {
-   "label": "Tower crane",
-   "tile": true
-  },
-  "gantry-crane": {
+  "angle-grinder": {
+   "label": "Angle grinder",
    "q": [
-    "ZPMC gantry crane",
-    "XCMG gantry crane"
-   ],
-   "label": "Gantry crane"
+    "Angle grinder"
+   ]
   },
-  "truck-crane": {
+  "articulated-dump-truck": {
    "q": [
-    "XCMG truck crane",
-    "SANY truck crane",
-    "Zoomlion truck crane",
-    "XCMG crane",
-    "Zoomlion crane"
+    "XCMG articulated dump truck",
+    "SANY articulated dump truck",
+    "LiuGong articulated truck"
    ],
-   "label": "Truck crane",
-   "models": "XCT\\d{2,3}|STC\\d{3}[TCE]|ZTC\\d{3}",
-   "fallback": "all-terrain-crane"
-  },
-  "forklift": {
-   "label": "Forklift",
-   "tile": true
-  },
-  "telehandler": {
-   "q": [
-    "XCMG telehandler",
-    "SANY telehandler",
-    "Zoomlion telehandler"
-   ],
-   "label": "Telehandler"
-  },
-  "chain-block": {
-   "q": [
-    "Chinese chain hoist"
-   ],
-   "label": "Chain block"
-  },
-  "construction-hoist": {
-   "q": [
-    "XCMG construction hoist",
-    "Zoomlion construction hoist"
-   ],
-   "label": "Construction hoist"
-  },
-  "scissor-lift": {
-   "q": [
-    "Dingli scissor",
-    "Sinoboom scissor",
-    "XCMG scissor lift",
-    "LGMG scissor",
-    "Zoomlion scissor"
-   ],
-   "label": "Scissor lift",
-   "models": "JCPT|GTJZ|ZS\\d{4}|Dingli|Sinoboom",
-   "fallback": "boom-lift"
-  },
-  "boom-lift": {
-   "label": "Boom lift",
-   "alias": "scissor-lift"
-  },
-  "scaffolding": {
-   "q": [
-    "Chinese scaffolding construction"
-   ],
-   "label": "Scaffolding"
-  },
-  "steel-props": {
-   "q": [
-    "shoring props China"
-   ],
-   "label": "Steel props"
-  },
-  "formwork": {
-   "q": [
-    "Chinese aluminium formwork"
-   ],
-   "label": "Formwork"
-  },
-  "cement-silo": {
-   "q": [
-    "SANY batching plant silo",
-    "Zoomlion cement silo"
-   ],
-   "label": "Cement silo"
-  },
-  "batching-plant": {
-   "q": [
-    "SANY batching plant",
-    "Zoomlion concrete plant",
-    "XCMG concrete plant",
-    "concrete mixing plant China"
-   ],
-   "label": "Batching plant"
-  },
-  "concrete-boom-pump": {
-   "q": [
-    "SANY concrete pump",
-    "Zoomlion concrete pump",
-    "SANY pump truck",
-    "Zoomlion pump truck",
-    "XCMG concrete pump"
-   ],
-   "label": "Concrete boom pump",
-   "models": "\\b(C8|C10|SYM5\\d{3})|[4-7]\\dX\\b|HB\\d{2}V|62m|56m|52m"
-  },
-  "concrete-pump": {
-   "q": [
-    "SANY trailer pump",
-    "Zoomlion trailer pump",
-    "SANY concrete pump"
-   ],
-   "label": "Concrete pump"
-  },
-  "self-loading-mixer": {
-   "label": "Self-loading mixer",
-   "tile": true
-  },
-  "block-machine": {
-   "q": [
-    "QT10 block machine",
-    "Chinese block making machine"
-   ],
-   "label": "Block machine"
-  },
-  "vibrating-screen": {
-   "q": [
-    "XCMG vibrating screen",
-    "SANY screen plant"
-   ],
-   "label": "Vibrating screen"
-  },
-  "vibrating-screed": {
-   "q": [
-    "laser screed China"
-   ],
-   "label": "Vibrating screed"
-  },
-  "concrete-mixer": {
-   "label": "Concrete mixer",
-   "tile": true
-  },
-  "poker-vibrator": {
-   "q": [
-    "concrete vibrator China"
-   ],
-   "label": "Poker vibrator"
-  },
-  "power-trowel": {
-   "label": "Power trowel",
-   "pin_lock": true
-  },
-  "concrete-saw": {
-   "q": [
-    "concrete saw China"
-   ],
-   "label": "Concrete saw"
-  },
-  "core-drill": {
-   "q": [
-    "core drill China"
-   ],
-   "label": "Core drill"
-  },
-  "rebar-machine": {
-   "q": [
-    "rebar bending machine China"
-   ],
-   "label": "Rebar machine"
-  },
-  "mobile-crusher": {
-   "q": [
-    "XCMG crusher",
-    "SANY crusher",
-    "Shanbao crusher",
-    "Chinese mobile crusher"
-   ],
-   "label": "Mobile crusher"
-  },
-  "crushing-plant": {
-   "q": [
-    "XCMG crushing",
-    "SANY crushing",
-    "Chinese stone crusher"
-   ],
-   "label": "Crushing plant",
-   "fallback": "mobile-crusher"
-  },
-  "conveyor": {
-   "q": [
-    "XCMG conveyor"
-   ],
-   "label": "Conveyor"
-  },
-  "drill-rig": {
-   "q": [
-    "Sunward drill rig",
-    "XCMG drill rig",
-    "Zoomlion drill rig",
-    "Kaishan drill rig"
-   ],
-   "label": "Drill rig"
-  },
-  "borehole-rig": {
-   "q": [
-    "XCMG water well drilling rig",
-    "Chinese water well drilling truck"
-   ],
-   "label": "Borehole rig"
-  },
-  "jackhammer": {
-   "q": [
-    "Kaishan jack hammer"
-   ],
-   "label": "Jackhammer"
-  },
-  "rail-welding": {
-   "q": [
-    "CRRC rail welding"
-   ],
-   "label": "Rail welding"
-  },
-  "welding-generator": {
-   "q": [
-    "Chinese welding generator"
-   ],
-   "label": "Welding generator"
-  },
-  "welding-set": {
-   "q": [
-    "Chinese welding machine"
-   ],
-   "label": "Welding set"
-  },
-  "lighting-tower": {
-   "q": [
-    "Chinese lighting tower"
-   ],
-   "label": "Lighting tower"
-  },
-  "petrol-generator": {
-   "q": [
-    "Chinese petrol generator"
-   ],
-   "label": "Petrol generator"
-  },
-  "generator": {
-   "q": [
-    "Weichai generator",
-    "Yuchai generator",
-    "SANY generator",
-    "Chinese diesel generator"
-   ],
-   "label": "Diesel generator"
-  },
-  "air-compressor": {
-   "q": [
-    "Kaishan air compressor",
-    "Kaishan portable compressor"
-   ],
-   "label": "Air compressor"
-  },
-  "wellpoint": {
-   "q": [
-    "wellpoint China"
-   ],
-   "label": "Wellpoint system"
-  },
-  "dredge-pump": {
-   "q": [
-    "Chinese dredge pump"
-   ],
-   "label": "Dredge pump",
-   "own": "swamp-2.jpg"
-  },
-  "dewatering-pump": {
-   "q": [
-    "Chinese diesel water pump"
-   ],
-   "label": "Dewatering pump"
-  },
-  "hopper-dredger": {
-   "q": [
-    "Chinese trailing suction hopper dredger",
-    "CCCC dredger"
-   ],
-   "label": "Hopper dredger"
-  },
-  "sand-dredger": {
-   "q": [
-    "Chinese sand dredger"
-   ],
-   "label": "Sand dredger",
-   "own": "swamp-2.jpg"
-  },
-  "cutter-suction-dredger": {
-   "q": [
-    "Chinese cutter suction dredger",
-    "CCCC cutter suction dredger"
-   ],
-   "label": "Cutter-suction dredger",
-   "own": "swamp-1.jpg"
-  },
-  "hopper-barge": {
-   "q": [
-    "Chinese sand barge"
-   ],
-   "label": "Hopper barge"
-  },
-  "barge": {
-   "q": [
-    "Chinese barge pontoon"
-   ],
-   "label": "Barge"
-  },
-  "tugboat": {
-   "q": [
-    "Chinese tugboat"
-   ],
-   "label": "Tugboat"
-  },
-  "survey-boat": {
-   "q": [
-    "Chinese survey boat"
-   ],
-   "label": "Survey boat"
-  },
-  "work-boat": {
-   "q": [
-    "Chinese work boat"
-   ],
-   "label": "Work boat"
-  },
-  "outboard-engine": {
-   "q": [
-    "Hidea outboard",
-    "Parsun outboard"
-   ],
-   "label": "Outboard engine"
-  },
-  "pile-hammer": {
-   "label": "Pile hammer",
-   "alias": "drill-rig"
-  },
-  "vibro-hammer": {
-   "label": "Vibro hammer",
-   "alias": "drill-rig"
-  },
-  "piling-rig": {
-   "label": "Piling rig",
-   "alias": "drill-rig"
-  },
-  "total-station": {
-   "label": "Total station",
-   "tile": true
-  },
-  "gnss-rover": {
-   "label": "GNSS rover",
-   "tile": true
-  },
-  "auto-level": {
-   "label": "Automatic level",
-   "tile": true
-  },
-  "survey-drone": {
-   "q": [
-    "DJI Phantom 4 RTK",
-    "DJI Mavic 3 Enterprise",
-    "DJI Matrice 350"
-   ],
-   "label": "Survey drone",
-   "models": "Phantom 4 RTK|Mavic 3|Matrice",
-   "alias": "dji-enterprise"
-  },
-  "container-office": {
-   "q": [
-    "Chinese container office"
-   ],
-   "label": "Container office"
-  },
-  "portable-toilet": {
-   "q": [
-    "Chinese portable toilet"
-   ],
-   "label": "Portable toilet"
+   "label": "Articulated dump truck"
   },
   "asphalt-paver": {
    "q": [
@@ -1294,12 +775,107 @@
    ],
    "label": "Asphalt plant"
   },
-  "slipform-paver": {
+  "auto-level": {
+   "label": "Automatic level",
    "q": [
-    "XCMG slipform paver",
-    "SANY slipform"
+    "Automatic level"
+   ]
+  },
+  "backhoe": {
+   "label": "Backhoe loader",
+   "q": [
+    "Backhoe loader"
+   ]
+  },
+  "barge": {
+   "q": [
+    "Chinese barge pontoon"
    ],
-   "label": "Slipform paver"
+   "label": "Barge"
+  },
+  "batching-plant": {
+   "q": [
+    "SANY batching plant",
+    "Zoomlion concrete plant",
+    "XCMG concrete plant",
+    "concrete mixing plant China"
+   ],
+   "label": "Batching plant"
+  },
+  "bitumen-sprayer": {
+   "q": [
+    "XCMG asphalt distributor",
+    "Sinotruk asphalt distributor"
+   ],
+   "label": "Bitumen sprayer"
+  },
+  "bitumen-tanker": {
+   "label": "Bitumen tanker",
+   "q": [
+    "Bitumen tanker"
+   ]
+  },
+  "block-machine": {
+   "q": [
+    "QT10 block machine",
+    "Chinese block making machine"
+   ],
+   "label": "Block machine"
+  },
+  "bolt-cutter": {
+   "label": "Bolt cutter",
+   "q": [
+    "Bolt cutter"
+   ]
+  },
+  "boom-lift": {
+   "label": "Boom lift",
+   "alias": "scissor-lift"
+  },
+  "borehole-rig": {
+   "q": [
+    "XCMG water well drilling rig",
+    "Chinese water well drilling truck"
+   ],
+   "label": "Borehole rig"
+  },
+  "brick-trowel": {
+   "label": "Bricklaying trowel",
+   "q": [
+    "Bricklaying trowel"
+   ]
+  },
+  "bulldozer": {
+   "q": [
+    "Shantui DH17",
+    "Shantui SD17E",
+    "Shantui SD22F",
+    "Shantui SD32W",
+    "Shantui DH24",
+    "Shantui bulldozer",
+    "SANY SYT16"
+   ],
+   "label": "Bulldozer",
+   "models": "DH(13|16|17|20|24)|SD(17|22|32|52|60)[EFW]|SD22-?C|SYT\\d{2}"
+  },
+  "cement-silo": {
+   "q": [
+    "SANY batching plant silo",
+    "Zoomlion cement silo"
+   ],
+   "label": "Cement silo"
+  },
+  "cement-tanker": {
+   "label": "Bulk cement tanker",
+   "q": [
+    "Bulk cement tanker"
+   ]
+  },
+  "chain-block": {
+   "q": [
+    "Chinese chain hoist"
+   ],
+   "label": "Chain block"
   },
   "chip-spreader": {
    "q": [
@@ -1307,114 +883,148 @@
    ],
    "label": "Chip spreader"
   },
-  "road-broom": {
+  "chisel": {
+   "label": "Chisel set",
    "q": [
-    "XCMG road sweeper",
-    "Zoomlion road sweeper"
-   ],
-   "label": "Road broom"
+    "Chisel set"
+   ]
+  },
+  "circular-saw": {
+   "label": "Circular saw",
+   "q": [
+    "Circular saw"
+   ]
+  },
+  "claw-hammer": {
+   "label": "Claw hammer",
+   "q": [
+    "Claw hammer"
+   ]
   },
   "cold-milling": {
    "label": "Cold milling machine",
-   "tile": true
-  },
-  "road-marking": {
    "q": [
-    "Chinese road marking machine"
-   ],
-   "label": "Road-marking machine"
+    "Cold milling machine"
+   ]
   },
-  "soil-stabiliser": {
+  "concrete-boom-pump": {
    "q": [
-    "XCMG soil stabilizer",
-    "XCMG cold recycler"
+    "SANY concrete pump",
+    "Zoomlion concrete pump",
+    "SANY pump truck",
+    "Zoomlion pump truck",
+    "XCMG concrete pump"
    ],
-   "label": "Soil stabiliser"
+   "label": "Concrete boom pump",
+   "models": "\\b(C8|C10|SYM5\\d{3})|[4-7]\\dX\\b|HB\\d{2}V|62m|56m|52m"
   },
-  "tamping-machine": {
+  "concrete-mixer": {
+   "label": "Concrete mixer",
    "q": [
-    "CRRC tamping machine"
-   ],
-   "label": "Tamping machine"
+    "Concrete mixer"
+   ]
   },
-  "sideboom": {
+  "concrete-pump": {
    "q": [
-    "XCMG pipelayer",
-    "SANY pipelayer",
-    "Shantui pipelayer"
+    "SANY trailer pump",
+    "Zoomlion trailer pump",
+    "SANY concrete pump"
    ],
-   "label": "Sideboom"
+   "label": "Concrete pump"
   },
-  "pipe-bending": {
+  "concrete-saw": {
    "q": [
-    "Chinese pipeline construction"
+    "concrete saw China"
    ],
-   "label": "Pipe bending machine"
+   "label": "Concrete saw"
   },
-  "hdd-rig": {
+  "construction-hoist": {
    "q": [
-    "XCMG horizontal directional drilling",
-    "XCMG XZ drill"
+    "XCMG construction hoist",
+    "Zoomlion construction hoist"
    ],
-   "label": "HDD rig"
+   "label": "Construction hoist"
   },
-  "trencher": {
+  "container-office": {
    "q": [
-    "XCMG trencher"
+    "Chinese container office"
    ],
-   "label": "Trencher"
+   "label": "Container office"
   },
-  "abrasive-blasting": {
+  "conveyor": {
    "q": [
-    "Chinese sand blasting"
+    "XCMG conveyor"
    ],
-   "label": "Abrasive blasting"
+   "label": "Conveyor"
   },
-  "pipeline-inspection": {
+  "core-drill": {
    "q": [
-    "Chinese pipeline welding"
+    "core drill China"
    ],
-   "label": "Pipeline inspection"
+   "label": "Core drill"
   },
-  "floor-grinder": {
+  "crane-barge": {
    "q": [
-    "Chinese floor grinder"
+    "XCMG crane barge",
+    "ZPMC floating crane"
    ],
-   "label": "Floor grinder"
+   "label": "Crane barge"
   },
-  "shotcrete": {
+  "crawler-crane": {
    "q": [
-    "SANY shotcrete",
-    "XCMG shotcrete",
-    "Chinese shotcrete machine"
+    "SANY crawler crane",
+    "XCMG crawler crane",
+    "Zoomlion crawler crane",
+    "SANY SCC",
+    "XCMG XGC"
    ],
-   "label": "Shotcrete"
+   "label": "Crawler crane",
+   "models": "SCC\\d{3,5}|XGC\\d+|ZCC\\d+|ZCT\\d+"
   },
-  "grout-pump": {
+  "crowbar": {
+   "label": "Crowbar",
    "q": [
-    "Chinese grout pump"
-   ],
-   "label": "Grout pump"
+    "Crowbar"
+   ]
   },
-  "pressure-washer": {
+  "crushing-plant": {
    "q": [
-    "Chinese pressure washer"
+    "XCMG crushing",
+    "SANY crushing",
+    "Chinese stone crusher"
    ],
-   "label": "Pressure washer"
+   "label": "Crushing plant",
+   "fallback": "mobile-crusher"
   },
-  "torque-wrench": {
+  "cutter-suction-dredger": {
    "q": [
-    "Chinese torque wrench"
+    "Chinese cutter suction dredger",
+    "CCCC cutter suction dredger"
    ],
-   "label": "Torque wrench"
+   "label": "Cutter-suction dredger",
+   "own": "swamp-1.jpg"
   },
-  "excavator-attachment": {
-   "label": "Excavator attachment",
-   "alias": "hydraulic-breaker"
+  "dewatering-pump": {
+   "q": [
+    "Chinese diesel water pump"
+   ],
+   "label": "Dewatering pump"
   },
-  "swamp-buggy": {
-   "label": "Swamp buggy",
-   "alias": "amphibious-excavator"
+  "diesel-tank": {
+   "q": [
+    "Sinotruk fuel tank truck"
+   ],
+   "label": "Diesel tank"
+  },
+  "dji-consumer": {
+   "q": [
+    "DJI Mini 4 Pro",
+    "DJI Mavic 3 Pro",
+    "DJI Air 3",
+    "DJI Mini 3 Pro"
+   ],
+   "label": "DJI drone",
+   "models": "Mini (3|4)|Mavic 3|Air 3"
   },
   "dji-enterprise": {
    "q": [
@@ -1427,43 +1037,130 @@
    "label": "DJI enterprise drone",
    "models": "Matrice (350|4|30|300)|M350|M4E|M4T|Mavic 3 ?(E|Enterprise|T|M)"
   },
-  "dji-consumer": {
+  "dredge-pump": {
    "q": [
-    "DJI Mini 4 Pro",
-    "DJI Mavic 3 Pro",
-    "DJI Air 3",
-    "DJI Mini 3 Pro"
+    "Chinese dredge pump"
    ],
-   "label": "DJI drone",
-   "models": "Mini (3|4)|Mavic 3|Air 3"
+   "label": "Dredge pump",
+   "own": "swamp-2.jpg"
+  },
+  "drill-rig": {
+   "q": [
+    "Sunward drill rig",
+    "XCMG drill rig",
+    "Zoomlion drill rig",
+    "Kaishan drill rig"
+   ],
+   "label": "Drill rig"
   },
   "drone-lidar": {
    "label": "LiDAR drone",
    "alias": "dji-enterprise"
   },
-  "cement-tanker": {
-   "label": "Bulk cement tanker",
-   "tile": true
-  },
-  "placing-boom": {
-   "label": "Placing boom",
-   "alias": "concrete-boom-pump"
-  },
-  "laser-screed": {
+  "electric-drill": {
+   "label": "Electric drill",
    "q": [
-    "laser screed machine China"
-   ],
-   "label": "Laser screed"
+    "Electric drill"
+   ]
   },
-  "laser-level": {
+  "excavator": {
    "q": [
-    "Chinese rotary laser level"
+    "SANY SY215C",
+    "SANY SY365H",
+    "SANY SY500H",
+    "XCMG XE215DA",
+    "XCMG XE370DA",
+    "LiuGong 922F",
+    "Zoomlion ZE215E",
+    "SANY excavator"
    ],
-   "label": "Laser level"
+   "label": "Crawler excavator",
+   "models": "SY(215|245|265|305|365|375|415|500|750)[CH]|XE(2[0-9]{2}|3[0-9]{2}|4[0-9]{2}|5[0-9]{2})(DA|E|D|GA|DK)|9[2-5]\\d[EF]\\b|ZE\\d{3}E"
   },
-  "power-tools": {
-   "label": "Power tools",
-   "tile": true
+  "excavator-attachment": {
+   "label": "Excavator attachment",
+   "alias": "hydraulic-breaker"
+  },
+  "extension-reel": {
+   "label": "Extension reel",
+   "q": [
+    "Extension reel"
+   ]
+  },
+  "flatbed-trailer": {
+   "q": [
+    "CIMC flatbed trailer",
+    "HOWO flatbed trailer",
+    "Sinotruk semi trailer"
+   ],
+   "label": "Flatbed trailer"
+  },
+  "floor-grinder": {
+   "q": [
+    "Chinese floor grinder"
+   ],
+   "label": "Floor grinder"
+  },
+  "forklift": {
+   "label": "Forklift",
+   "q": [
+    "Forklift"
+   ]
+  },
+  "formwork": {
+   "q": [
+    "Chinese aluminium formwork"
+   ],
+   "label": "Formwork"
+  },
+  "fuel-bowser": {
+   "q": [
+    "HOWO fuel truck",
+    "Sinotruk oil tanker",
+    "Dongfeng oil tanker"
+   ],
+   "label": "Fuel bowser",
+   "fallback": "diesel-tank"
+  },
+  "gantry-crane": {
+   "q": [
+    "ZPMC gantry crane",
+    "XCMG gantry crane"
+   ],
+   "label": "Gantry crane"
+  },
+  "gas-cylinder": {
+   "label": "Industrial gas cylinder",
+   "q": [
+    "Industrial gas cylinder"
+   ]
+  },
+  "generator": {
+   "q": [
+    "Weichai generator",
+    "Yuchai generator",
+    "SANY generator",
+    "Chinese diesel generator"
+   ],
+   "label": "Diesel generator"
+  },
+  "gnss-rover": {
+   "label": "GNSS rover",
+   "q": [
+    "GNSS rover"
+   ]
+  },
+  "grout-pump": {
+   "q": [
+    "Chinese grout pump"
+   ],
+   "label": "Grout pump"
+  },
+  "hacksaw": {
+   "label": "Hacksaw",
+   "q": [
+    "Hacksaw"
+   ]
   },
   "hand-tools": {
    "q": [
@@ -1471,6 +1168,779 @@
    ],
    "label": "Hand tools",
    "brands": "\\b(ingco|total tools|dongcheng|jiepeng)\\b"
+  },
+  "hdd-rig": {
+   "q": [
+    "XCMG horizontal directional drilling",
+    "XCMG XZ drill"
+   ],
+   "label": "HDD rig"
+  },
+  "head-pan": {
+   "label": "Head pan",
+   "q": [
+    "Head pan"
+   ]
+  },
+  "holiday-detector": {
+   "label": "Holiday detector",
+   "q": [
+    "Holiday detector"
+   ]
+  },
+  "hopper-barge": {
+   "q": [
+    "Chinese sand barge"
+   ],
+   "label": "Hopper barge"
+  },
+  "hopper-dredger": {
+   "q": [
+    "Chinese trailing suction hopper dredger",
+    "CCCC dredger"
+   ],
+   "label": "Hopper dredger"
+  },
+  "howo-8x4-tipper": {
+   "q": [
+    "HOWO 8x4",
+    "Sinotruk 8x4 dump",
+    "Shacman 8x4",
+    "HOWO dump truck"
+   ],
+   "label": "HOWO 8x4 tipper",
+   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX)|X(3000|5000|6000)",
+   "fallback": "tipper-truck"
+  },
+  "hydraulic-breaker": {
+   "q": [
+    "SANY breaker",
+    "XCMG breaker",
+    "excavator hammer China"
+   ],
+   "label": "Hydraulic breaker",
+   "fallback": "excavator"
+  },
+  "hydrotest-pump": {
+   "label": "Hydrotest pump",
+   "q": [
+    "Hydrotest pump"
+   ]
+  },
+  "jackhammer": {
+   "q": [
+    "Kaishan jack hammer"
+   ],
+   "label": "Jackhammer"
+  },
+  "jigsaw": {
+   "label": "Jigsaw",
+   "q": [
+    "Jigsaw"
+   ]
+  },
+  "knuckle-boom-truck": {
+   "q": [
+    "XCMG truck mounted crane",
+    "XCMG SQ crane",
+    "Sinotruk crane truck",
+    "HOWO crane truck"
+   ],
+   "label": "Knuckle-boom truck"
+  },
+  "ladder": {
+   "label": "Aluminium ladder",
+   "q": [
+    "Aluminium ladder"
+   ]
+  },
+  "laser-level": {
+   "q": [
+    "Chinese rotary laser level"
+   ],
+   "label": "Laser level"
+  },
+  "laser-screed": {
+   "q": [
+    "laser screed machine China"
+   ],
+   "label": "Laser screed"
+  },
+  "lighting-tower": {
+   "q": [
+    "Chinese lighting tower"
+   ],
+   "label": "Lighting tower"
+  },
+  "long-reach-excavator": {
+   "q": [
+    "SANY SY365H long reach",
+    "XCMG XE370DA long reach",
+    "SANY long reach excavator"
+   ],
+   "label": "Long-reach excavator",
+   "models": "SY\\d{3}[CH]|XE\\d{3}(DA|E)"
+  },
+  "lowbed-trailer": {
+   "q": [
+    "CIMC trailer",
+    "Sinotruk semi trailer",
+    "HOWO lowbed",
+    "low bed trailer China"
+   ],
+   "label": "Low-bed trailer",
+   "fallback": "flatbed-trailer"
+  },
+  "machete": {
+   "label": "Machete",
+   "q": [
+    "Machete"
+   ]
+  },
+  "mason-line": {
+   "label": "Mason line",
+   "q": [
+    "Mason line"
+   ]
+  },
+  "mini-excavator": {
+   "q": [
+    "SANY SY16C",
+    "SANY SY26U",
+    "SANY SY35U",
+    "SANY SY75C",
+    "XCMG XE60GA",
+    "XCMG XE35U",
+    "LiuGong 9035E"
+   ],
+   "label": "Mini excavator",
+   "models": "SY(16|18|19|26|35|50|60|75|80|95)[CU]|XE(17|20|27|35|55|60|75|80)(U|GA|DA|E)|90[0-9]{2}[EF]"
+  },
+  "mobile-crusher": {
+   "q": [
+    "XCMG crusher",
+    "SANY crusher",
+    "Shanbao crusher",
+    "Chinese mobile crusher"
+   ],
+   "label": "Mobile crusher"
+  },
+  "motor-grader": {
+   "q": [
+    "XCMG GR1805",
+    "XCMG GR2153",
+    "XCMG GR215A",
+    "SANY STG190C",
+    "SANY STG230C",
+    "LiuGong 4180D",
+    "SDLG G9220F"
+   ],
+   "label": "Motor grader",
+   "models": "GR(1[0-9]{3}|2[0-9]{3}|21[0-9]A)|STG\\d{3}C|41[0-9]{2}D|G91\\d0|G92\\d0"
+  },
+  "motor-scraper": {
+   "q": [
+    "XCMG scraper",
+    "SANY scraper"
+   ],
+   "label": "Motor scraper"
+  },
+  "outboard-engine": {
+   "q": [
+    "Hidea outboard",
+    "Parsun outboard"
+   ],
+   "label": "Outboard engine"
+  },
+  "oxy-acetylene": {
+   "label": "Oxy-acetylene set",
+   "q": [
+    "Oxy-acetylene set"
+   ]
+  },
+  "padfoot-roller": {
+   "q": [
+    "XCMG padfoot",
+    "Shantui padfoot",
+    "XCMG roller"
+   ],
+   "label": "Padfoot roller",
+   "fallback": "vibratory-roller"
+  },
+  "pan-mixer": {
+   "label": "Pan mixer",
+   "q": [
+    "Pan mixer"
+   ]
+  },
+  "petrol-generator": {
+   "q": [
+    "Chinese petrol generator"
+   ],
+   "label": "Petrol generator"
+  },
+  "pickaxe": {
+   "label": "Pickaxe",
+   "q": [
+    "Pickaxe"
+   ]
+  },
+  "pickup": {
+   "q": [
+    "JAC T8 pickup",
+    "Great Wall Poer pickup",
+    "GWM pickup",
+    "Foton Tunland",
+    "JAC pickup"
+   ],
+   "label": "Pickup"
+  },
+  "pile-hammer": {
+   "label": "Pile hammer",
+   "alias": "drill-rig"
+  },
+  "piling-rig": {
+   "label": "Piling rig",
+   "alias": "drill-rig"
+  },
+  "pipe-bending": {
+   "q": [
+    "Chinese pipeline construction"
+   ],
+   "label": "Pipe bending machine"
+  },
+  "pipe-threader": {
+   "label": "Pipe threader",
+   "q": [
+    "Pipe threader"
+   ]
+  },
+  "pipe-wrench": {
+   "label": "Pipe wrench",
+   "q": [
+    "Pipe wrench"
+   ]
+  },
+  "pipeline-inspection": {
+   "q": [
+    "Chinese pipeline welding"
+   ],
+   "label": "Pipeline inspection"
+  },
+  "placing-boom": {
+   "label": "Placing boom",
+   "alias": "concrete-boom-pump"
+  },
+  "plate-compactor": {
+   "q": [
+    "XCMG plate compactor"
+   ],
+   "label": "Plate compactor"
+  },
+  "plumb-bob": {
+   "label": "Plumb bob",
+   "q": [
+    "Plumb bob"
+   ]
+  },
+  "pneumatic-roller": {
+   "q": [
+    "XCMG pneumatic roller",
+    "XCMG XP",
+    "SANY pneumatic"
+   ],
+   "label": "Pneumatic roller",
+   "fallback": "vibratory-roller"
+  },
+  "poker-vibrator": {
+   "q": [
+    "concrete vibrator China"
+   ],
+   "label": "Poker vibrator"
+  },
+  "portable-toilet": {
+   "q": [
+    "Chinese portable toilet"
+   ],
+   "label": "Portable toilet"
+  },
+  "post-hole-digger": {
+   "label": "Post-hole digger",
+   "q": [
+    "Post-hole digger"
+   ]
+  },
+  "power-tools": {
+   "label": "Power tools",
+   "tile": true
+  },
+  "power-trowel": {
+   "label": "Power trowel",
+   "pin_lock": true,
+   "q": [
+    "Power trowel"
+   ]
+  },
+  "ppr-welder": {
+   "label": "PPR pipe welder",
+   "q": [
+    "PPR pipe welder"
+   ]
+  },
+  "pressure-washer": {
+   "q": [
+    "Chinese pressure washer"
+   ],
+   "label": "Pressure washer"
+  },
+  "radiography-crawler": {
+   "label": "Pipeline X-ray crawler",
+   "q": [
+    "Pipeline X-ray crawler"
+   ]
+  },
+  "rail-welding": {
+   "q": [
+    "CRRC rail welding"
+   ],
+   "label": "Rail welding"
+  },
+  "rake": {
+   "label": "Rake",
+   "q": [
+    "Rake"
+   ]
+  },
+  "rebar-machine": {
+   "q": [
+    "rebar bending machine China"
+   ],
+   "label": "Rebar machine"
+  },
+  "rigid-dump-truck": {
+   "q": [
+    "XCMG mining dump truck",
+    "SANY mining dump truck",
+    "Sinotruk mining truck",
+    "LiuGong mining truck"
+   ],
+   "label": "Rigid dump truck"
+  },
+  "road-broom": {
+   "q": [
+    "XCMG road sweeper",
+    "Zoomlion road sweeper"
+   ],
+   "label": "Road broom"
+  },
+  "road-marking": {
+   "q": [
+    "Chinese road marking machine"
+   ],
+   "label": "Road-marking machine"
+  },
+  "rotary-hammer": {
+   "label": "Rotary hammer drill",
+   "q": [
+    "Rotary hammer drill"
+   ]
+  },
+  "sand-dredger": {
+   "q": [
+    "Chinese sand dredger"
+   ],
+   "label": "Sand dredger",
+   "own": "swamp-2.jpg"
+  },
+  "scaffold-board": {
+   "label": "Scaffold board",
+   "q": [
+    "Scaffold board"
+   ]
+  },
+  "scaffold-coupler": {
+   "label": "Scaffold coupler",
+   "q": [
+    "Scaffold coupler"
+   ]
+  },
+  "scaffold-tube": {
+   "label": "Scaffold tube",
+   "q": [
+    "Scaffold tube"
+   ]
+  },
+  "scaffolding": {
+   "q": [
+    "Chinese scaffolding construction"
+   ],
+   "label": "Scaffolding"
+  },
+  "scissor-lift": {
+   "q": [
+    "Dingli scissor",
+    "Sinoboom scissor",
+    "XCMG scissor lift",
+    "LGMG scissor",
+    "Zoomlion scissor"
+   ],
+   "label": "Scissor lift",
+   "models": "JCPT|GTJZ|ZS\\d{4}|Dingli|Sinoboom",
+   "fallback": "boom-lift"
+  },
+  "self-loading-mixer": {
+   "label": "Self-loading mixer",
+   "tile": true
+  },
+  "shotcrete": {
+   "q": [
+    "SANY shotcrete",
+    "XCMG shotcrete",
+    "Chinese shotcrete machine"
+   ],
+   "label": "Shotcrete"
+  },
+  "shovel": {
+   "label": "Round-mouth shovel",
+   "q": [
+    "Round-mouth shovel"
+   ]
+  },
+  "sideboom": {
+   "q": [
+    "XCMG pipelayer",
+    "SANY pipelayer",
+    "Shantui pipelayer"
+   ],
+   "label": "Sideboom"
+  },
+  "site-dumper": {
+   "q": [
+    "XCMG site dumper",
+    "LiuGong dumper"
+   ],
+   "label": "Site dumper"
+  },
+  "skid-steer": {
+   "label": "Skid-steer loader",
+   "q": [
+    "Skid-steer loader"
+   ]
+  },
+  "sledge-hammer": {
+   "label": "Sledgehammer",
+   "q": [
+    "Sledgehammer"
+   ]
+  },
+  "slipform-paver": {
+   "q": [
+    "XCMG slipform paver",
+    "SANY slipform"
+   ],
+   "label": "Slipform paver"
+  },
+  "soil-stabiliser": {
+   "q": [
+    "XCMG soil stabilizer",
+    "XCMG cold recycler"
+   ],
+   "label": "Soil stabiliser"
+  },
+  "spanner-set": {
+   "label": "Spanner set",
+   "q": [
+    "Spanner set"
+   ]
+  },
+  "spirit-level": {
+   "label": "Spirit level",
+   "q": [
+    "Spirit level"
+   ]
+  },
+  "staff-bus": {
+   "q": [
+    "Yutong bus",
+    "King Long bus",
+    "Higer bus",
+    "Golden Dragon bus"
+   ],
+   "label": "Staff bus"
+  },
+  "steel-props": {
+   "q": [
+    "shoring props China"
+   ],
+   "label": "Steel props"
+  },
+  "submersible-pump": {
+   "label": "Submersible pump",
+   "q": [
+    "Submersible pump"
+   ]
+  },
+  "survey-boat": {
+   "q": [
+    "Chinese survey boat"
+   ],
+   "label": "Survey boat"
+  },
+  "survey-drone": {
+   "q": [
+    "DJI Phantom 4 RTK",
+    "DJI Mavic 3 Enterprise",
+    "DJI Matrice 350"
+   ],
+   "label": "Survey drone",
+   "models": "Phantom 4 RTK|Mavic 3|Matrice",
+   "alias": "dji-enterprise"
+  },
+  "swamp-buggy": {
+   "label": "Swamp buggy"
+  },
+  "tamping-machine": {
+   "q": [
+    "CRRC tamping machine"
+   ],
+   "label": "Tamping machine"
+  },
+  "tamping-rammer": {
+   "q": [
+    "XCMG rammer"
+   ],
+   "label": "Tamping rammer"
+  },
+  "tandem-roller": {
+   "label": "Tandem roller",
+   "alias": "vibratory-roller"
+  },
+  "tape-measure": {
+   "label": "Measuring tape",
+   "q": [
+    "Measuring tape"
+   ]
+  },
+  "telehandler": {
+   "q": [
+    "XCMG telehandler",
+    "SANY telehandler",
+    "Zoomlion telehandler"
+   ],
+   "label": "Telehandler"
+  },
+  "tile-cutter": {
+   "label": "Manual tile cutter",
+   "q": [
+    "Manual tile cutter"
+   ]
+  },
+  "tile-saw": {
+   "label": "Wet tile saw",
+   "q": [
+    "Wet tile saw"
+   ]
+  },
+  "tipper-truck": {
+   "q": [
+    "HOWO TX dump truck",
+    "Sinotruk HOWO TX",
+    "HOWO NX dump truck",
+    "HOWO TH7 dump truck",
+    "Shacman X3000 dump truck",
+    "Shacman X5000 dump truck"
+   ],
+   "label": "Tipper truck",
+   "models": "HOWO[- ]?(TX|NX|TH7|T7H|MAX|T5G)|X(3000|5000|6000)"
+  },
+  "tool-kit": {
+   "label": "Site tool kit",
+   "q": [
+    "Site tool kit"
+   ]
+  },
+  "torque-wrench": {
+   "q": [
+    "Chinese torque wrench"
+   ],
+   "label": "Torque wrench"
+  },
+  "total-station": {
+   "label": "Total station",
+   "q": [
+    "Total station"
+   ]
+  },
+  "tower-crane": {
+   "label": "Tower crane",
+   "q": [
+    "Tower crane"
+   ]
+  },
+  "tractor-head": {
+   "q": [
+    "HOWO T7H tractor",
+    "HOWO TH7 tractor",
+    "HOWO MAX tractor",
+    "Shacman X6000 tractor",
+    "Shacman X5000 tractor",
+    "Sinotruk Sitrak C7H"
+   ],
+   "label": "Tractor head",
+   "models": "T7H|TH7|HOWO[- ]?MAX|X(3000|5000|6000)|Sitrak|C7H|G7"
+  },
+  "tractor-lowbed": {
+   "q": [
+    "HOWO tractor trailer",
+    "Sinotruk tractor trailer",
+    "Shacman tractor trailer",
+    "Sitrak trailer"
+   ],
+   "label": "Tractor unit with low-bed",
+   "models": "T7H|TH7|HOWO[- ]?(TX|NX|MAX)|X(3000|5000|6000)|Sitrak",
+   "fallback": "flatbed-trailer"
+  },
+  "transit-mixer": {
+   "q": [
+    "SANY mixer truck",
+    "Zoomlion mixer truck",
+    "HOWO TX mixer truck",
+    "XCMG G4 mixer",
+    "SANY SY412C"
+   ],
+   "label": "Transit mixer",
+   "models": "SY\\d{3}C|HOWO[- ]?(TX|NX|TH7)|G[45]|Zoomlion"
+  },
+  "trencher": {
+   "q": [
+    "XCMG trencher"
+   ],
+   "label": "Trencher"
+  },
+  "truck-crane": {
+   "q": [
+    "XCMG truck crane",
+    "SANY truck crane",
+    "Zoomlion truck crane",
+    "XCMG crane",
+    "Zoomlion crane"
+   ],
+   "label": "Truck crane",
+   "models": "XCT\\d{2,3}|STC\\d{3}[TCE]|ZTC\\d{3}",
+   "fallback": "all-terrain-crane"
+  },
+  "tugboat": {
+   "q": [
+    "Chinese tugboat"
+   ],
+   "label": "Tugboat"
+  },
+  "vibrating-screed": {
+   "q": [
+    "laser screed China"
+   ],
+   "label": "Vibrating screed"
+  },
+  "vibrating-screen": {
+   "q": [
+    "XCMG vibrating screen",
+    "SANY screen plant"
+   ],
+   "label": "Vibrating screen"
+  },
+  "vibratory-roller": {
+   "q": [
+    "XCMG roller",
+    "SANY roller",
+    "LiuGong roller",
+    "XCMG compactor",
+    "Shantui roller",
+    "SDLG roller"
+   ],
+   "label": "Vibratory roller",
+   "models": "XS\\d{3}[JHE]|SSR\\d{3}|6\\d{3}E|RS8\\d{3}"
+  },
+  "vibro-hammer": {
+   "label": "Vibro hammer",
+   "alias": "drill-rig"
+  },
+  "walk-behind-roller": {
+   "q": [
+    "XCMG walk behind roller"
+   ],
+   "label": "Walk-behind roller"
+  },
+  "water-tanker": {
+   "q": [
+    "HOWO water truck",
+    "Sinotruk water tanker",
+    "Dongfeng sprinkler truck",
+    "Shacman water"
+   ],
+   "label": "Water tanker",
+   "fallback": "diesel-tank"
+  },
+  "welding-generator": {
+   "q": [
+    "Chinese welding generator"
+   ],
+   "label": "Welding generator"
+  },
+  "welding-set": {
+   "q": [
+    "Chinese welding machine"
+   ],
+   "label": "Welding set"
+  },
+  "wellpoint": {
+   "q": [
+    "wellpoint China"
+   ],
+   "label": "Wellpoint system"
+  },
+  "wheel-loader": {
+   "q": [
+    "SDLG LG958L",
+    "SDLG L956F",
+    "SDLG L968F",
+    "LiuGong 856H",
+    "LiuGong 870H",
+    "XCMG LW500KV",
+    "XCMG XC958",
+    "SANY SW956"
+   ],
+   "label": "Wheel loader",
+   "models": "LG95[68]L|L9[5-6]\\dF|L968|8[3-9]\\dH|LW\\d{3}(KV|FV|K)|XC9\\d\\d|SW95\\d"
+  },
+  "wheelbarrow": {
+   "label": "Wheelbarrow",
+   "q": [
+    "Wheelbarrow"
+   ]
+  },
+  "wheeled-excavator": {
+   "label": "Wheeled excavator",
+   "q": [
+    "Wheeled excavator"
+   ]
+  },
+  "wood-saw": {
+   "label": "Hand saw",
+   "q": [
+    "Hand saw"
+   ]
+  },
+  "wooden-float": {
+   "label": "Wooden float",
+   "q": [
+    "Wooden float"
+   ]
+  },
+  "work-boat": {
+   "q": [
+    "Chinese work boat"
+   ],
+   "label": "Work boat"
   }
  },
  "minYear": 2019,
