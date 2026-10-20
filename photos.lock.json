@@ -819,7 +819,8 @@
   "source": "Wikimedia Commons"
  },
  "self-loading-mixer": {
-  "none": true
+  "none": true,
+  "tile": true
  },
  "shotcrete": {
   "title": "File:Putzmeister Wetkret 5.jpg",
