@@ -1,6 +1,6 @@
 // Yellowmetal service worker. The cache name changes on every build, so updates reach installed apps.
-const CACHE = "ym-mvm33ijh";
-const CORE = ["/", "/hire/", "/buy/", "/shortlist/", "/assets/style.css?v=mvm33ijh", "/assets/app.js?v=mvm33ijh", "/assets/data.js?v=mvm33ijh", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png", "/favicon.svg"];
+const CACHE = "ym-mvmam1vo";
+const CORE = ["/", "/hire/", "/buy/", "/shortlist/", "/assets/style.css?v=mvmam1vo", "/assets/app.js?v=mvmam1vo", "/assets/data.js?v=mvmam1vo", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png", "/favicon.svg"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", e => {
