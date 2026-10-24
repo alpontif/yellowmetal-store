@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-10-15",
+  "updated": "2026-10-24",
   "base": "Abuja (FCT)",
-  "fx": 1333,
-  "fxNote": "CBN NFEM, 14 Oct 2026",
+  "fx": 1365,
+  "fxNote": "CBN NFEM close, 22 Oct 2026",
   "version": 3,
   "watch": [
    "M-CEM-01",
@@ -73,6 +73,10 @@
   {
    "date": "2026-10-15",
    "note": "Weekly refresh: naira steady at N1,333/$ (CBN NFEM, 14 Oct; week's closes N1,331.50-1,333.55; imported items unchanged); petrol Abuja N1,385 -> N1,405/L (NNPC N1,405, MRS and AA Rano N1,409-1,410 after the 10-11 Oct rise); LPG reconfirmed at N1,100/kg (depots N980-1,170). Diesel left at N1,870/L: Dangote gantry rose N1,700 -> N1,800 on 10 Oct but no dated Abuja pump price was found. Cement, rebar, roofing, 9-inch block, sand and granite unchanged (no fresh dated Abuja source). No LOW lines upgraded."
+  },
+  {
+   "date": "2026-10-24",
+   "note": "Weekly refresh: naira N1,333 -> N1,365/$ (CBN NFEM close 22 Oct, the sharpest daily fall in 18 months; weighted average that day N1,344; imported items follow, about +2.4%); LPG reconfirmed at N1,100/kg (depots N1,025-1,225, 20 Oct). Petrol left at N1,405/L (NNPC N1,405; no new Abuja station prices), diesel at N1,870/L (Lagos depots N1,785, national pump avg ~N1,801; no dated Abuja pump price). Aluminium roofing unchanged (Ideal Roofing list still dated 1 Oct). Cement, rebar, 9-inch block, sand and granite unchanged (no fresh, independent dated Abuja source). No LOW lines upgraded."
   }
  ],
  "locations": [
@@ -6134,14 +6138,14 @@
    "d": "LPG (cooking/torching gas), per kg",
    "u": "kg",
    "w": 0,
-   "src": "Legit 11 Oct 2026: depot LPG N980 (Dangote) - N1,160-1,170/kg (11 PLC, Ardova, Nipco, Navgas); Abuja retail N1,250-1,650/kg (Legit 8 Oct)",
-   "ev": "2026-10-11",
-   "set": "2026-10-15",
+   "src": "Legit 21 Oct 2026: depot LPG 20 Oct N1,025 (Dangote), N1,170-1,180 (Rain Oil, Techno, Navgas, Nipco, 11 PLC), N1,225 (Stockgap); Abuja retail N1,250-1,650/kg (Legit 8 Oct)",
+   "ev": "2026-10-20",
+   "set": "2026-10-24",
    "conf": "MEDIUM",
    "n": "",
    "r": 1100,
-   "lo": 980,
-   "hi": 1170,
+   "lo": 1025,
+   "hi": 1225,
    "pr": 1100
   },
   {
@@ -6167,14 +6171,14 @@
    "d": "Naira per US dollar (CBN NFEM) - drives all imported-item prices",
    "u": "USD",
    "w": 0,
-   "src": "CBN NFEM closes 6-12 Oct 2026 N1,331.50-1,333.55/$, N1,332.99 on 12 Oct (WithinNigeria 13 Oct); N1,333 on 14 Oct (WithinNigeria 14 Oct); N1,332.49 on 9 Oct (Vanguard 12 Oct)",
-   "ev": "2026-10-14",
-   "set": "2026-10-15",
+   "src": "CBN NFEM close N1,365/$ on 22 Oct 2026 (from N1,337 on 21 Oct; intraday N1,336-1,369; weighted avg N1,344.40) per Nairametrics 23 Oct and DMarketForces/Tribune 22-23 Oct; closes 16-20 Oct N1,332.26-1,333.76 (WithinNigeria 22 Oct)",
+   "ev": "2026-10-22",
+   "set": "2026-10-24",
    "conf": "HIGH",
    "n": "Update weekly with meta.fx",
-   "r": 1333,
-   "lo": 1331.5,
-   "hi": 1333.55,
+   "r": 1365,
+   "lo": 1332.26,
+   "hi": 1365,
    "pr": 1333
   },
   {
